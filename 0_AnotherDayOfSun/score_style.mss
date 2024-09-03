@@ -11,7 +11,7 @@
     <pageOddTopMargin>0.44</pageOddTopMargin>
     <pageOddBottomMargin>0.49</pageOddBottomMargin>
     <pageTwosided>1</pageTwosided>
-    <staffUpperBorder>17</staffUpperBorder>
+    <staffUpperBorder>7</staffUpperBorder>
     <staffLowerBorder>11</staffLowerBorder>
     <staffHeaderFooterPadding>1</staffHeaderFooterPadding>
     <staffDistance>6.5</staffDistance>
@@ -441,7 +441,6 @@
     <evenHeaderR></evenHeaderR>
     <oddHeaderL>$:trackNum:. $:workTitle:
 [r. $M] 
-
 </oddHeaderL>
     <oddHeaderC>- $p -</oddHeaderC>
     <oddHeaderR>$:partName:</oddHeaderR>
@@ -921,7 +920,7 @@ $D</oddFooterR>
     <measureNumberFontSpatiumDependent>0</measureNumberFontSpatiumDependent>
     <measureNumberFontStyle>2</measureNumberFontStyle>
     <measureNumberColor r="0" g="0" b="0" a="255"/>
-    <measureNumberPosAbove x="0" y="-3"/>
+    <measureNumberPosAbove x="0" y="-7"/>
     <measureNumberPosBelow x="0" y="1"/>
     <measureNumberOffsetType>1</measureNumberOffsetType>
     <measureNumberVPlacement>0</measureNumberVPlacement>
@@ -1035,7 +1034,7 @@ $D</oddFooterR>
     <rehearsalMarkFontFace>Palatino Linotype</rehearsalMarkFontFace>
     <rehearsalMarkFontSize>14</rehearsalMarkFontSize>
     <rehearsalMarkLineSpacing>1</rehearsalMarkLineSpacing>
-    <rehearsalMarkFontSpatiumDependent>1</rehearsalMarkFontSpatiumDependent>
+    <rehearsalMarkFontSpatiumDependent>0</rehearsalMarkFontSpatiumDependent>
     <rehearsalMarkFontStyle>1</rehearsalMarkFontStyle>
     <rehearsalMarkColor r="0" g="0" b="0" a="255"/>
     <rehearsalMarkAlign>center,baseline</rehearsalMarkAlign>

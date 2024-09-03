@@ -123,7 +123,7 @@
                 "balance": 0,
                 "fxChain": {
                 },
-                "volumeDb": 0
+                "volumeDb": 6
             },
             "partId": "8",
             "soloMuteState": {
@@ -375,7 +375,7 @@
                 "balance": 0,
                 "fxChain": {
                 },
-                "volumeDb": 0
+                "volumeDb": 6
             },
             "partId": "5",
             "soloMuteState": {
@@ -417,7 +417,7 @@
                 "balance": 0,
                 "fxChain": {
                 },
-                "volumeDb": 0
+                "volumeDb": 6
             },
             "partId": "6",
             "soloMuteState": {
@@ -459,7 +459,7 @@
                 "balance": 0,
                 "fxChain": {
                 },
-                "volumeDb": 0
+                "volumeDb": 6
             },
             "partId": "7",
             "soloMuteState": {
@@ -933,7 +933,7 @@
                 "balance": 0,
                 "fxChain": {
                 },
-                "volumeDb": 0
+                "volumeDb": 5.300000190734863
             },
             "partId": "13",
             "soloMuteState": {
@@ -1016,6 +1016,86 @@
                 "volumeDb": 0
             },
             "partId": "13",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Guitars Vol 1",
+                        "museName": "Acoustic Nylon",
+                        "musePack": "Muse Guitars Vol. 1",
+                        "museUID": "13010",
+                        "museVendorName": "Muse",
+                        "playbackSetupData": "strings.guitar.plucked:acoustic:nylon"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "Muse Guitars Vol 1\\Acoustic Nylon\\13010",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "MuseSounds"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "chord_symbols",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.4000000059604645
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "11"
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Percussion",
+                        "museName": "Vibraphone",
+                        "musePack": "Muse Percussion",
+                        "museUID": "160",
+                        "museVendorName": "Muse",
+                        "playbackSetupData": "percussions.vibraphone"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "Muse Percussion\\Vibraphone\\160",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "MuseSounds"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "vibraphone",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.4000000059604645
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "16",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
