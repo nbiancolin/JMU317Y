@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.0</programVersion>
   <programRevision>0fcd11b</programRevision>
-  <LastEID>177932</LastEID>
+  <LastEID>178224</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -1035,7 +1035,7 @@
       </Part>
     <Staff id="1">
       <VBox>
-        <height>28.9656</height>
+        <height>30.5342</height>
         <boxAutoSize>0</boxAutoSize>
         <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
         <eid>4294967419</eid>
@@ -1060,6 +1060,7 @@
           <linkedMain/>
           <style>composer</style>
           <size>9</size>
+          <offset x="0" y="-1.9431"/>
           <text><b><font size="9"/>SKULE NITE PIT ORCHESTRA
 </b>Music by: Justin Hurwitz 
 Lyrics by: Benj Pasek &amp; Justin Paul 
@@ -29395,6 +29396,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           <Spanner type="Pedal">
             <Pedal>
               <lineVisible>0</lineVisible>
+              <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
               <eid>13696650707040</eid>
               <linkedMain/>
               </Pedal>
@@ -29438,6 +29440,19 @@ Lyrics by: Benj Pasek &amp; Justin Paul
                 </location>
               </prev>
             </Spanner>
+          <Spanner type="Pedal">
+            <Pedal>
+              <lineVisible>0</lineVisible>
+              <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
+              <eid>764482703851616</eid>
+              <linkedMain/>
+              </Pedal>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <eid>466416268476531</eid>
             <linkedMain/>
@@ -29478,6 +29493,13 @@ Lyrics by: Benj Pasek &amp; Justin Paul
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="Pedal">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <eid>6373731467290</eid>
             <linkedMain/>
