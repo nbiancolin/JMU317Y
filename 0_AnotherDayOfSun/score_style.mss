@@ -345,9 +345,9 @@
     <showPageNumberOne>0</showPageNumberOne>
     <pageNumberOddEven>1</pageNumberOddEven>
     <showMeasureNumber>1</showMeasureNumber>
-    <showMeasureNumberOne>0</showMeasureNumberOne>
-    <measureNumberInterval>5</measureNumberInterval>
-    <measureNumberSystem>1</measureNumberSystem>
+    <showMeasureNumberOne>1</showMeasureNumberOne>
+    <measureNumberInterval>1</measureNumberInterval>
+    <measureNumberSystem>0</measureNumberSystem>
     <measureNumberAllStaves>0</measureNumberAllStaves>
     <smallNoteMag>0.7</smallNoteMag>
     <graceNoteMag>0.7</graceNoteMag>
@@ -916,21 +916,21 @@ $D</oddFooterR>
     <metronomeFrameFgColor r="0" g="0" b="0" a="255"/>
     <metronomeFrameBgColor r="255" g="255" b="255" a="0"/>
     <measureNumberFontFace>Palatino Linotype</measureNumberFontFace>
-    <measureNumberFontSize>8</measureNumberFontSize>
+    <measureNumberFontSize>12</measureNumberFontSize>
     <measureNumberLineSpacing>1</measureNumberLineSpacing>
     <measureNumberFontSpatiumDependent>0</measureNumberFontSpatiumDependent>
     <measureNumberFontStyle>2</measureNumberFontStyle>
     <measureNumberColor r="0" g="0" b="0" a="255"/>
-    <measureNumberPosAbove x="0" y="-2"/>
+    <measureNumberPosAbove x="0" y="-3"/>
     <measureNumberPosBelow x="0" y="1"/>
     <measureNumberOffsetType>1</measureNumberOffsetType>
     <measureNumberVPlacement>0</measureNumberVPlacement>
-    <measureNumberHPlacement>0</measureNumberHPlacement>
+    <measureNumberHPlacement>1</measureNumberHPlacement>
     <measureNumberMinDistance>0.5</measureNumberMinDistance>
-    <measureNumberAlign>left,baseline</measureNumberAlign>
-    <measureNumberFrameType>0</measureNumberFrameType>
-    <measureNumberFramePadding>0.2</measureNumberFramePadding>
-    <measureNumberFrameWidth>0.1</measureNumberFrameWidth>
+    <measureNumberAlign>center,baseline</measureNumberAlign>
+    <measureNumberFrameType>1</measureNumberFrameType>
+    <measureNumberFramePadding>0.8</measureNumberFramePadding>
+    <measureNumberFrameWidth>0.15</measureNumberFrameWidth>
     <measureNumberFrameRound>0</measureNumberFrameRound>
     <measureNumberFrameFgColor r="0" g="0" b="0" a="255"/>
     <measureNumberFrameBgColor r="255" g="255" b="255" a="0"/>
