@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.0</programVersion>
   <programRevision>0fcd11b</programRevision>
-  <LastEID>4940</LastEID>
+  <LastEID>5027</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -1232,19 +1232,87 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>858993459226</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <eid>21247203213338</eid>
+            <durationType>eighth</durationType>
             </Rest>
+          <Chord>
+            <eid>21260088115315</eid>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>21255793147924</eid>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              <tpc2>16</tpc2>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>21311627722867</eid>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articMarcatoAbove</subtype>
+              <eid>21479131447328</eid>
+              </Articulation>
+            <Note>
+              <eid>21307332755476</eid>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
+              <tpc2>14</tpc2>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>21354577395827</eid>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>21350282428436</eid>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
+              <tpc2>12</tpc2>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>21393232101491</eid>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>21388937134100</eid>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>21410411970591</eid>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-7/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <tpc2>17</tpc2>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <eid>919123001370</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
+          <Chord>
+            <eid>21427591839859</eid>
+            <durationType>whole</durationType>
+            <Note>
+              <eid>21423296872468</eid>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>7/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <tpc2>17</tpc2>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
@@ -2359,6 +2427,11 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>11</root>
+            <name>^7</name>
+            <eid>21487721381946</eid>
+            </Harmony>
           <Rest>
             <eid>747324309530</eid>
             <durationType>measure</durationType>
@@ -2368,10 +2441,23 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>20</root>
+            <name>mi7</name>
+            <eid>21530671054906</eid>
+            </Harmony>
           <Rest>
             <eid>807453851674</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <durationType>half</durationType>
+            </Rest>
+          <Harmony>
+            <root>19</root>
+            <name>7</name>
+            <eid>21569325760570</eid>
+            </Harmony>
+          <Rest>
+            <eid>21522081120282</eid>
+            <durationType>half</durationType>
             </Rest>
           </voice>
         </Measure>
