@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.0</programVersion>
   <programRevision>0fcd11b</programRevision>
-  <LastEID>257660</LastEID>
+  <LastEID>292688</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -7260,6 +7260,11 @@ Lyrics by: Benj Pasek &amp; Justin Paul
         </Measure>
       <Measure>
         <voice>
+          <StaffText>
+            <eid>1256608646561840</eid>
+            <linkedMain/>
+            <text>(to Alto)</text>
+            </StaffText>
           <Rest>
             <eid>912826579288090</eid>
             <linkedMain/>
@@ -31045,19 +31050,19 @@ Lyrics by: Benj Pasek &amp; Justin Paul
                 <program value="48"/>
                 <synti>Fluid</synti>
                 <midiPort>2</midiPort>
-                <midiChannel>11</midiChannel>
+                <midiChannel>10</midiChannel>
                 </Channel>
               <Channel name="pizzicato">
                 <program value="45"/>
                 <synti>Fluid</synti>
                 <midiPort>2</midiPort>
-                <midiChannel>12</midiChannel>
+                <midiChannel>11</midiChannel>
                 </Channel>
               <Channel name="tremolo">
                 <program value="44"/>
                 <synti>Fluid</synti>
                 <midiPort>2</midiPort>
-                <midiChannel>13</midiChannel>
+                <midiChannel>12</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
@@ -43117,7 +43122,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
                 <program value="11"/>
                 <synti>Fluid</synti>
                 <midiPort>2</midiPort>
-                <midiChannel>10</midiChannel>
+                <midiChannel>13</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>

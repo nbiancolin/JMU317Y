@@ -928,7 +928,7 @@ $D</oddFooterR>
     <measureNumberMinDistance>0.5</measureNumberMinDistance>
     <measureNumberAlign>center,baseline</measureNumberAlign>
     <measureNumberFrameType>1</measureNumberFrameType>
-    <measureNumberFramePadding>0.8</measureNumberFramePadding>
+    <measureNumberFramePadding>0.9</measureNumberFramePadding>
     <measureNumberFrameWidth>0.15</measureNumberFrameWidth>
     <measureNumberFrameRound>0</measureNumberFrameRound>
     <measureNumberFrameFgColor r="0" g="0" b="0" a="255"/>
