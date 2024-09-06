@@ -103,7 +103,7 @@
     <dividerLeftSym>systemDivider</dividerLeftSym>
     <dividerLeftX>0</dividerLeftX>
     <dividerLeftY>0</dividerLeftY>
-    <dividerRight>0</dividerRight>
+    <dividerRight>1</dividerRight>
     <dividerRightSym>systemDivider</dividerRightSym>
     <dividerRightX>0</dividerRightX>
     <dividerRightY>0</dividerRightY>
@@ -452,8 +452,7 @@
     <evenFooterR></evenFooterR>
     <oddFooterL>NBMS Music Services
 https://bit.ly/nbms</oddFooterL>
-    <oddFooterC> 
-$C
+    <oddFooterC> $C
  
 </oddFooterC>
     <oddFooterR>$:albumTitle:
