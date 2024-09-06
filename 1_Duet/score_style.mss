@@ -52,7 +52,7 @@
     <lyricsMelismaForce>0</lyricsMelismaForce>
     <lyricsMelismaMinLength>1</lyricsMelismaMinLength>
     <lyricsDashPosAtStartOfSystem>0</lyricsDashPosAtStartOfSystem>
-    <lyricsOddFontFace>Edwin</lyricsOddFontFace>
+    <lyricsOddFontFace>Inkpen2 Script Std</lyricsOddFontFace>
     <lyricsOddFontSize>10</lyricsOddFontSize>
     <lyricsOddLineSpacing>1</lyricsOddLineSpacing>
     <lyricsOddFontSpatiumDependent>1</lyricsOddFontSpatiumDependent>
@@ -65,7 +65,7 @@
     <lyricsOddFrameRound>0</lyricsOddFrameRound>
     <lyricsOddFrameFgColor r="0" g="0" b="0" a="255"/>
     <lyricsOddFrameBgColor r="255" g="255" b="255" a="0"/>
-    <lyricsEvenFontFace>Edwin</lyricsEvenFontFace>
+    <lyricsEvenFontFace>Inkpen2 Script Std</lyricsEvenFontFace>
     <lyricsEvenFontSize>10</lyricsEvenFontSize>
     <lyricsEvenLineSpacing>1</lyricsEvenLineSpacing>
     <lyricsEvenFontSpatiumDependent>1</lyricsEvenFontSpatiumDependent>
@@ -630,7 +630,7 @@ $D</oddFooterR>
     <defaultOffsetType>1</defaultOffsetType>
     <defaultSystemFlag>0</defaultSystemFlag>
     <defaultText></defaultText>
-    <titleFontFace>Palatino Linotype</titleFontFace>
+    <titleFontFace>Inkpen2 Script Std</titleFontFace>
     <titleFontSize>22</titleFontSize>
     <titleLineSpacing>1</titleLineSpacing>
     <titleFontSpatiumDependent>0</titleFontSpatiumDependent>
@@ -645,7 +645,7 @@ $D</oddFooterR>
     <titleFrameRound>0</titleFrameRound>
     <titleFrameFgColor r="0" g="0" b="0" a="255"/>
     <titleFrameBgColor r="255" g="255" b="255" a="0"/>
-    <subTitleFontFace>Palatino Linotype</subTitleFontFace>
+    <subTitleFontFace>Inkpen2 Script Std</subTitleFontFace>
     <subTitleFontSize>16</subTitleFontSize>
     <subTitleLineSpacing>1</subTitleLineSpacing>
     <subTitleFontSpatiumDependent>0</subTitleFontSpatiumDependent>
@@ -660,7 +660,7 @@ $D</oddFooterR>
     <subTitleFrameRound>0</subTitleFrameRound>
     <subTitleFrameFgColor r="0" g="0" b="0" a="255"/>
     <subTitleFrameBgColor r="255" g="255" b="255" a="0"/>
-    <composerFontFace>Palatino Linotype</composerFontFace>
+    <composerFontFace>Inkpen2 Script Std</composerFontFace>
     <composerFontSize>10</composerFontSize>
     <composerLineSpacing>1</composerLineSpacing>
     <composerFontSpatiumDependent>0</composerFontSpatiumDependent>
@@ -675,7 +675,7 @@ $D</oddFooterR>
     <composerFrameRound>0</composerFrameRound>
     <composerFrameFgColor r="0" g="0" b="0" a="255"/>
     <composerFrameBgColor r="255" g="255" b="255" a="0"/>
-    <lyricistFontFace>Edwin</lyricistFontFace>
+    <lyricistFontFace>Inkpen2 Script Std</lyricistFontFace>
     <lyricistFontSize>10</lyricistFontSize>
     <lyricistLineSpacing>1</lyricistLineSpacing>
     <lyricistFontSpatiumDependent>0</lyricistFontSpatiumDependent>
@@ -785,8 +785,8 @@ $D</oddFooterR>
     <harpPedalTextDiagramPosAbove x="0" y="-1.5"/>
     <harpPedalTextDiagramPosBelow x="0" y="2.5"/>
     <harpPedalTextDiagramMinDistance>0.5</harpPedalTextDiagramMinDistance>
-    <longInstrumentFontFace>Palatino Linotype</longInstrumentFontFace>
-    <longInstrumentFontSize>11</longInstrumentFontSize>
+    <longInstrumentFontFace>Inkpen2 Script Std</longInstrumentFontFace>
+    <longInstrumentFontSize>15</longInstrumentFontSize>
     <longInstrumentLineSpacing>1</longInstrumentLineSpacing>
     <longInstrumentFontSpatiumDependent>1</longInstrumentFontSpatiumDependent>
     <longInstrumentFontStyle>0</longInstrumentFontStyle>
@@ -799,8 +799,8 @@ $D</oddFooterR>
     <longInstrumentFrameRound>0</longInstrumentFrameRound>
     <longInstrumentFrameFgColor r="0" g="0" b="0" a="255"/>
     <longInstrumentFrameBgColor r="255" g="255" b="255" a="0"/>
-    <shortInstrumentFontFace>Palatino Linotype</shortInstrumentFontFace>
-    <shortInstrumentFontSize>11</shortInstrumentFontSize>
+    <shortInstrumentFontFace>Inkpen2 Script Std</shortInstrumentFontFace>
+    <shortInstrumentFontSize>15</shortInstrumentFontSize>
     <shortInstrumentLineSpacing>1</shortInstrumentLineSpacing>
     <shortInstrumentFontSpatiumDependent>1</shortInstrumentFontSpatiumDependent>
     <shortInstrumentFontStyle>0</shortInstrumentFontStyle>
@@ -813,7 +813,7 @@ $D</oddFooterR>
     <shortInstrumentFrameRound>0</shortInstrumentFrameRound>
     <shortInstrumentFrameFgColor r="0" g="0" b="0" a="255"/>
     <shortInstrumentFrameBgColor r="255" g="255" b="255" a="0"/>
-    <partInstrumentFontFace>Palatino Linotype</partInstrumentFontFace>
+    <partInstrumentFontFace>Inkpen2 Script Std</partInstrumentFontFace>
     <partInstrumentFontSize>14</partInstrumentFontSize>
     <partInstrumentLineSpacing>1</partInstrumentLineSpacing>
     <partInstrumentFontSpatiumDependent>0</partInstrumentFontSpatiumDependent>
@@ -840,7 +840,7 @@ $D</oddFooterR>
     <dynamicsFrameRound>0</dynamicsFrameRound>
     <dynamicsFrameFgColor r="0" g="0" b="0" a="255"/>
     <dynamicsFrameBgColor r="255" g="255" b="255" a="0"/>
-    <expressionFontFace>Edwin</expressionFontFace>
+    <expressionFontFace>Inkpen2 Script Std</expressionFontFace>
     <expressionFontSize>10</expressionFontSize>
     <expressionLineSpacing>1</expressionLineSpacing>
     <expressionFontSpatiumDependent>1</expressionFontSpatiumDependent>
@@ -858,7 +858,7 @@ $D</oddFooterR>
     <expressionFrameFgColor r="0" g="0" b="0" a="255"/>
     <expressionFrameBgColor r="255" g="255" b="255" a="0"/>
     <expressionMinDistance>0.5</expressionMinDistance>
-    <tempoFontFace>Edwin</tempoFontFace>
+    <tempoFontFace>Inkpen2 Script Std</tempoFontFace>
     <tempoFontSize>12</tempoFontSize>
     <tempoLineSpacing>1</tempoLineSpacing>
     <tempoFontSpatiumDependent>1</tempoFontSpatiumDependent>
@@ -876,7 +876,7 @@ $D</oddFooterR>
     <tempoFrameRound>0</tempoFrameRound>
     <tempoFrameFgColor r="0" g="0" b="0" a="255"/>
     <tempoFrameBgColor r="255" g="255" b="255" a="0"/>
-    <tempoChangeFontFace>Edwin</tempoChangeFontFace>
+    <tempoChangeFontFace>Inkpen2 Script Std</tempoChangeFontFace>
     <tempoChangeFontSize>12</tempoChangeFontSize>
     <tempoChangeLineSpacing>1</tempoChangeLineSpacing>
     <tempoChangeFontSpatiumDependent>1</tempoChangeFontSpatiumDependent>
@@ -898,7 +898,7 @@ $D</oddFooterR>
     <tempoChangeLineStyle>dashed</tempoChangeLineStyle>
     <tempoChangeDashLineLen>6</tempoChangeDashLineLen>
     <tempoChangeDashGapLen>9</tempoChangeDashGapLen>
-    <metronomeFontFace>Edwin</metronomeFontFace>
+    <metronomeFontFace>Inkpen2 Script Std</metronomeFontFace>
     <metronomeFontSize>12</metronomeFontSize>
     <metronomeLineSpacing>1</metronomeLineSpacing>
     <metronomeFontSpatiumDependent>0</metronomeFontSpatiumDependent>
@@ -913,7 +913,7 @@ $D</oddFooterR>
     <metronomeFrameRound>0</metronomeFrameRound>
     <metronomeFrameFgColor r="0" g="0" b="0" a="255"/>
     <metronomeFrameBgColor r="255" g="255" b="255" a="0"/>
-    <measureNumberFontFace>Palatino Linotype</measureNumberFontFace>
+    <measureNumberFontFace>Inkpen2 Script Std</measureNumberFontFace>
     <measureNumberFontSize>12</measureNumberFontSize>
     <measureNumberLineSpacing>1</measureNumberLineSpacing>
     <measureNumberFontSpatiumDependent>0</measureNumberFontSpatiumDependent>
@@ -934,7 +934,7 @@ $D</oddFooterR>
     <measureNumberFrameBgColor r="255" g="255" b="255" a="0"/>
     <mmRestShowMeasureNumberRange>1</mmRestShowMeasureNumberRange>
     <mmRestRangeBracketType>0</mmRestRangeBracketType>
-    <mmRestRangeFontFace>Edwin</mmRestRangeFontFace>
+    <mmRestRangeFontFace>Inkpen2 Script Std</mmRestRangeFontFace>
     <mmRestRangeFontSize>8</mmRestRangeFontSize>
     <mmRestRangeFontSpatiumDependent>0</mmRestRangeFontSpatiumDependent>
     <mmRestRangeFontStyle>2</mmRestRangeFontStyle>
@@ -952,7 +952,7 @@ $D</oddFooterR>
     <mmRestRangeFrameFgColor r="0" g="0" b="0" a="255"/>
     <mmRestRangeFrameBgColor r="255" g="255" b="255" a="0"/>
     <mmRestRangeMinDistance>0.5</mmRestRangeMinDistance>
-    <translatorFontFace>Edwin</translatorFontFace>
+    <translatorFontFace>Inkpen2 Script Std</translatorFontFace>
     <translatorFontSize>10</translatorFontSize>
     <translatorLineSpacing>1</translatorLineSpacing>
     <translatorFontSpatiumDependent>0</translatorFontSpatiumDependent>
@@ -966,7 +966,7 @@ $D</oddFooterR>
     <translatorFrameRound>0</translatorFrameRound>
     <translatorFrameFgColor r="0" g="0" b="0" a="255"/>
     <translatorFrameBgColor r="255" g="255" b="255" a="0"/>
-    <systemTextFontFace>Palatino Linotype</systemTextFontFace>
+    <systemTextFontFace>Inkpen2 Script Std</systemTextFontFace>
     <systemTextFontSize>10</systemTextFontSize>
     <systemTextLineSpacing>1</systemTextLineSpacing>
     <systemTextFontSpatiumDependent>1</systemTextFontSpatiumDependent>
@@ -984,7 +984,7 @@ $D</oddFooterR>
     <systemTextFrameRound>0</systemTextFrameRound>
     <systemTextFrameFgColor r="0" g="0" b="0" a="255"/>
     <systemTextFrameBgColor r="255" g="255" b="255" a="0"/>
-    <staffTextFontFace>Palatino Linotype</staffTextFontFace>
+    <staffTextFontFace>Inkpen2 Script Std</staffTextFontFace>
     <staffTextFontSize>10</staffTextFontSize>
     <staffTextLineSpacing>1</staffTextLineSpacing>
     <staffTextFontSpatiumDependent>1</staffTextFontSpatiumDependent>
@@ -1030,7 +1030,7 @@ $D</oddFooterR>
     <fretDiagramFretNumberFrameRound>0</fretDiagramFretNumberFrameRound>
     <fretDiagramFretNumberFrameFgColor r="0" g="0" b="0" a="255"/>
     <fretDiagramFretNumberFrameBgColor r="255" g="255" b="255" a="0"/>
-    <rehearsalMarkFontFace>Palatino Linotype</rehearsalMarkFontFace>
+    <rehearsalMarkFontFace>Inkpen2 Script Std</rehearsalMarkFontFace>
     <rehearsalMarkFontSize>14</rehearsalMarkFontSize>
     <rehearsalMarkLineSpacing>1</rehearsalMarkLineSpacing>
     <rehearsalMarkFontSpatiumDependent>0</rehearsalMarkFontSpatiumDependent>
@@ -1047,7 +1047,7 @@ $D</oddFooterR>
     <rehearsalMarkPosAbove x="0" y="-3"/>
     <rehearsalMarkPosBelow x="0" y="4"/>
     <rehearsalMarkMinDistance>0.5</rehearsalMarkMinDistance>
-    <repeatLeftFontFace>Edwin</repeatLeftFontFace>
+    <repeatLeftFontFace>Inkpen2 Script Std</repeatLeftFontFace>
     <repeatLeftFontSize>18</repeatLeftFontSize>
     <repeatLeftLineSpacing>1</repeatLeftLineSpacing>
     <repeatLeftFontSpatiumDependent>1</repeatLeftFontSpatiumDependent>
@@ -1062,7 +1062,7 @@ $D</oddFooterR>
     <repeatLeftFrameFgColor r="0" g="0" b="0" a="255"/>
     <repeatLeftFrameBgColor r="255" g="255" b="255" a="0"/>
     <repeatsMusicalSymbolsScale>1</repeatsMusicalSymbolsScale>
-    <repeatRightFontFace>Edwin</repeatRightFontFace>
+    <repeatRightFontFace>Inkpen2 Script Std</repeatRightFontFace>
     <repeatRightFontSize>11</repeatRightFontSize>
     <repeatRightLineSpacing>1</repeatRightLineSpacing>
     <repeatRightFontSpatiumDependent>1</repeatRightFontSpatiumDependent>
@@ -1076,7 +1076,7 @@ $D</oddFooterR>
     <repeatRightFrameRound>0</repeatRightFrameRound>
     <repeatRightFrameFgColor r="0" g="0" b="0" a="255"/>
     <repeatRightFrameBgColor r="255" g="255" b="255" a="0"/>
-    <frameFontFace>Palatino Linotype</frameFontFace>
+    <frameFontFace>Inkpen2 Script Std</frameFontFace>
     <frameFontSize>10</frameFontSize>
     <frameLineSpacing>1</frameLineSpacing>
     <frameFontSpatiumDependent>0</frameFontSpatiumDependent>
@@ -1147,7 +1147,7 @@ $D</oddFooterR>
     <guitarBendArrowWidth>1</guitarBendArrowWidth>
     <guitarBendArrowHeight>1</guitarBendArrowHeight>
     <useCueSizeFretForGraceBends>0</useCueSizeFretForGraceBends>
-    <headerFontFace>Palatino Linotype</headerFontFace>
+    <headerFontFace>Inkpen2 Script Std</headerFontFace>
     <headerFontSize>11</headerFontSize>
     <headerLineSpacing>1</headerLineSpacing>
     <headerFontSpatiumDependent>0</headerFontSpatiumDependent>
@@ -1161,7 +1161,7 @@ $D</oddFooterR>
     <headerFrameRound>0</headerFrameRound>
     <headerFrameFgColor r="0" g="0" b="0" a="255"/>
     <headerFrameBgColor r="255" g="255" b="255" a="0"/>
-    <footerFontFace>Palatino Linotype</footerFontFace>
+    <footerFontFace>Inkpen2 Script Std</footerFontFace>
     <footerFontSize>9</footerFontSize>
     <footerLineSpacing>1</footerLineSpacing>
     <footerFontSpatiumDependent>0</footerFontSpatiumDependent>
@@ -1175,7 +1175,7 @@ $D</oddFooterR>
     <footerFrameRound>0</footerFrameRound>
     <footerFrameFgColor r="0" g="0" b="0" a="255"/>
     <footerFrameBgColor r="255" g="255" b="255" a="0"/>
-    <copyrightFontFace>Palatino Linotype</copyrightFontFace>
+    <copyrightFontFace>Inkpen2 Script Std</copyrightFontFace>
     <copyrightFontSize>9</copyrightFontSize>
     <copyrightLineSpacing>1</copyrightLineSpacing>
     <copyrightFontSpatiumDependent>0</copyrightFontSpatiumDependent>
@@ -1189,7 +1189,7 @@ $D</oddFooterR>
     <copyrightFrameRound>0</copyrightFrameRound>
     <copyrightFrameFgColor r="0" g="0" b="0" a="255"/>
     <copyrightFrameBgColor r="255" g="255" b="255" a="0"/>
-    <pageNumberFontFace>Palatino Linotype</pageNumberFontFace>
+    <pageNumberFontFace>Inkpen2 Script Std</pageNumberFontFace>
     <pageNumberFontSize>11</pageNumberFontSize>
     <pageNumberLineSpacing>1</pageNumberLineSpacing>
     <pageNumberFontSpatiumDependent>0</pageNumberFontSpatiumDependent>
@@ -1203,7 +1203,7 @@ $D</oddFooterR>
     <pageNumberFrameRound>0</pageNumberFrameRound>
     <pageNumberFrameFgColor r="0" g="0" b="0" a="255"/>
     <pageNumberFrameBgColor r="255" g="255" b="255" a="0"/>
-    <instrumentChangeFontFace>Palatino Linotype</instrumentChangeFontFace>
+    <instrumentChangeFontFace>Inkpen2 Script Std</instrumentChangeFontFace>
     <instrumentChangeFontSize>10</instrumentChangeFontSize>
     <instrumentChangeLineSpacing>1</instrumentChangeLineSpacing>
     <instrumentChangeFontSpatiumDependent>1</instrumentChangeFontSpatiumDependent>
@@ -1460,7 +1460,7 @@ $D</oddFooterR>
     <letRingFrameFgColor r="0" g="0" b="0" a="255"/>
     <letRingFrameBgColor r="255" g="255" b="255" a="0"/>
     <letRingEndHookType>3</letRingEndHookType>
-    <palmMuteFontFace>Edwin</palmMuteFontFace>
+    <palmMuteFontFace>Inkpen2 Script Std</palmMuteFontFace>
     <palmMuteFontSize>10</palmMuteFontSize>
     <palmMuteLineSpacing>1</palmMuteLineSpacing>
     <palmMuteFontSpatiumDependent>1</palmMuteFontSpatiumDependent>
