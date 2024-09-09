@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.1</programVersion>
   <programRevision>0b3dd00</programRevision>
-  <LastEID>41312</LastEID>
+  <LastEID>53155</LastEID>
   <Score>
     <name>Acoustic Bass</name>
     <initialPartId>4</initialPartId>
@@ -277,6 +277,7 @@ $D</oddFooterR>
               </linked>
             <visible>0</visible>
             <style>tempo</style>
+            <offset x="13.0826" y="-4.57709"/>
             <text>Swing</text>
             </SystemText>
           <Rest>
@@ -735,38 +736,13 @@ $D</oddFooterR>
       <Measure>
         <voice>
           <Rest>
-            <eid>66988604915738</eid>
+            <eid>212111254880282</eid>
             <linked>
               </linked>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             </Rest>
           <Rest>
-            <eid>66997194850330</eid>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Chord>
-            <eid>67005784785011</eid>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              <eid>67022964654112</eid>
-              <linked>
-                </linked>
-              </Articulation>
-            <Note>
-              <eid>67018669686804</eid>
-              <linked>
-                </linked>
-              <pitch>39</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <eid>67040144523290</eid>
+            <eid>212119844814874</eid>
             <linked>
               </linked>
             <durationType>quarter</durationType>
@@ -1975,6 +1951,12 @@ $D</oddFooterR>
             <linked>
               </linked>
             </Harmony>
+          <StaffText>
+            <eid>223183680569392</eid>
+            <linked>
+              </linked>
+            <text>(horns play #11)</text>
+            </StaffText>
           <Chord>
             <eid>163732743258227</eid>
             <linked>
@@ -2067,7 +2049,13 @@ $D</oddFooterR>
             <eid>166863774417011</eid>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <eid>226825812836384</eid>
+              <linked>
+                </linked>
+              </Articulation>
             <Note>
               <eid>166876659318804</eid>
               <linked>
@@ -2076,12 +2064,6 @@ $D</oddFooterR>
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <Rest>
-            <eid>163930311753754</eid>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            </Rest>
           <Rest>
             <eid>163943196655642</eid>
             <linked>
@@ -2101,6 +2083,12 @@ $D</oddFooterR>
             <linked>
               </linked>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <eid>226847287672864</eid>
+              <linked>
+                </linked>
+              </Articulation>
             <Note>
               <eid>166945378795540</eid>
               <linked>
@@ -2148,6 +2136,12 @@ $D</oddFooterR>
             <linked>
               </linked>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <eid>226855877607456</eid>
+              <linked>
+                </linked>
+              </Articulation>
             <Note>
               <eid>167026983174164</eid>
               <linked>
@@ -2189,6 +2183,12 @@ $D</oddFooterR>
             <linked>
               </linked>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <eid>226868762509344</eid>
+              <linked>
+                </linked>
+              </Articulation>
             <Note>
               <eid>167095702650900</eid>
               <linked>
@@ -2976,12 +2976,6 @@ $D</oddFooterR>
             <linked>
               </linked>
             </Harmony>
-          <StaffText>
-            <eid>165592464097328</eid>
-            <linked>
-              </linked>
-            <text>Solo FilL - Improv or As Written</text>
-            </StaffText>
           <Chord>
             <eid>165613938933875</eid>
             <linked>
@@ -3201,6 +3195,12 @@ $D</oddFooterR>
         </Measure>
       <Measure>
         <voice>
+          <StaffText>
+            <eid>210251534041136</eid>
+            <linked>
+              </linked>
+            <text>As Written</text>
+            </StaffText>
           <Chord>
             <eid>153476361355379</eid>
             <linked>
@@ -3283,7 +3283,14 @@ $D</oddFooterR>
             <eid>153828548673651</eid>
             <linked>
               </linked>
+            <dots>1</dots>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              <eid>228256036945952</eid>
+              <linked>
+                </linked>
+              </Articulation>
             <Note>
               <eid>153841433575444</eid>
               <linked>
@@ -3292,17 +3299,17 @@ $D</oddFooterR>
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Rest>
-            <eid>153880088281114</eid>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            </Rest>
           <Chord>
             <eid>153910153052275</eid>
             <linked>
               </linked>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articAccentBelow</subtype>
+              <eid>228273216815136</eid>
+              <linked>
+                </linked>
+              </Articulation>
             <Note>
               <eid>153923037954068</eid>
               <linked>
@@ -3324,25 +3331,47 @@ $D</oddFooterR>
             </Rest>
           </voice>
         </Measure>
-      <Measure len="8/4">
-        <multiMeasureRest>2</multiMeasureRest>
-        <voice>
-          <Rest>
-            <eid>153768419131419</eid>
-            <durationType>measure</durationType>
-            <duration>8/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>68470368632858</eid>
+            <eid>210698210639898</eid>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <durationType>half</durationType>
             </Rest>
+          <Rest>
+            <eid>210711095541786</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Chord>
+            <eid>210745455280243</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articAccentBelow</subtype>
+              <eid>210766930116640</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>210758340182036</eid>
+              <linked>
+                </linked>
+              <pitch>34</pitch>
+              <tpc>12</tpc>
+              <ChordLine>
+                <subtype>3</subtype>
+                <straight>1</straight>
+                <wavy>1</wavy>
+                <eid>223265284948003</eid>
+                <linked>
+                  </linked>
+                </ChordLine>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       </Staff>
