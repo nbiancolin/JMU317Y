@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.1</programVersion>
   <programRevision>0b3dd00</programRevision>
-  <LastEID>41112</LastEID>
+  <LastEID>41312</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -143,8 +143,10 @@
           <name>stdNormal</name>
           </StaffType>
         <defaultClef>F</defaultClef>
+        <hideWhenEmpty>1</hideWhenEmpty>
         </Staff>
       <trackName>Piano</trackName>
+      <preferSharpFlat>none</preferSharpFlat>
       <Instrument id="piano">
         <longName>Piano</longName>
         <shortName>Pno.</shortName>
@@ -1064,6 +1066,18 @@
             <eid>16797617094682</eid>
             <durationType>half</durationType>
             </Rest>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              <eid>176591875342430</eid>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <eid>17025250361459</eid>
             <durationType>eighth</durationType>
@@ -1112,6 +1126,19 @@
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            <eid>176630530048036</eid>
+            </Dynamic>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <eid>17201344020595</eid>
             <durationType>half</durationType>
@@ -1657,6 +1684,11 @@
             <eid>12876311953434</eid>
             <durationType>eighth</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>mf</subtype>
+            <velocity>80</velocity>
+            <eid>176643414949924</eid>
+            </Dynamic>
           <Chord>
             <eid>12889196855411</eid>
             <durationType>eighth</durationType>
@@ -3315,6 +3347,11 @@
             <eid>149653840461850</eid>
             <durationType>eighth</durationType>
             </Rest>
+          <StaffText>
+            <eid>176583285407792</eid>
+            <italic>1</italic>
+            <text><i>Countermelody, play out</i></text>
+            </StaffText>
           <Chord>
             <eid>149666725363827</eid>
             <durationType>eighth</durationType>
@@ -3426,6 +3463,18 @@
               <tpc>10</tpc>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              <eid>176596170309726</eid>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <eid>149383257522291</eid>
             <durationType>eighth</durationType>
@@ -3477,6 +3526,19 @@
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            <eid>176634825015332</eid>
+            </Dynamic>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <eid>17201344020595</eid>
             <durationType>half</durationType>
@@ -3982,6 +4044,11 @@
             <eid>98986111270938</eid>
             <durationType>eighth</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>mf</subtype>
+            <velocity>80</velocity>
+            <eid>176652004884516</eid>
+            </Dynamic>
           <Chord>
             <eid>98998996172915</eid>
             <durationType>eighth</durationType>
@@ -12796,6 +12863,10 @@
               <fixedLine>4</fixedLine>
               </Note>
             </Chord>
+          <StaffText>
+            <eid>177420804030512</eid>
+            <text>(8)</text>
+            </StaffText>
           <Rest>
             <eid>176536040767514</eid>
             <durationType>half</durationType>
