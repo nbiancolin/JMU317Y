@@ -439,24 +439,18 @@
     <evenHeaderL>$p</evenHeaderL>
     <evenHeaderC></evenHeaderC>
     <evenHeaderR></evenHeaderR>
-    <oddHeaderL>$:trackNum:. $:workTitle:
-[r. $M] 
-</oddHeaderL>
+    <oddHeaderL></oddHeaderL>
     <oddHeaderC>- $p -</oddHeaderC>
-    <oddHeaderR>$:partName:</oddHeaderR>
+    <oddHeaderR>$:partName: - $:workTitle:</oddHeaderR>
     <showFooter>1</showFooter>
     <footerFirstPage>1</footerFirstPage>
     <footerOddEven>0</footerOddEven>
     <evenFooterL></evenFooterL>
     <evenFooterC>$:copyright:</evenFooterC>
     <evenFooterR></evenFooterR>
-    <oddFooterL>NBMS Music Services
-https://bit.ly/nbms</oddFooterL>
-    <oddFooterC> $C
- 
-</oddFooterC>
-    <oddFooterR>$:albumTitle:
-$D</oddFooterR>
+    <oddFooterL>$:workTitle: - $:arranger:</oddFooterL>
+    <oddFooterC> $C</oddFooterC>
+    <oddFooterR>Rev. $M</oddFooterR>
     <voltaPosAbove x="0" y="-3"/>
     <voltaHook>2.2</voltaHook>
     <voltaLineWidth>0.16</voltaLineWidth>
@@ -1151,7 +1145,7 @@ $D</oddFooterR>
     <headerFontSize>11</headerFontSize>
     <headerLineSpacing>1</headerLineSpacing>
     <headerFontSpatiumDependent>0</headerFontSpatiumDependent>
-    <headerFontStyle>1</headerFontStyle>
+    <headerFontStyle>0</headerFontStyle>
     <headerColor r="0" g="0" b="0" a="255"/>
     <headerAlign>center,center</headerAlign>
     <headerOffset x="0" y="0"/>
