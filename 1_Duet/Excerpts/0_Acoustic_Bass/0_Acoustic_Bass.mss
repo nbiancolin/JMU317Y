@@ -345,7 +345,7 @@
     <showPageNumberOne>0</showPageNumberOne>
     <pageNumberOddEven>1</pageNumberOddEven>
     <showMeasureNumber>1</showMeasureNumber>
-    <showMeasureNumberOne>1</showMeasureNumberOne>
+    <showMeasureNumberOne>0</showMeasureNumberOne>
     <measureNumberInterval>1</measureNumberInterval>
     <measureNumberSystem>0</measureNumberSystem>
     <measureNumberAllStaves>0</measureNumberAllStaves>
@@ -439,24 +439,18 @@
     <evenHeaderL>$p</evenHeaderL>
     <evenHeaderC></evenHeaderC>
     <evenHeaderR></evenHeaderR>
-    <oddHeaderL>$:trackNum:. $:workTitle:
-[r. $M] 
-</oddHeaderL>
+    <oddHeaderL></oddHeaderL>
     <oddHeaderC>- $p -</oddHeaderC>
-    <oddHeaderR>$:partName:</oddHeaderR>
+    <oddHeaderR>$:partName: - $:workTitle:</oddHeaderR>
     <showFooter>1</showFooter>
     <footerFirstPage>1</footerFirstPage>
     <footerOddEven>0</footerOddEven>
     <evenFooterL></evenFooterL>
     <evenFooterC>$:copyright:</evenFooterC>
     <evenFooterR></evenFooterR>
-    <oddFooterL>NBMS Music Services
-https://bit.ly/nbms</oddFooterL>
-    <oddFooterC> $C
- 
-</oddFooterC>
-    <oddFooterR>$:albumTitle:
-$D</oddFooterR>
+    <oddFooterL>$:workTitle: - $:arranger:</oddFooterL>
+    <oddFooterC> $C</oddFooterC>
+    <oddFooterR>Rev. $M</oddFooterR>
     <voltaPosAbove x="0" y="-3"/>
     <voltaHook>2.2</voltaHook>
     <voltaLineWidth>0.16</voltaLineWidth>
@@ -814,7 +808,7 @@ $D</oddFooterR>
     <shortInstrumentFrameFgColor r="0" g="0" b="0" a="255"/>
     <shortInstrumentFrameBgColor r="255" g="255" b="255" a="0"/>
     <partInstrumentFontFace>Inkpen2 Script Std</partInstrumentFontFace>
-    <partInstrumentFontSize>14</partInstrumentFontSize>
+    <partInstrumentFontSize>18</partInstrumentFontSize>
     <partInstrumentLineSpacing>1</partInstrumentLineSpacing>
     <partInstrumentFontSpatiumDependent>0</partInstrumentFontSpatiumDependent>
     <partInstrumentFontStyle>4</partInstrumentFontStyle>
@@ -914,19 +908,19 @@ $D</oddFooterR>
     <metronomeFrameFgColor r="0" g="0" b="0" a="255"/>
     <metronomeFrameBgColor r="255" g="255" b="255" a="0"/>
     <measureNumberFontFace>Inkpen2 Script Std</measureNumberFontFace>
-    <measureNumberFontSize>12</measureNumberFontSize>
+    <measureNumberFontSize>10</measureNumberFontSize>
     <measureNumberLineSpacing>1</measureNumberLineSpacing>
-    <measureNumberFontSpatiumDependent>0</measureNumberFontSpatiumDependent>
+    <measureNumberFontSpatiumDependent>1</measureNumberFontSpatiumDependent>
     <measureNumberFontStyle>2</measureNumberFontStyle>
     <measureNumberColor r="0" g="0" b="0" a="255"/>
-    <measureNumberPosAbove x="0" y="-7"/>
-    <measureNumberPosBelow x="0" y="1"/>
+    <measureNumberPosAbove x="0" y="-2"/>
+    <measureNumberPosBelow x="0" y="2"/>
     <measureNumberOffsetType>1</measureNumberOffsetType>
     <measureNumberVPlacement>0</measureNumberVPlacement>
-    <measureNumberHPlacement>1</measureNumberHPlacement>
+    <measureNumberHPlacement>0</measureNumberHPlacement>
     <measureNumberMinDistance>0.5</measureNumberMinDistance>
     <measureNumberAlign>center,baseline</measureNumberAlign>
-    <measureNumberFrameType>1</measureNumberFrameType>
+    <measureNumberFrameType>0</measureNumberFrameType>
     <measureNumberFramePadding>0.8</measureNumberFramePadding>
     <measureNumberFrameWidth>0.15</measureNumberFrameWidth>
     <measureNumberFrameRound>0</measureNumberFrameRound>
