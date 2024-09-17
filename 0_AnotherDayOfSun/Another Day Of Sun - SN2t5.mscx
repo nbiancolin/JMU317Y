@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.1</programVersion>
   <programRevision>0b3dd00</programRevision>
-  <LastEID>403801</LastEID>
+  <LastEID>440826</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -32512,13 +32512,13 @@ Lyrics by: Benj Pasek &amp; Justin Paul
                 <program value="45"/>
                 <synti>Fluid</synti>
                 <midiPort>2</midiPort>
-                <midiChannel>6</midiChannel>
+                <midiChannel>5</midiChannel>
                 </Channel>
               <Channel name="tremolo">
                 <program value="44"/>
                 <synti>Fluid</synti>
                 <midiPort>2</midiPort>
-                <midiChannel>8</midiChannel>
+                <midiChannel>6</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
@@ -32783,7 +32783,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
                 <program value="8"/>
                 <synti>Fluid</synti>
                 <midiPort>2</midiPort>
-                <midiChannel>10</midiChannel>
+                <midiChannel>8</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
@@ -32797,6 +32797,11 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <eid>751430298239012</eid>
             <linkedMain/>
             </Dynamic>
+          <StaffText>
+            <eid>1891696870686768</eid>
+            <linkedMain/>
+            <text>(opt. octaves? idk)</text>
+            </StaffText>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -33324,13 +33329,13 @@ Lyrics by: Benj Pasek &amp; Justin Paul
                 <program value="48"/>
                 <synti>Fluid</synti>
                 <midiPort>2</midiPort>
-                <midiChannel>11</midiChannel>
+                <midiChannel>10</midiChannel>
                 </Channel>
               <Channel name="pizzicato">
                 <program value="45"/>
                 <synti>Fluid</synti>
                 <midiPort>2</midiPort>
-                <midiChannel>5</midiChannel>
+                <midiChannel>11</midiChannel>
                 </Channel>
               <Channel name="tremolo">
                 <program value="44"/>
@@ -33630,10 +33635,26 @@ Lyrics by: Benj Pasek &amp; Justin Paul
         </Measure>
       <Measure>
         <voice>
+          <StaffText>
+            <eid>1890051898212400</eid>
+            <linkedMain/>
+            <text>(play this line please)</text>
+            </StaffText>
           <Chord>
             <eid>1732018576556147</eid>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>1891645331079284</eid>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>3/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>1732014281588756</eid>
               <linkedMain/>
@@ -33671,6 +33692,13 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <eid>1732491022958707</eid>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-3/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>1732486727991316</eid>
               <linkedMain/>
