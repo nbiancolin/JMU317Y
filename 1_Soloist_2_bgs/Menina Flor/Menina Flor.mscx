@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.2</programVersion>
   <programRevision>3130f97</programRevision>
-  <LastEID>66160</LastEID>
+  <LastEID>97155</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -300,7 +300,7 @@
           <shortcut>B</shortcut>
           </Drum>
         <Drum pitch="37">
-          <head>slashed1</head>
+          <head>cross</head>
           <line>3</line>
           <voice>0</voice>
           <name>Side Stick</name>
@@ -512,7 +512,7 @@
             <followText>1</followText>
             <eid>94051193847855</eid>
             <offset x="-8.66581" y="-4.18495"/>
-            <text>Easy Bossa, <sym>metNoteQuarterUp</sym><font face="Edwin"/> = 145</text>
+            <text>Easy Bossa, <sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 145</text>
             </Tempo>
           <Rest>
             <eid>65743064399898</eid>
@@ -582,22 +582,22 @@
           </LayoutBreak>
         <voice>
           <Rest>
-            <eid>64488933949466</eid>
+            <eid>336295939276826</eid>
             <durationType>half</durationType>
             </Rest>
           <Rest>
-            <eid>66258460475418</eid>
-            <durationType>quarter</durationType>
+            <eid>336300234244122</eid>
+            <durationType>eighth</durationType>
             </Rest>
           <StaffText>
-            <eid>62908385984560</eid>
+            <eid>337477055283248</eid>
             <text>Legato</text>
             </StaffText>
           <Chord>
-            <eid>12893491822707</eid>
-            <durationType>eighth</durationType>
+            <eid>337013198815347</eid>
+            <durationType>quarter</durationType>
             <Note>
-              <eid>12889196855316</eid>
+              <eid>337008903847956</eid>
               <pitch>70</pitch>
               <tpc>12</tpc>
               <tpc2>14</tpc2>
@@ -1024,7 +1024,7 @@
               <eid>34359738368020</eid>
               <Spanner type="Tie">
                 <Tie>
-                  <eid>34376918237215</eid>
+                  <eid>357891034841119</eid>
                   </Tie>
                 <next>
                   <location>
@@ -1046,10 +1046,20 @@
               </Note>
             </Chord>
           <Chord>
-            <eid>34385508171891</eid>
-            <durationType>eighth</durationType>
+            <eid>357873854972019</eid>
+            <durationType>quarter</durationType>
             <Note>
-              <eid>34381213204500</eid>
+              <eid>357869560004628</eid>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>358230337257503</eid>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Spanner type="Tie">
                 <prev>
                   <location>
@@ -1062,14 +1072,44 @@
               <tpc2>18</tpc2>
               </Note>
             </Chord>
-          <Rest>
-            <eid>34342558498842</eid>
+          <Chord>
+            <eid>353299714801779</eid>
             <durationType>eighth</durationType>
-            </Rest>
-          <Rest>
-            <eid>43907450667034</eid>
-            <durationType>quarter</durationType>
-            </Rest>
+            <Note>
+              <eid>353295419834388</eid>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <tpc2>18</tpc2>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>353875240419443</eid>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>353870945452052</eid>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>354390636494879</eid>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-7/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <tpc2>16</tpc2>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
@@ -1078,74 +1118,573 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <voice>
+          <Chord>
+            <eid>297091477799027</eid>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>297087182831636</eid>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>7/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <tpc2>16</tpc2>
+              </Note>
+            </Chord>
+          <Breath>
+            <symbol>breathMarkComma</symbol>
+            <eid>354918917472285</eid>
+            </Breath>
           <Rest>
-            <eid>777389080602</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <eid>360772957896730</eid>
+            <durationType>eighth</durationType>
             </Rest>
+          <Chord>
+            <eid>361228224430195</eid>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>361223929462804</eid>
+              <pitch>56</pitch>
+              <tpc>10</tpc>
+              <tpc2>12</tpc2>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>364367845523571</eid>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>364363550556180</eid>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              <tpc2>14</tpc2>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>366794502045811</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>366790207078420</eid>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <tpc2>16</tpc2>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>367382912565363</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>367378617597972</eid>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <tpc2>18</tpc2>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>368177481515123</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>368173186547732</eid>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              <tpc2>13</tpc2>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>369410137129075</eid>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>369405842161684</eid>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>369427316998175</eid>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-7/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <tpc2>16</tpc2>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>369461676736627</eid>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>369457381769236</eid>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>7/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <tpc2>16</tpc2>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>370342145032307</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>370337850064916</eid>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <tpc2>18</tpc2>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>370913375682675</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>370909080715284</eid>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              <tpc2>13</tpc2>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>371540440907891</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>371536145940500</eid>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              <tpc2>15</tpc2>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>372266290380915</eid>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>372261995413524</eid>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>372283470250015</eid>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-7/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <tpc2>18</tpc2>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>372317829988467</eid>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>372313535021076</eid>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>7/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <tpc2>18</tpc2>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>372846110965875</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>372841815998484</eid>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                <eid>373451701354512</eid>
+                </Accidental>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <tpc2>20</tpc2>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>373949917560947</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>373945622593556</eid>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                <eid>374040111874064</eid>
+                </Accidental>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              <tpc2>22</tpc2>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>375216932913267</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>375212637945876</eid>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <tpc2>17</tpc2>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>375749508857971</eid>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>375745213890580</eid>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>375766688727071</eid>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-7/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <tpc2>18</tpc2>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>375801048465523</eid>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>375796753498132</eid>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>7/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <tpc2>18</tpc2>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>376522602971251</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>376518308003860</eid>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                <eid>376784595976208</eid>
+                </Accidental>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <tpc2>20</tpc2>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>377111013490803</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>377106718523412</eid>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                <eid>377222682640400</eid>
+                </Accidental>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              <tpc2>22</tpc2>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>377476085710963</eid>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>377471790743572</eid>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <tpc2>17</tpc2>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>846108557338</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <eid>379576324718618</eid>
+            <durationType>eighth</durationType>
             </Rest>
+          <Chord>
+            <eid>380349418831987</eid>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>380345123864596</eid>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                <eid>380615706804240</eid>
+                </Accidental>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <tpc2>20</tpc2>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>380847635038323</eid>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>380843340070932</eid>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                <eid>380942124318736</eid>
+                </Accidental>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              <tpc2>22</tpc2>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>383523399663731</eid>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <eid>394389666922528</eid>
+              </Articulation>
+            <Note>
+              <eid>383519104696340</eid>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <tpc2>17</tpc2>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>384300788744307</eid>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <eid>394471271301152</eid>
+              </Articulation>
+            <Note>
+              <eid>384296493776916</eid>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                <eid>384390983057424</eid>
+                </Accidental>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <tpc2>19</tpc2>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>389209936363635</eid>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>389205641396244</eid>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                <eid>389407504859152</eid>
+                </Accidental>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>389227116232735</eid>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-7/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              <tpc2>21</tpc2>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <eid>914828034074</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
+          <Chord>
+            <eid>389252886036595</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>389248591069204</eid>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>389265770938399</eid>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>7/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              <tpc2>21</tpc2>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>389274360873075</eid>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>389270065905684</eid>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              <tpc2>21</tpc2>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>397082611417203</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>397078316449812</eid>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                <eid>397688201805840</eid>
+                </Accidental>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <tpc2>19</tpc2>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>398126288470131</eid>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>398121993502740</eid>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>398143468339231</eid>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-7/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <tpc2>19</tpc2>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <eid>983547510810</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>1052266987546</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>1120986464282</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>1189705941018</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>1258425417754</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
+          <Chord>
+            <eid>398177828077683</eid>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>398173533110292</eid>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>7/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <tpc2>19</tpc2>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>398620209709171</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>398615914741780</eid>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <tpc2>17</tpc2>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>398998166831219</eid>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>398993871863828</eid>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>401845730148383</eid>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <tpc2>17</tpc2>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>401828550279283</eid>
+            <durationType>half</durationType>
+            <Note>
+              <eid>401824255311892</eid>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <tpc2>17</tpc2>
+              </Note>
+            </Chord>
+          <Breath>
+            <symbol>breathMarkComma</symbol>
+            <eid>402150672826397</eid>
+            </Breath>
           </voice>
         </Measure>
       <Measure>
@@ -1154,19 +1693,93 @@
           <subtype>line</subtype>
           </LayoutBreak>
         <voice>
-          <Rest>
-            <eid>1327144894490</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
+          <Chord>
+            <eid>408923836252275</eid>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>408919541284884</eid>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <tpc2>17</tpc2>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>411354787741811</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>411350492774420</eid>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              <tpc2>15</tpc2>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>411732744863859</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>411728449896468</eid>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              <tpc2>15</tpc2>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>412123586887795</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>412119291920404</eid>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
+              <tpc2>14</tpc2>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>414052027203699</eid>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>414047732236308</eid>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>414069207072799</eid>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-7/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              <tpc2>16</tpc2>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Chord>
+            <eid>414086386942067</eid>
+            <dots>2</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>414082091974676</eid>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>7/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              <tpc2>16</tpc2>
+              </Note>
+            </Chord>
           <Rest>
-            <eid>1395864371226</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <eid>414073502040090</eid>
+            <durationType>eighth</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -1542,6 +2155,10 @@
           <Chord>
             <eid>260416752058483</eid>
             <durationType>whole</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              <eid>294548857159712</eid>
+              </Articulation>
             <Note>
               <eid>260429636960276</eid>
               <Spanner type="Tie">
@@ -2163,6 +2780,10 @@
           <Chord>
             <eid>260390982254707</eid>
             <durationType>whole</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              <eid>294553152127008</eid>
+              </Articulation>
             <Note>
               <eid>260403867156500</eid>
               <Spanner type="Tie">
@@ -3286,8 +3907,8 @@
       <Measure>
         <voice>
           <Harmony>
-            <root>13</root>
-            <name>mi7</name>
+            <root>16</root>
+            <name>7(b9)</name>
             <eid>54567559495738</eid>
             </Harmony>
           <Rest>
@@ -4300,37 +4921,168 @@
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <eid>317827579930</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
+          <Chord>
+            <eid>341028993237107</eid>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>341024698269716</eid>
+              <pitch>39</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>347136436732019</eid>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>347132141764628</eid>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>341510029574259</eid>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>341505734606868</eid>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>347535868690547</eid>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>347531573723156</eid>
+              <pitch>39</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <eid>386547056666</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
+          <Chord>
+            <eid>342072670290035</eid>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>342068375322644</eid>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>348012610060403</eid>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>348008315093012</eid>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>342579476430963</eid>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>342575181463572</eid>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>348502236332147</eid>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>348497941364756</eid>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                <eid>348656855154704</eid>
+                </Accidental>
+              <pitch>42</pitch>
+              <tpc>8</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <eid>455266533402</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
+          <Chord>
+            <eid>343326800740467</eid>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>343322505773076</eid>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>349077761949811</eid>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>349073466982420</eid>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>344963183280243</eid>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>344958888312852</eid>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>349623222796403</eid>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>349618927829012</eid>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Chord>
+            <eid>345431334715507</eid>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>345427039748116</eid>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>350104259133555</eid>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>350099964166164</eid>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>346028335169651</eid>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>346024040202260</eid>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
           <Rest>
-            <eid>523986010138</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <eid>346019745234970</eid>
+            <durationType>eighth</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -4836,20 +5588,316 @@
         </Measure>
       <Measure>
         <voice>
+          <Chord>
+            <eid>303138791751795</eid>
+            <durationType>eighth</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>303134496784404</eid>
+              <pitch>42</pitch>
+              <tpc>20</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>303396489789555</eid>
+            <durationType>eighth</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>303392194822164</eid>
+              <pitch>42</pitch>
+              <tpc>20</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>303821691551859</eid>
+            <durationType>eighth</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>311741611245588</eid>
+              <pitch>37</pitch>
+              <tpc>21</tpc>
+              <head>cross</head>
+              </Note>
+            <Note>
+              <eid>303817396584468</eid>
+              <pitch>42</pitch>
+              <tpc>20</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>304079389589619</eid>
+            <durationType>eighth</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>304075094622228</eid>
+              <pitch>42</pitch>
+              <tpc>20</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>304345677561971</eid>
+            <durationType>eighth</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>304341382594580</eid>
+              <pitch>42</pitch>
+              <tpc>20</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>304603375599731</eid>
+            <durationType>eighth</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>313034396401684</eid>
+              <pitch>37</pitch>
+              <tpc>21</tpc>
+              <head>cross</head>
+              </Note>
+            <Note>
+              <eid>304599080632340</eid>
+              <pitch>42</pitch>
+              <tpc>20</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>304878253506675</eid>
+            <durationType>eighth</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>304873958539284</eid>
+              <pitch>42</pitch>
+              <tpc>20</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>305105886773363</eid>
+            <durationType>eighth</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>305101591805972</eid>
+              <pitch>42</pitch>
+              <tpc>20</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>323024490332275</eid>
+            <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <eid>323020195364884</eid>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
           <Rest>
-            <eid>322122547226</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <eid>323638670655514</eid>
+            <durationType>eighth</durationType>
             </Rest>
+          <Chord>
+            <eid>323814764314739</eid>
+            <durationType>eighth</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <eid>323810469347348</eid>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>325532751233139</eid>
+            <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <eid>325528456265748</eid>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>325824809009178</eid>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <eid>326013787570291</eid>
+            <durationType>eighth</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <eid>326009492602900</eid>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Chord>
+            <eid>315409513316467</eid>
+            <durationType>eighth</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>320726682828820</eid>
+              <pitch>37</pitch>
+              <tpc>21</tpc>
+              <head>cross</head>
+              </Note>
+            <Note>
+              <eid>315405218349076</eid>
+              <pitch>42</pitch>
+              <tpc>20</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>315628556648563</eid>
+            <durationType>eighth</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>315624261681172</eid>
+              <pitch>42</pitch>
+              <tpc>20</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>315847599980659</eid>
+            <durationType>eighth</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>315843305013268</eid>
+              <pitch>42</pitch>
+              <tpc>20</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>316079528214643</eid>
+            <durationType>eighth</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>321104639950868</eid>
+              <pitch>37</pitch>
+              <tpc>21</tpc>
+              <head>cross</head>
+              </Note>
+            <Note>
+              <eid>316075233247252</eid>
+              <pitch>42</pitch>
+              <tpc>20</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>316298571546739</eid>
+            <durationType>eighth</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>316294276579348</eid>
+              <pitch>42</pitch>
+              <tpc>20</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>316517614878835</eid>
+            <durationType>eighth</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>316513319911444</eid>
+              <pitch>42</pitch>
+              <tpc>20</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>316831147491443</eid>
+            <durationType>eighth</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>321469712171028</eid>
+              <pitch>37</pitch>
+              <tpc>21</tpc>
+              <head>cross</head>
+              </Note>
+            <Note>
+              <eid>316826852524052</eid>
+              <pitch>42</pitch>
+              <tpc>20</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>317024421019763</eid>
+            <durationType>eighth</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <eid>317020126052372</eid>
+              <pitch>42</pitch>
+              <tpc>20</tpc>
+              <head>cross</head>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>326980155211891</eid>
+            <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <eid>326975860244500</eid>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
           <Rest>
-            <eid>390842023962</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <eid>327207788478490</eid>
+            <durationType>eighth</durationType>
             </Rest>
+          <Chord>
+            <eid>327461191549043</eid>
+            <durationType>eighth</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <eid>327456896581652</eid>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>327761839259763</eid>
+            <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <eid>327757544292372</eid>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>328260055466010</eid>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <eid>328436149125235</eid>
+            <durationType>eighth</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <eid>328431854157844</eid>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
