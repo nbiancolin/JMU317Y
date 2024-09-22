@@ -913,7 +913,7 @@
     <measureNumberFontSpatiumDependent>0</measureNumberFontSpatiumDependent>
     <measureNumberFontStyle>2</measureNumberFontStyle>
     <measureNumberColor r="0" g="0" b="0" a="255"/>
-    <measureNumberPosAbove x="0" y="-7"/>
+    <measureNumberPosAbove x="0" y="-5.5"/>
     <measureNumberPosBelow x="0" y="1"/>
     <measureNumberOffsetType>1</measureNumberOffsetType>
     <measureNumberVPlacement>0</measureNumberVPlacement>
@@ -1532,6 +1532,6 @@
     <dummyMusicalSymbolsScale>1</dummyMusicalSymbolsScale>
     <autoplaceEnabled>1</autoplaceEnabled>
     <defaultsVersion>302</defaultsVersion>
-    <Spatium>1.143</Spatium>
+    <Spatium>1.0668</Spatium>
     </Style>
   </museScore>
