@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.2</programVersion>
   <programRevision>3130f97</programRevision>
-  <LastEID>1143</LastEID>
+  <LastEID>3447</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -28,6 +28,8 @@
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
+        <bracket type="0" span="3" col="1" visible="1"/>
+        <barLineSpan>1</barLineSpan>
         </Staff>
       <trackName>Trumpet in B♭</trackName>
       <Instrument id="bb-trumpet">
@@ -44,10 +46,14 @@
         <Channel name="open">
           <program value="56"/>
           <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>0</midiChannel>
           </Channel>
         <Channel name="mute">
           <program value="59"/>
           <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>1</midiChannel>
           </Channel>
         </Instrument>
       </Part>
@@ -58,6 +64,7 @@
           </StaffType>
         <defaultConcertClef>G8vb</defaultConcertClef>
         <defaultTransposingClef>G</defaultTransposingClef>
+        <barLineSpan>1</barLineSpan>
         </Staff>
       <trackName>Tenor Saxophone</trackName>
       <Instrument id="tenor-saxophone">
@@ -76,6 +83,8 @@
         <Channel>
           <program value="66"/>
           <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>2</midiChannel>
           </Channel>
         </Instrument>
       </Part>
@@ -100,10 +109,14 @@
         <Channel name="open">
           <program value="57"/>
           <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>3</midiChannel>
           </Channel>
         <Channel name="mute">
           <program value="59"/>
           <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>4</midiChannel>
           </Channel>
         </Instrument>
       </Part>
@@ -135,6 +148,14 @@
         <Channel>
           <program value="0"/>
           <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>5</midiChannel>
+          </Channel>
+        <Channel name="harmony">
+          <program value="0"/>
+          <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>12</midiChannel>
           </Channel>
         </Instrument>
       </Part>
@@ -170,22 +191,32 @@
         <Channel name="slap">
           <program value="36"/>
           <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>6</midiChannel>
           </Channel>
         <Channel name="pop">
           <program value="37"/>
           <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>7</midiChannel>
           </Channel>
         <Channel name="pizzicato">
           <program value="32"/>
           <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>8</midiChannel>
           </Channel>
         <Channel name="arco">
           <program value="43"/>
           <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>10</midiChannel>
           </Channel>
         <Channel name="tremolo">
           <program value="44"/>
           <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>11</midiChannel>
           </Channel>
         </Instrument>
       </Part>
@@ -379,6 +410,8 @@
           <controller ctrl="32" value="0"/>
           <program value="0"/>
           <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>9</midiChannel>
           </Channel>
         </Instrument>
       </Part>
@@ -406,8 +439,8 @@
         <voice>
           <KeySig>
             <eid>167503724567</eid>
-            <concertKey>-5</concertKey>
-            <actualKey>-3</actualKey>
+            <concertKey>1</concertKey>
+            <actualKey>3</actualKey>
             </KeySig>
           <TimeSig>
             <eid>158913789977</eid>
@@ -710,8 +743,8 @@
         <voice>
           <KeySig>
             <eid>184683593751</eid>
-            <concertKey>-5</concertKey>
-            <actualKey>-3</actualKey>
+            <concertKey>1</concertKey>
+            <actualKey>3</actualKey>
             </KeySig>
           <TimeSig>
             <eid>180388626457</eid>
@@ -1010,7 +1043,7 @@
         <voice>
           <KeySig>
             <eid>197568495639</eid>
-            <concertKey>-5</concertKey>
+            <concertKey>1</concertKey>
             </KeySig>
           <TimeSig>
             <eid>193273528345</eid>
@@ -1309,13 +1342,18 @@
         <voice>
           <KeySig>
             <eid>210453397527</eid>
-            <concertKey>-5</concertKey>
+            <concertKey>1</concertKey>
             </KeySig>
           <TimeSig>
             <eid>206158430233</eid>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Harmony>
+            <root>14</root>
+            <name>ma7</name>
+            <eid>7885559955514</eid>
+            </Harmony>
           <Rest>
             <eid>214748364826</eid>
             <durationType>measure</durationType>
@@ -1325,15 +1363,40 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>14</root>
+            <name>mi6</name>
+            <eid>8263517077562</eid>
+            </Harmony>
           <Rest>
             <eid>309237645338</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <durationType>half</durationType>
+            </Rest>
+          <Harmony>
+            <leftParen/>
+            <root>13</root>
+            <name>7</name>
+            <eid>9539122364474</eid>
+            <rightParen/>
+            </Harmony>
+          <Rest>
+            <eid>9483287789594</eid>
+            <durationType>half</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>15</root>
+            <name>^7</name>
+            <eid>9199819948090</eid>
+            </Harmony>
+          <Harmony>
+            <root>19</root>
+            <name>mi7</name>
+            <eid>10101763080250</eid>
+            </Harmony>
           <Rest>
             <eid>377957122074</eid>
             <durationType>measure</durationType>
@@ -1343,33 +1406,77 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>12</root>
+            <name>mi7</name>
+            <eid>10355166150714</eid>
+            </Harmony>
           <Rest>
             <eid>446676598810</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <durationType>half</durationType>
+            </Rest>
+          <Harmony>
+            <root>11</root>
+            <name>ma7</name>
+            <eid>10698763534394</eid>
+            </Harmony>
+          <Rest>
+            <eid>10642928959514</eid>
+            <durationType>half</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>17</root>
+            <name>mi7</name>
+            <eid>10986526343226</eid>
+            </Harmony>
           <Rest>
             <eid>515396075546</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <durationType>half</durationType>
+            </Rest>
+          <Harmony>
+            <root>16</root>
+            <name>7</name>
+            <eid>13116830122042</eid>
+            </Harmony>
+          <Rest>
+            <eid>13056700579866</eid>
+            <durationType>half</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>15</root>
+            <name>^7</name>
+            <eid>13219909337146</eid>
+            </Harmony>
           <Rest>
             <eid>584115552282</eid>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <location>
+            <fractions>-1/2</fractions>
+            </location>
+          <Harmony>
+            <root>18</root>
+            <name>mi7</name>
+            <eid>13413182865466</eid>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>16</root>
+            <name>7</name>
+            <eid>13735305412666</eid>
+            </Harmony>
           <Rest>
             <eid>652835029018</eid>
             <durationType>measure</durationType>
@@ -1379,17 +1486,30 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>16</root>
+            <name>mi7</name>
+            <eid>14005888352314</eid>
+            </Harmony>
           <Rest>
             <eid>721554505754</eid>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <location>
+            <fractions>-1/2</fractions>
+            </location>
+          <Harmony>
+            <root>9</root>
+            <name>7</name>
+            <eid>14280766259258</eid>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>790273982490</eid>
+            <eid>14757507629082</eid>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -1608,7 +1728,7 @@
         <voice>
           <KeySig>
             <eid>223338299415</eid>
-            <concertKey>-5</concertKey>
+            <concertKey>1</concertKey>
             </KeySig>
           <TimeSig>
             <eid>219043332121</eid>
@@ -1907,7 +2027,7 @@
         <voice>
           <KeySig>
             <eid>236223201303</eid>
-            <concertKey>-5</concertKey>
+            <concertKey>1</concertKey>
             </KeySig>
           <TimeSig>
             <eid>231928234009</eid>
