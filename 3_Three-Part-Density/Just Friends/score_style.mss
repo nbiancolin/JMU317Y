@@ -1532,6 +1532,6 @@
     <dummyMusicalSymbolsScale>1</dummyMusicalSymbolsScale>
     <autoplaceEnabled>1</autoplaceEnabled>
     <defaultsVersion>302</defaultsVersion>
-    <Spatium>1.143</Spatium>
+    <Spatium>1.1176</Spatium>
     </Style>
   </museScore>
