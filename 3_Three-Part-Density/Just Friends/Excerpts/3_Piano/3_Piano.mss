@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="4.40">
   <Style>
-    <pageWidth>11</pageWidth>
-    <pageHeight>8.5</pageHeight>
-    <pagePrintableWidth>9.79</pagePrintableWidth>
-    <pageEvenLeftMargin>0.72</pageEvenLeftMargin>
-    <pageOddLeftMargin>0.49</pageOddLeftMargin>
-    <pageEvenTopMargin>0.44</pageEvenTopMargin>
-    <pageEvenBottomMargin>0.49</pageEvenBottomMargin>
-    <pageOddTopMargin>0.44</pageOddTopMargin>
-    <pageOddBottomMargin>0.49</pageOddBottomMargin>
+    <pageWidth>8.5</pageWidth>
+    <pageHeight>11</pageHeight>
+    <pagePrintableWidth>7.3189</pagePrintableWidth>
+    <pageEvenLeftMargin>0.590551</pageEvenLeftMargin>
+    <pageOddLeftMargin>0.590551</pageOddLeftMargin>
+    <pageEvenTopMargin>0.590551</pageEvenTopMargin>
+    <pageEvenBottomMargin>0.590551</pageEvenBottomMargin>
+    <pageOddTopMargin>0.590551</pageOddTopMargin>
+    <pageOddBottomMargin>0.590551</pageOddBottomMargin>
     <pageTwosided>1</pageTwosided>
     <staffUpperBorder>7</staffUpperBorder>
     <staffLowerBorder>11</staffLowerBorder>
@@ -103,7 +103,7 @@
     <dividerLeftSym>systemDivider</dividerLeftSym>
     <dividerLeftX>0</dividerLeftX>
     <dividerLeftY>0</dividerLeftY>
-    <dividerRight>1</dividerRight>
+    <dividerRight>0</dividerRight>
     <dividerRightSym>systemDivider</dividerRightSym>
     <dividerRightX>0</dividerRightX>
     <dividerRightY>0</dividerRightY>
@@ -345,7 +345,7 @@
     <showPageNumberOne>0</showPageNumberOne>
     <pageNumberOddEven>1</pageNumberOddEven>
     <showMeasureNumber>1</showMeasureNumber>
-    <showMeasureNumberOne>1</showMeasureNumberOne>
+    <showMeasureNumberOne>0</showMeasureNumberOne>
     <measureNumberInterval>1</measureNumberInterval>
     <measureNumberSystem>0</measureNumberSystem>
     <measureNumberAllStaves>0</measureNumberAllStaves>
@@ -381,9 +381,9 @@
     <chordExtensionAdjust>0</chordExtensionAdjust>
     <chordModifierMag>1</chordModifierMag>
     <chordModifierAdjust>0</chordModifierAdjust>
-    <concertPitch>1</concertPitch>
+    <concertPitch>0</concertPitch>
     <multiVoiceRestTwoSpaceOffset>0</multiVoiceRestTwoSpaceOffset>
-    <createMultiMeasureRests>0</createMultiMeasureRests>
+    <createMultiMeasureRests>1</createMultiMeasureRests>
     <minEmptyMeasures>2</minEmptyMeasures>
     <minMMRestWidth>4</minMMRestWidth>
     <mmRestNumberPos>-0.5</mmRestNumberPos>
@@ -808,7 +808,7 @@
     <shortInstrumentFrameFgColor r="0" g="0" b="0" a="255"/>
     <shortInstrumentFrameBgColor r="255" g="255" b="255" a="0"/>
     <partInstrumentFontFace>Inkpen2 Script Std</partInstrumentFontFace>
-    <partInstrumentFontSize>14</partInstrumentFontSize>
+    <partInstrumentFontSize>18</partInstrumentFontSize>
     <partInstrumentLineSpacing>1</partInstrumentLineSpacing>
     <partInstrumentFontSpatiumDependent>0</partInstrumentFontSpatiumDependent>
     <partInstrumentFontStyle>4</partInstrumentFontStyle>
@@ -908,19 +908,19 @@
     <metronomeFrameFgColor r="0" g="0" b="0" a="255"/>
     <metronomeFrameBgColor r="255" g="255" b="255" a="0"/>
     <measureNumberFontFace>Inkpen2 Script Std</measureNumberFontFace>
-    <measureNumberFontSize>12</measureNumberFontSize>
+    <measureNumberFontSize>10</measureNumberFontSize>
     <measureNumberLineSpacing>1</measureNumberLineSpacing>
-    <measureNumberFontSpatiumDependent>0</measureNumberFontSpatiumDependent>
+    <measureNumberFontSpatiumDependent>1</measureNumberFontSpatiumDependent>
     <measureNumberFontStyle>2</measureNumberFontStyle>
     <measureNumberColor r="0" g="0" b="0" a="255"/>
-    <measureNumberPosAbove x="0" y="-7"/>
-    <measureNumberPosBelow x="0" y="1"/>
+    <measureNumberPosAbove x="0" y="-2"/>
+    <measureNumberPosBelow x="0" y="2"/>
     <measureNumberOffsetType>1</measureNumberOffsetType>
     <measureNumberVPlacement>0</measureNumberVPlacement>
-    <measureNumberHPlacement>1</measureNumberHPlacement>
+    <measureNumberHPlacement>0</measureNumberHPlacement>
     <measureNumberMinDistance>0.5</measureNumberMinDistance>
     <measureNumberAlign>center,baseline</measureNumberAlign>
-    <measureNumberFrameType>1</measureNumberFrameType>
+    <measureNumberFrameType>0</measureNumberFrameType>
     <measureNumberFramePadding>0.8</measureNumberFramePadding>
     <measureNumberFrameWidth>0.15</measureNumberFrameWidth>
     <measureNumberFrameRound>0</measureNumberFrameRound>
@@ -1145,7 +1145,7 @@
     <headerFontSize>11</headerFontSize>
     <headerLineSpacing>1</headerLineSpacing>
     <headerFontSpatiumDependent>0</headerFontSpatiumDependent>
-    <headerFontStyle>0</headerFontStyle>
+    <headerFontStyle>1</headerFontStyle>
     <headerColor r="0" g="0" b="0" a="255"/>
     <headerAlign>center,center</headerAlign>
     <headerOffset x="0" y="0"/>
@@ -1532,6 +1532,6 @@
     <dummyMusicalSymbolsScale>1</dummyMusicalSymbolsScale>
     <autoplaceEnabled>1</autoplaceEnabled>
     <defaultsVersion>302</defaultsVersion>
-    <Spatium>1.0668</Spatium>
+    <Spatium>1.74978</Spatium>
     </Style>
   </museScore>
