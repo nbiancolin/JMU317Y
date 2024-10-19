@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.2</programVersion>
   <programRevision>3130f97</programRevision>
-  <LastEID>943150</LastEID>
+  <LastEID>986726</LastEID>
   <Score>
     <name>Flute</name>
     <initialPartId>1</initialPartId>
@@ -169,10 +169,8 @@ Lyrics by: Benj Pasek &amp; Justin Paul
         <startRepeat/>
         <voice>
           <KeySig>
-            <eid>12927851560983</eid>
-            <linked>
-              </linked>
-            <concertKey>-3</concertKey>
+            <eid>4101191256506391</eid>
+            <concertKey>0</concertKey>
             </KeySig>
           <TimeSig>
             <subtype>2</subtype>
@@ -199,19 +197,47 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <eid>726777185959983</eid>
             <linked>
               </linked>
-            <minDistance>-10.5</minDistance>
-            <offset x="0" y="-0.424395"/>
+            <minDistance>-7.64969</minDistance>
+            <offset x="0" y="-2.28629"/>
             <text>Anyone who doesnt like La La Land has no taste <sym>metNoteHalfUp</sym><font face="Edwin"></font> = 125 - Swing 8ths</text>
             </Tempo>
           <SystemText>
             <eid>4045464055840817</eid>
             <linked>
               </linked>
-            <minDistance>-8.21142</minDistance>
+            <minDistance>-6.21142</minDistance>
             <bold>1</bold>
-            <offset x="-0.326612" y="-1.95967"/>
+            <offset x="-0.326612" y="-3.26612"/>
             <text>Vamp until cue</text>
             </SystemText>
+          <InstrumentChange>
+            <Instrument id="baritone-saxophone">
+              <longName>Flute
+(Doubles Bari Sax)</longName>
+              <shortName>Bari</shortName>
+              <trackName>Baritone Saxophone</trackName>
+              <minPitchP>36</minPitchP>
+              <maxPitchP>80</maxPitchP>
+              <minPitchA>36</minPitchA>
+              <maxPitchA>68</maxPitchA>
+              <transposeDiatonic>-12</transposeDiatonic>
+              <transposeChromatic>-21</transposeChromatic>
+              <instrumentId>wind.reed.saxophone.baritone</instrumentId>
+              <concertClef>F</concertClef>
+              <transposingClef>G</transposingClef>
+              <Channel>
+                <program value="67"/>
+                <synti>Fluid</synti>
+                </Channel>
+              </Instrument>
+            <init>1</init>
+            <eid>4066698374152248</eid>
+            <linked>
+              </linked>
+            <minDistance>-10</minDistance>
+            <offset x="0" y="-0.828023"/>
+            <text>Bari Sax</text>
+            </InstrumentChange>
           <Rest>
             <eid>12945031430170</eid>
             <linked>
@@ -228,7 +254,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <subtype>2</subtype>
             <eid>12949326397465</eid>
             <linked>
-              <indexDiff>-5</indexDiff>
+              <indexDiff>-6</indexDiff>
               </linked>
             <sigN>2</sigN>
             <sigD>2</sigD>
@@ -237,7 +263,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <swing unit="eighth" ratio="60"/>
             <eid>12957916332081</eid>
             <linked>
-              <indexDiff>-5</indexDiff>
+              <indexDiff>-6</indexDiff>
               </linked>
             <visible>0</visible>
             <style>tempo</style>
@@ -332,8 +358,123 @@ Lyrics by: Benj Pasek &amp; Justin Paul
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            <eid>4087528965537828</eid>
+            <linked>
+              </linked>
+            </Dynamic>
+          <Chord>
+            <eid>4087559030308979</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articAccentBelow</subtype>
+              <eid>4087576210178080</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>4087571915210772</eid>
+              <linked>
+                </linked>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              <tpc2>16</tpc2>
+              </Note>
+            </Chord>
           <Rest>
-            <eid>12996571037722</eid>
+            <eid>4087589095079962</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <eid>4087601979981850</eid>
+            <linked>
+              </linked>
+            <durationType>half</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>4087614864883738</eid>
+            <linked>
+              </linked>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <eid>4087627749785626</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Chord>
+            <eid>4087657814556787</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articAccentBelow</subtype>
+              <eid>4087674994425888</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>4087670699458580</eid>
+              <linked>
+                </linked>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              <tpc2>16</tpc2>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>4087705059197043</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articAccentBelow</subtype>
+              <eid>4087722239066144</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>4087717944098836</eid>
+              <linked>
+                </linked>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
+              <tpc2>15</tpc2>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>4087735123968026</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <eid>4087748008869914</eid>
+            <linked>
+              </linked>
+            <durationType>half</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>4087760893771802</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -343,72 +484,156 @@ Lyrics by: Benj Pasek &amp; Justin Paul
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <eid>13000866005018</eid>
+          <Chord>
+            <eid>4087790958542963</eid>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <eid>4087808138412064</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>4087803843444756</eid>
+              <linked>
+                </linked>
+              <pitch>51</pitch>
+              <tpc>11</tpc>
+              <tpc2>14</tpc2>
+              </Note>
+            </Chord>
+          <StaffText>
+            <eid>4127248823091248</eid>
+            <linked>
+              </linked>
+            <style>user_1</style>
+            <minDistance>-9.5</minDistance>
+            <offset x="0" y="-2.40463"/>
+            <text>(quick) To Flute</text>
+            </StaffText>
+          <Rest>
+            <eid>4087821023313946</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <eid>4087833908215834</eid>
+            <linked>
+              </linked>
+            <durationType>half</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>13005160972314</eid>
+            <eid>4087846793117722</eid>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <small>1</small>
+            <durationType>half</durationType>
             </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
           <Rest>
-            <eid>13009455939610</eid>
+            <eid>4087859678019610</eid>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <small>1</small>
+            <durationType>quarter</durationType>
             </Rest>
+          <Chord>
+            <eid>4087889742790771</eid>
+            <linked>
+              </linked>
+            <small>1</small>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <eid>4087906922659872</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>4087902627692564</eid>
+              <linked>
+                </linked>
+              <pitch>51</pitch>
+              <tpc>11</tpc>
+              <tpc2>14</tpc2>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Chord>
+            <eid>4087936987431027</eid>
+            <linked>
+              </linked>
+            <small>1</small>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articAccentBelow</subtype>
+              <eid>4087954167300128</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>4087949872332820</eid>
+              <linked>
+                </linked>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              <tpc2>18</tpc2>
+              </Note>
+            </Chord>
           <Rest>
-            <eid>13013750906906</eid>
+            <eid>4087967052202010</eid>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <small>1</small>
+            <durationType>quarter</durationType>
             </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
           <Rest>
-            <eid>13018045874202</eid>
+            <eid>4087979937103898</eid>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <small>1</small>
+            <durationType>half</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <eid>13022340841498</eid>
+          <KeySig>
+            <eid>4080257585905687</eid>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
+            <concertKey>-3</concertKey>
+            <forInstrumentChange>1</forInstrumentChange>
+            </KeySig>
+          <InstrumentChange>
+            <Instrument id="flute">
+              <longName>Flute</longName>
+              <shortName>Fl.</shortName>
+              <trackName>Flute</trackName>
+              <minPitchP>59</minPitchP>
+              <maxPitchP>98</maxPitchP>
+              <minPitchA>60</minPitchA>
+              <maxPitchA>93</maxPitchA>
+              <instrumentId>wind.flutes.flute</instrumentId>
+              <Channel>
+                <program value="73"/>
+                <synti>Fluid</synti>
+                </Channel>
+              </Instrument>
+            <eid>4080244701003832</eid>
+            <linked>
+              </linked>
+            <text>To Flute</text>
+            </InstrumentChange>
           <Rest>
             <eid>13026635808794</eid>
             <linked>
