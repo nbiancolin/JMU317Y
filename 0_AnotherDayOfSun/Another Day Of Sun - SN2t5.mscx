@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.2</programVersion>
   <programRevision>3130f97</programRevision>
-  <LastEID>875640</LastEID>
+  <LastEID>943150</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -28,90 +28,6 @@
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
     <metaTag name="workTitle">Another Day Of Sun</metaTag>
-    <Order id="orchestral">
-      <name>Orchestral</name>
-      <instrument id="acoustic-bass">
-        <family id="bass-guitars">Bass Guitars</family>
-        </instrument>
-      <instrument id="alto-saxophone">
-        <family id="saxophones">Saxophones</family>
-        </instrument>
-      <instrument id="bb-clarinet">
-        <family id="clarinets">Clarinets</family>
-        </instrument>
-      <instrument id="bb-trumpet">
-        <family id="trumpets">Trumpets</family>
-        </instrument>
-      <instrument id="drumset">
-        <family id="drums">Drums</family>
-        </instrument>
-      <instrument id="flute">
-        <family id="flutes">Flutes</family>
-        </instrument>
-      <instrument id="guitar-steel">
-        <family id="guitars">Guitars</family>
-        </instrument>
-      <instrument id="percussion">
-        <family id="other-percussion">Other Percussion</family>
-        </instrument>
-      <instrument id="piano">
-        <family id="keyboards">Keyboards</family>
-        </instrument>
-      <instrument id="tenor-saxophone">
-        <family id="saxophones">Saxophones</family>
-        </instrument>
-      <instrument id="trombone">
-        <family id="trombones">Trombones</family>
-        </instrument>
-      <instrument id="violin">
-        <family id="orchestral-strings">Orchestral Strings</family>
-        </instrument>
-      <instrument id="voice">
-        <family id="voices">Voices</family>
-        </instrument>
-      <section id="woodwind" brackets="true" barLineSpan="true" thinBrackets="true">
-        <family>flutes</family>
-        <family>oboes</family>
-        <family>clarinets</family>
-        <family>saxophones</family>
-        <family>bassoons</family>
-        <unsorted group="woodwinds"/>
-        </section>
-      <section id="brass" brackets="true" barLineSpan="true" thinBrackets="true">
-        <family>horns</family>
-        <family>trumpets</family>
-        <family>cornets</family>
-        <family>flugelhorns</family>
-        <family>trombones</family>
-        <family>tubas</family>
-        <unsorted group="brass"/>
-        </section>
-      <section id="timpani" brackets="true" barLineSpan="true" thinBrackets="true">
-        <family>timpani</family>
-        </section>
-      <section id="percussion" brackets="true" barLineSpan="true" thinBrackets="true">
-        <family>keyboard-percussion</family>
-        <unsorted group="pitched-percussion"/>
-        <family>drums</family>
-        <family>unpitched-metal-percussion</family>
-        <family>unpitched-wooden-percussion</family>
-        <family>other-percussion</family>
-        <unsorted group="unpitched-percussion"/>
-        </section>
-      <family>keyboards</family>
-      <family>harps</family>
-      <family>organs</family>
-      <family>synths</family>
-      <unsorted/>
-      <soloists/>
-      <section id="voices" brackets="true" barLineSpan="false" thinBrackets="true">
-        <family>voices</family>
-        <family>voice-groups</family>
-        </section>
-      <section id="strings" brackets="true" barLineSpan="true" thinBrackets="true">
-        <family>orchestral-strings</family>
-        </section>
-      </Order>
     <Part id="1">
       <Staff id="1">
         <StaffType group="pitched">
@@ -123,7 +39,8 @@
       <trackName>Flute</trackName>
       <preferSharpFlat>none</preferSharpFlat>
       <Instrument id="flute">
-        <longName>Flute</longName>
+        <longName>Flute
+(Doubles Bari Sax)</longName>
         <shortName>Fl. 1</shortName>
         <trackName>Flute</trackName>
         <minPitchP>59</minPitchP>
@@ -205,8 +122,7 @@
         </Staff>
       <trackName>Tenor Saxophone</trackName>
       <Instrument id="tenor-saxophone">
-        <longName>Tenor Sax
-(Doubles Bari Sax)</longName>
+        <longName>Tenor Sax</longName>
         <shortName>T. Sax</shortName>
         <trackName>Tenor Saxophone</trackName>
         <minPitchP>44</minPitchP>
@@ -364,7 +280,7 @@
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
-        <bracket type="0" span="2" col="0" visible="1"/>
+        <bracket type="0" span="3" col="0" visible="1"/>
         <bracket type="2" span="2" col="1" visible="1"/>
         <barLineSpan>1</barLineSpan>
         </Staff>
@@ -403,6 +319,7 @@
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
+        <barLineSpan>1</barLineSpan>
         </Staff>
       <trackName>Violin 2</trackName>
       <Instrument id="violin">
@@ -434,8 +351,46 @@
           </Channel>
         </Instrument>
       </Part>
-    <Part id="11">
+    <Part id="18">
       <Staff id="11">
+        <StaffType group="pitched">
+          <name>stdNormal</name>
+          </StaffType>
+        <defaultClef>F</defaultClef>
+        </Staff>
+      <trackName>Violoncello</trackName>
+      <Instrument id="violoncello">
+        <longName>Violoncello</longName>
+        <shortName>Vc.</shortName>
+        <trackName>Violoncello</trackName>
+        <minPitchP>36</minPitchP>
+        <maxPitchP>90</maxPitchP>
+        <minPitchA>36</minPitchA>
+        <maxPitchA>67</maxPitchA>
+        <instrumentId>strings.cello</instrumentId>
+        <clef>F</clef>
+        <Channel name="arco">
+          <program value="42"/>
+          <synti>Fluid</synti>
+          <midiPort>2</midiPort>
+          <midiChannel>14</midiChannel>
+          </Channel>
+        <Channel name="pizzicato">
+          <program value="45"/>
+          <synti>Fluid</synti>
+          <midiPort>2</midiPort>
+          <midiChannel>15</midiChannel>
+          </Channel>
+        <Channel name="tremolo">
+          <program value="44"/>
+          <synti>Fluid</synti>
+          <midiPort>3</midiPort>
+          <midiChannel>0</midiChannel>
+          </Channel>
+        </Instrument>
+      </Part>
+    <Part id="11">
+      <Staff id="12">
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
@@ -490,14 +445,14 @@
         </Instrument>
       </Part>
     <Part id="12">
-      <Staff id="12">
+      <Staff id="13">
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
         <bracket type="1" span="2" col="0" visible="1"/>
         <barLineSpan>1</barLineSpan>
         </Staff>
-      <Staff id="13">
+      <Staff id="14">
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
@@ -529,14 +484,14 @@
         </Instrument>
       </Part>
     <Part id="13">
-      <Staff id="14">
+      <Staff id="15">
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
         <bracket type="1" span="2" col="0" visible="1"/>
         <barLineSpan>1</barLineSpan>
         </Staff>
-      <Staff id="15">
+      <Staff id="16">
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
@@ -568,7 +523,7 @@
         </Instrument>
       </Part>
     <Part id="14">
-      <Staff id="16">
+      <Staff id="17">
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
@@ -636,7 +591,7 @@
         </Instrument>
       </Part>
     <Part id="15">
-      <Staff id="17">
+      <Staff id="18">
         <StaffType group="percussion">
           <name>perc5Line</name>
           <keysig>0</keysig>
@@ -834,7 +789,7 @@
         </Instrument>
       </Part>
     <Part id="16">
-      <Staff id="18">
+      <Staff id="19">
         <StaffType group="percussion">
           <name>perc5Line</name>
           </StaffType>
@@ -1013,7 +968,7 @@
         </Instrument>
       </Part>
     <Part id="17">
-      <Staff id="19">
+      <Staff id="20">
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
@@ -1039,7 +994,7 @@
       </Part>
     <Staff id="1">
       <VBox>
-        <height>30.5</height>
+        <height>28</height>
         <boxAutoSize>0</boxAutoSize>
         <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
         <eid>4294967419</eid>
@@ -1057,15 +1012,15 @@
           <style>subtitle</style>
           <size>12</size>
           <offset x="-0.223606" y="15.1429"/>
-          <text><font size="12"></font>From <i>Summit Entertainment</i>'s <b><i>La La Land</i></b></text>
+          <text><font size="12"/>From <i>Summit Entertainment</i>'s <b><i>La La Land</i></b></text>
           </Text>
         <Text>
           <eid>17179869190</eid>
           <linkedMain/>
           <style>composer</style>
           <size>9</size>
-          <offset x="0" y="-1.9431"/>
-          <text><b><font size="9"></font>SKULE NITE PIT ORCHESTRA
+          <offset x="0" y="-1.2573"/>
+          <text><b><font size="9"/>SKULE NITE PIT ORCHESTRA
 </b>Music by: Justin Hurwitz 
 Lyrics by: Benj Pasek &amp; Justin Paul 
 <i>arr/orch. Nicholas Biancolin</i></text>
@@ -1126,6 +1081,14 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <offset x="0" y="-0.649691"/>
             <text>Anyone who doesnt like La La Land has no taste <sym>metNoteHalfUp</sym><font face="Edwin"/> = 125 - Swing 8ths</text>
             </Tempo>
+          <SystemText>
+            <eid>4045459760873521</eid>
+            <linkedMain/>
+            <minDistance>-8.21142</minDistance>
+            <bold>1</bold>
+            <offset x="-0.5" y="-3"/>
+            <text><b>Vamp until cue</b></text>
+            </SystemText>
           <Rest>
             <eid>34359738394</eid>
             <linkedMain/>
@@ -1457,7 +1420,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <eid>29429115912239</eid>
             <linkedMain/>
             <visible>0</visible>
-            <text><sym>metNoteHalfUp</sym><font face="Edwin"></font> = 126</text>
+            <text><sym>metNoteHalfUp</sym><font face="Edwin"/> = 126</text>
             </Tempo>
           <Spanner type="HairPin">
             <prev>
@@ -29511,6 +29474,1388 @@ Lyrics by: Benj Pasek &amp; Justin Paul
       <Measure>
         <voice>
           <KeySig>
+            <eid>3986502744801303</eid>
+            <concertKey>-3</concertKey>
+            </KeySig>
+          <TimeSig>
+            <subtype>2</subtype>
+            <eid>3985197074743321</eid>
+            <sigN>2</sigN>
+            <sigD>2</sigD>
+            </TimeSig>
+          <Rest>
+            <eid>3985192779776026</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985205664677914</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985214254612506</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985222844547098</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985231434481690</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985240024416282</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985248614350874</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985257204285466</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985265794220058</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985274384154650</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985282974089242</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985291564023834</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985300153958426</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985308743893018</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985317333827610</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985325923762202</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>3985330218729483</eid>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985338808664090</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985347398598682</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985355988533274</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985364578467866</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985373168402458</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985381758337050</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985390348271642</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985398938206234</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985407528140826</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985416118075418</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985424708010010</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985433297944602</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985441887879194</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985450477813786</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985459067748378</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985467657682970</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>3985471952650251</eid>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985480542584858</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985489132519450</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985497722454042</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985506312388634</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985514902323226</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985523492257818</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985532082192410</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985540672127002</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985549262061594</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985557851996186</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985566441930778</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985575031865370</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985583621799962</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985592211734554</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985600801669146</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985609391603738</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>3985613686571019</eid>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985622276505626</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985630866440218</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985639456374810</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985648046309402</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985656636243994</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985665226178586</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985673816113178</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985682406047770</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985690995982362</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985699585916954</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985708175851546</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985716765786138</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985725355720730</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985733945655322</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985742535589914</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985751125524506</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>3985755420491787</eid>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985764010426394</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985772600360986</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985781190295578</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985789780230170</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985798370164762</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985806960099354</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985815550033946</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985824139968538</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985832729903130</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985841319837722</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985849909772314</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985858499706906</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985867089641498</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985875679576090</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985884269510682</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985892859445274</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985901449379866</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985910039314458</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985918629249050</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985927219183642</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985935809118234</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985944399052826</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985952988987418</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985961578922010</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>3985965873889291</eid>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985974463823898</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985983053758490</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3985991643693082</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986000233627674</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986008823562266</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986017413496858</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986026003431450</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986034593366042</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986043183300634</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986051773235226</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986060363169818</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986068953104410</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986077543039002</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986086132973594</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986094722908186</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986103312842778</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986111902777370</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986120492711962</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986129082646554</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986137672581146</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986146262515738</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986154852450330</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986163442384922</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986172032319514</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986180622254106</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986189212188698</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986197802123290</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986206392057882</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986214981992474</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986223571927066</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986232161861658</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986240751796250</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986249341730842</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986257931665434</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986266521600026</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986275111534618</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986283701469210</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986292291403802</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986300881338394</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986309471272986</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986318061207578</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986326651142170</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986335241076762</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986343831011354</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986352420945946</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986361010880538</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986369600815130</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986378190749722</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986386780684314</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986395370618906</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986403960553498</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986412550488090</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986421140422682</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986429730357274</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986438320291866</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986446910226458</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986455500161050</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986464090095642</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986472680030234</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986481269964826</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986489859899418</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>3986498449834010</eid>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      </Staff>
+    <Staff id="12">
+      <Measure>
+        <voice>
+          <KeySig>
             <eid>4406636445719</eid>
             <linkedMain/>
             <concertKey>-3</concertKey>
@@ -32692,7 +34037,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       </Staff>
-    <Staff id="12">
+    <Staff id="13">
       <Measure>
         <voice>
           <KeySig>
@@ -41182,7 +42527,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       </Staff>
-    <Staff id="13">
+    <Staff id="14">
       <Measure>
         <voice>
           <KeySig>
@@ -44864,7 +46209,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       </Staff>
-    <Staff id="14">
+    <Staff id="15">
       <Measure>
         <voice>
           <KeySig>
@@ -45061,7 +46406,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
                 <program value="8"/>
                 <synti>Fluid</synti>
                 <midiPort>2</midiPort>
-                <midiChannel>4</midiChannel>
+                <midiChannel>2</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
@@ -45592,13 +46937,13 @@ Lyrics by: Benj Pasek &amp; Justin Paul
                 <program value="48"/>
                 <synti>Fluid</synti>
                 <midiPort>2</midiPort>
-                <midiChannel>5</midiChannel>
+                <midiChannel>4</midiChannel>
                 </Channel>
               <Channel name="pizzicato">
                 <program value="45"/>
                 <synti>Fluid</synti>
                 <midiPort>2</midiPort>
-                <midiChannel>8</midiChannel>
+                <midiChannel>6</midiChannel>
                 </Channel>
               <Channel name="tremolo">
                 <program value="44"/>
@@ -45869,7 +47214,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
                 <program value="8"/>
                 <synti>Fluid</synti>
                 <midiPort>2</midiPort>
-                <midiChannel>6</midiChannel>
+                <midiChannel>11</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
@@ -46415,19 +47760,19 @@ Lyrics by: Benj Pasek &amp; Justin Paul
                 <program value="48"/>
                 <synti>Fluid</synti>
                 <midiPort>2</midiPort>
-                <midiChannel>11</midiChannel>
+                <midiChannel>5</midiChannel>
                 </Channel>
               <Channel name="pizzicato">
                 <program value="45"/>
                 <synti>Fluid</synti>
                 <midiPort>2</midiPort>
-                <midiChannel>12</midiChannel>
+                <midiChannel>8</midiChannel>
                 </Channel>
               <Channel name="tremolo">
                 <program value="44"/>
                 <synti>Fluid</synti>
                 <midiPort>2</midiPort>
-                <midiChannel>2</midiChannel>
+                <midiChannel>12</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
@@ -48360,7 +49705,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       </Staff>
-    <Staff id="15">
+    <Staff id="16">
       <Measure>
         <voice>
           <KeySig>
@@ -52525,7 +53870,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       </Staff>
-    <Staff id="16">
+    <Staff id="17">
       <Measure>
         <voice>
           <KeySig>
@@ -59296,7 +60641,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       </Staff>
-    <Staff id="17">
+    <Staff id="18">
       <Measure>
         <voice>
           <KeySig>
@@ -65712,17 +67057,14 @@ Lyrics by: Benj Pasek &amp; Justin Paul
         <voice>
           <StaffText>
             <eid>3657065868296240</eid>
-            <linkedMain/>
             <offset x="0" y="-3.81173"/>
             <text>4-Feel on Ride</text>
             </StaffText>
           <Chord>
             <eid>264217798115443</eid>
-            <linkedMain/>
             <durationType>quarter</durationType>
             <Note>
               <eid>264213503148052</eid>
-              <linkedMain/>
               <pitch>51</pitch>
               <tpc>11</tpc>
               <head>cross</head>
@@ -67381,7 +68723,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       </Staff>
-    <Staff id="18">
+    <Staff id="19">
       <Measure>
         <voice>
           <KeySig>
@@ -69745,7 +71087,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       </Staff>
-    <Staff id="19">
+    <Staff id="20">
       <Measure>
         <voice>
           <KeySig>
