@@ -1539,6 +1539,6 @@ $D</oddFooterR>
     <dummyMusicalSymbolsScale>1</dummyMusicalSymbolsScale>
     <autoplaceEnabled>1</autoplaceEnabled>
     <defaultsVersion>302</defaultsVersion>
-    <Spatium>1.143</Spatium>
+    <Spatium>1.0668</Spatium>
     </Style>
   </museScore>
