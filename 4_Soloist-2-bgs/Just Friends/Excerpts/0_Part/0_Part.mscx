@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.2</programVersion>
   <programRevision>3130f97</programRevision>
-  <LastEID>74433</LastEID>
+  <LastEID>87575</LastEID>
   <Score>
     <name>Part</name>
     <Division>480</Division>
@@ -354,7 +354,8 @@ arr/orch. N. Biancolin</text>
             <eid>288613212356659</eid>
             <linked>
               </linked>
-            <text>mute</text>
+            <offset x="1.52419" y="-1.07421"/>
+            <text>Harmon mute (no Stem)</text>
             </PlayTechAnnotation>
           <Chord>
             <eid>288617507324019</eid>
@@ -401,9 +402,9 @@ arr/orch. N. Biancolin</text>
               <eid>288699111702548</eid>
               <linked>
                 </linked>
-              <pitch>82</pitch>
-              <tpc>12</tpc>
-              <tpc2>14</tpc2>
+              <pitch>80</pitch>
+              <tpc>10</tpc>
+              <tpc2>12</tpc2>
               </Note>
             </Chord>
           </voice>
@@ -411,43 +412,141 @@ arr/orch. N. Biancolin</text>
       <Measure>
         <voice>
           <Rest>
-            <eid>288724881506330</eid>
+            <eid>331734684008474</eid>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <durationType>half</durationType>
             </Rest>
+          <Chord>
+            <eid>331764748779635</eid>
+            <linked>
+              </linked>
+            <durationType>half</durationType>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <eid>331781928648736</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>331777633681428</eid>
+              <linked>
+                </linked>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              <tpc2>17</tpc2>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>288754946277402</eid>
+            <eid>345238061187098</eid>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <durationType>half</durationType>
             </Rest>
-          </voice>
-        </Measure>
-      <Measure len="20/4">
-        <multiMeasureRest>5</multiMeasureRest>
-        <voice>
-          <Rest>
-            <eid>291984761683995</eid>
-            <durationType>measure</durationType>
-            <duration>20/4</duration>
-            </Rest>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            <eid>363087945269282</eid>
+            <linked>
+              </linked>
+            </Fermata>
+          <Chord>
+            <eid>345263830990963</eid>
+            <linked>
+              </linked>
+            <durationType>half</durationType>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <eid>345281010860064</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>345276715892756</eid>
+              <linked>
+                </linked>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              <tpc2>17</tpc2>
+              </Note>
+            </Chord>
+          <Breath>
+            <symbol>caesura</symbol>
+            <pause>2</pause>
+            <eid>350525165928477</eid>
+            <linked>
+              </linked>
+            </Breath>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>337288076722187</eid>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Tempo>
+            <tempo>2.5</tempo>
+            <followText>1</followText>
+            <eid>364208931733551</eid>
+            <linked>
+              <location>
+                <staves>-1</staves>
+                </location>
+              </linked>
+            <minDistance>-0.0675926</minDistance>
+            <offset x="-5.00806" y="-1.29315"/>
+            <text>A little Up-Beat, <sym>metNoteQuarterUp</sym><font face="Inkpen2 Script Std"/> = 150</text>
+            </Tempo>
+          <StaffText>
+            <eid>369161029025840</eid>
+            <linked>
+              <indexDiff>2</indexDiff>
+              </linked>
+            <text>to Cup Mute</text>
+            </StaffText>
           <Rest>
             <eid>288763536211994</eid>
             <linked>
+              <indexDiff>2</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="80/4">
+        <multiMeasureRest>20</multiMeasureRest>
+        <voice>
+          <Tempo>
+            <tempo>2.5</tempo>
+            <followText>1</followText>
+            <eid>364256176373807</eid>
+            <linked>
+              <location>
+                <staves>-1</staves>
+                </location>
+              </linked>
+            <minDistance>-0.0675926</minDistance>
+            <offset x="-5.00806" y="-1.29315"/>
+            <text>A little Up-Beat, <sym>metNoteQuarterUp</sym><font face="Inkpen2 Script Std"/> = 150</text>
+            </Tempo>
+          <StaffText>
+            <eid>369208273666096</eid>
+            <linked>
+              <indexDiff>2</indexDiff>
+              </linked>
+            <text>to Cup Mute</text>
+            </StaffText>
+          <Rest>
+            <eid>337322436460571</eid>
+            <durationType>measure</durationType>
+            <duration>16/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -486,44 +585,12 @@ arr/orch. N. Biancolin</text>
         </Measure>
       <Measure>
         <voice>
-          <Tempo>
-            <tempo>3</tempo>
-            <followText>1</followText>
-            <eid>288797895950383</eid>
-            <linked>
-              <location>
-                <staves>-1</staves>
-                </location>
-              </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Inkpen2 Script Std"/> = 180</text>
-            </Tempo>
           <Rest>
             <eid>288802190917658</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="64/4">
-        <multiMeasureRest>16</multiMeasureRest>
-        <voice>
-          <Tempo>
-            <tempo>3</tempo>
-            <followText>1</followText>
-            <eid>289923177381935</eid>
-            <linked>
-              <location>
-                <staves>-1</staves>
-                </location>
-              </linked>
-            <text><sym>metNoteQuarterUp</sym><font face="Inkpen2 Script Std"/> = 180</text>
-            </Tempo>
-          <Rest>
-            <eid>289918882414619</eid>
-            <durationType>measure</durationType>
-            <duration>64/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -1286,32 +1353,118 @@ arr/orch. N. Biancolin</text>
       <Measure>
         <voice>
           <Rest>
-            <eid>290906724892698</eid>
+            <eid>340702575722522</eid>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <durationType>quarter</durationType>
             </Rest>
-          </voice>
-        </Measure>
-      <Measure len="20/4">
-        <multiMeasureRest>5</multiMeasureRest>
-        <voice>
-          <Rest>
-            <eid>291989056651291</eid>
-            <durationType>measure</durationType>
-            <duration>20/4</duration>
-            </Rest>
+          <StaffText>
+            <eid>348098509406256</eid>
+            <linked>
+              </linked>
+            <text>Bell Tone</text>
+            </StaffText>
+          <Chord>
+            <eid>341832152121459</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>341845037023252</eid>
+              <linked>
+                </linked>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                <eid>342356138131472</eid>
+                </Accidental>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>344718370144287</eid>
+                  <linked>
+                    </linked>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            <eid>363096535203874</eid>
+            <linked>
+              </linked>
+            </Fermata>
+          <Chord>
+            <eid>343825016946803</eid>
+            <linked>
+              </linked>
+            <durationType>half</durationType>
+            <Note>
+              <eid>343837901848596</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Breath>
+            <symbol>caesura</symbol>
+            <pause>2</pause>
+            <eid>350533755863069</eid>
+            <linked>
+              </linked>
+            </Breath>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>337292371689483</eid>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <StaffText>
+            <eid>366996365508656</eid>
+            <linked>
+              </linked>
+            <text>to Cup Mute</text>
+            </StaffText>
           <Rest>
             <eid>290915314827290</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="80/4">
+        <multiMeasureRest>20</multiMeasureRest>
+        <voice>
+          <StaffText>
+            <eid>367043610148912</eid>
+            <linked>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            <text>to Cup Mute</text>
+            </StaffText>
+          <Rest>
+            <eid>337326731427867</eid>
+            <durationType>measure</durationType>
+            <duration>16/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -1356,16 +1509,6 @@ arr/orch. N. Biancolin</text>
               </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="64/4">
-        <multiMeasureRest>16</multiMeasureRest>
-        <voice>
-          <Rest>
-            <eid>292006236520475</eid>
-            <durationType>measure</durationType>
-            <duration>64/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -2037,33 +2180,109 @@ arr/orch. N. Biancolin</text>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <eid>292998373965850</eid>
+          <StaffText>
+            <eid>338821380046896</eid>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="20/4">
-        <multiMeasureRest>5</multiMeasureRest>
-        <voice>
-          <Rest>
-            <eid>294016281215003</eid>
-            <durationType>measure</durationType>
-            <duration>20/4</duration>
-            </Rest>
+            <text>Bell Tone</text>
+            </StaffText>
+          <Chord>
+            <eid>337223652212851</eid>
+            <linked>
+              </linked>
+            <durationType>half</durationType>
+            <Note>
+              <eid>337236537114644</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>362740052918303</eid>
+                  <linked>
+                    </linked>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            <eid>363105125138466</eid>
+            <linked>
+              </linked>
+            </Fermata>
+          <Chord>
+            <eid>362198887039091</eid>
+            <linked>
+              </linked>
+            <durationType>half</durationType>
+            <Note>
+              <eid>362211771940884</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Breath>
+            <symbol>caesura</symbol>
+            <pause>2</pause>
+            <eid>350482216255517</eid>
+            <linked>
+              </linked>
+            </Breath>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>337296666656779</eid>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <StaffText>
+            <eid>369328532750384</eid>
+            <linked>
+              </linked>
+            <text>to Cup Mute</text>
+            </StaffText>
           <Rest>
             <eid>293006963900442</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="80/4">
+        <multiMeasureRest>20</multiMeasureRest>
+        <voice>
+          <StaffText>
+            <eid>369375777390640</eid>
+            <linked>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            <text>to Cup Mute</text>
+            </StaffText>
+          <Rest>
+            <eid>337331026395163</eid>
+            <durationType>measure</durationType>
+            <duration>16/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -2108,16 +2327,6 @@ arr/orch. N. Biancolin</text>
               </linked>
             <durationType>measure</durationType>
             <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="64/4">
-        <multiMeasureRest>16</multiMeasureRest>
-        <voice>
-          <Rest>
-            <eid>294024871149595</eid>
-            <durationType>measure</durationType>
-            <duration>64/4</duration>
             </Rest>
           </voice>
         </Measure>
