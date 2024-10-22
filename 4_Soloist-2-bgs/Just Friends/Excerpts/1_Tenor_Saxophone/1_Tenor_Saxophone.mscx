@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.2</programVersion>
   <programRevision>3130f97</programRevision>
-  <LastEID>298131</LastEID>
+  <LastEID>334309</LastEID>
   <Score>
     <name>Tenor Saxophone</name>
     <initialPartId>1</initialPartId>
@@ -185,8 +185,8 @@ arr/orch. N. Biancolin</text>
         <Text>
           <eid>1209222272385029</eid>
           <style>instrument_excerpt</style>
-          <text><font size="14"/>Tenor Saxophone
-<font size="12"/>Flute</text>
+          <text><font size="14"></font>Tenor Saxophone
+<font size="12"></font>Flute</text>
           </Text>
         </VBox>
       <Measure len="1/4">
@@ -242,7 +242,7 @@ arr/orch. N. Biancolin</text>
             <eid>1204802751037487</eid>
             <linked>
               </linked>
-            <text>Cheesy Ballad, <sym>metNoteQuarterUp</sym><font face="Edwin"/> = 90</text>
+            <text>Cheesy Ballad, <sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 90</text>
             </Tempo>
           <StaffText>
             <eid>1204807046004784</eid>
@@ -1037,11 +1037,6 @@ arr/orch. N. Biancolin</text>
       <Measure>
         <LayoutBreak>
           <eid>1206052586520657</eid>
-          <linked>
-            <location>
-              <staves>-1</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           <pause>2</pause>
           <startWithLongNames>0</startWithLongNames>
@@ -1050,13 +1045,9 @@ arr/orch. N. Biancolin</text>
         <voice>
           <Chord>
             <eid>1206013931815027</eid>
-            <linked>
-              </linked>
             <durationType>whole</durationType>
             <Note>
               <eid>1206026816716820</eid>
-              <linked>
-                </linked>
               <pitch>70</pitch>
               <tpc>12</tpc>
               </Note>
@@ -1091,7 +1082,7 @@ arr/orch. N. Biancolin</text>
             <linked>
               </linked>
             <minDistance>-0.0675926</minDistance>
-            <text>A little Up-Beat, <sym>metNoteQuarterUp</sym><font face="Inkpen2 Script Std"/> = 160</text>
+            <text>A little Up-Beat, <sym>metNoteQuarterUp</sym><font face="Inkpen2 Script Std"></font> = 160</text>
             </Tempo>
           <SystemText>
             <swing unit="eighth" ratio="60"/>
@@ -1105,7 +1096,6 @@ arr/orch. N. Biancolin</text>
             <eid>1206082651291697</eid>
             <linked>
               </linked>
-            <bold>1</bold>
             <text><b>2 Bar Drum Solo</b></text>
             </SystemText>
           <RehearsalMark>
@@ -1141,7 +1131,7 @@ arr/orch. N. Biancolin</text>
               <indexDiff>-6</indexDiff>
               </linked>
             <minDistance>-0.0675926</minDistance>
-            <text>A little Up-Beat, <sym>metNoteQuarterUp</sym><font face="Inkpen2 Script Std"/> = 160</text>
+            <text>A little Up-Beat, <sym>metNoteQuarterUp</sym><font face="Inkpen2 Script Std"></font> = 160</text>
             </Tempo>
           <SystemText>
             <swing unit="eighth" ratio="60"/>
@@ -1578,26 +1568,26 @@ arr/orch. N. Biancolin</text>
             <durationType>half</durationType>
             </Rest>
           <Rest>
-            <eid>1206464903381018</eid>
+            <eid>1341756373205018</eid>
             <linked>
               </linked>
-            <durationType>quarter</durationType>
+            <durationType>eighth</durationType>
             </Rest>
           <Dynamic>
             <subtype>mf</subtype>
-            <velocity>80</velocity>
-            <direction>up</direction>
-            <eid>1206473493315620</eid>
+            <velocity>64</velocity>
+            <eid>1344977598677028</eid>
             <linked>
               </linked>
             </Dynamic>
           <Chord>
-            <eid>1206482083250291</eid>
+            <eid>1343220957053043</eid>
             <linked>
               </linked>
+            <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
-              <eid>1206494968152084</eid>
+              <eid>1343233841954836</eid>
               <linked>
                 </linked>
               <pitch>67</pitch>
@@ -2906,6 +2896,12 @@ arr/orch. N. Biancolin</text>
             <durationType>measure</durationType>
             <duration>12/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>1337332556890123</eid>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -2928,6 +2924,12 @@ arr/orch. N. Biancolin</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>1430709440872459</eid>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
