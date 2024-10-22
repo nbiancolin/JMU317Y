@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.2</programVersion>
   <programRevision>3130f97</programRevision>
-  <LastEID>471730</LastEID>
+  <LastEID>560343</LastEID>
   <Score>
     <name>Trumpet</name>
     <initialPartId>2</initialPartId>
@@ -118,7 +118,7 @@
       <user3Align>right,top</user3Align>
       <user3Offset x="-19" y="-2"/>
       <palmMuteFontFace>Inkpen2 Script Std</palmMuteFontFace>
-      <Spatium>1.74978</Spatium>
+      <Spatium>1.6002</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -300,7 +300,8 @@ arr/orch. N. Biancolin</text>
             <eid>1774654716903475</eid>
             <linked>
               </linked>
-            <text>Harmon mute (no Stem)</text>
+            <bold>1</bold>
+            <text><b>Harmon mute (no Stem)</b></text>
             </PlayTechAnnotation>
           <Rest>
             <eid>1774663306838042</eid>
@@ -400,11 +401,6 @@ arr/orch. N. Biancolin</text>
       <Measure>
         <LayoutBreak>
           <eid>1774860875333713</eid>
-          <linked>
-            <location>
-              <staves>-2</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           <pause>2</pause>
           <startWithLongNames>0</startWithLongNames>
@@ -511,8 +507,10 @@ arr/orch. N. Biancolin</text>
                 </location>
               <indexDiff>3</indexDiff>
               </linked>
-            <minDistance>-0.0675926</minDistance>
-            <text>A little Up-Beat, <sym>metNoteQuarterUp</sym><font face="Inkpen2 Script Std"/> = 160</text>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <minDistance>0.266131</minDistance>
+            <offset x="-7.5" y="-5"/>
+            <text>A little Up-Beat Swing, <sym>metNoteQuarterUp</sym><font face="Inkpen2 Script Std"/> = 160</text>
             </Tempo>
           <SystemText>
             <swing unit="eighth" ratio="60"/>
@@ -523,19 +521,12 @@ arr/orch. N. Biancolin</text>
                 </location>
               <indexDiff>3</indexDiff>
               </linked>
+            <visible>0</visible>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
             <style>tempo</style>
+            <minDistance>0</minDistance>
+            <offset x="-1.5" y="-4.73387"/>
             <text>Swing</text>
-            </SystemText>
-          <SystemText>
-            <eid>1774886645137457</eid>
-            <linked>
-              <location>
-                <staves>-1</staves>
-                </location>
-              <indexDiff>3</indexDiff>
-              </linked>
-            <bold>1</bold>
-            <text><b>2 Bar Drum Solo</b></text>
             </SystemText>
           <RehearsalMark>
             <eid>1774890940104759</eid>
@@ -552,7 +543,20 @@ arr/orch. N. Biancolin</text>
             <linked>
               <indexDiff>2</indexDiff>
               </linked>
-            <text>to Cup Mute</text>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <italic>1</italic>
+            <offset x="-1.5" y="-1"/>
+            <text><i>to Cup Mute</i></text>
+            </StaffText>
+          <StaffText>
+            <eid>2295161803505712</eid>
+            <linked>
+              <indexDiff>2</indexDiff>
+              </linked>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <minDistance>-0.491934</minDistance>
+            <offset x="-1" y="-3"/>
+            <text>2 Bar Drum Solo</text>
             </StaffText>
           <Spanner type="HairPin">
             <prev>
@@ -598,7 +602,8 @@ arr/orch. N. Biancolin</text>
             <eid>1774938184745011</eid>
             <linked>
               </linked>
-            <text>Cup Mute</text>
+            <bold>1</bold>
+            <text><b>Cup Mute</b></text>
             </PlayTechAnnotation>
           <Chord>
             <eid>1774946774679667</eid>
@@ -851,7 +856,8 @@ arr/orch. N. Biancolin</text>
               <eid>1775303256965153</eid>
               <linked>
                 </linked>
-              <offset x="4.99999" y="0"/>
+              <offset x="3.5" y="0"/>
+              <positionLinkedToMaster>0</positionLinkedToMaster>
               </Ornament>
             <Note>
               <eid>1775294667030548</eid>
@@ -1081,7 +1087,8 @@ arr/orch. N. Biancolin</text>
             <eid>1775616789577776</eid>
             <linked>
               </linked>
-            <text>to Open</text>
+            <italic>1</italic>
+            <text><i>to Open</i></text>
             </StaffText>
           <Rest>
             <eid>1775625379512346</eid>
@@ -1100,7 +1107,8 @@ arr/orch. N. Biancolin</text>
             <linked>
               <indexDiff>-2</indexDiff>
               </linked>
-            <text>to Open</text>
+            <italic>1</italic>
+            <text><i>to Open</i></text>
             </StaffText>
           <Rest>
             <eid>1779112892956699</eid>
@@ -1133,7 +1141,8 @@ arr/orch. N. Biancolin</text>
             <eid>1775664034218035</eid>
             <linked>
               </linked>
-            <text>open</text>
+            <bold>1</bold>
+            <text><b>open</b></text>
             </PlayTechAnnotation>
           <StaffText>
             <eid>1775672624152624</eid>
@@ -2841,6 +2850,14 @@ arr/orch. N. Biancolin</text>
             <linked>
               </linked>
             <durationType>quarter</durationType>
+            <Ornament>
+              <subtype>ornamentTurnInverted</subtype>
+              <eid>2382048991903777</eid>
+              <linked>
+                </linked>
+              <offset x="4" y="0"/>
+              <positionLinkedToMaster>0</positionLinkedToMaster>
+              </Ornament>
             <Note>
               <eid>1777841582637076</eid>
               <linked>

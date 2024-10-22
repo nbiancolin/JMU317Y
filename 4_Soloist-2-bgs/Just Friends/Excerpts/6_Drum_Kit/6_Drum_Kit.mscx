@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.2</programVersion>
   <programRevision>3130f97</programRevision>
-  <LastEID>471730</LastEID>
+  <LastEID>560343</LastEID>
   <Score>
     <name>Drum Kit</name>
     <initialPartId>7</initialPartId>
@@ -393,7 +393,7 @@ arr/orch. N. Biancolin</text>
                 </location>
               <indexDiff>8</indexDiff>
               </linked>
-            <text>Cheesy Ballad, <sym>metNoteQuarterUp</sym><font face="Edwin"/> = 90</text>
+            <text>Cheesy Ballad, <sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 90</text>
             </Tempo>
           <Rest>
             <eid>1808430339719194</eid>
@@ -780,11 +780,6 @@ arr/orch. N. Biancolin</text>
       <Measure>
         <LayoutBreak>
           <eid>1808885606252625</eid>
-          <linked>
-            <location>
-              <staves>-9</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           <pause>2</pause>
           <startWithLongNames>0</startWithLongNames>
@@ -928,7 +923,7 @@ arr/orch. N. Biancolin</text>
             <positionLinkedToMaster>0</positionLinkedToMaster>
             <minDistance>0.232124</minDistance>
             <offset x="-11.5" y="-8"/>
-            <text>A little Up-Beat, <sym>metNoteQuarterUp</sym><font face="Inkpen2 Script Std"/> = 160</text>
+            <text>A little Up-Beat Swing, <sym>metNoteQuarterUp</sym><font face="Inkpen2 Script Std"/> = 160</text>
             </Tempo>
           <SystemText>
             <swing unit="eighth" ratio="60"/>
@@ -939,23 +934,11 @@ arr/orch. N. Biancolin</text>
                 </location>
               <indexDiff>3</indexDiff>
               </linked>
+            <visible>0</visible>
             <positionLinkedToMaster>0</positionLinkedToMaster>
             <style>tempo</style>
             <offset x="-11" y="-5"/>
             <text>Swing</text>
-            </SystemText>
-          <SystemText>
-            <eid>1808911376056369</eid>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              <indexDiff>3</indexDiff>
-              </linked>
-            <positionLinkedToMaster>0</positionLinkedToMaster>
-            <bold>1</bold>
-            <offset x="7" y="-6.15498"/>
-            <text><b>2 Bar Drum Solo</b></text>
             </SystemText>
           <RehearsalMark>
             <eid>1808915671023671</eid>
@@ -1118,12 +1101,6 @@ arr/orch. N. Biancolin</text>
         </Measure>
       <Measure>
         <voice>
-          <StaffText>
-            <eid>1809117534486576</eid>
-            <linked>
-              </linked>
-            <text>Solo fills between hits</text>
-            </StaffText>
           <Chord>
             <eid>1809126124421235</eid>
             <linked>
@@ -1254,6 +1231,12 @@ arr/orch. N. Biancolin</text>
         </Measure>
       <Measure>
         <voice>
+          <StaffText>
+            <eid>2367257124536368</eid>
+            <linked>
+              </linked>
+            <text>Solo fills between hits</text>
+            </StaffText>
           <Chord>
             <eid>1809327987884147</eid>
             <linked>
@@ -3429,15 +3412,11 @@ arr/orch. N. Biancolin</text>
             </RehearsalMark>
           <Chord>
             <eid>1811681629962355</eid>
-            <linked>
-              </linked>
             <durationType>quarter</durationType>
             <noStem>1</noStem>
             <StemDirection>down</StemDirection>
             <Note>
               <eid>1811694514864148</eid>
-              <linked>
-                </linked>
               <pitch>0</pitch>
               <tpc>14</tpc>
               <head>slash</head>
@@ -4719,8 +4698,9 @@ arr/orch. N. Biancolin</text>
             <eid>1813171983614000</eid>
             <linked>
               </linked>
-            <text>into a groove now
-4 Feel on Ride again</text>
+            <italic>1</italic>
+            <text><i>into a groove now
+4 Feel on Ride again</i></text>
             </StaffText>
           <Chord>
             <eid>1813180573548659</eid>
@@ -5650,15 +5630,11 @@ arr/orch. N. Biancolin</text>
             </RehearsalMark>
           <Chord>
             <eid>1946178530836595</eid>
-            <linked>
-              </linked>
             <durationType>quarter</durationType>
             <noStem>1</noStem>
             <StemDirection>down</StemDirection>
             <Note>
               <eid>1946191415738388</eid>
-              <linked>
-                </linked>
               <pitch>0</pitch>
               <tpc>14</tpc>
               <head>slash</head>

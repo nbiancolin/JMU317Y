@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.2</programVersion>
   <programRevision>3130f97</programRevision>
-  <LastEID>471730</LastEID>
+  <LastEID>560343</LastEID>
   <Score>
     <name>Acoustic Bass</name>
     <initialPartId>6</initialPartId>
@@ -254,7 +254,7 @@ arr/orch. N. Biancolin</text>
                 </location>
               <indexDiff>8</indexDiff>
               </linked>
-            <text>Cheesy Ballad, <sym>metNoteQuarterUp</sym><font face="Edwin"/> = 90</text>
+            <text>Cheesy Ballad, <sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 90</text>
             </Tempo>
           <Rest>
             <eid>1802524759687194</eid>
@@ -546,11 +546,6 @@ arr/orch. N. Biancolin</text>
       <Measure>
         <LayoutBreak>
           <eid>1803074515501137</eid>
-          <linked>
-            <location>
-              <staves>-8</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           <pause>2</pause>
           <startWithLongNames>0</startWithLongNames>
@@ -597,8 +592,9 @@ arr/orch. N. Biancolin</text>
                 </location>
               <indexDiff>3</indexDiff>
               </linked>
-            <minDistance>-0.0675926</minDistance>
-            <text>A little Up-Beat, <sym>metNoteQuarterUp</sym><font face="Inkpen2 Script Std"/> = 160</text>
+            <minDistance>-8.4377</minDistance>
+            <offset x="-5.08064" y="-1.52419"/>
+            <text>A little Up-Beat Swing, <sym>metNoteQuarterUp</sym><font face="Inkpen2 Script Std"/> = 160</text>
             </Tempo>
           <SystemText>
             <swing unit="eighth" ratio="60"/>
@@ -609,19 +605,9 @@ arr/orch. N. Biancolin</text>
                 </location>
               <indexDiff>3</indexDiff>
               </linked>
+            <visible>0</visible>
             <style>tempo</style>
             <text>Swing</text>
-            </SystemText>
-          <SystemText>
-            <eid>1803100285304881</eid>
-            <linked>
-              <location>
-                <staves>-7</staves>
-                </location>
-              <indexDiff>3</indexDiff>
-              </linked>
-            <bold>1</bold>
-            <text><b>2 Bar Drum Solo</b></text>
             </SystemText>
           <RehearsalMark>
             <eid>1803104580272183</eid>
@@ -656,8 +642,9 @@ arr/orch. N. Biancolin</text>
                 </location>
               <indexDiff>3</indexDiff>
               </linked>
-            <minDistance>-0.0675926</minDistance>
-            <text>A little Up-Beat, <sym>metNoteQuarterUp</sym><font face="Inkpen2 Script Std"/> = 160</text>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <offset x="-5" y="-6"/>
+            <text>A little Up-Beat Swing, <sym>metNoteQuarterUp</sym><font face="Inkpen2 Script Std"/> = 160</text>
             </Tempo>
           <SystemText>
             <swing unit="eighth" ratio="60"/>
@@ -668,19 +655,9 @@ arr/orch. N. Biancolin</text>
                 </location>
               <indexDiff>3</indexDiff>
               </linked>
+            <visible>0</visible>
             <style>tempo</style>
             <text>Swing</text>
-            </SystemText>
-          <SystemText>
-            <eid>1807421022404657</eid>
-            <linked>
-              <location>
-                <staves>-7</staves>
-                </location>
-              <indexDiff>3</indexDiff>
-              </linked>
-            <bold>1</bold>
-            <text><b>2 Bar Drum Solo</b></text>
             </SystemText>
           <RehearsalMark>
             <eid>1807425317371959</eid>
@@ -690,6 +667,8 @@ arr/orch. N. Biancolin</text>
                 </location>
               <indexDiff>3</indexDiff>
               </linked>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <offset x="-5.5" y="-2.5"/>
             <text>A</text>
             </RehearsalMark>
           <Rest>

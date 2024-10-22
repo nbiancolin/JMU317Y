@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.2</programVersion>
   <programRevision>3130f97</programRevision>
-  <LastEID>471730</LastEID>
+  <LastEID>560343</LastEID>
   <Score>
     <name>Part</name>
     <Division>480</Division>
@@ -268,7 +268,7 @@ arr/orch. N. Biancolin</text>
               <indexDiff>8</indexDiff>
               </linked>
             <offset x="-2.83065" y="-3.14689"/>
-            <text>Cheesy Ballad, <sym>metNoteQuarterUp</sym><font face="Edwin"/> = 90</text>
+            <text>Cheesy Ballad, <sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 90</text>
             </Tempo>
           <Rest>
             <eid>288402758959130</eid>
@@ -340,6 +340,7 @@ arr/orch. N. Biancolin</text>
             <eid>1289117254025267</eid>
             <linked>
               </linked>
+            <bold>1</bold>
             <offset x="1.77822" y="-1.25325"/>
             <text>Harmon mute (no Stem)</text>
             </PlayTechAnnotation>
@@ -547,15 +548,16 @@ arr/orch. N. Biancolin</text>
                 </location>
               <indexDiff>3</indexDiff>
               </linked>
-            <minDistance>-0.0675926</minDistance>
-            <offset x="-5.00806" y="-1.29315"/>
-            <text>A little Up-Beat, <sym>metNoteQuarterUp</sym><font face="Inkpen2 Script Std"/> = 160</text>
+            <minDistance>-8.4377</minDistance>
+            <offset x="-5.08064" y="-1.52419"/>
+            <text>A little Up-Beat Swing, <sym>metNoteQuarterUp</sym><font face="Inkpen2 Script Std"/> = 160</text>
             </Tempo>
           <StaffText>
             <eid>369161029025840</eid>
             <linked>
               <indexDiff>2</indexDiff>
               </linked>
+            <italic>1</italic>
             <text>to Cup Mute</text>
             </StaffText>
           <SystemText>
@@ -567,18 +569,9 @@ arr/orch. N. Biancolin</text>
                 </location>
               <indexDiff>4</indexDiff>
               </linked>
+            <visible>0</visible>
             <style>tempo</style>
             <text>Swing</text>
-            </SystemText>
-          <SystemText>
-            <eid>415898863140913</eid>
-            <linked>
-              <location>
-                <staves>-1</staves>
-                </location>
-              <indexDiff>4</indexDiff>
-              </linked>
-            <text>2 Bar Drum Solo</text>
             </SystemText>
           <RehearsalMark>
             <eid>619866860027959</eid>
@@ -590,6 +583,13 @@ arr/orch. N. Biancolin</text>
               </linked>
             <text>A</text>
             </RehearsalMark>
+          <StaffText>
+            <eid>2295166098473008</eid>
+            <linked>
+              <indexDiff>3</indexDiff>
+              </linked>
+            <text>2 Bar Drum Solo</text>
+            </StaffText>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -635,6 +635,7 @@ arr/orch. N. Biancolin</text>
             <eid>1292312709693491</eid>
             <linked>
               </linked>
+            <bold>1</bold>
             <offset x="1.52419" y="-1.04185"/>
             <text>Cup Mute</text>
             </PlayTechAnnotation>
@@ -1115,6 +1116,7 @@ arr/orch. N. Biancolin</text>
             <eid>572811198332976</eid>
             <linked>
               </linked>
+            <italic>1</italic>
             <text>to Open</text>
             </StaffText>
           <Rest>
@@ -1134,6 +1136,7 @@ arr/orch. N. Biancolin</text>
             <linked>
               <indexDiff>-2</indexDiff>
               </linked>
+            <italic>1</italic>
             <text>to Open</text>
             </StaffText>
           <Rest>
@@ -1167,6 +1170,7 @@ arr/orch. N. Biancolin</text>
             <eid>582487759650867</eid>
             <linked>
               </linked>
+            <bold>1</bold>
             <text>open</text>
             </PlayTechAnnotation>
           <StaffText>
@@ -2814,6 +2818,14 @@ arr/orch. N. Biancolin</text>
             <linked>
               </linked>
             <durationType>quarter</durationType>
+            <Ornament>
+              <subtype>ornamentTurnInverted</subtype>
+              <minDistance>-999</minDistance>
+              <eid>2382053286871073</eid>
+              <linked>
+                </linked>
+              <offset x="2.03226" y="0"/>
+              </Ornament>
             <Note>
               <eid>1633122659598356</eid>
               <linked>
@@ -3641,7 +3653,14 @@ arr/orch. N. Biancolin</text>
             <eid>366996365508656</eid>
             <linked>
               </linked>
+            <italic>1</italic>
             <text>to Cup Mute</text>
+            </StaffText>
+          <StaffText>
+            <eid>2298614957211696</eid>
+            <linked>
+              </linked>
+            <text>2 Bar Drum Solo</text>
             </StaffText>
           <Spanner type="HairPin">
             <prev>
@@ -3687,6 +3706,7 @@ arr/orch. N. Biancolin</text>
             <eid>918427216642099</eid>
             <linked>
               </linked>
+            <bold>1</bold>
             <offset x="1.52419" y="-1.04184"/>
             <text>Cup Mute</text>
             </PlayTechAnnotation>
@@ -4116,6 +4136,7 @@ arr/orch. N. Biancolin</text>
             <eid>1139970219704368</eid>
             <linked>
               </linked>
+            <italic>1</italic>
             <text>to Open</text>
             </StaffText>
           <Rest>
@@ -4135,6 +4156,7 @@ arr/orch. N. Biancolin</text>
             <linked>
               <indexDiff>-2</indexDiff>
               </linked>
+            <italic>1</italic>
             <text>to Open</text>
             </StaffText>
           <Rest>
@@ -4168,6 +4190,7 @@ arr/orch. N. Biancolin</text>
             <eid>1456741237653555</eid>
             <linked>
               </linked>
+            <bold>1</bold>
             <text>open</text>
             </PlayTechAnnotation>
           <Dynamic>
@@ -6190,24 +6213,243 @@ arr/orch. N. Biancolin</text>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <eid>646774830137370</eid>
+          <StaffText>
+            <eid>2319887930228784</eid>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <text>If its too high, play bracketed notes</text>
+            </StaffText>
+          <Rest>
+            <eid>2269065582215194</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
             </Rest>
+          <Rest>
+            <eid>2269082762084378</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <eid>2269155776528499</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>2269172956397588</eid>
+              <linked>
+                </linked>
+              <Symbol>
+                <name>noteheadParenthesisLeft</name>
+                <eid>2319540037877781</eid>
+                <linked>
+                  </linked>
+                </Symbol>
+              <Symbol>
+                <name>noteheadParenthesisRight</name>
+                <eid>2319552922779669</eid>
+                <linked>
+                  </linked>
+                </Symbol>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>2269465014173727</eid>
+                  <linked>
+                    </linked>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            <Note>
+              <eid>2318771238731796</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>2318797008535583</eid>
+                  <linked>
+                    </linked>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>2269237380907123</eid>
+            <linked>
+              </linked>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>2269254560776212</eid>
+              <linked>
+                </linked>
+              <Symbol>
+                <name>noteheadParenthesisLeft</name>
+                <eid>2319565807681557</eid>
+                <linked>
+                  </linked>
+                </Symbol>
+              <Symbol>
+                <name>noteheadParenthesisRight</name>
+                <eid>2319578692583445</eid>
+                <linked>
+                  </linked>
+                </Symbol>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            <Note>
+              <eid>2318788418600980</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>2269331870187635</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>2269349050056724</eid>
+              <linked>
+                </linked>
+              <Symbol>
+                <name>noteheadParenthesisLeft</name>
+                <eid>2319591577485333</eid>
+                <linked>
+                  </linked>
+                </Symbol>
+              <Symbol>
+                <name>noteheadParenthesisRight</name>
+                <eid>2319604462387221</eid>
+                <linked>
+                  </linked>
+                </Symbol>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>2269490783977503</eid>
+                  <linked>
+                    </linked>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-7/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            <Note>
+              <eid>2318809893437460</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>2318835663241247</eid>
+                  <linked>
+                    </linked>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-7/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <eid>647453434970138</eid>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            <eid>2269370524893218</eid>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
+            </Fermata>
+          <Chord>
+            <eid>2269426359468147</eid>
+            <linked>
+              </linked>
+            <durationType>whole</durationType>
+            <Note>
+              <eid>2269443539337236</eid>
+              <linked>
+                </linked>
+              <Symbol>
+                <name>noteheadParenthesisLeft</name>
+                <eid>2319617347289109</eid>
+                <linked>
+                  </linked>
+                </Symbol>
+              <Symbol>
+                <name>noteheadParenthesisRight</name>
+                <eid>2319630232190997</eid>
+                <linked>
+                  </linked>
+                </Symbol>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>7/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            <Note>
+              <eid>2318827073306644</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>7/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       </Staff>
@@ -6547,7 +6789,14 @@ arr/orch. N. Biancolin</text>
             <eid>369328532750384</eid>
             <linked>
               </linked>
+            <italic>1</italic>
             <text>to Cup Mute</text>
+            </StaffText>
+          <StaffText>
+            <eid>2309631548325936</eid>
+            <linked>
+              </linked>
+            <text>2 Bar Drum Solo</text>
             </StaffText>
           <Spanner type="HairPin">
             <prev>
@@ -6593,6 +6842,7 @@ arr/orch. N. Biancolin</text>
             <eid>918435806576691</eid>
             <linked>
               </linked>
+            <bold>1</bold>
             <offset x="1.52419" y="-1.80394"/>
             <text>Cup Mute</text>
             </PlayTechAnnotation>
@@ -9117,23 +9367,120 @@ arr/orch. N. Biancolin</text>
       <Measure>
         <voice>
           <Rest>
-            <eid>646783420071962</eid>
+            <eid>2269516553781274</eid>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <durationType>quarter</durationType>
             </Rest>
+          <Rest>
+            <eid>2269533733650458</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <eid>2269606748094579</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>2269619632996372</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>2269907395805215</eid>
+                  <linked>
+                    </linked>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>2269688352473203</eid>
+            <linked>
+              </linked>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>2269701237374996</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>2269782841753715</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>2269795726655508</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>2269933165608991</eid>
+                  <linked>
+                    </linked>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-7/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <eid>647462024904730</eid>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            <eid>2269821496459298</eid>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
+            </Fermata>
+          <Chord>
+            <eid>2269877331034227</eid>
+            <linked>
+              </linked>
+            <durationType>whole</durationType>
+            <Note>
+              <eid>2269890215936020</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>7/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       </Staff>

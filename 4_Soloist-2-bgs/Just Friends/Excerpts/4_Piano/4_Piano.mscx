@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.2</programVersion>
   <programRevision>3130f97</programRevision>
-  <LastEID>471730</LastEID>
+  <LastEID>560343</LastEID>
   <Score>
     <name>Piano</name>
     <initialPartId>5</initialPartId>
@@ -247,7 +247,7 @@ arr/orch. N. Biancolin</text>
                 </location>
               <indexDiff>8</indexDiff>
               </linked>
-            <text>Cheesy Ballad, <sym>metNoteQuarterUp</sym><font face="Edwin"/> = 90</text>
+            <text>Cheesy Ballad, <sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 90</text>
             </Tempo>
           <StaffText>
             <eid>1791594067918896</eid>
@@ -723,11 +723,6 @@ arr/orch. N. Biancolin</text>
       <Measure>
         <LayoutBreak>
           <eid>1794201113067601</eid>
-          <linked>
-            <location>
-              <staves>-5</staves>
-              </location>
-            </linked>
           <subtype>section</subtype>
           <pause>2</pause>
           <startWithLongNames>0</startWithLongNames>
@@ -768,8 +763,9 @@ arr/orch. N. Biancolin</text>
                 </location>
               <indexDiff>3</indexDiff>
               </linked>
-            <minDistance>-0.0675926</minDistance>
-            <text>A little Up-Beat, <sym>metNoteQuarterUp</sym><font face="Inkpen2 Script Std"/> = 160</text>
+            <minDistance>-8.4377</minDistance>
+            <offset x="-5.08064" y="-1.52419"/>
+            <text>A little Up-Beat Swing, <sym>metNoteQuarterUp</sym><font face="Inkpen2 Script Std"/> = 160</text>
             </Tempo>
           <SystemText>
             <swing unit="eighth" ratio="60"/>
@@ -780,19 +776,9 @@ arr/orch. N. Biancolin</text>
                 </location>
               <indexDiff>3</indexDiff>
               </linked>
+            <visible>0</visible>
             <style>tempo</style>
             <text>Swing</text>
-            </SystemText>
-          <SystemText>
-            <eid>1794235472805937</eid>
-            <linked>
-              <location>
-                <staves>-4</staves>
-                </location>
-              <indexDiff>3</indexDiff>
-              </linked>
-            <bold>1</bold>
-            <text><b>2 Bar Drum Solo</b></text>
             </SystemText>
           <RehearsalMark>
             <eid>1794239767773239</eid>
@@ -827,8 +813,9 @@ arr/orch. N. Biancolin</text>
                 </location>
               <indexDiff>3</indexDiff>
               </linked>
-            <minDistance>-0.0675926</minDistance>
-            <text>A little Up-Beat, <sym>metNoteQuarterUp</sym><font face="Inkpen2 Script Std"/> = 160</text>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <offset x="-10" y="-5.5"/>
+            <text>A little Up-Beat Swing, <sym>metNoteQuarterUp</sym><font face="Inkpen2 Script Std"/> = 160</text>
             </Tempo>
           <SystemText>
             <swing unit="eighth" ratio="60"/>
@@ -839,19 +826,9 @@ arr/orch. N. Biancolin</text>
                 </location>
               <indexDiff>3</indexDiff>
               </linked>
+            <visible>0</visible>
             <style>tempo</style>
             <text>Swing</text>
-            </SystemText>
-          <SystemText>
-            <eid>1800583434469425</eid>
-            <linked>
-              <location>
-                <staves>-4</staves>
-                </location>
-              <indexDiff>3</indexDiff>
-              </linked>
-            <bold>1</bold>
-            <text><b>2 Bar Drum Solo</b></text>
             </SystemText>
           <RehearsalMark>
             <eid>1800587729436727</eid>
@@ -861,6 +838,9 @@ arr/orch. N. Biancolin</text>
                 </location>
               <indexDiff>3</indexDiff>
               </linked>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <minDistance>-8.96518</minDistance>
+            <offset x="-6" y="-1.81921"/>
             <text>A</text>
             </RehearsalMark>
           <Rest>
@@ -2565,6 +2545,13 @@ Improv or As Written</text>
               </linked>
             <durationType>eighth</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>mf</subtype>
+            <velocity>80</velocity>
+            <eid>2131978816061476</eid>
+            <linked>
+              </linked>
+            </Dynamic>
           <Chord>
             <eid>1794433041301619</eid>
             <linked>
@@ -2761,6 +2748,12 @@ Improv or As Written</text>
             <linked>
               </linked>
             </Harmony>
+          <StaffText>
+            <eid>2359925615362096</eid>
+            <linked>
+              </linked>
+            <text>start comping</text>
+            </StaffText>
           <Chord>
             <eid>1794828178292851</eid>
             <linked>
