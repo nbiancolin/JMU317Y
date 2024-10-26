@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="4.40">
   <Style>
-    <pageWidth>8.5</pageWidth>
-    <pageHeight>11</pageHeight>
-    <pagePrintableWidth>7.29</pagePrintableWidth>
+    <pageWidth>11</pageWidth>
+    <pageHeight>8.5</pageHeight>
+    <pagePrintableWidth>9.79</pagePrintableWidth>
     <pageEvenLeftMargin>0.72</pageEvenLeftMargin>
     <pageOddLeftMargin>0.49</pageOddLeftMargin>
-    <pageEvenTopMargin>0.44</pageEvenTopMargin>
+    <pageEvenTopMargin>0.29</pageEvenTopMargin>
     <pageEvenBottomMargin>0.49</pageEvenBottomMargin>
-    <pageOddTopMargin>0.44</pageOddTopMargin>
+    <pageOddTopMargin>0.29</pageOddTopMargin>
     <pageOddBottomMargin>0.49</pageOddBottomMargin>
     <pageTwosided>1</pageTwosided>
     <staffUpperBorder>7</staffUpperBorder>
@@ -41,6 +41,7 @@
     <lyricsDashMaxLength>0.8</lyricsDashMaxLength>
     <lyricsDashMaxDistance>16</lyricsDashMaxDistance>
     <lyricsDashForce>1</lyricsDashForce>
+    <lyricsDashFirstAndLastGapAreHalf>1</lyricsDashFirstAndLastGapAreHalf>
     <lyricsAlignVerseNumber>1</lyricsAlignVerseNumber>
     <lyricsLineThickness>0.1</lyricsLineThickness>
     <lyricsMelismaAlign>left,baseline</lyricsMelismaAlign>
@@ -1062,7 +1063,6 @@ $D</oddFooterR>
     <repeatLeftFrameRound>0</repeatLeftFrameRound>
     <repeatLeftFrameFgColor r="0" g="0" b="0" a="255"/>
     <repeatLeftFrameBgColor r="255" g="255" b="255" a="0"/>
-    <repeatsMusicalSymbolsScale>1</repeatsMusicalSymbolsScale>
     <repeatRightFontFace>Edwin</repeatRightFontFace>
     <repeatRightFontSize>11</repeatRightFontSize>
     <repeatRightLineSpacing>1</repeatRightLineSpacing>
@@ -1539,6 +1539,6 @@ $D</oddFooterR>
     <dummyMusicalSymbolsScale>1</dummyMusicalSymbolsScale>
     <autoplaceEnabled>1</autoplaceEnabled>
     <defaultsVersion>302</defaultsVersion>
-    <Spatium>1.0668</Spatium>
+    <Spatium>0.8128</Spatium>
     </Style>
   </museScore>
