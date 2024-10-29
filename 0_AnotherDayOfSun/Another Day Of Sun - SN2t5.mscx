@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.3</programVersion>
   <programRevision>eb6b367</programRevision>
-  <LastEID>1621774</LastEID>
+  <LastEID>1738592</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -1053,8 +1053,8 @@ Lyrics by: Benj Pasek &amp; Justin Paul
         <voice>
           <KeySig>
             <eid>4101186961539095</eid>
-            <concertKey>0</concertKey>
-            <actualKey>3</actualKey>
+            <concertKey>-3</concertKey>
+            <actualKey>0</actualKey>
             </KeySig>
           <TimeSig>
             <subtype>2</subtype>
@@ -1109,7 +1109,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
                 <program value="67"/>
                 <synti>Fluid</synti>
                 <midiPort>2</midiPort>
-                <midiChannel>2</midiChannel>
+                <midiChannel>1</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
@@ -1292,10 +1292,6 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <Note>
               <eid>8568459755541</eid>
               <linkedMain/>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                <eid>4821599005966352</eid>
-                </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
               <tpc2>15</tpc2>
@@ -1330,18 +1326,14 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <linkedMain/>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentAbove</subtype>
+              <subtype>articAccentBelow</subtype>
               <eid>893207168679968</eid>
               <linkedMain/>
               </Articulation>
             <Note>
               <eid>8589934592021</eid>
               <linkedMain/>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                <eid>4821603300933648</eid>
-                </Accidental>
-              <pitch>51</pitch>
+              <pitch>39</pitch>
               <tpc>11</tpc>
               <tpc2>14</tpc2>
               </Note>
@@ -1393,10 +1385,6 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <Note>
               <eid>8619999363093</eid>
               <linkedMain/>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                <eid>4821787984527376</eid>
-                </Accidental>
               <pitch>51</pitch>
               <tpc>11</tpc>
               <tpc2>14</tpc2>
@@ -1470,7 +1458,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
                 <program value="73"/>
                 <synti>Fluid</synti>
                 <midiPort>2</midiPort>
-                <midiChannel>1</midiChannel>
+                <midiChannel>2</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
@@ -4130,9 +4118,9 @@ Lyrics by: Benj Pasek &amp; Justin Paul
       <Measure>
         <voice>
           <Dynamic>
-            <subtype>f</subtype>
-            <velocity>96</velocity>
-            <eid>5182264589680676</eid>
+            <subtype>ff</subtype>
+            <velocity>112</velocity>
+            <eid>7367067208515620</eid>
             <linkedMain/>
             </Dynamic>
           <Spanner type="HairPin">
@@ -6418,40 +6406,198 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </LayoutBreak>
         <voice>
           <Chord>
-            <eid>1733727973539955</eid>
+            <eid>6875130244366451</eid>
             <linkedMain/>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              <eid>2276152278253600</eid>
-              <linkedMain/>
-              </Articulation>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>6888856959844468</eid>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/2</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
-              <eid>1733723678572564</eid>
+              <eid>6875125949399060</eid>
               <linkedMain/>
-              <pitch>77</pitch>
+              <pitch>91</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Tuplet>
+            <eid>6875933403250734</eid>
+            <linkedMain/>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <eid>6880219780612211</eid>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>6880215485644820</eid>
+              <linkedMain/>
+              <pitch>89</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Rest>
-            <eid>1733689318834202</eid>
+          <Chord>
+            <eid>6880919860281459</eid>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>6880915565314068</eid>
+              <linkedMain/>
+              <pitch>87</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>6882517588115571</eid>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>6882513293148180</eid>
+              <linkedMain/>
+              <pitch>86</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Chord>
+            <eid>6886413123453043</eid>
             <linkedMain/>
             <durationType>quarter</durationType>
-            </Rest>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/2</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <eid>6888642211479584</eid>
+              <linkedMain/>
+              </Articulation>
+            <Note>
+              <eid>6886408828485652</eid>
+              <linkedMain/>
+              <pitch>84</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
           <Rest>
-            <eid>1733706498703386</eid>
+            <eid>6886395943583770</eid>
             <linkedMain/>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <eid>373662154778</eid>
+          <Chord>
+            <eid>6875130244366451</eid>
             <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>6888856959844468</eid>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/2</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <eid>6875125949399060</eid>
+              <linkedMain/>
+              <pitch>91</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Tuplet>
+            <eid>6875933403250734</eid>
+            <linkedMain/>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <eid>6880219780612211</eid>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>6880215485644820</eid>
+              <linkedMain/>
+              <pitch>89</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>6880919860281459</eid>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>6880915565314068</eid>
+              <linkedMain/>
+              <pitch>87</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>6882517588115571</eid>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>6882513293148180</eid>
+              <linkedMain/>
+              <pitch>86</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Chord>
+            <eid>6886413123453043</eid>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/2</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <eid>6888642211479584</eid>
+              <linkedMain/>
+              </Articulation>
+            <Note>
+              <eid>6886408828485652</eid>
+              <linkedMain/>
+              <pitch>84</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>6886395943583770</eid>
+            <linkedMain/>
+            <durationType>quarter</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -6725,6 +6871,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>6970585892520017</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>2573003237883930</eid>
@@ -6736,6 +6886,11 @@ Lyrics by: Benj Pasek &amp; Justin Paul
         </Measure>
       <Measure>
         <voice>
+          <RehearsalMark>
+            <eid>7456638751473719</eid>
+            <linkedMain/>
+            <text>J</text>
+            </RehearsalMark>
           <Rest>
             <eid>2573484274221082</eid>
             <linkedMain/>
@@ -7794,7 +7949,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               <linkedMain/>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
-                <eid>4822522423934992</eid>
+                <eid>7315338622402576</eid>
                 </Accidental>
               <pitch>76</pitch>
               <tpc>18</tpc>
@@ -9204,9 +9359,9 @@ Lyrics by: Benj Pasek &amp; Justin Paul
       <Measure>
         <voice>
           <Dynamic>
-            <subtype>f</subtype>
-            <velocity>96</velocity>
-            <eid>5182273179615268</eid>
+            <subtype>ff</subtype>
+            <velocity>112</velocity>
+            <eid>7367075798450212</eid>
             <linkedMain/>
             </Dynamic>
           <Spanner type="HairPin">
@@ -10699,39 +10854,18 @@ Lyrics by: Benj Pasek &amp; Justin Paul
         </Measure>
       <Measure>
         <voice>
-          <Chord>
-            <eid>1733727973539955</eid>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              <eid>2276160868188192</eid>
-              <linkedMain/>
-              </Articulation>
-            <Note>
-              <eid>1733723678572564</eid>
-              <linkedMain/>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
-              <tpc2>15</tpc2>
-              </Note>
-            </Chord>
           <Rest>
-            <eid>1733689318834202</eid>
+            <eid>790273982490</eid>
             <linkedMain/>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <eid>2370753227915290</eid>
-            <linkedMain/>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>811748818970</eid>
+            <eid>794568949786</eid>
             <linkedMain/>
             <durationType>measure</durationType>
             <duration>2/2</duration>
@@ -13969,9 +14103,9 @@ Lyrics by: Benj Pasek &amp; Justin Paul
       <Measure>
         <voice>
           <Dynamic>
-            <subtype>f</subtype>
-            <velocity>96</velocity>
-            <eid>5182281769549860</eid>
+            <subtype>ff</subtype>
+            <velocity>112</velocity>
+            <eid>7367084388384804</eid>
             <linkedMain/>
             </Dynamic>
           <Spanner type="HairPin">
@@ -16633,40 +16767,198 @@ Lyrics by: Benj Pasek &amp; Justin Paul
       <Measure>
         <voice>
           <Chord>
-            <eid>1733727973539955</eid>
+            <eid>6875130244366451</eid>
             <linkedMain/>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              <eid>2276160868188192</eid>
-              <linkedMain/>
-              </Articulation>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>6888856959844468</eid>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/2</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
-              <eid>1733723678572564</eid>
+              <eid>6875125949399060</eid>
+              <linkedMain/>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Tuplet>
+            <eid>6875933403250734</eid>
+            <linkedMain/>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <eid>6880219780612211</eid>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>6880215485644820</eid>
+              <linkedMain/>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>6880919860281459</eid>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>6880915565314068</eid>
+              <linkedMain/>
+              <pitch>75</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>6882517588115571</eid>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>6882513293148180</eid>
               <linkedMain/>
               <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Rest>
-            <eid>1733689318834202</eid>
+          <endTuplet/>
+          <Chord>
+            <eid>6886413123453043</eid>
             <linkedMain/>
             <durationType>quarter</durationType>
-            </Rest>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/2</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <eid>6888642211479584</eid>
+              <linkedMain/>
+              </Articulation>
+            <Note>
+              <eid>6886408828485652</eid>
+              <linkedMain/>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
           <Rest>
-            <eid>1733706498703386</eid>
+            <eid>6886395943583770</eid>
             <linkedMain/>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <eid>1249835483162</eid>
+          <Chord>
+            <eid>6875130244366451</eid>
             <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>6888856959844468</eid>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/2</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <eid>6875125949399060</eid>
+              <linkedMain/>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Tuplet>
+            <eid>6875933403250734</eid>
+            <linkedMain/>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <eid>6880219780612211</eid>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>6880215485644820</eid>
+              <linkedMain/>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>6880919860281459</eid>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>6880915565314068</eid>
+              <linkedMain/>
+              <pitch>75</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>6882517588115571</eid>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>6882513293148180</eid>
+              <linkedMain/>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Chord>
+            <eid>6886413123453043</eid>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/2</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <eid>6888642211479584</eid>
+              <linkedMain/>
+              </Articulation>
+            <Note>
+              <eid>6886408828485652</eid>
+              <linkedMain/>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>6886395943583770</eid>
+            <linkedMain/>
+            <durationType>quarter</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -19270,6 +19562,12 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <eid>2369043830931492</eid>
             <linkedMain/>
             </Dynamic>
+          <Dynamic>
+            <subtype>ff</subtype>
+            <velocity>112</velocity>
+            <eid>7367092978319396</eid>
+            <linkedMain/>
+            </Dynamic>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -19690,7 +19988,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               <linkedMain/>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
-                <eid>4823823799025680</eid>
+                <eid>7316438134030352</eid>
                 </Accidental>
               <pitch>64</pitch>
               <tpc>18</tpc>
@@ -20065,7 +20363,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               <linkedMain/>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
-                <eid>4823823799025680</eid>
+                <eid>7316631407558672</eid>
                 </Accidental>
               <pitch>64</pitch>
               <tpc>18</tpc>
@@ -20723,7 +21021,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               <linkedMain/>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
-                <eid>5610588793208848</eid>
+                <eid>7316816091152400</eid>
                 </Accidental>
               <pitch>59</pitch>
               <tpc>19</tpc>
@@ -23854,7 +24152,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               <linkedMain/>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
-                <eid>4822887496155152</eid>
+                <eid>7315703694622736</eid>
                 </Accidental>
               <pitch>71</pitch>
               <tpc>19</tpc>
@@ -24197,9 +24495,9 @@ Lyrics by: Benj Pasek &amp; Justin Paul
       <Measure>
         <voice>
           <Dynamic>
-            <subtype>f</subtype>
-            <velocity>96</velocity>
-            <eid>2435078953107492</eid>
+            <subtype>ff</subtype>
+            <velocity>112</velocity>
+            <eid>7367101568253988</eid>
             <linkedMain/>
             </Dynamic>
           <Spanner type="HairPin">
@@ -25014,7 +25312,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           <StaffText>
             <eid>5408239998992432</eid>
             <linkedMain/>
-            <text>to Harmon Mute</text>
+            <text>quick to Harmon Mute</text>
             </StaffText>
           <Rest>
             <eid>4768212562477082</eid>
@@ -25795,6 +26093,12 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <linkedMain/>
             <durationType>eighth</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>mf</subtype>
+            <velocity>80</velocity>
+            <eid>7404695416995876</eid>
+            <linkedMain/>
+            </Dynamic>
           <Chord>
             <eid>6750133811150963</eid>
             <linkedMain/>
@@ -25816,7 +26120,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               <linkedMain/>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
-                <eid>6750537538076688</eid>
+                <eid>7317189753307152</eid>
                 </Accidental>
               <pitch>64</pitch>
               <tpc>18</tpc>
@@ -25855,6 +26159,18 @@ Lyrics by: Benj Pasek &amp; Justin Paul
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              <eid>7403664624844894</eid>
+              <linkedMain/>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <eid>6761176172068979</eid>
             <linkedMain/>
@@ -25888,7 +26204,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               <linkedMain/>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
-                <eid>6763830461857808</eid>
+                <eid>7317198343241744</eid>
                 </Accidental>
               <pitch>71</pitch>
               <tpc>19</tpc>
@@ -25968,6 +26284,19 @@ Lyrics by: Benj Pasek &amp; Justin Paul
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            <eid>7404192905822244</eid>
+            <linkedMain/>
+            </Dynamic>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <eid>6779751905624179</eid>
             <linkedMain/>
@@ -26108,12 +26437,11 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <eid>2434640866443300</eid>
             <linkedMain/>
             </Dynamic>
-          <PlayTechAnnotation>
-            <playTechType>open</playTechType>
-            <eid>2441173511700531</eid>
+          <StaffText>
+            <eid>6971955987087408</eid>
             <linkedMain/>
-            <text>open</text>
-            </PlayTechAnnotation>
+            <text>growls n shit</text>
+            </StaffText>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -26137,7 +26465,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
                 </Slur>
               <next>
                 <location>
-                  <measures>3</measures>
+                  <measures>4</measures>
                   </location>
                 </next>
               </Spanner>
@@ -26227,6 +26555,11 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <eid>2435078953107492</eid>
             <linkedMain/>
             </Dynamic>
+          <StaffText>
+            <eid>7432681423896624</eid>
+            <linkedMain/>
+            <text>big growl here</text>
+            </StaffText>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -26237,14 +26570,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           <Chord>
             <eid>2426806846095475</eid>
             <linkedMain/>
-            <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <measures>-3</measures>
-                  </location>
-                </prev>
-              </Spanner>
+            <durationType>whole</durationType>
             <Articulation>
               <subtype>articAccentAbove</subtype>
               <eid>2427781803671584</eid>
@@ -26253,30 +26579,61 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <Note>
               <eid>2426802551128084</eid>
               <linkedMain/>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>7431805250568223</eid>
+                  <linkedMain/>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              <tpc2>17</tpc2>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>7430654199332979</eid>
+            <linkedMain/>
+            <durationType>half</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-4</measures>
+                  </location>
+                </prev>
+              </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <eid>7430688559071264</eid>
+              <linkedMain/>
+              </Articulation>
+            <Note>
+              <eid>7430649904365588</eid>
+              <linkedMain/>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>79</pitch>
               <tpc>15</tpc>
               <tpc2>17</tpc2>
               </Note>
             </Chord>
           <Rest>
-            <eid>2426776781324314</eid>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <eid>2426789666226202</eid>
+            <eid>7430632724496410</eid>
             <linkedMain/>
             <durationType>half</durationType>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>2573059072458778</eid>
-            <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -27982,9 +28339,9 @@ Lyrics by: Benj Pasek &amp; Justin Paul
       <Measure>
         <voice>
           <Dynamic>
-            <subtype>f</subtype>
-            <velocity>96</velocity>
-            <eid>2435087543042084</eid>
+            <subtype>ff</subtype>
+            <velocity>112</velocity>
+            <eid>7367110158188580</eid>
             <linkedMain/>
             </Dynamic>
           <Spanner type="HairPin">
@@ -29186,6 +29543,12 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <linkedMain/>
             <durationType>eighth</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>mf</subtype>
+            <velocity>80</velocity>
+            <eid>7404704006930468</eid>
+            <linkedMain/>
+            </Dynamic>
           <Chord>
             <eid>6750133811150963</eid>
             <linkedMain/>
@@ -29207,7 +29570,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               <linkedMain/>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
-                <eid>6750537538076688</eid>
+                <eid>7317194048274448</eid>
                 </Accidental>
               <pitch>64</pitch>
               <tpc>18</tpc>
@@ -29246,6 +29609,18 @@ Lyrics by: Benj Pasek &amp; Justin Paul
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              <eid>7403673214779486</eid>
+              <linkedMain/>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <eid>6761176172068979</eid>
             <linkedMain/>
@@ -29279,7 +29654,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               <linkedMain/>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
-                <eid>6763830461857808</eid>
+                <eid>7317202638209040</eid>
                 </Accidental>
               <pitch>71</pitch>
               <tpc>19</tpc>
@@ -29359,6 +29734,19 @@ Lyrics by: Benj Pasek &amp; Justin Paul
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            <eid>7404201495756836</eid>
+            <linkedMain/>
+            </Dynamic>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <eid>6779751905624179</eid>
             <linkedMain/>
@@ -31205,6 +31593,17 @@ Lyrics by: Benj Pasek &amp; Justin Paul
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            <eid>7351485067165732</eid>
+            <linkedMain/>
+            </Dynamic>
+          <StaffText>
+            <eid>7351875909189680</eid>
+            <linkedMain/>
+            <text>more here</text>
+            </StaffText>
           <Chord>
             <eid>1702847158681715</eid>
             <linkedMain/>
@@ -32054,9 +32453,9 @@ Lyrics by: Benj Pasek &amp; Justin Paul
       <Measure>
         <voice>
           <Dynamic>
-            <subtype>f</subtype>
-            <velocity>96</velocity>
-            <eid>2507191454007332</eid>
+            <subtype>ff</subtype>
+            <velocity>112</velocity>
+            <eid>7367118748123172</eid>
             <linkedMain/>
             </Dynamic>
           <Spanner type="HairPin">
@@ -32111,6 +32510,11 @@ Lyrics by: Benj Pasek &amp; Justin Paul
         </Measure>
       <Measure>
         <voice>
+          <StaffText>
+            <eid>7374424487493680</eid>
+            <linkedMain/>
+            <text>could remove from bone 1</text>
+            </StaffText>
           <Chord>
             <eid>5081899793907827</eid>
             <linkedMain/>
@@ -34192,11 +34596,6 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <eid>3705521689329712</eid>
-            <linkedMain/>
-            <text>Im sorry, the part is basically all this :(</text>
-            </StaffText>
           <Rest>
             <eid>2500066103263258</eid>
             <linkedMain/>
@@ -35778,6 +36177,12 @@ Lyrics by: Benj Pasek &amp; Justin Paul
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            <eid>7351493657100324</eid>
+            <linkedMain/>
+            </Dynamic>
           <Chord>
             <eid>1702847158681715</eid>
             <linkedMain/>
@@ -36627,9 +37032,9 @@ Lyrics by: Benj Pasek &amp; Justin Paul
       <Measure>
         <voice>
           <Dynamic>
-            <subtype>f</subtype>
-            <velocity>96</velocity>
-            <eid>2507191454007332</eid>
+            <subtype>ff</subtype>
+            <velocity>112</velocity>
+            <eid>7367127338057764</eid>
             <linkedMain/>
             </Dynamic>
           <Spanner type="HairPin">
@@ -38783,11 +39188,6 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <eid>3715696466853936</eid>
-            <linkedMain/>
-            <text>Im sorry, the part is basically all this :(</text>
-            </StaffText>
           <Rest>
             <eid>2500066103263258</eid>
             <linkedMain/>
@@ -54904,71 +55304,15 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               </Note>
             </Chord>
           <Rest>
-            <eid>3108280717017114</eid>
+            <eid>7424898943156250</eid>
             <linkedMain/>
             <durationType>quarter</durationType>
             </Rest>
           <Rest>
-            <eid>3108293601919002</eid>
+            <eid>7424907533090842</eid>
             <linkedMain/>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             </Rest>
-          <Dynamic>
-            <subtype>f</subtype>
-            <velocity>96</velocity>
-            <eid>3139621093376036</eid>
-            <linkedMain/>
-            </Dynamic>
-          <Chord>
-            <eid>3129046883893363</eid>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <eid>3129205797683220</eid>
-              <linkedMain/>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                <eid>3129253042323472</eid>
-                </Accidental>
-              <pitch>83</pitch>
-              <tpc>19</tpc>
-              </Note>
-            <Note>
-              <eid>3129313171865620</eid>
-              <linkedMain/>
-              <pitch>86</pitch>
-              <tpc>16</tpc>
-              </Note>
-            <Note>
-              <eid>3129042588925972</eid>
-              <linkedMain/>
-              <pitch>91</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <eid>3129476380622963</eid>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <eid>3129738373627924</eid>
-              <linkedMain/>
-              <pitch>83</pitch>
-              <tpc>19</tpc>
-              </Note>
-            <Note>
-              <eid>3129635294412820</eid>
-              <linkedMain/>
-              <pitch>86</pitch>
-              <tpc>16</tpc>
-              </Note>
-            <Note>
-              <eid>3129472085655572</eid>
-              <linkedMain/>
-              <pitch>91</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
           </voice>
         </Measure>
       <Measure>
@@ -60405,19 +60749,19 @@ Lyrics by: Benj Pasek &amp; Justin Paul
                 <program value="48"/>
                 <synti>Fluid</synti>
                 <midiPort>2</midiPort>
-                <midiChannel>8</midiChannel>
+                <midiChannel>6</midiChannel>
                 </Channel>
               <Channel name="pizzicato">
                 <program value="45"/>
                 <synti>Fluid</synti>
                 <midiPort>2</midiPort>
-                <midiChannel>10</midiChannel>
+                <midiChannel>8</midiChannel>
                 </Channel>
               <Channel name="tremolo">
                 <program value="44"/>
                 <synti>Fluid</synti>
                 <midiPort>2</midiPort>
-                <midiChannel>11</midiChannel>
+                <midiChannel>10</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
@@ -60682,7 +61026,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
                 <program value="8"/>
                 <synti>Fluid</synti>
                 <midiPort>2</midiPort>
-                <midiChannel>12</midiChannel>
+                <midiChannel>11</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
@@ -61228,7 +61572,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
                 <program value="48"/>
                 <synti>Fluid</synti>
                 <midiPort>2</midiPort>
-                <midiChannel>6</midiChannel>
+                <midiChannel>12</midiChannel>
                 </Channel>
               <Channel name="pizzicato">
                 <program value="45"/>
@@ -62692,13 +63036,13 @@ Lyrics by: Benj Pasek &amp; Justin Paul
                 <program value="60"/>
                 <synti>Fluid</synti>
                 <midiPort>3</midiPort>
-                <midiChannel>3</midiChannel>
+                <midiChannel>4</midiChannel>
                 </Channel>
               <Channel name="mute">
                 <program value="59"/>
                 <synti>Fluid</synti>
                 <midiPort>3</midiPort>
-                <midiChannel>4</midiChannel>
+                <midiChannel>5</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
@@ -63276,7 +63620,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
                 <program value="44"/>
                 <synti>Fluid</synti>
                 <midiPort>3</midiPort>
-                <midiChannel>8</midiChannel>
+                <midiChannel>3</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
@@ -88982,6 +89326,13 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               <fixed>1</fixed>
               <fixedLine>4</fixedLine>
               </Note>
+            <Note>
+              <eid>7414780000206868</eid>
+              <linkedMain/>
+              <pitch>49</pitch>
+              <tpc>21</tpc>
+              <head>cross</head>
+              </Note>
             </Chord>
           <Chord>
             <eid>10264971837556</eid>
@@ -89013,6 +89364,13 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               <play>0</play>
               <fixed>1</fixed>
               <fixedLine>4</fixedLine>
+              </Note>
+            <Note>
+              <eid>7416283238760468</eid>
+              <linkedMain/>
+              <pitch>49</pitch>
+              <tpc>21</tpc>
+              <head>cross</head>
               </Note>
             </Chord>
           </voice>
@@ -89699,6 +90057,11 @@ Lyrics by: Benj Pasek &amp; Justin Paul
         </Measure>
       <Measure>
         <voice>
+          <StaffText>
+            <eid>7440970710777904</eid>
+            <linkedMain/>
+            <text>FILL - 2 bars</text>
+            </StaffText>
           <Chord>
             <eid>3079371292147827</eid>
             <linkedMain/>
@@ -91067,7 +91430,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
                 <program value="11"/>
                 <synti>Fluid</synti>
                 <midiPort>3</midiPort>
-                <midiChannel>5</midiChannel>
+                <midiChannel>8</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
