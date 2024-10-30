@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.3</programVersion>
   <programRevision>eb6b367</programRevision>
-  <LastEID>1738592</LastEID>
+  <LastEID>2005296</LastEID>
   <Score>
     <name>Voice</name>
     <initialPartId>17</initialPartId>
@@ -183,6 +183,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
         </VBox>
       <Measure>
         <startRepeat/>
+        <measureNumberMode>2</measureNumberMode>
         <voice>
           <KeySig>
             <eid>28097676050455</eid>
@@ -239,6 +240,16 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <offset x="-0.326612" y="-3.26612"/>
             <text>Vamp until cue</text>
             </SystemText>
+          <SystemText>
+            <eid>7487961947963441</eid>
+            <linked>
+              <location>
+                <staves>-19</staves>
+                </location>
+              <indexDiff>8</indexDiff>
+              </linked>
+            <text>A</text>
+            </SystemText>
           <Rest>
             <eid>28114855919642</eid>
             <linked>
@@ -283,7 +294,17 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <measureNumberMode>2</measureNumberMode>
         <voice>
+          <SystemText>
+            <eid>7488567538352177</eid>
+            <linked>
+              <location>
+                <staves>-19</staves>
+                </location>
+              </linked>
+            <text>B</text>
+            </SystemText>
           <Rest>
             <eid>28136330756122</eid>
             <linked>
@@ -294,7 +315,17 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <measureNumberMode>2</measureNumberMode>
         <voice>
+          <SystemText>
+            <eid>7489104409264177</eid>
+            <linked>
+              <location>
+                <staves>-19</staves>
+                </location>
+              </linked>
+            <text>C</text>
+            </SystemText>
           <Rest>
             <eid>28140625723418</eid>
             <linked>
@@ -305,7 +336,17 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <measureNumberMode>2</measureNumberMode>
         <voice>
+          <SystemText>
+            <eid>7489675639914545</eid>
+            <linked>
+              <location>
+                <staves>-19</staves>
+                </location>
+              </linked>
+            <text>D</text>
+            </SystemText>
           <Rest>
             <eid>28144920690714</eid>
             <linked>
@@ -316,7 +357,17 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <measureNumberMode>2</measureNumberMode>
         <voice>
+          <SystemText>
+            <eid>7490556108210225</eid>
+            <linked>
+              <location>
+                <staves>-19</staves>
+                </location>
+              </linked>
+            <text>E</text>
+            </SystemText>
           <Rest>
             <eid>28149215658010</eid>
             <linked>
@@ -327,7 +378,17 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <measureNumberMode>2</measureNumberMode>
         <voice>
+          <SystemText>
+            <eid>7491127338860593</eid>
+            <linked>
+              <location>
+                <staves>-19</staves>
+                </location>
+              </linked>
+            <text>F</text>
+            </SystemText>
           <Rest>
             <eid>28153510625306</eid>
             <linked>
@@ -338,7 +399,17 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <measureNumberMode>2</measureNumberMode>
         <voice>
+          <SystemText>
+            <eid>7491698569510961</eid>
+            <linked>
+              <location>
+                <staves>-19</staves>
+                </location>
+              </linked>
+            <text>G</text>
+            </SystemText>
           <Rest>
             <eid>28157805592602</eid>
             <linked>
@@ -350,7 +421,29 @@ Lyrics by: Benj Pasek &amp; Justin Paul
         </Measure>
       <Measure>
         <endRepeat>2</endRepeat>
+        <measureNumberMode>2</measureNumberMode>
+        <LayoutBreak>
+          <eid>7477997623836753</eid>
+          <linked>
+            <location>
+              <staves>-20</staves>
+              </location>
+            </linked>
+          <subtype>section</subtype>
+          <pause>0</pause>
+          <startWithLongNames>0</startWithLongNames>
+          <firstSystemIndentation>0</firstSystemIndentation>
+          </LayoutBreak>
         <voice>
+          <SystemText>
+            <eid>7492235440422961</eid>
+            <linked>
+              <location>
+                <staves>-19</staves>
+                </location>
+              </linked>
+            <text>H</text>
+            </SystemText>
           <Rest>
             <eid>28162100559898</eid>
             <linked>
@@ -7222,6 +7315,19 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               </linked>
             <text>H</text>
             </RehearsalMark>
+          <SystemText>
+            <eid>7559030771810353</eid>
+            <linked>
+              <location>
+                <staves>-19</staves>
+                </location>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <minDistance>-6.58179</minDistance>
+            <offset x="-12.0774" y="-3.25161"/>
+            <text><b>CHORUS  2
+</b><i>&quot;Behind these hills, I'm reaching for the lights.&quot;</i></text>
+            </SystemText>
           <Chord>
             <eid>6659621670355059</eid>
             <linked>
@@ -7983,8 +8089,38 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>7962130632409099</eid>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
+      <HBox>
+        <width>422.5</width>
+        <eid>8062972169551993</eid>
+        <linked>
+          <location>
+            <staves>-19</staves>
+            </location>
+          <indexDiff>1</indexDiff>
+          </linked>
+        <Text>
+          <eid>8073915746222085</eid>
+          <linked>
+            <location>
+              <staves>-19</staves>
+              </location>
+            <indexDiff>1</indexDiff>
+            </linked>
+          <style>frame</style>
+          <size>14</size>
+          <bold>1</bold>
+          <offset x="68.2752" y="58.1152"/>
+          <text><b><font size="14"/>Page Intentionally Left Blank to Facilitate Page Turns</b></text>
+          </Text>
+        </HBox>
       <Measure>
         <voice>
           <RehearsalMark>
@@ -7993,12 +8129,14 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               <location>
                 <staves>-19</staves>
                 </location>
+              <indexDiff>1</indexDiff>
               </linked>
             <text>J</text>
             </RehearsalMark>
           <Rest>
             <eid>2573720497422362</eid>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>2/2</duration>
@@ -8140,7 +8278,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
       <Measure>
         <voice>
           <Rest>
-            <eid>29416231010330</eid>
+            <eid>8038319057272858</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -8168,13 +8306,30 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>8237687144185867</eid>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <RehearsalMark>
+            <eid>8209323180163127</eid>
+            <linked>
+              <location>
+                <staves>-19</staves>
+                </location>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <text>K</text>
+            </RehearsalMark>
           <Rest>
             <eid>6689737981034522</eid>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>2/2</duration>
@@ -8218,6 +8373,379 @@ Lyrics by: Benj Pasek &amp; Justin Paul
         <voice>
           <Rest>
             <eid>6675049192882202</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>7779474263244826</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>7779963889516570</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>7780453515788314</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>7780943142060058</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>7781432768331802</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>7781922394603546</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>7782412020875290</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>7782901647147034</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>7783391273418778</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>7783880899690522</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>7784370525962266</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>8233190313426955</eid>
+            <linked>
+              </linked>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Tempo>
+            <tempo>3.966667</tempo>
+            <followText>1</followText>
+            <eid>8390472015806511</eid>
+            <linked>
+              <location>
+                <staves>-19</staves>
+                </location>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <minDistance>-10.5</minDistance>
+            <offset x="0" y="-0.791934"/>
+            <text>Slightly Slower, <sym>metNoteHalfUp</sym><font face="Edwin"/> = 119</text>
+            </Tempo>
+          <Rest>
+            <eid>7784860152234010</eid>
+            <linked>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>7785349778505754</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>7785839404777498</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>7786329031049242</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>8173408663633946</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>8173898289905690</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>8174387916177434</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>8174877542449178</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>8229698505015307</eid>
+            <linked>
+              </linked>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <KeySig>
+            <eid>8317775399354391</eid>
+            <concertKey>4</concertKey>
+            </KeySig>
+          <RehearsalMark>
+            <eid>8592803630153783</eid>
+            <linked>
+              <location>
+                <staves>-19</staves>
+                </location>
+              <indexDiff>2</indexDiff>
+              </linked>
+            <offset x="-8.8258" y="-2.40826"/>
+            <text>L</text>
+            </RehearsalMark>
+          <Rest>
+            <eid>8175367168720922</eid>
+            <linked>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>8175856794992666</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>8176346421264410</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>8176836047536154</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>8177325673807898</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>8177815300079642</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>8178304926351386</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>8178794552623130</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>8179284178894874</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>8179773805166618</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>8180263431438362</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>

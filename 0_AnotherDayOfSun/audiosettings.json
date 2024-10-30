@@ -1097,7 +1097,7 @@
             },
             "partId": "11",
             "soloMuteState": {
-                "mute": true,
+                "mute": false,
                 "solo": false
             }
         },
@@ -1226,6 +1226,120 @@
                 "mute": false,
                 "solo": false
             }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Percussion",
+                        "museName": "Timpani",
+                        "musePack": "Muse Percussion",
+                        "museUID": "156",
+                        "museVendorName": "Muse",
+                        "playbackSetupData": "percussions.timpani"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "Muse Percussion\\Timpani\\156",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "MuseSounds"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "timpani",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.20000000298023224
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "16"
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Harp",
+                        "museName": "Harp",
+                        "musePack": "Muse Harp",
+                        "museUID": "165",
+                        "museVendorName": "Muse",
+                        "playbackSetupData": "strings.harp.plucked"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "Muse Harp\\Harp\\165",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "MuseSounds"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "harp",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "13"
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Keys",
+                        "museName": "Celesta",
+                        "musePack": "Muse Keys",
+                        "museUID": "166",
+                        "museVendorName": "Muse",
+                        "playbackSetupData": "keyboards.celesta"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "Muse Keys\\Celesta\\166",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "MuseSounds"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "celesta",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "12"
         }
     ]
 }
