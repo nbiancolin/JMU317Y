@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.3</programVersion>
   <programRevision>eb6b367</programRevision>
-  <LastEID>2273589</LastEID>
+  <LastEID>2377365</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -4381,6 +4381,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <eid>10158727231438854</eid>
+          <text>84</text>
+          </MeasureNumber>
         <voice>
           <Rest>
             <eid>425201762330</eid>
@@ -4406,7 +4410,8 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           <Chord>
             <eid>4749645418856563</eid>
             <linkedMain/>
-            <durationType>quarter</durationType>
+            <dots>1</dots>
+            <durationType>half</durationType>
             <Spanner type="Slur">
               <Slur>
                 <eid>4806931692650612</eid>
@@ -4424,12 +4429,13 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               <linkedMain/>
               <Spanner type="Tie">
                 <Tie>
-                  <eid>4771098780499999</eid>
+                  <eid>10208587506778143</eid>
                   <linkedMain/>
                   </Tie>
                 <next>
                   <location>
-                    <fractions>1/4</fractions>
+                    <measures>1</measures>
+                    <fractions>-1/4</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -4437,6 +4443,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/2</fractions>
+            <timeTick>1</timeTick>
+            </location>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -4450,36 +4460,6 @@ Lyrics by: Benj Pasek &amp; Justin Paul
                 </location>
               </next>
             </Spanner>
-          <Chord>
-            <eid>4753188766875763</eid>
-            <linkedMain/>
-            <durationType>half</durationType>
-            <Note>
-              <eid>4753184471908372</eid>
-              <linkedMain/>
-              <Spanner type="Tie">
-                <Tie>
-                  <eid>4753223126614047</eid>
-                  <linkedMain/>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    <fractions>-1/2</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>75</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
           </voice>
         </Measure>
       <Measure>
@@ -4506,7 +4486,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
                 <prev>
                   <location>
                     <measures>-1</measures>
-                    <fractions>1/2</fractions>
+                    <fractions>1/4</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -19811,11 +19791,13 @@ this is your moment</text>
           <Chord>
             <eid>4749645418856563</eid>
             <linkedMain/>
-            <durationType>quarter</durationType>
+            <dots>1</dots>
+            <durationType>half</durationType>
             <Spanner type="Slur">
               <Slur>
                 <eid>4806489311019124</eid>
                 <linkedMain/>
+                <up>up</up>
                 </Slur>
               <next>
                 <location>
@@ -19829,12 +19811,13 @@ this is your moment</text>
               <linkedMain/>
               <Spanner type="Tie">
                 <Tie>
-                  <eid>4783219178209311</eid>
+                  <eid>10208359873511455</eid>
                   <linkedMain/>
                   </Tie>
                 <next>
                   <location>
-                    <fractions>1/4</fractions>
+                    <measures>1</measures>
+                    <fractions>-1/4</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -19842,6 +19825,10 @@ this is your moment</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/2</fractions>
+            <timeTick>1</timeTick>
+            </location>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -19855,36 +19842,6 @@ this is your moment</text>
                 </location>
               </next>
             </Spanner>
-          <Chord>
-            <eid>4753188766875763</eid>
-            <linkedMain/>
-            <durationType>half</durationType>
-            <Note>
-              <eid>4783223473176596</eid>
-              <linkedMain/>
-              <Spanner type="Tie">
-                <Tie>
-                  <eid>4783236358078495</eid>
-                  <linkedMain/>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    <fractions>-1/2</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
           </voice>
         </Measure>
       <Measure>
@@ -19892,44 +19849,16 @@ this is your moment</text>
           <Chord>
             <eid>4753244601450611</eid>
             <linkedMain/>
+            <dots>1</dots>
             <durationType>half</durationType>
             <Note>
               <eid>4783240653045780</eid>
               <linkedMain/>
               <Spanner type="Tie">
-                <Tie>
-                  <eid>4783253537947679</eid>
-                  <linkedMain/>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/2</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <Spanner type="Tie">
                 <prev>
                   <location>
                     <measures>-1</measures>
-                    <fractions>1/2</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <eid>4758377087369331</eid>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <Note>
-              <eid>4783257832914964</eid>
-              <linkedMain/>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/2</fractions>
+                    <fractions>1/4</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -27522,7 +27451,8 @@ this is your moment</text>
           <Chord>
             <eid>4749645418856563</eid>
             <linkedMain/>
-            <durationType>quarter</durationType>
+            <dots>1</dots>
+            <durationType>half</durationType>
             <Spanner type="Slur">
               <Slur>
                 <eid>4806489311019124</eid>
@@ -27540,12 +27470,13 @@ this is your moment</text>
               <linkedMain/>
               <Spanner type="Tie">
                 <Tie>
-                  <eid>4783219178209311</eid>
+                  <eid>10208132240244767</eid>
                   <linkedMain/>
                   </Tie>
                 <next>
                   <location>
-                    <fractions>1/4</fractions>
+                    <measures>1</measures>
+                    <fractions>-1/4</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -27554,6 +27485,10 @@ this is your moment</text>
               <tpc2>17</tpc2>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/2</fractions>
+            <timeTick>1</timeTick>
+            </location>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -27567,37 +27502,6 @@ this is your moment</text>
                 </location>
               </next>
             </Spanner>
-          <Chord>
-            <eid>4753188766875763</eid>
-            <linkedMain/>
-            <durationType>half</durationType>
-            <Note>
-              <eid>4783223473176596</eid>
-              <linkedMain/>
-              <Spanner type="Tie">
-                <Tie>
-                  <eid>4783236358078495</eid>
-                  <linkedMain/>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    <fractions>-1/2</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <tpc2>17</tpc2>
-              </Note>
-            </Chord>
           </voice>
         </Measure>
       <Measure>
@@ -27605,45 +27509,16 @@ this is your moment</text>
           <Chord>
             <eid>4753244601450611</eid>
             <linkedMain/>
+            <dots>1</dots>
             <durationType>half</durationType>
             <Note>
               <eid>4783240653045780</eid>
               <linkedMain/>
               <Spanner type="Tie">
-                <Tie>
-                  <eid>4783253537947679</eid>
-                  <linkedMain/>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/2</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <Spanner type="Tie">
                 <prev>
                   <location>
                     <measures>-1</measures>
-                    <fractions>1/2</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              <tpc2>17</tpc2>
-              </Note>
-            </Chord>
-          <Chord>
-            <eid>4758377087369331</eid>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            <Note>
-              <eid>4783257832914964</eid>
-              <linkedMain/>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/2</fractions>
+                    <fractions>1/4</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -33302,7 +33177,8 @@ this is your moment</text>
           <Chord>
             <eid>4749645418856563</eid>
             <linkedMain/>
-            <durationType>quarter</durationType>
+            <dots>1</dots>
+            <durationType>half</durationType>
             <Spanner type="Slur">
               <Slur>
                 <eid>4806931692650612</eid>
@@ -33320,12 +33196,13 @@ this is your moment</text>
               <linkedMain/>
               <Spanner type="Tie">
                 <Tie>
-                  <eid>4771098780499999</eid>
+                  <eid>10207904606978079</eid>
                   <linkedMain/>
                   </Tie>
                 <next>
                   <location>
-                    <fractions>1/4</fractions>
+                    <measures>1</measures>
+                    <fractions>-1/4</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -33334,6 +33211,10 @@ this is your moment</text>
               <tpc2>13</tpc2>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/2</fractions>
+            <timeTick>1</timeTick>
+            </location>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
@@ -33347,37 +33228,6 @@ this is your moment</text>
                 </location>
               </next>
             </Spanner>
-          <Chord>
-            <eid>4753188766875763</eid>
-            <linkedMain/>
-            <durationType>half</durationType>
-            <Note>
-              <eid>4753184471908372</eid>
-              <linkedMain/>
-              <Spanner type="Tie">
-                <Tie>
-                  <eid>4753223126614047</eid>
-                  <linkedMain/>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    <fractions>-1/2</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>75</pitch>
-              <tpc>11</tpc>
-              <tpc2>13</tpc2>
-              </Note>
-            </Chord>
           </voice>
         </Measure>
       <Measure>
@@ -33404,7 +33254,7 @@ this is your moment</text>
                 <prev>
                   <location>
                     <measures>-1</measures>
-                    <fractions>1/2</fractions>
+                    <fractions>1/4</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -73636,7 +73486,7 @@ this is your moment</text>
                 <program value="0"/>
                 <synti>Fluid</synti>
                 <midiPort>2</midiPort>
-                <midiChannel>11</midiChannel>
+                <midiChannel>10</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
@@ -82587,7 +82437,7 @@ this is your moment</text>
                 <program value="8"/>
                 <synti>Fluid</synti>
                 <midiPort>2</midiPort>
-                <midiChannel>12</midiChannel>
+                <midiChannel>11</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
@@ -83117,20 +82967,20 @@ this is your moment</text>
               <Channel name="arco">
                 <program value="48"/>
                 <synti>Fluid</synti>
-                <midiPort>2</midiPort>
-                <midiChannel>13</midiChannel>
+                <midiPort>3</midiPort>
+                <midiChannel>1</midiChannel>
                 </Channel>
               <Channel name="pizzicato">
                 <program value="45"/>
                 <synti>Fluid</synti>
                 <midiPort>3</midiPort>
-                <midiChannel>1</midiChannel>
+                <midiChannel>2</midiChannel>
                 </Channel>
               <Channel name="tremolo">
                 <program value="44"/>
                 <synti>Fluid</synti>
                 <midiPort>3</midiPort>
-                <midiChannel>2</midiChannel>
+                <midiChannel>3</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
@@ -83395,7 +83245,7 @@ this is your moment</text>
                 <program value="8"/>
                 <synti>Fluid</synti>
                 <midiPort>3</midiPort>
-                <midiChannel>3</midiChannel>
+                <midiChannel>6</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
@@ -83941,19 +83791,19 @@ this is your moment</text>
                 <program value="48"/>
                 <synti>Fluid</synti>
                 <midiPort>3</midiPort>
-                <midiChannel>4</midiChannel>
+                <midiChannel>7</midiChannel>
                 </Channel>
               <Channel name="pizzicato">
                 <program value="45"/>
                 <synti>Fluid</synti>
                 <midiPort>3</midiPort>
-                <midiChannel>6</midiChannel>
+                <midiChannel>8</midiChannel>
                 </Channel>
               <Channel name="tremolo">
                 <program value="44"/>
                 <synti>Fluid</synti>
                 <midiPort>3</midiPort>
-                <midiChannel>7</midiChannel>
+                <midiChannel>10</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
@@ -85168,7 +85018,7 @@ this is your moment</text>
                 <program value="8"/>
                 <synti>Fluid</synti>
                 <midiPort>3</midiPort>
-                <midiChannel>8</midiChannel>
+                <midiChannel>12</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
@@ -85405,13 +85255,13 @@ this is your moment</text>
                 <program value="60"/>
                 <synti>Fluid</synti>
                 <midiPort>3</midiPort>
-                <midiChannel>10</midiChannel>
+                <midiChannel>13</midiChannel>
                 </Channel>
               <Channel name="mute">
                 <program value="59"/>
                 <synti>Fluid</synti>
                 <midiPort>3</midiPort>
-                <midiChannel>11</midiChannel>
+                <midiChannel>14</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
@@ -85977,19 +85827,19 @@ this is your moment</text>
                 <program value="48"/>
                 <synti>Fluid</synti>
                 <midiPort>3</midiPort>
-                <midiChannel>5</midiChannel>
+                <midiChannel>15</midiChannel>
                 </Channel>
               <Channel name="pizzicato">
                 <program value="45"/>
                 <synti>Fluid</synti>
                 <midiPort>3</midiPort>
-                <midiChannel>12</midiChannel>
+                <midiChannel>11</midiChannel>
                 </Channel>
               <Channel name="tremolo">
                 <program value="44"/>
                 <synti>Fluid</synti>
-                <midiPort>3</midiPort>
-                <midiChannel>13</midiChannel>
+                <midiPort>4</midiPort>
+                <midiChannel>0</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
@@ -87468,20 +87318,20 @@ this is your moment</text>
               <Channel>
                 <program value="46"/>
                 <synti>Fluid</synti>
-                <midiPort>2</midiPort>
-                <midiChannel>10</midiChannel>
+                <midiPort>3</midiPort>
+                <midiChannel>5</midiChannel>
                 </Channel>
               <Channel name="staccato">
                 <program value="45"/>
                 <synti>Fluid</synti>
                 <midiPort>3</midiPort>
-                <midiChannel>14</midiChannel>
+                <midiChannel>4</midiChannel>
                 </Channel>
               <Channel name="flageoletti">
                 <program value="11"/>
                 <synti>Fluid</synti>
-                <midiPort>3</midiPort>
-                <midiChannel>15</midiChannel>
+                <midiPort>2</midiPort>
+                <midiChannel>12</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
@@ -118078,7 +117928,7 @@ this is your moment</text>
                 <program value="11"/>
                 <synti>Fluid</synti>
                 <midiPort>4</midiPort>
-                <midiChannel>0</midiChannel>
+                <midiChannel>1</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
@@ -119907,7 +119757,7 @@ this is your moment</text>
                 <program value="47"/>
                 <synti>Fluid</synti>
                 <midiPort>4</midiPort>
-                <midiChannel>1</midiChannel>
+                <midiChannel>2</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
