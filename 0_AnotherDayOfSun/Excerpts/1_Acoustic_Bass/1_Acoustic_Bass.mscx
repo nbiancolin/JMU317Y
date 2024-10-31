@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.3</programVersion>
   <programRevision>eb6b367</programRevision>
-  <LastEID>2916187</LastEID>
+  <LastEID>2946927</LastEID>
   <Score>
     <name>Acoustic Bass</name>
     <initialPartId>14</initialPartId>
@@ -14264,12 +14264,43 @@ Lyrics by: Benj Pasek &amp; Justin Paul
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <eid>25864293056538</eid>
+          <Dynamic>
+            <subtype>ff</subtype>
+            <velocity>112</velocity>
+            <eid>12648992219332644</eid>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            </Dynamic>
+          <Chord>
+            <eid>12649022284103795</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articAccentBelow</subtype>
+              <eid>12649039463972896</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>12649035169005588</eid>
+              <linked>
+                </linked>
+              <pitch>28</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>12649052348874778</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <eid>12649065233776666</eid>
+            <linked>
+              </linked>
+            <durationType>half</durationType>
             </Rest>
           </voice>
         </Measure>

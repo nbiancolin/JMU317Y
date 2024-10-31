@@ -2,9 +2,9 @@
 <museScore version="4.40">
   <programVersion>4.4.3</programVersion>
   <programRevision>eb6b367</programRevision>
-  <LastEID>2916187</LastEID>
+  <LastEID>2946927</LastEID>
   <Score>
-    <name>Acoustic Guitar (1)</name>
+    <name>Acoustic Guitar</name>
     <initialPartId>11</initialPartId>
     <Division>480</Division>
     <Style>
@@ -83,7 +83,7 @@ $D</oddFooterR>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
-    <metaTag name="partName">Acoustic Guitar (1)</metaTag>
+    <metaTag name="partName">Acoustic Guitar</metaTag>
     <Part id="11">
       <Staff id="1">
         <linkedTo>9</linkedTo>
@@ -204,7 +204,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
         <Text>
           <eid>19116899434502</eid>
           <style>instrument_excerpt</style>
-          <text>Acoustic Guitar (1)</text>
+          <text>Acoustic Guitar</text>
           </Text>
         </VBox>
       <Measure>
@@ -9426,12 +9426,55 @@ Lyrics by: Benj Pasek &amp; Justin Paul
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <eid>19615115640858</eid>
+          <Dynamic>
+            <subtype>ff</subtype>
+            <velocity>112</velocity>
+            <eid>12652496912646180</eid>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            </Dynamic>
+          <Harmony>
+            <root>18</root>
+            <name>^7</name>
+            <eid>12652509797548090</eid>
+            <linked>
+              </linked>
+            </Harmony>
+          <Chord>
+            <eid>12652535567351923</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <eid>12652552747221024</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <eid>12652548452253716</eid>
+              <linked>
+                </linked>
+              <pitch>40</pitch>
+              <tpc>18</tpc>
+              <head>slash</head>
+              <play>0</play>
+              <fixed>1</fixed>
+              <fixedLine>4</fixedLine>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>12652565632122906</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <eid>12652578517024794</eid>
+            <linked>
+              </linked>
+            <durationType>half</durationType>
             </Rest>
           </voice>
         </Measure>

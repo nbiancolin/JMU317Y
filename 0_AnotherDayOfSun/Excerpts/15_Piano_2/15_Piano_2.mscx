@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.3</programVersion>
   <programRevision>eb6b367</programRevision>
-  <LastEID>2916187</LastEID>
+  <LastEID>2946927</LastEID>
   <Score>
     <name>Piano 2</name>
     <initialPartId>13</initialPartId>
@@ -7057,12 +7057,60 @@ Lyrics by: Benj Pasek &amp; Justin Paul
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <eid>23759759081498</eid>
+          <Dynamic>
+            <subtype>ff</subtype>
+            <velocity>112</velocity>
+            <eid>12646140361048100</eid>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            </Dynamic>
+          <Harmony>
+            <root>18</root>
+            <name>^7</name>
+            <eid>12646728771567674</eid>
+            <linked>
+              </linked>
+            </Harmony>
+          <StaffText>
+            <eid>12653081028198448</eid>
+            <linked>
+              </linked>
+            <text>strings patch maybe?</text>
+            </StaffText>
+          <Chord>
+            <eid>12646166130851955</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articAccentBelow</subtype>
+              <eid>12646183310721056</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <eid>12646179015753748</eid>
+              <linked>
+                </linked>
+              <pitch>40</pitch>
+              <tpc>18</tpc>
+              <head>slash</head>
+              <fixed>1</fixed>
+              <fixedLine>4</fixedLine>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>12646196195622938</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <eid>12646209080524826</eid>
+            <linked>
+              </linked>
+            <durationType>half</durationType>
             </Rest>
           </voice>
         </Measure>
