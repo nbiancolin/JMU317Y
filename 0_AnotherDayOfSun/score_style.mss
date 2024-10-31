@@ -788,7 +788,7 @@ v$:versionNum:</oddFooterR>
     <harpPedalTextDiagramPosBelow x="0" y="2.5"/>
     <harpPedalTextDiagramMinDistance>0.5</harpPedalTextDiagramMinDistance>
     <longInstrumentFontFace>Palatino Linotype</longInstrumentFontFace>
-    <longInstrumentFontSize>11</longInstrumentFontSize>
+    <longInstrumentFontSize>12</longInstrumentFontSize>
     <longInstrumentLineSpacing>1</longInstrumentLineSpacing>
     <longInstrumentFontSpatiumDependent>1</longInstrumentFontSpatiumDependent>
     <longInstrumentFontStyle>0</longInstrumentFontStyle>
@@ -802,7 +802,7 @@ v$:versionNum:</oddFooterR>
     <longInstrumentFrameFgColor r="0" g="0" b="0" a="255"/>
     <longInstrumentFrameBgColor r="255" g="255" b="255" a="0"/>
     <shortInstrumentFontFace>Palatino Linotype</shortInstrumentFontFace>
-    <shortInstrumentFontSize>11</shortInstrumentFontSize>
+    <shortInstrumentFontSize>12</shortInstrumentFontSize>
     <shortInstrumentLineSpacing>1</shortInstrumentLineSpacing>
     <shortInstrumentFontSpatiumDependent>1</shortInstrumentFontSpatiumDependent>
     <shortInstrumentFontStyle>0</shortInstrumentFontStyle>

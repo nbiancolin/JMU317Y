@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.3</programVersion>
   <programRevision>eb6b367</programRevision>
-  <LastEID>2718305</LastEID>
+  <LastEID>2916187</LastEID>
   <Score>
     <name>Flute</name>
     <initialPartId>1</initialPartId>
@@ -169,9 +169,8 @@ Lyrics by: Benj Pasek &amp; Justin Paul
         <measureNumberMode>2</measureNumberMode>
         <voice>
           <KeySig>
-            <eid>4615844302684183</eid>
-            <concertKey>-3</concertKey>
-            <actualKey>0</actualKey>
+            <eid>12273955675045911</eid>
+            <concertKey>0</concertKey>
             </KeySig>
           <TimeSig>
             <subtype>2</subtype>
@@ -12634,6 +12633,14 @@ this is your moment</text>
               <tpc>22</tpc>
               </Note>
             </Chord>
+          <StaffText>
+            <eid>12442069284945968</eid>
+            <linked>
+              </linked>
+            <minDistance>-9.28902</minDistance>
+            <offset x="0" y="-1.19316"/>
+            <text>to Bari Sax</text>
+            </StaffText>
           <Rest>
             <eid>11235501302349850</eid>
             <linked>
@@ -12701,116 +12708,852 @@ this is your moment</text>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <eid>12329596976365590</eid>
+            <linked>
+              </linked>
+            </Clef>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <eid>9163772287516698</eid>
+          <KeySig>
+            <eid>12225809091657751</eid>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <concertKey>4</concertKey>
+            <actualKey>-5</actualKey>
+            <forInstrumentChange>1</forInstrumentChange>
+            </KeySig>
+          <InstrumentChange>
+            <Instrument id="baritone-saxophone">
+              <longName>Baritone Saxophone</longName>
+              <shortName>Bari</shortName>
+              <trackName>Baritone Saxophone</trackName>
+              <minPitchP>36</minPitchP>
+              <maxPitchP>80</maxPitchP>
+              <minPitchA>36</minPitchA>
+              <maxPitchA>68</maxPitchA>
+              <transposeDiatonic>-12</transposeDiatonic>
+              <transposeChromatic>-21</transposeChromatic>
+              <instrumentId>wind.reed.saxophone.baritone</instrumentId>
+              <concertClef>F</concertClef>
+              <transposingClef>G</transposingClef>
+              <Channel>
+                <program value="67"/>
+                <synti>Fluid</synti>
+                </Channel>
+              </Instrument>
+            <init>1</init>
+            <eid>12225791911788600</eid>
+            <linked>
+              </linked>
+            <text>To Baritone Saxophone</text>
+            </InstrumentChange>
+          <Chord>
+            <eid>12223988025524339</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <eid>12224005205393440</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articTenutoBelow</subtype>
+              <eid>12224009500360736</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>12224000910426132</eid>
+              <linked>
+                </linked>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              <tpc2>20</tpc2>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>12224022385262618</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Chord>
+            <eid>12224056745001075</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <eid>12224073924870176</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articTenutoBelow</subtype>
+              <eid>12224078219837472</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>12224069629902868</eid>
+              <linked>
+                </linked>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              <tpc2>20</tpc2>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>12224091104739354</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <eid>9164261913788442</eid>
+          <Chord>
+            <eid>12224125464477811</eid>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <eid>12224142644346912</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articTenutoBelow</subtype>
+              <eid>12224146939314208</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>12224138349379604</eid>
+              <linked>
+                </linked>
+              <pitch>44</pitch>
+              <tpc>22</tpc>
+              <tpc2>25</tpc2>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>12224185594019955</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <eid>12224202773889056</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articTenutoBelow</subtype>
+              <eid>12224207068856352</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>12224198478921748</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>12224323032973343</eid>
+                  <linked>
+                    </linked>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>44</pitch>
+              <tpc>22</tpc>
+              <tpc2>25</tpc2>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>12224241428594803</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <eid>12224258608463904</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articTenutoBelow</subtype>
+              <eid>12224262903431200</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>12224254313496596</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>44</pitch>
+              <tpc>22</tpc>
+              <tpc2>25</tpc2>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>12224297263169651</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <eid>12224314443038752</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articTenutoBelow</subtype>
+              <eid>12224318738006048</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>12224310148071444</eid>
+              <linked>
+                </linked>
+              <pitch>44</pitch>
+              <tpc>22</tpc>
+              <tpc2>25</tpc2>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>12499127925473395</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <eid>12499145105342496</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articTenutoBelow</subtype>
+              <eid>12499149400309792</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>12499140810375188</eid>
+              <linked>
+                </linked>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              <tpc2>20</tpc2>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>12499162285211674</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Chord>
+            <eid>12499196644950131</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <eid>12499213824819232</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articTenutoBelow</subtype>
+              <eid>12499218119786528</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>12499209529851924</eid>
+              <linked>
+                </linked>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              <tpc2>20</tpc2>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>12499231004688410</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <eid>9164751540060186</eid>
+          <Chord>
+            <eid>12499265364426867</eid>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <eid>12499282544295968</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articTenutoBelow</subtype>
+              <eid>12499286839263264</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>12499278249328660</eid>
+              <linked>
+                </linked>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              <tpc2>20</tpc2>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>12499299724165146</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Chord>
+            <eid>12499334083903603</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <eid>12499351263772704</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articTenutoBelow</subtype>
+              <eid>12499355558740000</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>12499346968805396</eid>
+              <linked>
+                </linked>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              <tpc2>20</tpc2>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>12499368443641882</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <eid>9165241166331930</eid>
+          <Chord>
+            <eid>12499402803380339</eid>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <eid>12499419983249440</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articTenutoBelow</subtype>
+              <eid>12499424278216736</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>12499415688282132</eid>
+              <linked>
+                </linked>
+              <pitch>47</pitch>
+              <tpc>19</tpc>
+              <tpc2>22</tpc2>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>12499437163118618</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Chord>
+            <eid>12499471522857075</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <eid>12499488702726176</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articTenutoBelow</subtype>
+              <eid>12499492997693472</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>12499484407758868</eid>
+              <linked>
+                </linked>
+              <pitch>47</pitch>
+              <tpc>19</tpc>
+              <tpc2>22</tpc2>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>12499505882595354</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <eid>9165730792603674</eid>
+          <Chord>
+            <eid>12499540242333811</eid>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <eid>12499557422202912</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articTenutoBelow</subtype>
+              <eid>12499561717170208</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>12499553127235604</eid>
+              <linked>
+                </linked>
+              <pitch>47</pitch>
+              <tpc>19</tpc>
+              <tpc2>22</tpc2>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>12499574602072090</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Chord>
+            <eid>12499608961810547</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <eid>12499626141679648</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articTenutoBelow</subtype>
+              <eid>12499630436646944</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>12499621846712340</eid>
+              <linked>
+                </linked>
+              <pitch>47</pitch>
+              <tpc>19</tpc>
+              <tpc2>22</tpc2>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>12499643321548826</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <eid>9166220418875418</eid>
+          <Chord>
+            <eid>12499677681287283</eid>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <eid>12499694861156384</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articTenutoBelow</subtype>
+              <eid>12499699156123680</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>12499690566189076</eid>
+              <linked>
+                </linked>
+              <pitch>49</pitch>
+              <tpc>21</tpc>
+              <tpc2>24</tpc2>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>12499712041025562</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Chord>
+            <eid>12499746400764019</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <eid>12499763580633120</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articTenutoBelow</subtype>
+              <eid>12499767875600416</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>12499759285665812</eid>
+              <linked>
+                </linked>
+              <pitch>49</pitch>
+              <tpc>21</tpc>
+              <tpc2>24</tpc2>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>12499780760502298</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <eid>9166710045147162</eid>
+          <Chord>
+            <eid>12499815120240755</eid>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <eid>12499832300109856</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articTenutoBelow</subtype>
+              <eid>12499836595077152</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>12499828005142548</eid>
+              <linked>
+                </linked>
+              <pitch>49</pitch>
+              <tpc>21</tpc>
+              <tpc2>24</tpc2>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>12499849479979034</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Chord>
+            <eid>12499883839717491</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <eid>12499901019586592</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articTenutoBelow</subtype>
+              <eid>12499905314553888</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>12499896724619284</eid>
+              <linked>
+                </linked>
+              <pitch>49</pitch>
+              <tpc>21</tpc>
+              <tpc2>24</tpc2>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>12499918199455770</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <eid>8884474859225114</eid>
+          <Chord>
+            <eid>12499952559194227</eid>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <eid>12499969739063328</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articTenutoBelow</subtype>
+              <eid>12499974034030624</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>12499965444096020</eid>
+              <linked>
+                </linked>
+              <pitch>44</pitch>
+              <tpc>22</tpc>
+              <tpc2>25</tpc2>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>12499986918932506</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Chord>
+            <eid>12500021278670963</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <eid>12500038458540064</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articTenutoBelow</subtype>
+              <eid>12500042753507360</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>12500034163572756</eid>
+              <linked>
+                </linked>
+              <pitch>44</pitch>
+              <tpc>22</tpc>
+              <tpc2>25</tpc2>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>12500055638409242</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <eid>6671093528002586</eid>
+          <Chord>
+            <eid>12500089998147699</eid>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>13507672145946</eid>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <eid>12500107178016800</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articTenutoBelow</subtype>
+              <eid>12500111472984096</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>12500102883049492</eid>
+              <linked>
+                </linked>
+              <pitch>44</pitch>
+              <tpc>22</tpc>
+              <tpc2>25</tpc2>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>12500150127689843</eid>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
-            </Rest>
+            <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <eid>12500167307558944</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articTenutoBelow</subtype>
+              <eid>12500171602526240</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>12500163012591636</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>12500287566643231</eid>
+                  <linked>
+                    </linked>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>44</pitch>
+              <tpc>22</tpc>
+              <tpc2>25</tpc2>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>12500205962264691</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <eid>12500223142133792</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articTenutoBelow</subtype>
+              <eid>12500227437101088</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>12500218847166484</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>44</pitch>
+              <tpc>22</tpc>
+              <tpc2>25</tpc2>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>12500261796839539</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <eid>12500278976708640</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Articulation>
+              <subtype>articTenutoBelow</subtype>
+              <eid>12500283271675936</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>12500274681741332</eid>
+              <linked>
+                </linked>
+              <pitch>44</pitch>
+              <tpc>22</tpc>
+              <tpc2>25</tpc2>
+              </Note>
+            </Chord>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>12387407236169739</eid>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -12819,8 +13562,17 @@ this is your moment</text>
             <eid>11202490183712817</eid>
             <linked>
               </linked>
+            <bold>1</bold>
             <text>Car Horns</text>
             </SystemText>
+          <StaffText>
+            <eid>12241773485097008</eid>
+            <linked>
+              </linked>
+            <minDistance>-10.9635</minDistance>
+            <offset x="0.418817" y="-0.576649"/>
+            <text>quick To Flute</text>
+            </StaffText>
           <Rest>
             <eid>11162899175178266</eid>
             <linked>
@@ -12865,6 +13617,33 @@ this is your moment</text>
         </Measure>
       <Measure>
         <voice>
+          <KeySig>
+            <eid>12234416206118935</eid>
+            <linked>
+              </linked>
+            <concertKey>4</concertKey>
+            <forInstrumentChange>1</forInstrumentChange>
+            </KeySig>
+          <InstrumentChange>
+            <Instrument id="flute">
+              <longName>Flute</longName>
+              <shortName>Fl.</shortName>
+              <trackName>Flute</trackName>
+              <minPitchP>59</minPitchP>
+              <maxPitchP>98</maxPitchP>
+              <minPitchA>60</minPitchA>
+              <maxPitchA>93</maxPitchA>
+              <instrumentId>wind.flutes.flute</instrumentId>
+              <Channel>
+                <program value="73"/>
+                <synti>Fluid</synti>
+                </Channel>
+              </Instrument>
+            <eid>12234403321217080</eid>
+            <linked>
+              </linked>
+            <text>To Flute</text>
+            </InstrumentChange>
           <Rest>
             <eid>11628684083462170</eid>
             <linked>
