@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.3</programVersion>
   <programRevision>eb6b367</programRevision>
-  <LastEID>3941215</LastEID>
+  <LastEID>4020760</LastEID>
   <Score>
     <name>Flute</name>
     <initialPartId>1</initialPartId>
@@ -173,10 +173,8 @@ Lyrics by: Benj Pasek &amp; Justin Paul
         <startRepeat/>
         <voice>
           <KeySig>
-            <eid>12273955675045911</eid>
-            <linkedMain/>
-            <concertKey>-3</concertKey>
-            <actualKey>0</actualKey>
+            <eid>16988661534949399</eid>
+            <concertKey>0</concertKey>
             </KeySig>
           <TimeSig>
             <subtype>2</subtype>
@@ -203,8 +201,9 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             </SystemText>
           <InstrumentChange>
             <Instrument id="baritone-saxophone">
-              <longName>Baritone Saxophone</longName>
-              <shortName>Bar. Sax.</shortName>
+              <longName>REED 1
+(Flute, Bari Sax)</longName>
+              <shortName>Bari</shortName>
               <trackName>Baritone Saxophone</trackName>
               <minPitchP>36</minPitchP>
               <maxPitchP>80</maxPitchP>
@@ -223,6 +222,34 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <init>1</init>
             <eid>15541558203908152</eid>
             <linkedMain/>
+            <text>To Baritone Saxophone</text>
+            </InstrumentChange>
+          <InstrumentChange>
+            <Instrument id="baritone-saxophone">
+              <longName>REED 1
+(Flute, Bari Sax)</longName>
+              <shortName>Bari</shortName>
+              <trackName>Baritone Saxophone</trackName>
+              <minPitchP>36</minPitchP>
+              <maxPitchP>80</maxPitchP>
+              <minPitchA>36</minPitchA>
+              <maxPitchA>68</maxPitchA>
+              <transposeDiatonic>-12</transposeDiatonic>
+              <transposeChromatic>-21</transposeChromatic>
+              <instrumentId>wind.reed.saxophone.baritone</instrumentId>
+              <concertClef>F</concertClef>
+              <transposingClef>G</transposingClef>
+              <Channel>
+                <program value="67"/>
+                <synti>Fluid</synti>
+                </Channel>
+              </Instrument>
+            <eid>16976747295670328</eid>
+            <linked>
+              <indexDiff>-1</indexDiff>
+              </linked>
+            <minDistance>-10.0838</minDistance>
+            <offset x="-0.300999" y="-1.24077"/>
             <text>Bari Sax</text>
             </InstrumentChange>
           <Rest>
@@ -256,7 +283,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <eid>16138318139883567</eid>
             <linked>
               <score>same</score>
-              <indexDiff>-3</indexDiff>
+              <indexDiff>-4</indexDiff>
               </linked>
             <minDistance>-0.693535</minDistance>
             <offset x="-3.5" y="-6.5"/>
@@ -266,7 +293,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <eid>16138322434850865</eid>
             <linked>
               <score>same</score>
-              <indexDiff>-3</indexDiff>
+              <indexDiff>-4</indexDiff>
               </linked>
             <size>12</size>
             <italic>1</italic>
@@ -275,8 +302,9 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             </SystemText>
           <InstrumentChange>
             <Instrument id="baritone-saxophone">
-              <longName>Baritone Saxophone</longName>
-              <shortName>Bar. Sax.</shortName>
+              <longName>REED 1
+(Flute, Bari Sax)</longName>
+              <shortName>Bari</shortName>
               <trackName>Baritone Saxophone</trackName>
               <minPitchP>36</minPitchP>
               <maxPitchP>80</maxPitchP>
@@ -296,9 +324,9 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <eid>16138326729818168</eid>
             <linked>
               <score>same</score>
-              <indexDiff>-3</indexDiff>
+              <indexDiff>-4</indexDiff>
               </linked>
-            <text>Bari Sax</text>
+            <text>To Baritone Saxophone</text>
             </InstrumentChange>
           <Rest>
             <eid>13548714853400603</eid>
