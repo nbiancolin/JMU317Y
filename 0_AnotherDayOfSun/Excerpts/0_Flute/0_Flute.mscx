@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.3</programVersion>
   <programRevision>eb6b367</programRevision>
-  <LastEID>3638548</LastEID>
+  <LastEID>3941215</LastEID>
   <Score>
     <name>Flute</name>
     <initialPartId>1</initialPartId>
@@ -83,7 +83,6 @@ $D</oddFooterR>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
-    <open>1</open>
     <metaTag name="partName">Flute</metaTag>
     <Part id="1">
       <Staff id="1">
@@ -223,9 +222,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               </Instrument>
             <init>1</init>
             <eid>15541558203908152</eid>
-            <linked>
-              <indexDiff>-1</indexDiff>
-              </linked>
+            <linkedMain/>
             <text>Bari Sax</text>
             </InstrumentChange>
           <Rest>
@@ -256,7 +253,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           <Tempo>
             <tempo>4.166667</tempo>
             <followText>1</followText>
-            <eid>15441889192837167</eid>
+            <eid>16138318139883567</eid>
             <linked>
               <score>same</score>
               <indexDiff>-3</indexDiff>
@@ -266,7 +263,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <text>Anyone who doesnt like La La Land has no taste <sym>metNoteHalfUp</sym><font face="Edwin"></font> = 125</text>
             </Tempo>
           <SystemText>
-            <eid>15441893487804465</eid>
+            <eid>16138322434850865</eid>
             <linked>
               <score>same</score>
               <indexDiff>-3</indexDiff>
@@ -296,9 +293,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
                 </Channel>
               </Instrument>
             <init>1</init>
-            <eid>15548412971712568</eid>
+            <eid>16138326729818168</eid>
             <linked>
-              <indexDiff>-4</indexDiff>
+              <score>same</score>
+              <indexDiff>-3</indexDiff>
               </linked>
             <text>Bari Sax</text>
             </InstrumentChange>
@@ -526,7 +524,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <small>1</small>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentAbove</subtype>
+              <subtype>articAccentBelow</subtype>
               <eid>4087906922659872</eid>
               </Articulation>
             <Note>
@@ -1257,6 +1255,16 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <velocity>96</velocity>
             <eid>686760975663140</eid>
             </Dynamic>
+          <SystemText>
+            <eid>16364705866055729</eid>
+            <linked>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <minDistance>-6.58179</minDistance>
+            <offset x="-12.0774" y="-3.25161"/>
+            <text><b>PRE-CHORUS  1
+</b><i>&quot;Without a nickel to my name ...&quot;</i></text>
+            </SystemText>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -3822,6 +3830,16 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <eid>5399353711657015</eid>
             <text>G</text>
             </RehearsalMark>
+          <SystemText>
+            <eid>16300272766681137</eid>
+            <linked>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <minDistance>-6.58179</minDistance>
+            <offset x="-12.0774" y="-3.25161"/>
+            <text><b>PRE-CHORUS  2
+</b><i>&quot;And even when the answer's no ...&quot;</i></text>
+            </SystemText>
           <Chord>
             <eid>5510228292403315</eid>
             <durationType>quarter</durationType>
@@ -5469,6 +5487,14 @@ this is your moment</text>
             <eid>7771906530869296</eid>
             <text>8va ------</text>
             </StaffText>
+          <SystemText>
+            <eid>16408656266395697</eid>
+            <linked>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <offset x="-8.31656" y="-2.44571"/>
+            <text><b>BREAKDOWN</b><i>!</i></text>
+            </SystemText>
           <Chord>
             <eid>7707563625807987</eid>
             <durationType>quarter</durationType>
