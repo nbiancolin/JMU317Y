@@ -180,7 +180,7 @@
     <articulationAnchorOther>0</articulationAnchorOther>
     <articulationStemHAlign>2</articulationStemHAlign>
     <articulationKeepTogether>1</articulationKeepTogether>
-    <lastSystemFillLimit>0.3</lastSystemFillLimit>
+    <lastSystemFillLimit>0.29</lastSystemFillLimit>
     <hairpinPlacement>1</hairpinPlacement>
     <hairpinPosAbove x="0" y="-2"/>
     <hairpinPosBelow x="0" y="2"/>
@@ -460,7 +460,7 @@ $C
  
 </oddFooterC>
     <oddFooterR>$:albumTitle:
-$D</oddFooterR>
+v$:versionNum:</oddFooterR>
     <voltaPosAbove x="0" y="-3"/>
     <voltaHook>2.2</voltaHook>
     <voltaLineWidth>0.11</voltaLineWidth>
