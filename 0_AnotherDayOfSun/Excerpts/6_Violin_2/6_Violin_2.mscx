@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.3</programVersion>
   <programRevision>eb6b367</programRevision>
-  <LastEID>4863874</LastEID>
+  <LastEID>5137885</LastEID>
   <Score>
     <name>Violin 2</name>
     <initialPartId>10</initialPartId>
@@ -120,7 +120,8 @@ v$:versionNum:</oddFooterR>
       </Part>
     <Staff id="1">
       <VBox>
-        <height>34.5</height>
+        <height>25</height>
+        <boxAutoSize>0</boxAutoSize>
         <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
         <eid>18451179503739</eid>
         <linked>
@@ -128,6 +129,7 @@ v$:versionNum:</oddFooterR>
             <staves>-17</staves>
             </location>
           </linked>
+        <appearanceLinkedToMaster>0</appearanceLinkedToMaster>
         <Text>
           <eid>18455474470918</eid>
           <linked>
@@ -173,7 +175,9 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               <staves>-17</staves>
               </location>
             </linked>
+          <appearanceLinkedToMaster>0</appearanceLinkedToMaster>
           <style>user_2</style>
+          <framePadding>3.5</framePadding>
           <text>2-1</text>
           </Text>
         <Text>
@@ -246,9 +250,17 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             </Rest>
           </voice>
         </Measure>
-      <Measure len="14/2">
-        <multiMeasureRest>7</multiMeasureRest>
+      <Measure len="16/2">
+        <multiMeasureRest>8</multiMeasureRest>
         <startRepeat/>
+        <endRepeat>2</endRepeat>
+        <LayoutBreak>
+          <eid>21383375151431761</eid>
+          <subtype>section</subtype>
+          <pause>0</pause>
+          <startWithLongNames>0</startWithLongNames>
+          <firstSystemIndentation>0</firstSystemIndentation>
+          </LayoutBreak>
         <voice>
           <TimeSig>
             <subtype>2</subtype>
@@ -368,10 +380,6 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           <firstSystemIndentation>0</firstSystemIndentation>
           </LayoutBreak>
         <voice>
-          <SystemText>
-            <eid>7492201080684593</eid>
-            <text>H</text>
-            </SystemText>
           <Rest>
             <eid>18545668784154</eid>
             <linked>
@@ -759,6 +767,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
         </Measure>
       <Measure len="30/2">
         <multiMeasureRest>15</multiMeasureRest>
+        <LayoutBreak>
+          <eid>21384869800050769</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>18721762443291</eid>
@@ -917,6 +929,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>21384478958026833</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>18781891985434</eid>
@@ -1271,6 +1287,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>21386093865730129</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>468894464606323</eid>
@@ -1349,6 +1369,8 @@ Lyrics by: Benj Pasek &amp; Justin Paul
                 <staves>-17</staves>
                 </location>
               </linked>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <offset x="6.5" y="-6.77226"/>
             <text>C</text>
             </RehearsalMark>
           <SystemText>
@@ -1358,8 +1380,9 @@ Lyrics by: Benj Pasek &amp; Justin Paul
                 <staves>-17</staves>
                 </location>
               </linked>
-            <minDistance>-6.58179</minDistance>
-            <offset x="-12.0774" y="-3.25161"/>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <minDistance>-0.0241884</minDistance>
+            <offset x="-14" y="-6"/>
             <text><b>PRE-CHORUS  1
 </b><i>&quot;Without a nickel to my name ...&quot;</i></text>
             </SystemText>
@@ -1581,6 +1604,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>21404622354645073</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>1086566596345882</eid>
@@ -1686,6 +1713,8 @@ Lyrics by: Benj Pasek &amp; Justin Paul
                 <staves>-17</staves>
                 </location>
               </linked>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <offset x="1" y="-7.23193"/>
             <text>D</text>
             </RehearsalMark>
           <SystemText>
@@ -1695,8 +1724,9 @@ Lyrics by: Benj Pasek &amp; Justin Paul
                 <staves>-17</staves>
                 </location>
               </linked>
-            <minDistance>-6.58179</minDistance>
-            <offset x="-16.9838" y="-4.57257"/>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <minDistance>0.0161341</minDistance>
+            <offset x="-15" y="-6"/>
             <text><b>CHORUS  1
 </b><i>&quot;Behind these hills, I'm reaching for the lights.&quot;</i></text>
             </SystemText>
@@ -1826,6 +1856,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>21520758270328913</eid>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>4496573060874266</eid>
@@ -2033,6 +2067,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>21408844307497041</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>1726456593907827</eid>
@@ -2312,6 +2350,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>21410751272976465</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
             <HairPin>
@@ -2584,6 +2626,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>21412383360548945</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>3045960741552243</eid>
@@ -2818,6 +2864,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>21415806449483857</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>3046506202398835</eid>
@@ -3103,6 +3153,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>21417571681042513</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>19035295055898</eid>
@@ -3454,6 +3508,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>21522484847181905</eid>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Dynamic>
             <subtype>mf</subtype>
@@ -3621,6 +3679,9 @@ Lyrics by: Benj Pasek &amp; Justin Paul
                 <staves>-17</staves>
                 </location>
               </linked>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <minDistance>0.330642</minDistance>
+            <offset x="7.5" y="-6.27226"/>
             <text>G</text>
             </RehearsalMark>
           <SystemText>
@@ -3630,8 +3691,9 @@ Lyrics by: Benj Pasek &amp; Justin Paul
                 <staves>-17</staves>
                 </location>
               </linked>
-            <minDistance>-6.58179</minDistance>
-            <offset x="-12.0774" y="-3.25161"/>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <minDistance>0.419359</minDistance>
+            <offset x="-13.5" y="-6"/>
             <text><b>PRE-CHORUS  2
 </b><i>&quot;And even when the answer's no ...&quot;</i></text>
             </SystemText>
@@ -3797,6 +3859,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>21421346957295697</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>5387705760350234</eid>
@@ -3903,6 +3969,8 @@ Lyrics by: Benj Pasek &amp; Justin Paul
                 <staves>-17</staves>
                 </location>
               </linked>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <offset x="3.5" y="-6.23193"/>
             <text>H</text>
             </RehearsalMark>
           <SystemText>
@@ -3912,8 +3980,9 @@ Lyrics by: Benj Pasek &amp; Justin Paul
                 <staves>-17</staves>
                 </location>
               </linked>
-            <minDistance>-6.58179</minDistance>
-            <offset x="-12.0774" y="-3.25161"/>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <minDistance>-0.0241884</minDistance>
+            <offset x="-12.5" y="-6"/>
             <text><b>CHORUS  2
 </b><i>&quot;Behind these hills, I'm reaching for the lights.&quot;</i></text>
             </SystemText>
@@ -4043,6 +4112,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>21423494440943697</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>6656185696518170</eid>
@@ -4250,6 +4323,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>21425521665507409</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>6656683912724595</eid>
@@ -4529,6 +4606,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>21427454400790609</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
             <HairPin>
@@ -4801,6 +4882,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>21429163797774417</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>6657852143829107</eid>
@@ -5035,6 +5120,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>21430920439398481</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>6658419079512179</eid>
@@ -5320,6 +5409,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>21434094420230225</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>2573132086902810</eid>
@@ -5503,6 +5596,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>21439123826933841</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>16252220672573555</eid>
@@ -5570,6 +5667,12 @@ Lyrics by: Benj Pasek &amp; Justin Paul
         </Measure>
       <Measure>
         <voice>
+          <StaffText>
+            <eid>21729957537382448</eid>
+            <linked>
+              </linked>
+            <text>V.S. Time</text>
+            </StaffText>
           <Rest>
             <eid>2576980377600026</eid>
             <linked>
@@ -5581,7 +5684,22 @@ Lyrics by: Benj Pasek &amp; Justin Paul
         </Measure>
       <Measure len="18/2">
         <multiMeasureRest>9</multiMeasureRest>
+        <LayoutBreak>
+          <eid>21437951300862033</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
+          <StaffText>
+            <eid>21730571717705776</eid>
+            <linked>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <placement>below</placement>
+            <minDistance>-999</minDistance>
+            <offset x="52.5" y="4.5"/>
+            <text>V.S. Time</text>
+            </StaffText>
           <Rest>
             <eid>16253225694920731</eid>
             <durationType>measure</durationType>
@@ -5673,6 +5791,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>21437405840015441</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>6693392998203418</eid>
@@ -5689,6 +5811,20 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             </BarLine>
           </voice>
         </Measure>
+      <VBox>
+        <height>125.5</height>
+        <boxAutoSize>0</boxAutoSize>
+        <eid>21559554709913722</eid>
+        <excludeFromParts>1</excludeFromParts>
+        <Text>
+          <eid>21598449933746181</eid>
+          <style>frame</style>
+          <size>14</size>
+          <bold>1</bold>
+          <offset x="41.1198" y="69.9912"/>
+          <text><b><font size="14"/>This Page is Left Blank to Facilitate Page Turns</b></text>
+          </Text>
+        </VBox>
       <Measure>
         <voice>
           <RehearsalMark>
@@ -5923,6 +6059,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>21441099511890001</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Dynamic>
             <subtype>mf</subtype>
@@ -5989,8 +6129,8 @@ Lyrics by: Benj Pasek &amp; Justin Paul
                 <staves>-17</staves>
                 </location>
               </linked>
-            <minDistance>-10.5</minDistance>
-            <offset x="0" y="-0.791934"/>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <offset x="-7.5" y="-4.5"/>
             <text>Slightly Slower, <sym>metNoteHalfUp</sym><font face="Edwin"/> = 119</text>
             </Tempo>
           <Spanner type="HairPin">
@@ -6120,6 +6260,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>21443268470374481</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>8174860362579994</eid>
@@ -6398,6 +6542,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>21451751030784081</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>8176818867666970</eid>
@@ -6632,6 +6780,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>21453507672408145</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>8662957625966707</eid>
@@ -6774,6 +6926,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>21455350213378129</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>8877830544818202</eid>
@@ -7008,6 +7164,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>21457102560034897</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>9021784963678323</eid>
@@ -7169,6 +7329,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>21760821172371537</eid>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>8998587845312538</eid>
@@ -7403,6 +7567,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>21463665270063185</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>9027651889004659</eid>
@@ -7733,6 +7901,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>21465421911687249</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>9088636129640563</eid>
@@ -7978,6 +8150,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>21467221502984273</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>12437435015233651</eid>
@@ -8271,6 +8447,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>21469111288594513</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>12453734416121971</eid>
@@ -8388,6 +8568,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>21470846455382097</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>12468311535124595</eid>
@@ -8596,6 +8780,13 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               </linked>
             <text>pizz.</text>
             </PlayTechAnnotation>
+          <Dynamic>
+            <subtype>mf</subtype>
+            <velocity>80</velocity>
+            <eid>21472843615174692</eid>
+            <linked>
+              </linked>
+            </Dynamic>
           <Chord>
             <eid>12621525903474803</eid>
             <linked>
