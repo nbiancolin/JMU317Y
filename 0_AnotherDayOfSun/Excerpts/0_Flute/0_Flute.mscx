@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.3</programVersion>
   <programRevision>eb6b367</programRevision>
-  <LastEID>4020760</LastEID>
+  <LastEID>4115331</LastEID>
   <Score>
     <name>Flute</name>
     <initialPartId>1</initialPartId>
@@ -83,6 +83,7 @@ $D</oddFooterR>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
+    <open>1</open>
     <metaTag name="partName">Flute</metaTag>
     <Part id="1">
       <Staff id="1">
@@ -268,7 +269,12 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           <subtype>section</subtype>
           <pause>0</pause>
           <startWithLongNames>0</startWithLongNames>
+          <startWithMeasureOne>0</startWithMeasureOne>
           <firstSystemIndentation>0</firstSystemIndentation>
+          </LayoutBreak>
+        <LayoutBreak>
+          <eid>17532872546058321</eid>
+          <subtype>section</subtype>
           </LayoutBreak>
         <voice>
           <TimeSig>
@@ -295,9 +301,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               <score>same</score>
               <indexDiff>-4</indexDiff>
               </linked>
+            <minDistance>0.428734</minDistance>
             <size>12</size>
             <italic>1</italic>
-            <offset x="-7.19999" y="-3.48387"/>
+            <offset x="-18.2089" y="-2.55359"/>
             <text><i><font size="12"></font>Vamp until cue</i></text>
             </SystemText>
           <InstrumentChange>
@@ -326,7 +333,37 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               <score>same</score>
               <indexDiff>-4</indexDiff>
               </linked>
+            <visible>0</visible>
             <text>To Baritone Saxophone</text>
+            </InstrumentChange>
+          <InstrumentChange>
+            <Instrument id="baritone-saxophone">
+              <longName>REED 1
+(Flute, Bari Sax)</longName>
+              <shortName>Bari</shortName>
+              <trackName>Baritone Saxophone</trackName>
+              <minPitchP>36</minPitchP>
+              <maxPitchP>80</maxPitchP>
+              <minPitchA>36</minPitchA>
+              <maxPitchA>68</maxPitchA>
+              <transposeDiatonic>-12</transposeDiatonic>
+              <transposeChromatic>-21</transposeChromatic>
+              <instrumentId>wind.reed.saxophone.baritone</instrumentId>
+              <concertClef>F</concertClef>
+              <transposingClef>G</transposingClef>
+              <Channel>
+                <program value="67"/>
+                <synti>Fluid</synti>
+                </Channel>
+              </Instrument>
+            <eid>17310887161364536</eid>
+            <linked>
+              <indexDiff>-5</indexDiff>
+              </linked>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <minDistance>0.413699</minDistance>
+            <offset x="0.29731" y="-3.51434"/>
+            <text>Bari Sax</text>
             </InstrumentChange>
           <Rest>
             <eid>13548714853400603</eid>
@@ -393,6 +430,18 @@ Lyrics by: Benj Pasek &amp; Justin Paul
         <endRepeat>2</endRepeat>
         <LayoutBreak>
           <eid>7477958969131089</eid>
+          <subtype>section</subtype>
+          <pause>0</pause>
+          <startWithLongNames>0</startWithLongNames>
+          <firstSystemIndentation>0</firstSystemIndentation>
+          </LayoutBreak>
+        <LayoutBreak>
+          <eid>17531145969205329</eid>
+          <linked>
+            <location>
+              <staves>-1</staves>
+              </location>
+            </linked>
           <subtype>section</subtype>
           <pause>0</pause>
           <startWithLongNames>0</startWithLongNames>
@@ -552,7 +601,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <small>1</small>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentBelow</subtype>
+              <subtype>articAccentAbove</subtype>
               <eid>4087906922659872</eid>
               </Articulation>
             <Note>
@@ -1276,6 +1325,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
         <voice>
           <RehearsalMark>
             <eid>287298952364087</eid>
+            <offset x="8.14129" y="-6.62692"/>
             <text>C</text>
             </RehearsalMark>
           <Dynamic>
@@ -1288,8 +1338,9 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <linked>
               <indexDiff>1</indexDiff>
               </linked>
-            <minDistance>-6.58179</minDistance>
-            <offset x="-12.0774" y="-3.25161"/>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <minDistance>-0.209581</minDistance>
+            <offset x="-12.6805" y="-5.81461"/>
             <text><b>PRE-CHORUS  1
 </b><i>&quot;Without a nickel to my name ...&quot;</i></text>
             </SystemText>
@@ -3856,6 +3907,8 @@ Lyrics by: Benj Pasek &amp; Justin Paul
         <voice>
           <RehearsalMark>
             <eid>5399353711657015</eid>
+            <minDistance>-1.30918</minDistance>
+            <offset x="7.83976" y="-7.53151"/>
             <text>G</text>
             </RehearsalMark>
           <SystemText>
@@ -3863,8 +3916,9 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <linked>
               <indexDiff>1</indexDiff>
               </linked>
-            <minDistance>-6.58179</minDistance>
-            <offset x="-12.0774" y="-3.25161"/>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <minDistance>-0.765065</minDistance>
+            <offset x="-12.3789" y="-6.56843"/>
             <text><b>PRE-CHORUS  2
 </b><i>&quot;And even when the answer's no ...&quot;</i></text>
             </SystemText>
@@ -7539,8 +7593,7 @@ this is your moment</text>
               <score>same</score>
               <indexDiff>-1</indexDiff>
               </linked>
-            <minDistance>-10.5</minDistance>
-            <offset x="0" y="-0.791934"/>
+            <offset x="-6.70107" y="-4.38179"/>
             <text>Slightly Slower, <sym>metNoteHalfUp</sym><font face="Edwin"></font> = 119</text>
             </Tempo>
           <Rest>
@@ -10534,6 +10587,10 @@ this is your moment</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>17360932120297553</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>12500089998147699</eid>
@@ -10662,7 +10719,7 @@ this is your moment</text>
               <score>same</score>
               <indexDiff>-2</indexDiff>
               </linked>
-            <offset x="-3.2907" y="-2.11013"/>
+            <offset x="-9.99177" y="-5.00214"/>
             <text>Car Horns</text>
             </SystemText>
           <StaffText>
@@ -10671,8 +10728,7 @@ this is your moment</text>
               <score>same</score>
               <indexDiff>-2</indexDiff>
               </linked>
-            <minDistance>-10.9635</minDistance>
-            <offset x="0.418817" y="-0.576649"/>
+            <offset x="2.57273" y="-4.40583"/>
             <text>quick To Flute</text>
             </StaffText>
           <Rest>
