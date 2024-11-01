@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.3</programVersion>
   <programRevision>eb6b367</programRevision>
-  <LastEID>3007376</LastEID>
+  <LastEID>3476439</LastEID>
   <Score>
     <name>Flute</name>
     <initialPartId>1</initialPartId>
@@ -83,6 +83,7 @@ $D</oddFooterR>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
+    <open>1</open>
     <metaTag name="partName">Flute</metaTag>
     <Part id="1">
       <Staff id="1">
@@ -110,11 +111,13 @@ $D</oddFooterR>
       </Part>
     <Staff id="1">
       <VBox>
-        <height>34.5</height>
+        <height>20</height>
+        <boxAutoSize>0</boxAutoSize>
         <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
         <eid>12897786790011</eid>
         <linked>
           </linked>
+        <appearanceLinkedToMaster>0</appearanceLinkedToMaster>
         <Text>
           <eid>12902081757190</eid>
           <linked>
@@ -137,7 +140,7 @@ $D</oddFooterR>
           <linked>
             </linked>
           <style>composer</style>
-          <size>12</size>
+          <size>9</size>
           <offset x="0" y="-1.2573"/>
           <text><b><font size="9"></font>SKULE NITE PIT ORCHESTRA
 </b>Music by: Justin Hurwitz 
@@ -148,7 +151,9 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           <eid>12914966659078</eid>
           <linked>
             </linked>
+          <appearanceLinkedToMaster>0</appearanceLinkedToMaster>
           <style>user_2</style>
+          <framePadding>3.5</framePadding>
           <text>2-1</text>
           </Text>
         <Text>
@@ -161,21 +166,23 @@ Lyrics by: Benj Pasek &amp; Justin Paul
         <Text>
           <eid>12923556593670</eid>
           <style>instrument_excerpt</style>
-          <text>Flute</text>
+          <text>Flute
+<font size="11"/>(Doubles Bari)</text>
           </Text>
         </VBox>
       <Measure>
         <startRepeat/>
-        <measureNumberMode>2</measureNumberMode>
         <voice>
           <KeySig>
             <eid>12273955675045911</eid>
+            <linkedMain/>
             <concertKey>0</concertKey>
             </KeySig>
           <TimeSig>
             <subtype>2</subtype>
             <eid>12932146528281</eid>
             <linked>
+              <indexDiff>-1</indexDiff>
               </linked>
             <sigN>2</sigN>
             <sigD>2</sigD>
@@ -185,18 +192,22 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <followText>1</followText>
             <eid>726777185959983</eid>
             <linked>
+              <indexDiff>-1</indexDiff>
               </linked>
-            <minDistance>-7.64969</minDistance>
-            <offset x="0" y="-2.28629"/>
-            <text>Anyone who doesnt like La La Land has no taste <sym>metNoteHalfUp</sym><font face="Edwin"/> = 125</text>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <minDistance>-0.693535</minDistance>
+            <offset x="-3.5" y="-6.5"/>
+            <text>Anyone who doesnt like La La Land has no taste <sym>metNoteHalfUp</sym><font face="Edwin"></font> = 125</text>
             </Tempo>
           <SystemText>
             <eid>4045464055840817</eid>
             <linked>
+              <indexDiff>-1</indexDiff>
               </linked>
-            <minDistance>-6.21142</minDistance>
-            <offset x="-0.326612" y="-3.26612"/>
-            <text>Vamp until cue</text>
+            <size>12</size>
+            <italic>1</italic>
+            <offset x="-7.19999" y="-3.48387"/>
+            <text><i><font size="12"/>Vamp until cue</i></text>
             </SystemText>
           <InstrumentChange>
             <Instrument id="baritone-saxophone">
@@ -221,54 +232,105 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <init>1</init>
             <eid>4066698374152248</eid>
             <linked>
+              <indexDiff>-1</indexDiff>
               </linked>
             <minDistance>-10</minDistance>
             <offset x="0" y="-0.828023"/>
             <text>Bari Sax</text>
             </InstrumentChange>
-          <SystemText>
-            <eid>7487923293257777</eid>
-            <linked>
-              </linked>
-            <text>A</text>
-            </SystemText>
           <Rest>
             <eid>12945031430170</eid>
             <linked>
+              <indexDiff>-1</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
           </voice>
         </Measure>
-      <Measure len="30/2">
-        <multiMeasureRest>15</multiMeasureRest>
+      <Measure len="16/2">
+        <multiMeasureRest>8</multiMeasureRest>
+        <startRepeat/>
+        <endRepeat>2</endRepeat>
+        <LayoutBreak>
+          <eid>13627291280080977</eid>
+          <subtype>section</subtype>
+          <pause>0</pause>
+          <startWithLongNames>0</startWithLongNames>
+          <firstSystemIndentation>0</firstSystemIndentation>
+          </LayoutBreak>
         <voice>
           <TimeSig>
             <subtype>2</subtype>
-            <eid>12949326397465</eid>
+            <eid>13548723443335193</eid>
             <linked>
               <indexDiff>-6</indexDiff>
               </linked>
             <sigN>2</sigN>
             <sigD>2</sigD>
             </TimeSig>
+          <Tempo>
+            <tempo>4.166667</tempo>
+            <followText>1</followText>
+            <eid>13548736328237103</eid>
+            <linked>
+              <indexDiff>-6</indexDiff>
+              </linked>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <minDistance>-2.3135</minDistance>
+            <offset x="4.5" y="-6.67198"/>
+            <text>Anyone who doesnt like La La Land has no taste <sym>metNoteHalfUp</sym><font face="Edwin"></font> = 125</text>
+            </Tempo>
+          <SystemText>
+            <eid>13548740623204401</eid>
+            <linked>
+              <indexDiff>-6</indexDiff>
+              </linked>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <size>12</size>
+            <italic>1</italic>
+            <offset x="-17" y="-2.65584"/>
+            <text><i><font size="12"/>Vamp until cue</i></text>
+            </SystemText>
+          <InstrumentChange>
+            <Instrument id="baritone-saxophone">
+              <longName>Flute
+(Doubles Bari Sax)</longName>
+              <shortName>Bari</shortName>
+              <trackName>Baritone Saxophone</trackName>
+              <minPitchP>36</minPitchP>
+              <maxPitchP>80</maxPitchP>
+              <minPitchA>36</minPitchA>
+              <maxPitchA>68</maxPitchA>
+              <transposeDiatonic>-12</transposeDiatonic>
+              <transposeChromatic>-21</transposeChromatic>
+              <instrumentId>wind.reed.saxophone.baritone</instrumentId>
+              <concertClef>F</concertClef>
+              <transposingClef>G</transposingClef>
+              <Channel>
+                <program value="67"/>
+                <synti>Fluid</synti>
+                </Channel>
+              </Instrument>
+            <init>1</init>
+            <eid>13548744918171704</eid>
+            <linked>
+              <indexDiff>-6</indexDiff>
+              </linked>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <minDistance>0.399355</minDistance>
+            <offset x="-0.5" y="-3.5"/>
+            <text>Bari Sax</text>
+            </InstrumentChange>
           <Rest>
-            <eid>12962211299355</eid>
+            <eid>13548714853400603</eid>
             <durationType>measure</durationType>
-            <duration>30/2</duration>
+            <duration>4/2</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
-        <measureNumberMode>2</measureNumberMode>
         <voice>
-          <SystemText>
-            <eid>7488528883646513</eid>
-            <linked>
-              </linked>
-            <text>B</text>
-            </SystemText>
           <Rest>
             <eid>12966506266650</eid>
             <linked>
@@ -279,14 +341,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
-        <measureNumberMode>2</measureNumberMode>
         <voice>
-          <SystemText>
-            <eid>7489065754558513</eid>
-            <linked>
-              </linked>
-            <text>C</text>
-            </SystemText>
           <Rest>
             <eid>12970801233946</eid>
             <linked>
@@ -297,14 +352,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
-        <measureNumberMode>2</measureNumberMode>
         <voice>
-          <SystemText>
-            <eid>7489636985208881</eid>
-            <linked>
-              </linked>
-            <text>D</text>
-            </SystemText>
           <Rest>
             <eid>12975096201242</eid>
             <linked>
@@ -315,14 +363,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
-        <measureNumberMode>2</measureNumberMode>
         <voice>
-          <SystemText>
-            <eid>7490517453504561</eid>
-            <linked>
-              </linked>
-            <text>E</text>
-            </SystemText>
           <Rest>
             <eid>12979391168538</eid>
             <linked>
@@ -333,14 +374,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
-        <measureNumberMode>2</measureNumberMode>
         <voice>
-          <SystemText>
-            <eid>7491088684154929</eid>
-            <linked>
-              </linked>
-            <text>F</text>
-            </SystemText>
           <Rest>
             <eid>12983686135834</eid>
             <linked>
@@ -351,14 +385,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
-        <measureNumberMode>2</measureNumberMode>
         <voice>
-          <SystemText>
-            <eid>7491659914805297</eid>
-            <linked>
-              </linked>
-            <text>G</text>
-            </SystemText>
           <Rest>
             <eid>12987981103130</eid>
             <linked>
@@ -370,7 +397,6 @@ Lyrics by: Benj Pasek &amp; Justin Paul
         </Measure>
       <Measure>
         <endRepeat>2</endRepeat>
-        <measureNumberMode>2</measureNumberMode>
         <LayoutBreak>
           <eid>7477958969131089</eid>
           <subtype>section</subtype>
@@ -379,10 +405,6 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           <firstSystemIndentation>0</firstSystemIndentation>
           </LayoutBreak>
         <voice>
-          <SystemText>
-            <eid>7492196785717297</eid>
-            <text>H</text>
-            </SystemText>
           <Rest>
             <eid>12992276070426</eid>
             <durationType>measure</durationType>
@@ -506,6 +528,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>13590238597218385</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>4087760893771802</eid>
@@ -524,7 +550,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentAbove</subtype>
+              <subtype>articAccentBelow</subtype>
               <eid>4087808138412064</eid>
               <linked>
                 </linked>
@@ -542,9 +568,9 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <eid>4127248823091248</eid>
             <linked>
               </linked>
-            <style>user_1</style>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <appearanceLinkedToMaster>0</appearanceLinkedToMaster>
             <minDistance>-9.5</minDistance>
-            <offset x="0" y="-2.40463"/>
             <text>(quick) To Flute</text>
             </StaffText>
           <Rest>
@@ -847,8 +873,9 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <eid>13116830122033</eid>
             <linked>
               </linked>
-            <minDistance>-9.33512</minDistance>
-            <offset x="2.76472" y="-2.77403"/>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <minDistance>-0.89548</minDistance>
+            <offset x="3.5" y="-4.5"/>
             <text><b>VERSE 1
 </b><i>&quot;I think about that day...&quot;</i></text>
             </SystemText>
@@ -923,6 +950,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
         </Measure>
       <Measure len="30/2">
         <multiMeasureRest>15</multiMeasureRest>
+        <LayoutBreak>
+          <eid>13592179922436177</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>13146894893083</eid>
@@ -1084,6 +1115,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>13592025303613521</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>13207024435226</eid>
@@ -1287,8 +1322,9 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <eid>280594508415024</eid>
             <linked>
               </linked>
-            <minDistance>-8.26209</minDistance>
-            <offset x="0.125794" y="-1.92657"/>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <minDistance>0.090822</minDistance>
+            <offset x="0" y="-3"/>
             <text>try your best</text>
             </StaffText>
           <Dynamic>
@@ -1374,6 +1410,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>13593489887461457</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>298122269949978</eid>
@@ -1513,7 +1553,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>686851169976352</eid>
               <linked>
                 </linked>
@@ -1532,7 +1572,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>686898414616608</eid>
               <linked>
                 </linked>
@@ -1564,7 +1604,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               </linked>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>686992903897120</eid>
               <linked>
                 </linked>
@@ -1577,23 +1617,6 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               <tpc>10</tpc>
               </Note>
             </Chord>
-          </voice>
-        </Measure>
-      <Measure len="104/2">
-        <multiMeasureRest>52</multiMeasureRest>
-        <voice>
-          <RehearsalMark>
-            <eid>287410621513783</eid>
-            <linked>
-              <indexDiff>1</indexDiff>
-              </linked>
-            <text>C</text>
-            </RehearsalMark>
-          <Rest>
-            <eid>280564443643931</eid>
-            <durationType>measure</durationType>
-            <duration>104/2</duration>
-            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -1629,7 +1652,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>687100278079520</eid>
               <linked>
                 </linked>
@@ -1648,7 +1671,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>687147522719776</eid>
               <linked>
                 </linked>
@@ -1667,7 +1690,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>687194767360032</eid>
               <linked>
                 </linked>
@@ -1709,7 +1732,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>687297846575136</eid>
               <linked>
                 </linked>
@@ -1728,7 +1751,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>687345091215392</eid>
               <linked>
                 </linked>
@@ -1760,7 +1783,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               </linked>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>687439580495904</eid>
               <linked>
                 </linked>
@@ -1776,6 +1799,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>13597733315149905</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>687452465397786</eid>
@@ -1789,7 +1816,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               </linked>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articTenutoBelow</subtype>
+              <subtype>articTenutoAbove</subtype>
               <eid>687499710038048</eid>
               <linked>
                 </linked>
@@ -1808,7 +1835,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>687546954678304</eid>
               <linked>
                 </linked>
@@ -1827,7 +1854,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>687594199318560</eid>
               <linked>
                 </linked>
@@ -1846,7 +1873,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>687641443958816</eid>
               <linked>
                 </linked>
@@ -2047,7 +2074,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <eid>694517686599712</eid>
               <linked>
                 </linked>
@@ -2139,6 +2166,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>13599455597035601</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>688242739380250</eid>
@@ -2152,7 +2183,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               </linked>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <eid>694552046338080</eid>
               <linked>
                 </linked>
@@ -2230,12 +2261,6 @@ Lyrics by: Benj Pasek &amp; Justin Paul
         </Measure>
       <Measure>
         <voice>
-          <StaffText>
-            <eid>7526698258006064</eid>
-            <linked>
-              </linked>
-            <text>opt.tacet</text>
-            </StaffText>
           <Rest>
             <eid>896544358268954</eid>
             <linked>
@@ -2500,6 +2525,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>13602973175251025</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>894555788410906</eid>
@@ -2813,6 +2842,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>13604154291257425</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>910743520149619</eid>
@@ -2848,14 +2881,16 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <eid>911082822565943</eid>
             <linked>
               </linked>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <offset x="4.5" y="-8.42743"/>
             <text>D</text>
             </RehearsalMark>
           <SystemText>
             <eid>1103634796380209</eid>
             <linked>
               </linked>
-            <minDistance>-6.58179</minDistance>
-            <offset x="-16.9838" y="-4.57257"/>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <offset x="-12.5" y="-7.5"/>
             <text><b>CHORUS  1
 </b><i>&quot;Behind these hills, I'm reaching for the lights.&quot;</i></text>
             </SystemText>
@@ -3012,6 +3047,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>13608887345217617</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>1405154385461363</eid>
@@ -3119,6 +3158,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
             </Tuplet>
           <Chord>
             <eid>1406047738658931</eid>
@@ -3180,6 +3223,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <normalNotes>4</normalNotes>
             <actualNotes>7</actualNotes>
             <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>7</text>
+              </Number>
             </Tuplet>
           <Chord>
             <eid>1406314026631283</eid>
@@ -3356,6 +3403,20 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             </Rest>
           </voice>
         </Measure>
+      <Measure len="6/2">
+        <multiMeasureRest>3</multiMeasureRest>
+        <LayoutBreak>
+          <eid>13610304684425297</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <Rest>
+            <eid>13445743012479003</eid>
+            <durationType>measure</durationType>
+            <duration>6/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -3368,6 +3429,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>13610205900177489</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>13408887898138</eid>
@@ -3606,7 +3671,25 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             </Rest>
           </voice>
         </Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
+        <LayoutBreak>
+          <eid>13611799333044305</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <Rest>
+            <eid>13445927696072731</eid>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>13611700548796497</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>13447542603802</eid>
@@ -3646,6 +3729,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <normalNotes>4</normalNotes>
             <actualNotes>5</actualNotes>
             <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>5</text>
+              </Number>
             </Tuplet>
           <Chord>
             <eid>2296119581212787</eid>
@@ -3793,6 +3880,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>13613457190420561</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>13460427505690</eid>
@@ -3815,13 +3906,16 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <eid>2853456012378167</eid>
             <linked>
               </linked>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <offset x="3" y="-7.83677"/>
             <text>F</text>
             </RehearsalMark>
           <SystemText>
             <eid>3532112384753713</eid>
             <linked>
               </linked>
-            <offset x="-15.6774" y="-3.91935"/>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <offset x="-12" y="-6.60484"/>
             <text><b>VERSE 2
 </b><i>&quot;I hear 'em everyday...&quot;</i></text>
             </SystemText>
@@ -4059,6 +4153,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>13615763587858513</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>5002314049912947</eid>
@@ -4463,6 +4561,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>13617365610659921</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>2556660887322650</eid>
@@ -4700,6 +4802,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>13618989108297809</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>5308961829945459</eid>
@@ -4899,6 +5005,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
             </Tuplet>
           <Chord>
             <eid>5543797756788851</eid>
@@ -5026,6 +5136,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
             </Tuplet>
           <Chord>
             <eid>5553160785494131</eid>
@@ -5114,6 +5228,12 @@ Lyrics by: Benj Pasek &amp; Justin Paul
         </Measure>
       <Measure>
         <voice>
+          <StaffText>
+            <eid>13954146881241136</eid>
+            <linked>
+              </linked>
+            <text>V.S. Play</text>
+            </StaffText>
           <Rest>
             <eid>5505890375434266</eid>
             <linked>
@@ -5123,7 +5243,40 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             </Rest>
           </voice>
         </Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
+        <LayoutBreak>
+          <eid>13951892023410769</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <LayoutBreak>
+          <eid>13951896318378065</eid>
+          <subtype>page</subtype>
+          </LayoutBreak>
+        <voice>
+          <StaffText>
+            <eid>13954249960456240</eid>
+            <linked>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            <text>V.S. Play</text>
+            </StaffText>
+          <Rest>
+            <eid>13446795279466523</eid>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>13620818764365905</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <LayoutBreak>
+          <eid>13951733109620817</eid>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>5505898965368858</eid>
@@ -5175,6 +5328,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
             </Tuplet>
           <Chord>
             <eid>5555922449465459</eid>
@@ -5278,6 +5435,16 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             </Rest>
           </voice>
         </Measure>
+      <Measure len="10/2">
+        <multiMeasureRest>5</multiMeasureRest>
+        <voice>
+          <Rest>
+            <eid>13446902653648923</eid>
+            <durationType>measure</durationType>
+            <duration>10/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -5372,6 +5539,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>13622725729845329</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>5363726957936755</eid>
@@ -5402,19 +5573,26 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <eid>13622970542981126</eid>
+          <text>113</text>
+          </MeasureNumber>
         <voice>
           <RehearsalMark>
             <eid>6908948816855095</eid>
             <linked>
               </linked>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <offset x="4.5" y="-8.23193"/>
             <text>H</text>
             </RehearsalMark>
           <SystemText>
             <eid>7558992117104689</eid>
             <linked>
               </linked>
-            <minDistance>-6.58179</minDistance>
-            <offset x="-12.0774" y="-3.25161"/>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <minDistance>0.122133</minDistance>
+            <offset x="-12" y="-7"/>
             <text><b>CHORUS  2
 </b><i>&quot;Behind these hills, I'm reaching for the lights.&quot;</i></text>
             </SystemText>
@@ -5571,6 +5749,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>13674458610925649</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>6621207482859635</eid>
@@ -5678,6 +5860,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
             </Tuplet>
           <Chord>
             <eid>6621362101682291</eid>
@@ -5739,6 +5925,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <normalNotes>4</normalNotes>
             <actualNotes>7</actualNotes>
             <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>7</text>
+              </Number>
             </Tuplet>
           <Chord>
             <eid>6621503835603059</eid>
@@ -5905,6 +6095,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>13676558849933393</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>6621890382659610</eid>
@@ -5955,6 +6149,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
             </Tuplet>
           <Chord>
             <eid>6880236960481395</eid>
@@ -6064,6 +6262,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
             </Tuplet>
           <Chord>
             <eid>6889149017620595</eid>
@@ -6177,6 +6379,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>13678246772080721</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>6622006346776691</eid>
@@ -6241,6 +6447,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
             </Tuplet>
           <Chord>
             <eid>7419766457237619</eid>
@@ -6350,6 +6560,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
             </Tuplet>
           <Chord>
             <eid>7420006975406195</eid>
@@ -6436,7 +6650,25 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             </Rest>
           </voice>
         </Measure>
+      <Measure len="4/2">
+        <multiMeasureRest>2</multiMeasureRest>
+        <LayoutBreak>
+          <eid>13680080723116113</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <Rest>
+            <eid>13447727287369755</eid>
+            <durationType>measure</durationType>
+            <duration>4/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>13679981938868305</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>12800123528544282</eid>
@@ -6636,6 +6868,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <normalNotes>4</normalNotes>
             <actualNotes>5</actualNotes>
             <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>5</text>
+              </Number>
             </Tuplet>
           <Chord>
             <eid>6622392893833331</eid>
@@ -6783,6 +7019,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>13681669861015633</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>2573016122785818</eid>
@@ -6818,8 +7058,9 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <eid>7753609970188336</eid>
             <linked>
               </linked>
-            <minDistance>-10</minDistance>
-            <offset x="0" y="-1.02419"/>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <minDistance>-0.277043</minDistance>
+            <offset x="-0.5" y="-3.5"/>
             <text>Lock in with Keys 1
 this is your moment</text>
             </StaffText>
@@ -6854,7 +7095,7 @@ this is your moment</text>
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>7707628050317344</eid>
               <linked>
                 </linked>
@@ -6905,7 +7146,7 @@ this is your moment</text>
               </linked>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>7707778374172704</eid>
               <linked>
                 </linked>
@@ -6947,7 +7188,7 @@ this is your moment</text>
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>7707894338289696</eid>
               <linked>
                 </linked>
@@ -7094,6 +7335,10 @@ this is your moment</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>13688554693591121</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>7708246525607962</eid>
@@ -7392,7 +7637,7 @@ this is your moment</text>
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <eid>7717154287779872</eid>
               <linked>
                 </linked>
@@ -7440,6 +7685,10 @@ this is your moment</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>13690483133907025</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>7709036799590426</eid>
@@ -7485,7 +7734,7 @@ this is your moment</text>
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <eid>7717162877714464</eid>
               <linked>
                 </linked>
@@ -7504,7 +7753,7 @@ this is your moment</text>
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               <eid>7717223007256608</eid>
               <linked>
                 </linked>
@@ -7786,6 +8035,10 @@ this is your moment</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>13692372919517265</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>7721878751805466</eid>
@@ -8132,6 +8385,10 @@ this is your moment</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>13694245525258321</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>7722754925133850</eid>
@@ -8497,6 +8754,10 @@ this is your moment</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>13699412370915409</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>8259922189877274</eid>
@@ -8843,6 +9104,10 @@ this is your moment</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>13701164717572177</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>8260824133009434</eid>
@@ -9189,6 +9454,10 @@ this is your moment</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>13703114632724561</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>8261734666076186</eid>
@@ -9535,6 +9804,10 @@ this is your moment</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>13928750739619921</eid>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>8262645199142938</eid>
@@ -9574,6 +9847,12 @@ this is your moment</text>
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <StaffText>
+            <eid>13981265304748080</eid>
+            <linked>
+              </linked>
+            <text>V.S. Time</text>
+            </StaffText>
           <Chord>
             <eid>8262774048161907</eid>
             <linked>
@@ -9638,6 +9917,27 @@ this is your moment</text>
               </linked>
             <durationType>measure</durationType>
             <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="12/2">
+        <multiMeasureRest>6</multiMeasureRest>
+        <voice>
+          <Tempo>
+            <tempo>3.966667</tempo>
+            <followText>1</followText>
+            <eid>13449230525923375</eid>
+            <linked>
+              <indexDiff>-2</indexDiff>
+              </linked>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <offset x="-7.5" y="-4.5"/>
+            <text>Slightly Slower, <sym>metNoteHalfUp</sym><font face="Edwin"></font> = 119</text>
+            </Tempo>
+          <Rest>
+            <eid>13449226230956059</eid>
+            <durationType>measure</durationType>
+            <duration>12/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -9799,6 +10099,10 @@ this is your moment</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>13711021667516497</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>8415064998543475</eid>
@@ -9830,6 +10134,10 @@ this is your moment</text>
               <eid>8415335581483028</eid>
               <linked>
                 </linked>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                <eid>13449294950432784</eid>
+                </Accidental>
               <pitch>78</pitch>
               <tpc>20</tpc>
               </Note>
@@ -9843,6 +10151,10 @@ this is your moment</text>
               <eid>8415610459389972</eid>
               <linked>
                 </linked>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                <eid>13449299245400080</eid>
+                </Accidental>
               <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
@@ -9856,6 +10168,10 @@ this is your moment</text>
               <eid>8415868157427732</eid>
               <linked>
                 </linked>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                <eid>13449303540367376</eid>
+                </Accidental>
               <pitch>75</pitch>
               <tpc>23</tpc>
               </Note>
@@ -9894,8 +10210,9 @@ this is your moment</text>
             <eid>8630247155040303</eid>
             <linked>
               </linked>
-            <minDistance>-4.77083</minDistance>
-            <offset x="-3.48387" y="-3.25161"/>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <minDistance>0.300503</minDistance>
+            <offset x="-6" y="-5"/>
             <text>A Tempo,  <sym>metNoteHalfUp</sym><font face="Edwin"></font> = 126</text>
             </Tempo>
           <Spanner type="HairPin">
@@ -10237,6 +10554,10 @@ this is your moment</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>13718980241915985</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>8730062194999322</eid>
@@ -10661,6 +10982,10 @@ this is your moment</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>13720659574128721</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>8734649220071450</eid>
@@ -11085,6 +11410,10 @@ this is your moment</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>13934596190109777</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>9179929954484250</eid>
@@ -11509,6 +11838,10 @@ this is your moment</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>13724232986918993</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>9188008787968026</eid>
@@ -11824,6 +12157,10 @@ this is your moment</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>13938057933750353</eid>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>10781012158054515</eid>
@@ -12062,6 +12399,10 @@ this is your moment</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>13731074869821521</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>11225902050443290</eid>
@@ -12486,6 +12827,10 @@ this is your moment</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>13732672597655633</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>11231476917993498</eid>
@@ -12514,6 +12859,10 @@ this is your moment</text>
             <normalNotes>4</normalNotes>
             <actualNotes>5</actualNotes>
             <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>5</text>
+              </Number>
             </Tuplet>
           <Chord>
             <eid>11232971566612595</eid>
@@ -12685,6 +13034,23 @@ this is your moment</text>
             </Rest>
           </voice>
         </Measure>
+      <Measure len="10/2">
+        <multiMeasureRest>5</multiMeasureRest>
+        <voice>
+          <Rest>
+            <eid>13451618527739931</eid>
+            <durationType>measure</durationType>
+            <duration>10/2</duration>
+            </Rest>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <eid>13451609937805334</eid>
+            <linked>
+              </linked>
+            </Clef>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <Rest>
@@ -12769,7 +13135,7 @@ this is your moment</text>
             <eid>12225791911788600</eid>
             <linked>
               </linked>
-            <text>To Baritone Saxophone</text>
+            <text>Bari Sax</text>
             </InstrumentChange>
           <Dynamic>
             <subtype>f</subtype>
@@ -12801,7 +13167,7 @@ this is your moment</text>
                 </linked>
               <pitch>45</pitch>
               <tpc>17</tpc>
-              <tpc2>20</tpc2>
+              <tpc2>8</tpc2>
               </Note>
             </Chord>
           <Rest>
@@ -12833,7 +13199,7 @@ this is your moment</text>
                 </linked>
               <pitch>45</pitch>
               <tpc>17</tpc>
-              <tpc2>20</tpc2>
+              <tpc2>8</tpc2>
               </Note>
             </Chord>
           <Rest>
@@ -12845,6 +13211,10 @@ this is your moment</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>13739067803959377</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>12224125464477811</eid>
@@ -12870,7 +13240,7 @@ this is your moment</text>
                 </linked>
               <pitch>44</pitch>
               <tpc>22</tpc>
-              <tpc2>25</tpc2>
+              <tpc2>13</tpc2>
               </Note>
             </Chord>
           <Chord>
@@ -12908,7 +13278,7 @@ this is your moment</text>
                 </Spanner>
               <pitch>44</pitch>
               <tpc>22</tpc>
-              <tpc2>25</tpc2>
+              <tpc2>13</tpc2>
               </Note>
             </Chord>
           <Chord>
@@ -12941,7 +13311,7 @@ this is your moment</text>
                 </Spanner>
               <pitch>44</pitch>
               <tpc>22</tpc>
-              <tpc2>25</tpc2>
+              <tpc2>13</tpc2>
               </Note>
             </Chord>
           <Chord>
@@ -12967,7 +13337,7 @@ this is your moment</text>
                 </linked>
               <pitch>44</pitch>
               <tpc>22</tpc>
-              <tpc2>25</tpc2>
+              <tpc2>13</tpc2>
               </Note>
             </Chord>
           </voice>
@@ -12997,7 +13367,7 @@ this is your moment</text>
                 </linked>
               <pitch>45</pitch>
               <tpc>17</tpc>
-              <tpc2>20</tpc2>
+              <tpc2>8</tpc2>
               </Note>
             </Chord>
           <Rest>
@@ -13029,7 +13399,7 @@ this is your moment</text>
                 </linked>
               <pitch>45</pitch>
               <tpc>17</tpc>
-              <tpc2>20</tpc2>
+              <tpc2>8</tpc2>
               </Note>
             </Chord>
           <Rest>
@@ -13065,7 +13435,7 @@ this is your moment</text>
                 </linked>
               <pitch>45</pitch>
               <tpc>17</tpc>
-              <tpc2>20</tpc2>
+              <tpc2>8</tpc2>
               </Note>
             </Chord>
           <Rest>
@@ -13097,7 +13467,7 @@ this is your moment</text>
                 </linked>
               <pitch>45</pitch>
               <tpc>17</tpc>
-              <tpc2>20</tpc2>
+              <tpc2>8</tpc2>
               </Note>
             </Chord>
           <Rest>
@@ -13133,7 +13503,7 @@ this is your moment</text>
                 </linked>
               <pitch>47</pitch>
               <tpc>19</tpc>
-              <tpc2>22</tpc2>
+              <tpc2>10</tpc2>
               </Note>
             </Chord>
           <Rest>
@@ -13165,7 +13535,7 @@ this is your moment</text>
                 </linked>
               <pitch>47</pitch>
               <tpc>19</tpc>
-              <tpc2>22</tpc2>
+              <tpc2>10</tpc2>
               </Note>
             </Chord>
           <Rest>
@@ -13201,7 +13571,7 @@ this is your moment</text>
                 </linked>
               <pitch>47</pitch>
               <tpc>19</tpc>
-              <tpc2>22</tpc2>
+              <tpc2>10</tpc2>
               </Note>
             </Chord>
           <Rest>
@@ -13233,7 +13603,7 @@ this is your moment</text>
                 </linked>
               <pitch>47</pitch>
               <tpc>19</tpc>
-              <tpc2>22</tpc2>
+              <tpc2>10</tpc2>
               </Note>
             </Chord>
           <Rest>
@@ -13252,13 +13622,13 @@ this is your moment</text>
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>12499694861156384</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articTenutoBelow</subtype>
+              <subtype>articTenutoAbove</subtype>
               <eid>12499699156123680</eid>
               <linked>
                 </linked>
@@ -13269,7 +13639,7 @@ this is your moment</text>
                 </linked>
               <pitch>49</pitch>
               <tpc>21</tpc>
-              <tpc2>24</tpc2>
+              <tpc2>12</tpc2>
               </Note>
             </Chord>
           <Rest>
@@ -13284,13 +13654,13 @@ this is your moment</text>
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>12499763580633120</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articTenutoBelow</subtype>
+              <subtype>articTenutoAbove</subtype>
               <eid>12499767875600416</eid>
               <linked>
                 </linked>
@@ -13301,7 +13671,7 @@ this is your moment</text>
                 </linked>
               <pitch>49</pitch>
               <tpc>21</tpc>
-              <tpc2>24</tpc2>
+              <tpc2>12</tpc2>
               </Note>
             </Chord>
           <Rest>
@@ -13313,6 +13683,10 @@ this is your moment</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>13760980727103569</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>12499815120240755</eid>
@@ -13320,13 +13694,13 @@ this is your moment</text>
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>12499832300109856</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articTenutoBelow</subtype>
+              <subtype>articTenutoAbove</subtype>
               <eid>12499836595077152</eid>
               <linked>
                 </linked>
@@ -13337,7 +13711,7 @@ this is your moment</text>
                 </linked>
               <pitch>49</pitch>
               <tpc>21</tpc>
-              <tpc2>24</tpc2>
+              <tpc2>12</tpc2>
               </Note>
             </Chord>
           <Rest>
@@ -13352,13 +13726,13 @@ this is your moment</text>
               </linked>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoBelow</subtype>
+              <subtype>articStaccatoAbove</subtype>
               <eid>12499901019586592</eid>
               <linked>
                 </linked>
               </Articulation>
             <Articulation>
-              <subtype>articTenutoBelow</subtype>
+              <subtype>articTenutoAbove</subtype>
               <eid>12499905314553888</eid>
               <linked>
                 </linked>
@@ -13369,7 +13743,7 @@ this is your moment</text>
                 </linked>
               <pitch>49</pitch>
               <tpc>21</tpc>
-              <tpc2>24</tpc2>
+              <tpc2>12</tpc2>
               </Note>
             </Chord>
           <Rest>
@@ -13405,7 +13779,7 @@ this is your moment</text>
                 </linked>
               <pitch>44</pitch>
               <tpc>22</tpc>
-              <tpc2>25</tpc2>
+              <tpc2>13</tpc2>
               </Note>
             </Chord>
           <Rest>
@@ -13437,7 +13811,7 @@ this is your moment</text>
                 </linked>
               <pitch>44</pitch>
               <tpc>22</tpc>
-              <tpc2>25</tpc2>
+              <tpc2>13</tpc2>
               </Note>
             </Chord>
           <Rest>
@@ -13474,7 +13848,7 @@ this is your moment</text>
                 </linked>
               <pitch>44</pitch>
               <tpc>22</tpc>
-              <tpc2>25</tpc2>
+              <tpc2>13</tpc2>
               </Note>
             </Chord>
           <Chord>
@@ -13512,7 +13886,7 @@ this is your moment</text>
                 </Spanner>
               <pitch>44</pitch>
               <tpc>22</tpc>
-              <tpc2>25</tpc2>
+              <tpc2>13</tpc2>
               </Note>
             </Chord>
           <Chord>
@@ -13545,7 +13919,7 @@ this is your moment</text>
                 </Spanner>
               <pitch>44</pitch>
               <tpc>22</tpc>
-              <tpc2>25</tpc2>
+              <tpc2>13</tpc2>
               </Note>
             </Chord>
           <Chord>
@@ -13571,7 +13945,7 @@ this is your moment</text>
                 </linked>
               <pitch>44</pitch>
               <tpc>22</tpc>
-              <tpc2>25</tpc2>
+              <tpc2>13</tpc2>
               </Note>
             </Chord>
           <BarLine>
@@ -13588,7 +13962,6 @@ this is your moment</text>
             <eid>11202490183712817</eid>
             <linked>
               </linked>
-            <bold>1</bold>
             <offset x="-3.2907" y="-2.11013"/>
             <text>Car Horns</text>
             </SystemText>
@@ -13606,6 +13979,36 @@ this is your moment</text>
               </linked>
             <durationType>measure</durationType>
             <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="8/2">
+        <multiMeasureRest>4</multiMeasureRest>
+        <voice>
+          <SystemText>
+            <eid>13451957830156337</eid>
+            <linked>
+              <indexDiff>-3</indexDiff>
+              </linked>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <bold>1</bold>
+            <offset x="-1" y="-6.42213"/>
+            <text>Car Horns</text>
+            </SystemText>
+          <StaffText>
+            <eid>13451962125123632</eid>
+            <linked>
+              <indexDiff>-3</indexDiff>
+              </linked>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <minDistance>0.435485</minDistance>
+            <offset x="-0.5" y="-3.5"/>
+            <text>quick To Flute</text>
+            </StaffText>
+          <Rest>
+            <eid>13451953535189019</eid>
+            <durationType>measure</durationType>
+            <duration>8/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -13698,6 +14101,10 @@ this is your moment</text>
             <normalNotes>4</normalNotes>
             <actualNotes>6</actualNotes>
             <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>6</text>
+              </Number>
             </Tuplet>
           <Chord>
             <eid>11639692084641907</eid>
