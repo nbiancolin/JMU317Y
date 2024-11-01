@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.3</programVersion>
   <programRevision>eb6b367</programRevision>
-  <LastEID>5137885</LastEID>
+  <LastEID>5337899</LastEID>
   <Score>
     <name>Acoustic Bass</name>
     <initialPartId>14</initialPartId>
@@ -145,7 +145,8 @@ v$:versionNum:</oddFooterR>
       </Part>
     <Staff id="1">
       <VBox>
-        <height>34.5</height>
+        <height>21.5</height>
+        <boxAutoSize>0</boxAutoSize>
         <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
         <eid>24661702213755</eid>
         <linked>
@@ -153,6 +154,7 @@ v$:versionNum:</oddFooterR>
             <staves>-13</staves>
             </location>
           </linked>
+        <appearanceLinkedToMaster>0</appearanceLinkedToMaster>
         <Text>
           <eid>24665997180934</eid>
           <linked>
@@ -198,7 +200,9 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               <staves>-13</staves>
               </location>
             </linked>
+          <appearanceLinkedToMaster>0</appearanceLinkedToMaster>
           <style>user_2</style>
+          <framePadding>3.5</framePadding>
           <text>2-1</text>
           </Text>
         <Text>
@@ -271,9 +275,17 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             </Rest>
           </voice>
         </Measure>
-      <Measure len="14/2">
-        <multiMeasureRest>7</multiMeasureRest>
+      <Measure len="16/2">
+        <multiMeasureRest>8</multiMeasureRest>
         <startRepeat/>
+        <endRepeat>2</endRepeat>
+        <LayoutBreak>
+          <eid>22081827028074577</eid>
+          <subtype>section</subtype>
+          <pause>0</pause>
+          <startWithLongNames>0</startWithLongNames>
+          <firstSystemIndentation>0</firstSystemIndentation>
+          </LayoutBreak>
         <voice>
           <TimeSig>
             <subtype>2</subtype>
@@ -393,10 +405,6 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           <firstSystemIndentation>0</firstSystemIndentation>
           </LayoutBreak>
         <voice>
-          <SystemText>
-            <eid>7492222555521073</eid>
-            <text>H</text>
-            </SystemText>
           <Rest>
             <eid>24756191494170</eid>
             <linked>
@@ -647,6 +655,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22095704067407953</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <StaffText>
             <eid>24906515349552</eid>
@@ -727,6 +739,9 @@ Lyrics by: Benj Pasek &amp; Justin Paul
                 <staves>-13</staves>
                 </location>
               </linked>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <minDistance>-8.33064</minDistance>
+            <offset x="-3" y="-2.98194"/>
             <text>A</text>
             </RehearsalMark>
           <SystemText>
@@ -736,8 +751,9 @@ Lyrics by: Benj Pasek &amp; Justin Paul
                 <staves>-13</staves>
                 </location>
               </linked>
-            <minDistance>-9.33512</minDistance>
-            <offset x="2.76472" y="-2.77403"/>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <minDistance>-0.0403149</minDistance>
+            <offset x="-13" y="-9"/>
             <text><b>VERSE 1
 </b><i>&quot;I think about that day...&quot;</i></text>
             </SystemText>
@@ -1075,6 +1091,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22099286070132817</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>25147033518196</eid>
@@ -1439,6 +1459,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22100986877182033</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>25370371817588</eid>
@@ -1687,6 +1711,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22102868072857681</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Harmony>
             <play>0</play>
@@ -2184,6 +2212,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22116418694676561</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>31928786878580</eid>
@@ -2661,6 +2693,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22118128091660369</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>300871049019507</eid>
@@ -2989,6 +3025,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22119523956031569</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Harmony>
             <play>0</play>
@@ -3505,6 +3545,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22122848260718673</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>729942576857203</eid>
@@ -3989,6 +4033,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22124875485282385</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>1068695237427315</eid>
@@ -4307,6 +4355,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22126464623181905</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>1069472626507891</eid>
@@ -4821,6 +4873,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22128569157156945</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Harmony>
             <root>12</root>
@@ -5302,6 +5358,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22130703755903057</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>1726920450375795</eid>
@@ -5612,6 +5672,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22132756750270545</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>3488922193625203</eid>
@@ -5922,6 +5986,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22134590701305937</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>3491537828708467</eid>
@@ -6222,7 +6290,21 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22138374567493713</eid>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
+          <StaffText>
+            <eid>22279481423036464</eid>
+            <linked>
+              </linked>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <placement>below</placement>
+            <minDistance>-999</minDistance>
+            <offset x="8" y="4.38048"/>
+            <text>V.S. Play</text>
+            </StaffText>
           <Rest>
             <eid>25812753448986</eid>
             <linked>
@@ -6667,6 +6749,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22143532823216209</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>3589639176716403</eid>
@@ -7147,6 +7233,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22145628767256657</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>3590592659456115</eid>
@@ -7467,6 +7557,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22147591567310929</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Harmony>
             <play>0</play>
@@ -7984,6 +8078,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22149799180501073</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>5382345641164915</eid>
@@ -8472,6 +8570,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22151942369181777</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>5383307713839219</eid>
@@ -8792,6 +8894,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22236999901511761</eid>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>5383943368999027</eid>
@@ -9305,6 +9411,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22156404840202321</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Harmony>
             <root>12</root>
@@ -9786,6 +9896,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22158565208752209</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>6646874207420531</eid>
@@ -10096,6 +10210,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22160532303773777</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>6647552812253299</eid>
@@ -10406,6 +10524,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22163912443035729</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>6648231417086067</eid>
@@ -10706,7 +10828,21 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22234448690937937</eid>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
+          <StaffText>
+            <eid>22308313538494512</eid>
+            <linked>
+              </linked>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <placement>below</placement>
+            <minDistance>-999</minDistance>
+            <offset x="7" y="3.88048"/>
+            <text>V.S. Play</text>
+            </StaffText>
           <Rest>
             <eid>2573200806379546</eid>
             <linked>
@@ -10929,6 +11065,10 @@ I dont know what bass players play during a breakdown but play cool stuff ig?</t
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22168220295233617</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>16543879016743027</eid>
@@ -11181,6 +11321,10 @@ I dont know what bass players play during a breakdown but play cool stuff ig?</t
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22169985526792273</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>16544445952426099</eid>
@@ -11433,6 +11577,10 @@ I dont know what bass players play during a breakdown but play cool stuff ig?</t
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22172068585930833</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>12822611977306227</eid>
@@ -11685,6 +11833,10 @@ I dont know what bass players play during a breakdown but play cool stuff ig?</t
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22173958371541073</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>12823161733120115</eid>
@@ -11955,6 +12107,10 @@ I dont know what bass players play during a breakdown but play cool stuff ig?</t
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22182750169595985</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>16921466771603571</eid>
@@ -12207,6 +12363,10 @@ I dont know what bass players play during a breakdown but play cool stuff ig?</t
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22184506811220049</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>16922033707286643</eid>
@@ -12409,6 +12569,10 @@ I dont know what bass players play during a breakdown but play cool stuff ig?</t
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22186323582386257</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Harmony>
             <root>12</root>
@@ -12711,6 +12875,10 @@ I dont know what bass players play during a breakdown but play cool stuff ig?</t
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22188904857731153</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>16923167578652787</eid>
@@ -12938,6 +13106,10 @@ I dont know what bass players play during a breakdown but play cool stuff ig?</t
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22190979326935121</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>8174808822972442</eid>
@@ -13440,6 +13612,10 @@ I dont know what bass players play during a breakdown but play cool stuff ig?</t
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22192993666596945</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>8951343205056627</eid>
@@ -13965,6 +14141,10 @@ I dont know what bass players play during a breakdown but play cool stuff ig?</t
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22194750308221009</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>9225452312854643</eid>
@@ -14315,6 +14495,10 @@ I dont know what bass players play during a breakdown but play cool stuff ig?</t
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22198873476825169</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>9226122327752819</eid>
@@ -14858,6 +15042,10 @@ I dont know what bass players play during a breakdown but play cool stuff ig?</t
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22203005235363921</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>10916024455004275</eid>
@@ -15208,6 +15396,10 @@ I dont know what bass players play during a breakdown but play cool stuff ig?</t
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22207252958019665</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>11595896303124595</eid>
@@ -15551,6 +15743,10 @@ I dont know what bass players play during a breakdown but play cool stuff ig?</t
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22211161378259025</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>11600796860809331</eid>
@@ -16095,6 +16291,10 @@ I dont know what bass players play during a breakdown but play cool stuff ig?</t
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22213536495173713</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>12702211159097459</eid>
@@ -16627,6 +16827,10 @@ I dont know what bass players play during a breakdown but play cool stuff ig?</t
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22220094910234705</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>12703224771379315</eid>
@@ -16977,6 +17181,10 @@ I dont know what bass players play during a breakdown but play cool stuff ig?</t
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>22221821487087697</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>12703890491310195</eid>
@@ -17027,6 +17235,16 @@ I dont know what bass players play during a breakdown but play cool stuff ig?</t
               <fixedLine>4</fixedLine>
               </Note>
             </Chord>
+          <StaffText>
+            <eid>22243201834287152</eid>
+            <linked>
+              </linked>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <placement>below</placement>
+            <minDistance>-999</minDistance>
+            <offset x="2.5" y="5.5"/>
+            <text>V.S. Quick</text>
+            </StaffText>
           <Chord>
             <eid>12703972095688819</eid>
             <linked>
