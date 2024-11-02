@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.3</programVersion>
   <programRevision>eb6b367</programRevision>
-  <LastEID>5617665</LastEID>
+  <LastEID>6196461</LastEID>
   <Score>
     <name>Flute</name>
     <initialPartId>1</initialPartId>
@@ -20,6 +20,8 @@
       <lastSystemFillLimit>0.29</lastSystemFillLimit>
       <pedalText></pedalText>
       <pedalContinueText></pedalContinueText>
+      <measureNumberInterval>1</measureNumberInterval>
+      <measureNumberSystem>0</measureNumberSystem>
       <createMultiMeasureRests>1</createMultiMeasureRests>
       <arpeggioAccidentalDistance>0.5</arpeggioAccidentalDistance>
       <headerOddEven>0</headerOddEven>
@@ -32,7 +34,7 @@
       <footerOddEven>0</footerOddEven>
       <oddFooterL>NBMS Music Services
 Nicholas Biancolin
-https://bit.ly/NickBMS</oddFooterL>
+https://bit.ly/nbms</oddFooterL>
       <oddFooterC> 
 $C
  
@@ -176,6 +178,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
         <voice>
           <KeySig>
             <eid>19203705018515479</eid>
+            <linkedMain/>
             <concertKey>0</concertKey>
             </KeySig>
           <TimeSig>
@@ -224,8 +227,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               </Instrument>
             <init>1</init>
             <eid>19179206525059128</eid>
-            <linked>
-              </linked>
+            <linkedMain/>
             <offset x="0.232258" y="-0.696773"/>
             <text>Bari Sax</text>
             </InstrumentChange>
@@ -258,7 +260,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           <Tempo>
             <tempo>4.166667</tempo>
             <followText>1</followText>
-            <eid>19079571873726511</eid>
+            <eid>24672448221806639</eid>
             <linked>
               <score>same</score>
               <indexDiff>-3</indexDiff>
@@ -268,7 +270,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <text>Anyone who doesnt like La La Land has no taste <sym>metNoteHalfUp</sym><font face="Edwin"/> = 125</text>
             </Tempo>
           <SystemText>
-            <eid>19079576168693809</eid>
+            <eid>24672452516773937</eid>
             <linked>
               <score>same</score>
               <indexDiff>-3</indexDiff>
@@ -298,8 +300,10 @@ Lyrics by: Benj Pasek &amp; Justin Paul
                 <synti>Fluid</synti>
                 </Channel>
               </Instrument>
-            <eid>19184321831108664</eid>
+            <init>1</init>
+            <eid>24672456811741240</eid>
             <linked>
+              <score>same</score>
               <indexDiff>-3</indexDiff>
               </linked>
             <offset x="0.232258" y="-0.696773"/>
@@ -529,7 +533,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <small>1</small>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articAccentAbove</subtype>
+              <subtype>articAccentBelow</subtype>
               <eid>4087906922659872</eid>
               </Articulation>
             <Note>
@@ -5502,9 +5506,6 @@ this is your moment</text>
             <subtype>ff</subtype>
             <velocity>112</velocity>
             <eid>19287499830460452</eid>
-            <linked>
-              <indexDiff>2</indexDiff>
-              </linked>
             </Dynamic>
           <Chord>
             <eid>7707563625807987</eid>
@@ -10101,8 +10102,6 @@ this is your moment</text>
             <Articulation>
               <subtype>articAccentBelow</subtype>
               <eid>19342505476620320</eid>
-              <linked>
-                </linked>
               </Articulation>
             <Note>
               <eid>12224138349379604</eid>
@@ -10125,8 +10124,6 @@ this is your moment</text>
             <Articulation>
               <subtype>articAccentBelow</subtype>
               <eid>19342514066554912</eid>
-              <linked>
-                </linked>
               </Articulation>
             <Note>
               <eid>12224198478921748</eid>
@@ -10159,8 +10156,6 @@ this is your moment</text>
             <Articulation>
               <subtype>articAccentBelow</subtype>
               <eid>19342522656489504</eid>
-              <linked>
-                </linked>
               </Articulation>
             <Note>
               <eid>12224254313496596</eid>
@@ -10190,8 +10185,6 @@ this is your moment</text>
             <Articulation>
               <subtype>articAccentBelow</subtype>
               <eid>19342531246424096</eid>
-              <linked>
-                </linked>
               </Articulation>
             <Note>
               <eid>12224310148071444</eid>

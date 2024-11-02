@@ -347,8 +347,8 @@
     <pageNumberOddEven>1</pageNumberOddEven>
     <showMeasureNumber>1</showMeasureNumber>
     <showMeasureNumberOne>0</showMeasureNumberOne>
-    <measureNumberInterval>5</measureNumberInterval>
-    <measureNumberSystem>1</measureNumberSystem>
+    <measureNumberInterval>1</measureNumberInterval>
+    <measureNumberSystem>0</measureNumberSystem>
     <measureNumberAllStaves>0</measureNumberAllStaves>
     <smallNoteMag>0.7</smallNoteMag>
     <graceNoteMag>0.7</graceNoteMag>
@@ -454,7 +454,7 @@
     <evenFooterR></evenFooterR>
     <oddFooterL>NBMS Music Services
 Nicholas Biancolin
-https://bit.ly/NickBMS</oddFooterL>
+https://bit.ly/nbms</oddFooterL>
     <oddFooterC> 
 $C
  
