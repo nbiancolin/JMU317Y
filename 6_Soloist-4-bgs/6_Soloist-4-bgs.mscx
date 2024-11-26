@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.3</programVersion>
   <programRevision>eb6b367</programRevision>
-  <LastEID>385426</LastEID>
+  <LastEID>390501</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -8058,6 +8058,7 @@
           <StaffText>
             <eid>1085321055830064</eid>
             <linkedMain/>
+            <visible>0</visible>
             <text>Watch tpt for entrance</text>
             </StaffText>
           <Fermata>
@@ -10410,6 +10411,11 @@
             <eid>1417772999377011</eid>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <eid>1656543116263456</eid>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <eid>1417785884278804</eid>
               <linkedMain/>
@@ -10592,6 +10598,7 @@
           <StaffText>
             <eid>1086613840986160</eid>
             <linkedMain/>
+            <visible>0</visible>
             <text>Watch tpt for entrance</text>
             </StaffText>
           <Fermata>
@@ -12865,6 +12872,11 @@
             <eid>1419362137276531</eid>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <eid>1656551706198048</eid>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <eid>1419375022178324</eid>
               <linkedMain/>
@@ -13031,6 +13043,7 @@
           <StaffText>
             <eid>1087395525034032</eid>
             <linkedMain/>
+            <visible>0</visible>
             <text>Watch tpt for entrance</text>
             </StaffText>
           <Fermata>
@@ -14369,7 +14382,8 @@
           <StaffText>
             <eid>1178706529746992</eid>
             <linkedMain/>
-            <text>Solo Fill - 1 Bar</text>
+            <bold>1</bold>
+            <text><b>Solo Fill - 1 Bar</b></text>
             </StaffText>
           <Chord>
             <eid>1178500371316851</eid>
@@ -14956,11 +14970,20 @@
             <eid>275762670207034</eid>
             <linkedMain/>
             </Harmony>
-          <StaffText>
-            <eid>847126464561200</eid>
-            <linkedMain/>
-            <text>2 Bar Solo Fill</text>
-            </StaffText>
+          <Spanner type="TextLine">
+            <TextLine>
+              <beginText>2 Bar Solo Fill</beginText>
+              <eid>1666172432941162</eid>
+              <linkedMain/>
+              <diagonal>1</diagonal>
+              <lineWidth>0.145258</lineWidth>
+              </TextLine>
+            <next>
+              <location>
+                <measures>2</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <eid>279941673386099</eid>
             <linkedMain/>
@@ -15116,6 +15139,13 @@
             <eid>482672719691834</eid>
             <linkedMain/>
             </Harmony>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <eid>481933985316979</eid>
             <linkedMain/>
@@ -16830,6 +16860,7 @@
           <StaffText>
             <eid>1087520079085616</eid>
             <linkedMain/>
+            <visible>0</visible>
             <text>Watch tpt for entrance</text>
             </StaffText>
           <Fermata>
@@ -19555,11 +19586,6 @@
             <eid>275762670207034</eid>
             <linkedMain/>
             </Harmony>
-          <StaffText>
-            <eid>847126464561200</eid>
-            <linkedMain/>
-            <text>2 Bar Solo Fill</text>
-            </StaffText>
           <Chord>
             <eid>279941673386099</eid>
             <linkedMain/>
@@ -21400,6 +21426,7 @@
           <StaffText>
             <eid>1087730532483120</eid>
             <linkedMain/>
+            <visible>0</visible>
             <text>Watch tpt for entrance</text>
             </StaffText>
           <Fermata>
@@ -25296,6 +25323,7 @@
           <StaffText>
             <eid>1087816431829040</eid>
             <linkedMain/>
+            <visible>0</visible>
             <text>Watch tpt for entrance</text>
             </StaffText>
           <Fermata>

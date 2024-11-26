@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.3</programVersion>
   <programRevision>eb6b367</programRevision>
-  <LastEID>385426</LastEID>
+  <LastEID>390501</LastEID>
   <Score>
     <name>Piano</name>
     <initialPartId>6</initialPartId>
@@ -1754,7 +1754,8 @@
             <eid>1469583189868592</eid>
             <linked>
               </linked>
-            <text>Solo Fill - 1 Bar</text>
+            <bold>1</bold>
+            <text><b>Solo Fill - 1 Bar</b></text>
             </StaffText>
           <Chord>
             <eid>1469587484835955</eid>
@@ -2426,13 +2427,37 @@
             <eid>1470394938687546</eid>
             <linked>
               </linked>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <minDistance>-4.5</minDistance>
+            <offset x="0" y="-2.6948"/>
             </Harmony>
-          <StaffText>
-            <eid>1470403528622128</eid>
-            <linked>
-              </linked>
-            <text>2 Bar Solo Fill</text>
-            </StaffText>
+          <Spanner type="TextLine">
+            <TextLine>
+              <endHookType>1</endHookType>
+              <beginText>2 Bar Solo Fill</beginText>
+              <eid>1665158820659306</eid>
+              <linked>
+                </linked>
+              <positionLinkedToMaster>0</positionLinkedToMaster>
+              <appearanceLinkedToMaster>0</appearanceLinkedToMaster>
+              <diagonal>1</diagonal>
+              <lineWidth>0.145258</lineWidth>
+              <lineStyle>dashed</lineStyle>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0.199364" y="-5.95323"/>
+                <off2 x="0" y="0"/>
+                <eid>1666318461829196</eid>
+                <positionLinkedToMaster>0</positionLinkedToMaster>
+                <appearanceLinkedToMaster>0</appearanceLinkedToMaster>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>2</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <eid>1470407823589491</eid>
             <linked>
@@ -2621,6 +2646,13 @@
               <indexDiff>1</indexDiff>
               </linked>
             </Harmony>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <eid>1470631161888883</eid>
             <linked>
@@ -4617,6 +4649,7 @@
             <eid>1473654818865200</eid>
             <linked>
               </linked>
+            <visible>0</visible>
             <text>Watch tpt for entrance</text>
             </StaffText>
           <Fermata>
