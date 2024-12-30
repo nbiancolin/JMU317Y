@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.4</programVersion>
   <programRevision>2232670</programRevision>
-  <LastEID>8078253</LastEID>
+  <LastEID>8199412</LastEID>
   <Score>
     <eid>31442021054939140</eid>
     <name>Clarinet</name>
@@ -117,7 +117,7 @@ v$:versionNum:</oddFooterR>
       </Part>
     <Staff id="1">
       <VBox>
-        <height>138</height>
+        <height>142</height>
         <eid>33923958101246074</eid>
         <linked>
           <location>
@@ -140,6 +140,7 @@ v$:versionNum:</oddFooterR>
 Variant B: General
 <font size="10"/>1a. Short
 1b. Long
+2. eh
 
 <font size="12"/>Variant C: Epic
 <font size="10"/>1a. pizz Ending
@@ -166,6 +167,7 @@ Variant B: General
                 <staves>-1</staves>
                 </location>
               </linked>
+            <style>rehearsal_mark</style>
             <text>Sting B  Variant 1a: Short </text>
             </SystemText>
           <Tempo>
@@ -222,8 +224,21 @@ Variant B: General
                 </location>
               <indexDiff>5</indexDiff>
               </linked>
+            <style>rehearsal_mark</style>
             <text>Sting B  Variant 1b: Long </text>
             </SystemText>
+          <Tempo>
+            <tempo>3</tempo>
+            <followText>1</followText>
+            <eid>34702262009856047</eid>
+            <linked>
+              <location>
+                <staves>-1</staves>
+                </location>
+              <indexDiff>5</indexDiff>
+              </linked>
+            <text>Bardcore, <sym>metNoteQuarterUp</sym><sym>metAugmentationDot</sym><font face="Edwin"></font> = 120</text>
+            </Tempo>
           <Rest>
             <eid>33357443324968986</eid>
             <linked>
@@ -273,90 +288,181 @@ Variant B: General
             </BarLine>
           </voice>
         </Measure>
+      <Measure len="1/4">
+        <voice>
+          <KeySig>
+            <eid>34937806606303255</eid>
+            <concertKey>0</concertKey>
+            <actualKey>2</actualKey>
+            </KeySig>
+          <TimeSig>
+            <eid>34937798016368665</eid>
+            <sigN>3</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Tempo>
+            <tempo>2.5</tempo>
+            <followText>1</followText>
+            <eid>35104193639350319</eid>
+            <linked>
+              <location>
+                <staves>-1</staves>
+                </location>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <text>idek anymore, <sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 150</text>
+            </Tempo>
+          <SystemText>
+            <eid>35116296857190449</eid>
+            <linked>
+              <location>
+                <staves>-1</staves>
+                </location>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <style>rehearsal_mark</style>
+            <text>Sting B  Variant 2: eh </text>
+            </SystemText>
+          <Rest>
+            <eid>34938158793621530</eid>
+            <linked>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34769297859411994</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34769306449346586</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34769315039281178</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34769323629215770</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34769332219150362</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34769340809084954</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34769349399019546</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>34933198106394635</eid>
+            <linked>
+              </linked>
+            </BarLine>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <TimeSig>
-            <eid>33338167511744537</eid>
+            <eid>34930367722946585</eid>
             <linked>
               </linked>
-            <sigN>4</sigN>
+            <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <eid>33399156047347738</eid>
+            <eid>34769357988954138</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399164637282330</eid>
+            <eid>34769366578888730</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399173227216922</eid>
+            <eid>34769375168823322</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399181817151514</eid>
+            <eid>34769383758757914</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>32471692219514906</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>32472199025655834</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>32472705831796762</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>32473212637937690</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -386,7 +492,7 @@ Variant B: General
                 </location>
               <indexDiff>2</indexDiff>
               </linked>
-            <text><sym>metNoteQuarterUp</sym><sym>metAugmentationDot</sym><font face="Edwin"></font> = 120</text>
+            <text>We did it! <sym>metNoteQuarterUp</sym><sym>metAugmentationDot</sym><font face="Edwin"/> = 120</text>
             </Tempo>
           <SystemText>
             <eid>33890839608426545</eid>
@@ -396,6 +502,7 @@ Variant B: General
                 </location>
               <indexDiff>2</indexDiff>
               </linked>
+            <style>rehearsal_mark</style>
             <text>Sting C  Variant 1a: pizz ending </text>
             </SystemText>
           <Rest>
@@ -481,6 +588,9 @@ Variant B: General
                 <Tie>
                   <eid>33730263666130975</eid>
                   <linked>
+                    <location>
+                      <fractions>1/2</fractions>
+                      </location>
                     </linked>
                   </Tie>
                 <next>
@@ -613,6 +723,9 @@ Variant B: General
                 <Tie>
                   <eid>33730439759790111</eid>
                   <linked>
+                    <location>
+                      <fractions>1/2</fractions>
+                      </location>
                     </linked>
                   </Tie>
                 <next>
@@ -652,6 +765,9 @@ Variant B: General
                 <Tie>
                   <eid>33730487004430367</eid>
                   <linked>
+                    <location>
+                      <fractions>1/2</fractions>
+                      </location>
                     </linked>
                   </Tie>
                 <next>
@@ -735,9 +851,29 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>34709593519030297</eid>
+            <linked>
+              </linked>
+            <sigN>12</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Tempo>
+            <tempo>3</tempo>
+            <followText>1</followText>
+            <eid>34734774912286767</eid>
+            <linked>
+              <location>
+                <staves>-1</staves>
+                </location>
+              <indexDiff>2</indexDiff>
+              </linked>
+            <text>We did it! <sym>metNoteQuarterUp</sym><sym>metAugmentationDot</sym><font face="Edwin"></font> = 120</text>
+            </Tempo>
           <Rest>
             <eid>33898854017400858</eid>
             <linked>
+              <indexDiff>2</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>12/8</duration>
@@ -754,6 +890,7 @@ Variant B: General
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
+            <style>rehearsal_mark</style>
             <text>Sting C  Variant 1b: epic ending (short) </text>
             </SystemText>
           <Rest>
@@ -828,7 +965,7 @@ Variant B: General
                   <eid>33870812175925279</eid>
                   <linked>
                     <location>
-                      <fractions>3/2</fractions>
+                      <fractions>2/1</fractions>
                       </location>
                     </linked>
                   </Tie>
@@ -963,7 +1100,7 @@ Variant B: General
                   <eid>33870833650761759</eid>
                   <linked>
                     <location>
-                      <fractions>3/2</fractions>
+                      <fractions>2/1</fractions>
                       </location>
                     </linked>
                   </Tie>
@@ -1005,7 +1142,7 @@ Variant B: General
                   <eid>33870837945729055</eid>
                   <linked>
                     <location>
-                      <fractions>3/2</fractions>
+                      <fractions>2/1</fractions>
                       </location>
                     </linked>
                   </Tie>
@@ -1168,6 +1305,9 @@ Variant B: General
                 <Tie>
                   <eid>34161559987027999</eid>
                   <linked>
+                    <location>
+                      <fractions>1/2</fractions>
+                      </location>
                     </linked>
                   </Tie>
                 <next>
@@ -1304,9 +1444,29 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>34713373090250777</eid>
+            <linked>
+              </linked>
+            <sigN>12</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Tempo>
+            <tempo>3</tempo>
+            <followText>1</followText>
+            <eid>34736965345607727</eid>
+            <linked>
+              <location>
+                <staves>-1</staves>
+                </location>
+              <indexDiff>2</indexDiff>
+              </linked>
+            <text>We did it! <sym>metNoteQuarterUp</sym><sym>metAugmentationDot</sym><font face="Edwin"></font> = 120</text>
+            </Tempo>
           <Rest>
             <eid>34456787449020442</eid>
             <linked>
+              <indexDiff>2</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>12/8</duration>
@@ -1323,6 +1483,7 @@ Variant B: General
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
+            <style>rehearsal_mark</style>
             <text>Sting C  Variant 1c: epic ending (long) </text>
             </SystemText>
           <Rest>
@@ -1397,7 +1558,7 @@ Variant B: General
                   <eid>34335068075851807</eid>
                   <linked>
                     <location>
-                      <fractions>3/2</fractions>
+                      <fractions>2/1</fractions>
                       </location>
                     </linked>
                   </Tie>
@@ -1532,7 +1693,7 @@ Variant B: General
                   <eid>34335089550688287</eid>
                   <linked>
                     <location>
-                      <fractions>3/2</fractions>
+                      <fractions>2/1</fractions>
                       </location>
                     </linked>
                   </Tie>
@@ -1574,7 +1735,7 @@ Variant B: General
                   <eid>34335093845655583</eid>
                   <linked>
                     <location>
-                      <fractions>3/2</fractions>
+                      <fractions>2/1</fractions>
                       </location>
                     </linked>
                   </Tie>
@@ -1821,7 +1982,7 @@ Variant B: General
                   <eid>34364840789147679</eid>
                   <linked>
                     <location>
-                      <fractions>9/2</fractions>
+                      <fractions>5/1</fractions>
                       </location>
                     </linked>
                   </Tie>

@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.4</programVersion>
   <programRevision>2232670</programRevision>
-  <LastEID>8078253</LastEID>
+  <LastEID>8199412</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -702,12 +702,6 @@
           <midiPort>1</midiPort>
           <midiChannel>5</midiChannel>
           </Channel>
-        <Channel name="harmony">
-          <program value="0"/>
-          <synti>Fluid</synti>
-          <midiPort>2</midiPort>
-          <midiChannel>7</midiChannel>
-          </Channel>
         </Instrument>
       </Part>
     <Part id="14">
@@ -998,9 +992,14 @@
           <italic>1</italic>
           <text><i>comp/arr. Nicholas Biancolin</i></text>
           </Text>
+        <Text>
+          <eid>34819785199976453</eid>
+          <style>instrument_excerpt</style>
+          <text>Conductor Score</text>
+          </Text>
         </VBox>
       <VBox>
-        <height>138</height>
+        <height>142</height>
         <boxAutoSize>0</boxAutoSize>
         <eid>33923936626409594</eid>
         <linkedMain/>
@@ -1016,6 +1015,7 @@
 Variant B: General
 <font size="10"/>1a. Short
 1b. Long
+2. eh
 
 <font size="12"/>Variant C: Epic
 <font size="10"/>1a. pizz Ending
@@ -1037,6 +1037,7 @@ Variant B: General
           <SystemText>
             <eid>33363847121207345</eid>
             <linkedMain/>
+            <style>rehearsal_mark</style>
             <text>Sting B  Variant 1a: Short </text>
             </SystemText>
           <Tempo>
@@ -1353,8 +1354,16 @@ Variant B: General
           <SystemText>
             <eid>33387130138918961</eid>
             <linkedMain/>
+            <style>rehearsal_mark</style>
             <text>Sting B  Variant 1b: Long </text>
             </SystemText>
+          <Tempo>
+            <tempo>3</tempo>
+            <followText>1</followText>
+            <eid>34702240535019567</eid>
+            <linkedMain/>
+            <text>Bardcore, <sym>metNoteQuarterUp</sym><sym>metAugmentationDot</sym><font face="Edwin"></font> = 120</text>
+            </Tempo>
           <Chord>
             <eid>33138030625685619</eid>
             <linkedMain/>
@@ -1880,93 +1889,532 @@ Variant B: General
             </BarLine>
           </voice>
         </Measure>
+      <Measure len="1/4">
+        <voice>
+          <KeySig>
+            <eid>34937609037807639</eid>
+            <concertKey>0</concertKey>
+            </KeySig>
+          <TimeSig>
+            <eid>34937523138461721</eid>
+            <sigN>3</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Tempo>
+            <tempo>2.5</tempo>
+            <followText>1</followText>
+            <eid>35104172164513839</eid>
+            <linkedMain/>
+            <text>idek anymore, <sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 150</text>
+            </Tempo>
+          <SystemText>
+            <eid>35116275382353969</eid>
+            <linkedMain/>
+            <style>rehearsal_mark</style>
+            <text>Sting B  Variant 2: eh </text>
+            </SystemText>
+          <Dynamic>
+            <subtype>mf</subtype>
+            <velocity>80</velocity>
+            <play>0</play>
+            <eid>34960642947416100</eid>
+            <linkedMain/>
+            </Dynamic>
+          <StaffText>
+            <eid>35161595877261360</eid>
+            <linkedMain/>
+            <minDistance>-8.16432</minDistance>
+            <italic>1</italic>
+            <offset x="0" y="-3"/>
+            <text><i>Cue: Vln 1</i></text>
+            </StaffText>
+          <Beam>
+            <eid>35159706091651110</eid>
+            </Beam>
+          <Chord>
+            <eid>34953238423797875</eid>
+            <linkedMain/>
+            <small>1</small>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <play>0</play>
+                <eid>34955149684244596</eid>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <eid>34953234128830484</eid>
+              <linkedMain/>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>34954445309608051</eid>
+            <linkedMain/>
+            <small>1</small>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>34954441014640660</eid>
+              <linkedMain/>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>34884978508562547</eid>
+            <linkedMain/>
+            <small>1</small>
+            <durationType>half</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <eid>34884974213595156</eid>
+              <linkedMain/>
+              <pitch>81</pitch>
+              <tpc>17</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          <Tuplet>
+            <eid>34885493904637998</eid>
+            <linkedMain/>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Beam>
+            <eid>35159783401062438</eid>
+            </Beam>
+          <Chord>
+            <eid>34889617073242227</eid>
+            <linkedMain/>
+            <small>1</small>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <play>0</play>
+                <eid>34955987202867316</eid>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/6</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <eid>34889612778274836</eid>
+              <linkedMain/>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>34889879066247283</eid>
+            <linkedMain/>
+            <small>1</small>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>34889874771279892</eid>
+              <linkedMain/>
+              <pitch>81</pitch>
+              <tpc>17</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>34890141059252339</eid>
+            <linkedMain/>
+            <small>1</small>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/6</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <eid>34890136764284948</eid>
+              <linkedMain/>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>34893525493481587</eid>
+            <linkedMain/>
+            <small>1</small>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>34893521198514196</eid>
+              <linkedMain/>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                <eid>34990123602935824</eid>
+                </Accidental>
+              <pitch>78</pitch>
+              <tpc>20</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>34899431073513587</eid>
+            <linkedMain/>
+            <small>1</small>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <play>0</play>
+                <eid>34957035174887540</eid>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-3/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <eid>34899426778546196</eid>
+              <linkedMain/>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          <Beam>
+            <eid>35159809170866214</eid>
+            </Beam>
+          <Chord>
+            <eid>34893907745570931</eid>
+            <linkedMain/>
+            <small>1</small>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>34893903450603540</eid>
+              <linkedMain/>
+              <pitch>78</pitch>
+              <tpc>20</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>34894113904001139</eid>
+            <linkedMain/>
+            <small>1</small>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>34894109609033748</eid>
+              <linkedMain/>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>34894410256744563</eid>
+            <linkedMain/>
+            <small>1</small>
+            <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>3/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <eid>34894405961777172</eid>
+              <linkedMain/>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>34894972897460339</eid>
+            <linkedMain/>
+            <small>1</small>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>34894968602492948</eid>
+              <linkedMain/>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>34895183350857843</eid>
+            <linkedMain/>
+            <small>1</small>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>34895179055890452</eid>
+              <linkedMain/>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>34895423869026419</eid>
+            <linkedMain/>
+            <small>1</small>
+            <durationType>half</durationType>
+            <Note>
+              <eid>34895419574059028</eid>
+              <linkedMain/>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          <Beam>
+            <eid>35159856415506470</eid>
+            </Beam>
+          <Chord>
+            <eid>34908283001110643</eid>
+            <linkedMain/>
+            <small>1</small>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <play>0</play>
+                <eid>34959380227031156</eid>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <eid>34908278706143252</eid>
+              <linkedMain/>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>34908489159540851</eid>
+            <linkedMain/>
+            <small>1</small>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <eid>34908484864573460</eid>
+              <linkedMain/>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>34909949448421491</eid>
+            <linkedMain/>
+            <small>1</small>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>34909945153454100</eid>
+              <linkedMain/>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>34910147016917107</eid>
+            <linkedMain/>
+            <small>1</small>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>34910142721949716</eid>
+              <linkedMain/>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>34910353175347315</eid>
+            <linkedMain/>
+            <small>1</small>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>34910348880379924</eid>
+              <linkedMain/>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>34910675297894515</eid>
+            <linkedMain/>
+            <small>1</small>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>34910671002927124</eid>
+              <linkedMain/>
+              <Spanner type="Tie">
+                <Tie>
+                  <play>0</play>
+                  <eid>35083479012081695</eid>
+                  <linkedMain/>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <LayoutBreak>
+          <eid>34926875914534993</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <Chord>
+            <eid>35083440357376115</eid>
+            <linkedMain/>
+            <small>1</small>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>35083453242277908</eid>
+              <linkedMain/>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>34773541287100427</eid>
+            <linkedMain/>
+            </BarLine>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <TimeSig>
-            <eid>33338047252660249</eid>
+            <eid>34930247463862297</eid>
             <linkedMain/>
-            <sigN>4</sigN>
+            <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <eid>33399117392642074</eid>
+            <eid>34769078816079898</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399125982576666</eid>
+            <eid>34769087406014490</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399134572511258</eid>
+            <eid>34769095995949082</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <eid>32539157565800529</eid>
-          <subtype>page</subtype>
+          <eid>34775474022383697</eid>
+          <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
-            <eid>33399143162445850</eid>
+            <eid>34769104585883674</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>32471490356051994</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>32471997162192922</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>32472503968333850</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <LayoutBreak>
-          <eid>32542494755389521</eid>
-          <subtype>page</subtype>
-          </LayoutBreak>
-        <voice>
-          <Rest>
-            <eid>32473010774474778</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -1988,11 +2436,12 @@ Variant B: General
             <followText>1</followText>
             <eid>33719259959918639</eid>
             <linkedMain/>
-            <text><sym>metNoteQuarterUp</sym><sym>metAugmentationDot</sym><font face="Edwin"/> = 120</text>
+            <text>We did it! <sym>metNoteQuarterUp</sym><sym>metAugmentationDot</sym><font face="Edwin"/> = 120</text>
             </Tempo>
           <SystemText>
             <eid>33890818133590065</eid>
             <linkedMain/>
+            <style>rehearsal_mark</style>
             <text>Sting C  Variant 1a: pizz ending </text>
             </SystemText>
           <Rest>
@@ -2513,6 +2962,19 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>34709473259946009</eid>
+            <linkedMain/>
+            <sigN>12</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Tempo>
+            <tempo>3</tempo>
+            <followText>1</followText>
+            <eid>34734753437450287</eid>
+            <linkedMain/>
+            <text>We did it! <sym>metNoteQuarterUp</sym><sym>metAugmentationDot</sym><font face="Edwin"></font> = 120</text>
+            </Tempo>
           <Rest>
             <eid>33898828247597082</eid>
             <linkedMain/>
@@ -2532,6 +2994,7 @@ Variant B: General
           <SystemText>
             <eid>33898132462895153</eid>
             <linkedMain/>
+            <style>rehearsal_mark</style>
             <text>Sting C  Variant 1b: epic ending (short) </text>
             </SystemText>
           <Chord>
@@ -3222,6 +3685,19 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>34713252831166489</eid>
+            <linkedMain/>
+            <sigN>12</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Tempo>
+            <tempo>3</tempo>
+            <followText>1</followText>
+            <eid>34736943870771247</eid>
+            <linkedMain/>
+            <text>We did it! <sym>metNoteQuarterUp</sym><sym>metAugmentationDot</sym><font face="Edwin"></font> = 120</text>
+            </Tempo>
           <Rest>
             <eid>34456761679216666</eid>
             <linkedMain/>
@@ -3241,6 +3717,7 @@ Variant B: General
           <SystemText>
             <eid>34459798221094961</eid>
             <linkedMain/>
+            <style>rehearsal_mark</style>
             <text>Sting C  Variant 1c: epic ending (long) </text>
             </SystemText>
           <Chord>
@@ -4064,85 +4541,142 @@ Variant B: General
             </BarLine>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="1/4">
         <voice>
+          <KeySig>
+            <eid>34937617627742231</eid>
+            <concertKey>0</concertKey>
+            </KeySig>
           <TimeSig>
-            <eid>33338051547627545</eid>
-            <linkedMain/>
-            <sigN>4</sigN>
+            <eid>34937531728396313</eid>
+            <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <eid>33399151752380442</eid>
+            <eid>34938150203686938</eid>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34769229139935258</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399160342315034</eid>
+            <eid>34769233434902554</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399168932249626</eid>
+            <eid>34769237729869850</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399177522184218</eid>
+            <eid>34769242024837146</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32471494651019290</eid>
+            <eid>34769246319804442</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32472001457160218</eid>
+            <eid>34769250614771738</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32472508263301146</eid>
+            <eid>34769254909739034</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>34773545582067723</eid>
+            <linkedMain/>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <eid>34930251758829593</eid>
+            <linkedMain/>
+            <sigN>3</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <eid>34769259204706330</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32473015069442074</eid>
+            <eid>34769263499673626</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34769267794640922</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34769272089608218</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -4465,6 +4999,12 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>34709477554913305</eid>
+            <linkedMain/>
+            <sigN>12</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           <Rest>
             <eid>33898845427466266</eid>
             <linkedMain/>
@@ -4961,6 +5501,12 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>34713257126133785</eid>
+            <linkedMain/>
+            <sigN>12</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           <Rest>
             <eid>34456778859085850</eid>
             <linkedMain/>
@@ -5563,85 +6109,142 @@ Variant B: General
             </BarLine>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="1/4">
         <voice>
+          <KeySig>
+            <eid>34937621922709527</eid>
+            <concertKey>0</concertKey>
+            </KeySig>
           <TimeSig>
-            <eid>33338055842594841</eid>
-            <linkedMain/>
-            <sigN>4</sigN>
+            <eid>34937536023363609</eid>
+            <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <eid>33399186112118810</eid>
+            <eid>34938163088588826</eid>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34769396643659802</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399194702053402</eid>
+            <eid>34769400938627098</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399203291987994</eid>
+            <eid>34769405233594394</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399211881922586</eid>
+            <eid>34769409528561690</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32471498945986586</eid>
+            <eid>34769413823528986</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32472005752127514</eid>
+            <eid>34769418118496282</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32472512558268442</eid>
+            <eid>34769422413463578</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>34773549877035019</eid>
+            <linkedMain/>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <eid>34930256053796889</eid>
+            <linkedMain/>
+            <sigN>3</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <eid>34769426708430874</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32473019364409370</eid>
+            <eid>34769431003398170</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34769435298365466</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34769439593332762</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -5941,6 +6544,12 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>34709481849880601</eid>
+            <linkedMain/>
+            <sigN>12</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           <Rest>
             <eid>33898858312368154</eid>
             <linkedMain/>
@@ -6382,6 +6991,12 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>34713261421101081</eid>
+            <linkedMain/>
+            <sigN>12</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           <Rest>
             <eid>34456791743987738</eid>
             <linkedMain/>
@@ -6846,6 +7461,12 @@ Variant B: General
     <Staff id="4">
       <Measure>
         <voice>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <isHeader>1</isHeader>
+            <eid>33372892322332694</eid>
+            </Clef>
           <KeySig>
             <eid>33372084868481047</eid>
             <concertKey>1</concertKey>
@@ -6929,92 +7550,147 @@ Variant B: General
             </BarLine>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="1/4">
         <voice>
+          <KeySig>
+            <eid>34937626217676823</eid>
+            <concertKey>0</concertKey>
+            </KeySig>
           <TimeSig>
-            <eid>33338060137562137</eid>
-            <linkedMain/>
-            <sigN>4</sigN>
+            <eid>34937540318330905</eid>
+            <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <eid>33399220471857178</eid>
+            <eid>34938175973490714</eid>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34769564147384346</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399229061791770</eid>
+            <eid>34769568442351642</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399237651726362</eid>
+            <eid>34769572737318938</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399246241660954</eid>
+            <eid>34769577032286234</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32471503240953882</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>32472010047094810</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>32472516853235738</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>32473023659376666</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <Clef>
-            <concertClefType>G</concertClefType>
-            <transposingClefType>G</transposingClefType>
-            <eid>33805704766685206</eid>
+            <eid>34769581327253530</eid>
             <linkedMain/>
-            </Clef>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34769585622220826</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34769589917188122</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>34773554172002315</eid>
+            <linkedMain/>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <eid>34930260348764185</eid>
+            <linkedMain/>
+            <sigN>3</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <eid>34769594212155418</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34769598507122714</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34769602802090010</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34769607097057306</eid>
+            <linkedMain/>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <eid>34769624276926490</eid>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -7292,6 +7968,12 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>34709486144847897</eid>
+            <linkedMain/>
+            <sigN>12</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           <Rest>
             <eid>33898871197270042</eid>
             <linkedMain/>
@@ -7726,6 +8408,12 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>34713265716068377</eid>
+            <linkedMain/>
+            <sigN>12</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           <Rest>
             <eid>34456804628889626</eid>
             <linkedMain/>
@@ -8355,85 +9043,142 @@ Variant B: General
             </BarLine>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="1/4">
         <voice>
+          <KeySig>
+            <eid>34937630512644119</eid>
+            <concertKey>0</concertKey>
+            </KeySig>
           <TimeSig>
-            <eid>33338064432529433</eid>
-            <linkedMain/>
-            <sigN>4</sigN>
+            <eid>34937544613298201</eid>
+            <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <eid>33399254831595546</eid>
+            <eid>34938188858392602</eid>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34769766010847258</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399263421530138</eid>
+            <eid>34769770305814554</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399272011464730</eid>
+            <eid>34769774600781850</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399280601399322</eid>
+            <eid>34769778895749146</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32471507535921178</eid>
+            <eid>34769783190716442</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32472014342062106</eid>
+            <eid>34769787485683738</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32472521148203034</eid>
+            <eid>34769791780651034</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>34773558466969611</eid>
+            <linkedMain/>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <eid>34930264643731481</eid>
+            <linkedMain/>
+            <sigN>3</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <eid>34769796075618330</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32473027954343962</eid>
+            <eid>34769800370585626</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34769804665552922</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34769808960520218</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -8998,6 +9743,12 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>34709490439815193</eid>
+            <linkedMain/>
+            <sigN>12</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           <Rest>
             <eid>33898884082171930</eid>
             <linkedMain/>
@@ -9716,6 +10467,12 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>34713270011035673</eid>
+            <linkedMain/>
+            <sigN>12</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           <Rest>
             <eid>34456817513791514</eid>
             <linkedMain/>
@@ -10720,85 +11477,142 @@ Variant B: General
             </BarLine>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="1/4">
         <voice>
+          <KeySig>
+            <eid>34937634807611415</eid>
+            <concertKey>0</concertKey>
+            </KeySig>
           <TimeSig>
-            <eid>33338068727496729</eid>
-            <linkedMain/>
-            <sigN>4</sigN>
+            <eid>34937548908265497</eid>
+            <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <eid>33399289191333914</eid>
+            <eid>34938201743294490</eid>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34769942104506394</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399297781268506</eid>
+            <eid>34769946399473690</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399306371203098</eid>
+            <eid>34769950694440986</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399314961137690</eid>
+            <eid>34769954989408282</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32471511830888474</eid>
+            <eid>34769959284375578</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32472018637029402</eid>
+            <eid>34769963579342874</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32472525443170330</eid>
+            <eid>34769967874310170</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>34773562761936907</eid>
+            <linkedMain/>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <eid>34930268938698777</eid>
+            <linkedMain/>
+            <sigN>3</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <eid>34769972169277466</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32473032249311258</eid>
+            <eid>34769976464244762</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34769980759212058</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34769985054179354</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -11363,6 +12177,12 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>34709494734782489</eid>
+            <linkedMain/>
+            <sigN>12</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           <Rest>
             <eid>33898896967073818</eid>
             <linkedMain/>
@@ -12064,6 +12884,12 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>34713274306002969</eid>
+            <linkedMain/>
+            <sigN>12</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           <Rest>
             <eid>34456830398693402</eid>
             <linkedMain/>
@@ -12871,85 +13697,142 @@ Variant B: General
             </BarLine>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="1/4">
         <voice>
+          <KeySig>
+            <eid>34937639102578711</eid>
+            <concertKey>0</concertKey>
+            </KeySig>
           <TimeSig>
-            <eid>33338073022464025</eid>
-            <linkedMain/>
-            <sigN>4</sigN>
+            <eid>34937553203232793</eid>
+            <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <eid>33399323551072282</eid>
+            <eid>34938214628196378</eid>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34770118198165530</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399332141006874</eid>
+            <eid>34770122493132826</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399340730941466</eid>
+            <eid>34770126788100122</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399349320876058</eid>
+            <eid>34770131083067418</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32471516125855770</eid>
+            <eid>34770135378034714</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32472022931996698</eid>
+            <eid>34770139673002010</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32472529738137626</eid>
+            <eid>34770143967969306</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>34773567056904203</eid>
+            <linkedMain/>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <eid>34930273233666073</eid>
+            <linkedMain/>
+            <sigN>3</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <eid>34770148262936602</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32473036544278554</eid>
+            <eid>34770152557903898</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34770156852871194</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34770161147838490</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -13385,6 +14268,12 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>34709499029749785</eid>
+            <linkedMain/>
+            <sigN>12</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           <Rest>
             <eid>33898909851975706</eid>
             <linkedMain/>
@@ -13957,6 +14846,12 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>34713278600970265</eid>
+            <linkedMain/>
+            <sigN>12</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           <Rest>
             <eid>34456843283595290</eid>
             <linkedMain/>
@@ -14719,85 +15614,142 @@ Variant B: General
             </BarLine>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="1/4">
         <voice>
+          <KeySig>
+            <eid>34937643397546007</eid>
+            <concertKey>0</concertKey>
+            </KeySig>
           <TimeSig>
-            <eid>33338077317431321</eid>
-            <linkedMain/>
-            <sigN>4</sigN>
+            <eid>34937557498200089</eid>
+            <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <eid>33399357910810650</eid>
+            <eid>34938227513098266</eid>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34770294291824666</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399366500745242</eid>
+            <eid>34770298586791962</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399375090679834</eid>
+            <eid>34770302881759258</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399383680614426</eid>
+            <eid>34770307176726554</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32471520420823066</eid>
+            <eid>34770311471693850</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32472027226963994</eid>
+            <eid>34770315766661146</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32472534033104922</eid>
+            <eid>34770320061628442</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>34773571351871499</eid>
+            <linkedMain/>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <eid>34930277528633369</eid>
+            <linkedMain/>
+            <sigN>3</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <eid>34770324356595738</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32473040839245850</eid>
+            <eid>34770328651563034</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34770332946530330</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34770337241497626</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -15253,6 +16205,12 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>34709503324717081</eid>
+            <linkedMain/>
+            <sigN>12</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           <Rest>
             <eid>33898922736877594</eid>
             <linkedMain/>
@@ -15820,6 +16778,12 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>34713282895937561</eid>
+            <linkedMain/>
+            <sigN>12</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           <Rest>
             <eid>34456856168497178</eid>
             <linkedMain/>
@@ -16615,85 +17579,138 @@ Variant B: General
             </BarLine>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="1/4">
         <voice>
           <TimeSig>
-            <eid>33338081612398617</eid>
-            <linkedMain/>
-            <sigN>4</sigN>
+            <eid>34937561793167385</eid>
+            <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <eid>33399392270549018</eid>
+            <eid>34938240398000154</eid>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34770466090516506</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399400860483610</eid>
+            <eid>34770470385483802</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399409450418202</eid>
+            <eid>34770474680451098</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399418040352794</eid>
+            <eid>34770478975418394</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32471524715790362</eid>
+            <eid>34770483270385690</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32472031521931290</eid>
+            <eid>34770487565352986</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32472538328072218</eid>
+            <eid>34770491860320282</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>34773575646838795</eid>
+            <linkedMain/>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <eid>34930281823600665</eid>
+            <linkedMain/>
+            <sigN>3</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <eid>34770496155287578</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32473045134213146</eid>
+            <eid>34770500450254874</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34770504745222170</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34770509040189466</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -16800,6 +17817,12 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>34709507619684377</eid>
+            <linkedMain/>
+            <sigN>12</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           <Rest>
             <eid>33898935621779482</eid>
             <linkedMain/>
@@ -16925,6 +17948,12 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>34713287190904857</eid>
+            <linkedMain/>
+            <sigN>12</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           <Rest>
             <eid>34456869053399066</eid>
             <linkedMain/>
@@ -17171,85 +18200,138 @@ Variant B: General
             </BarLine>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="1/4">
         <voice>
           <TimeSig>
-            <eid>33338085907365913</eid>
-            <linkedMain/>
-            <sigN>4</sigN>
+            <eid>34937566088134681</eid>
+            <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <eid>33399426630287386</eid>
+            <eid>34938253282902042</eid>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34770633594241050</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399435220221978</eid>
+            <eid>34770637889208346</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399443810156570</eid>
+            <eid>34770642184175642</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399452400091162</eid>
+            <eid>34770646479142938</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32471529010757658</eid>
+            <eid>34770650774110234</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32472035816898586</eid>
+            <eid>34770655069077530</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32472542623039514</eid>
+            <eid>34770659364044826</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>34773579941806091</eid>
+            <linkedMain/>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <eid>34930286118567961</eid>
+            <linkedMain/>
+            <sigN>3</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <eid>34770663659012122</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32473049429180442</eid>
+            <eid>34770667953979418</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34770672248946714</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34770676543914010</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -17356,6 +18438,12 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>34709511914651673</eid>
+            <linkedMain/>
+            <sigN>12</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           <Rest>
             <eid>33898948506681370</eid>
             <linkedMain/>
@@ -17481,6 +18569,12 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>34713291485872153</eid>
+            <linkedMain/>
+            <sigN>12</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           <Rest>
             <eid>34456881938300954</eid>
             <linkedMain/>
@@ -18463,85 +19557,142 @@ Variant B: General
             </BarLine>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="1/4">
         <voice>
+          <KeySig>
+            <eid>34937647692513303</eid>
+            <concertKey>0</concertKey>
+            </KeySig>
           <TimeSig>
-            <eid>33338090202333209</eid>
-            <linkedMain/>
-            <sigN>4</sigN>
+            <eid>34937570383101977</eid>
+            <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <eid>33399460990025754</eid>
+            <eid>34938266167803930</eid>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34770805392932890</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399469579960346</eid>
+            <eid>34770809687900186</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399478169894938</eid>
+            <eid>34770813982867482</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399486759829530</eid>
+            <eid>34770818277834778</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32471533305724954</eid>
+            <eid>34770822572802074</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32472040111865882</eid>
+            <eid>34770826867769370</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32472546918006810</eid>
+            <eid>34770831162736666</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>34773584236773387</eid>
+            <linkedMain/>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <eid>34930290413535257</eid>
+            <linkedMain/>
+            <sigN>3</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <eid>34770835457703962</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32473053724147738</eid>
+            <eid>34770839752671258</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34770844047638554</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34770848342605850</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -18653,6 +19804,12 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>34709516209618969</eid>
+            <linkedMain/>
+            <sigN>12</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           <Rest>
             <eid>33898961391583258</eid>
             <linkedMain/>
@@ -18778,6 +19935,12 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>34713295780839449</eid>
+            <linkedMain/>
+            <sigN>12</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           <Rest>
             <eid>34456894823202842</eid>
             <linkedMain/>
@@ -19135,85 +20298,254 @@ Variant B: General
             </BarLine>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="1/4">
         <voice>
+          <KeySig>
+            <eid>34937651987480599</eid>
+            <concertKey>0</concertKey>
+            </KeySig>
           <TimeSig>
-            <eid>33338094497300505</eid>
-            <linkedMain/>
-            <sigN>4</sigN>
+            <eid>34937574678069273</eid>
+            <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <eid>33399495349764122</eid>
+            <eid>34938279052705818</eid>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34770981486592026</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399503939698714</eid>
+            <eid>34770985781559322</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <InstrumentChange>
+            <Instrument id="contrabass">
+              <longName>Contrabass</longName>
+              <shortName>Cb.</shortName>
+              <trackName>Contrabass</trackName>
+              <minPitchP>24</minPitchP>
+              <maxPitchP>67</maxPitchP>
+              <minPitchA>28</minPitchA>
+              <maxPitchA>62</maxPitchA>
+              <transposeDiatonic>-7</transposeDiatonic>
+              <transposeChromatic>-12</transposeChromatic>
+              <instrumentId>strings.contrabass</instrumentId>
+              <concertClef>F8vb</concertClef>
+              <transposingClef>F</transposingClef>
+              <Channel name="arco">
+                <program value="43"/>
+                <synti>Fluid</synti>
+                <midiPort>2</midiPort>
+                <midiChannel>7</midiChannel>
+                </Channel>
+              <Channel name="pizzicato">
+                <program value="32"/>
+                <synti>Fluid</synti>
+                <midiPort>2</midiPort>
+                <midiChannel>8</midiChannel>
+                </Channel>
+              <Channel name="tremolo">
+                <program value="44"/>
+                <synti>Fluid</synti>
+                <midiPort>2</midiPort>
+                <midiChannel>10</midiChannel>
+                </Channel>
+              </Instrument>
+            <init>1</init>
+            <eid>35066634150346808</eid>
+            <linkedMain/>
+            <text>Upright Bass</text>
+            </InstrumentChange>
           <Rest>
-            <eid>33399512529633306</eid>
+            <eid>34770990076526618</eid>
+            <linkedMain/>
+            <durationType>half</durationType>
+            </Rest>
+          <PlayTechAnnotation>
+            <eid>35079939959029811</eid>
+            <linkedMain/>
+            <text>arco</text>
+            </PlayTechAnnotation>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            <eid>35080640038699044</eid>
+            <linkedMain/>
+            </Dynamic>
+          <Chord>
+            <eid>35077874079760499</eid>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>35077869784793108</eid>
+              <linkedMain/>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>35078299281522803</eid>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>35078294986555412</eid>
+              <linkedMain/>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>34982229453045875</eid>
+            <linkedMain/>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>34982225158078484</eid>
+              <linkedMain/>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>34983925965127795</eid>
+            <linkedMain/>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>34983921670160404</eid>
+              <linkedMain/>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>34987087061057651</eid>
+            <linkedMain/>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>34987082766090260</eid>
+              <linkedMain/>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>35083552026525727</eid>
+                  <linkedMain/>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>35083513371820147</eid>
+            <linkedMain/>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>35083526256721940</eid>
+              <linkedMain/>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>34773588531740683</eid>
+            <linkedMain/>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <eid>34930294708502553</eid>
+            <linkedMain/>
+            <sigN>3</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <eid>34771011551363098</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399521119567898</eid>
+            <eid>34771015846330394</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32471537600692250</eid>
+            <eid>34771020141297690</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32472044406833178</eid>
+            <eid>34771024436264986</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>32472551212974106</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>32473058019115034</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -19325,6 +20657,12 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>34709520504586265</eid>
+            <linkedMain/>
+            <sigN>12</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           <Rest>
             <eid>33898974276485146</eid>
             <linkedMain/>
@@ -19450,6 +20788,12 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>34713300075806745</eid>
+            <linkedMain/>
+            <sigN>12</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           <Rest>
             <eid>34456907708104730</eid>
             <linkedMain/>
@@ -19600,11 +20944,51 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <eid>33740030421762074</eid>
+          <Chord>
+            <eid>34742900990410867</eid>
             <linkedMain/>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>34742896695443476</eid>
+              <linkedMain/>
+              <pitch>39</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>34742793616228378</eid>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Rest>
+            <eid>34742806501130266</eid>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <eid>34742819386032154</eid>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Rest>
+            <eid>34742832270934042</eid>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <eid>34742845155835930</eid>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Rest>
+            <eid>34742862335705114</eid>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <eid>34742879515574298</eid>
+            <linkedMain/>
+            <durationType>eighth</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -20153,85 +21537,177 @@ Variant B: General
             </BarLine>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="1/4">
         <voice>
+          <KeySig>
+            <eid>34937656282447895</eid>
+            <concertKey>0</concertKey>
+            </KeySig>
           <TimeSig>
-            <eid>33338098792267801</eid>
-            <linkedMain/>
-            <sigN>4</sigN>
+            <eid>34937578973036569</eid>
+            <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <eid>33399529709502490</eid>
+            <eid>34938291937607706</eid>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <root>17</root>
+            <name>mi</name>
+            <eid>34962833380737082</eid>
+            <linkedMain/>
+            </Harmony>
+          <Rest>
+            <eid>34771157580251162</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>16</root>
+            <base>17</base>
+            <eid>34964066036351034</eid>
+            <linkedMain/>
+            </Harmony>
           <Rest>
-            <eid>33399538299437082</eid>
+            <eid>34771161875218458</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>17</root>
+            <name>mi</name>
+            <eid>34965131188240442</eid>
+            <linkedMain/>
+            </Harmony>
           <Rest>
-            <eid>33399546889371674</eid>
+            <eid>34771166170185754</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <root>13</root>
+            <name>ma7</name>
+            <eid>34966402498560058</eid>
+            <linkedMain/>
+            </Harmony>
           <Rest>
-            <eid>33399555479306266</eid>
+            <eid>34771170465153050</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <root>15</root>
+            <eid>34968180615020602</eid>
+            <linkedMain/>
+            </Harmony>
+          <Rest>
+            <eid>34771174760120346</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Harmony>
+            <root>17</root>
+            <name>mi</name>
+            <eid>34969963026448442</eid>
+            <linkedMain/>
+            </Harmony>
+          <Rest>
+            <eid>34771179055087642</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32471541895659546</eid>
+            <eid>34771183350054938</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>34773592826707979</eid>
+            <linkedMain/>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <eid>34930299003469849</eid>
+            <linkedMain/>
+            <sigN>3</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <eid>34771187645022234</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32472048701800474</eid>
+            <eid>34771191939989530</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32472555507941402</eid>
+            <eid>34771196234956826</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32473062314082330</eid>
+            <eid>34771200529924122</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -20887,6 +22363,12 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>34709524799553561</eid>
+            <linkedMain/>
+            <sigN>12</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           <Rest>
             <eid>33898987161387034</eid>
             <linkedMain/>
@@ -21542,6 +23024,12 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>34713304370774041</eid>
+            <linkedMain/>
+            <sigN>12</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           <Rest>
             <eid>34456920593006618</eid>
             <linkedMain/>
@@ -22491,85 +23979,142 @@ Variant B: General
             </BarLine>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="1/4">
         <voice>
+          <KeySig>
+            <eid>34937660577415191</eid>
+            <concertKey>0</concertKey>
+            </KeySig>
           <TimeSig>
-            <eid>33338103087235097</eid>
-            <linkedMain/>
-            <sigN>4</sigN>
+            <eid>34937583268003865</eid>
+            <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <eid>33399564069240858</eid>
+            <eid>34938304822509594</eid>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34771333673910298</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399572659175450</eid>
+            <eid>34771337968877594</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399581249110042</eid>
+            <eid>34771342263844890</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399589839044634</eid>
+            <eid>34771346558812186</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32471546190626842</eid>
+            <eid>34771350853779482</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32472052996767770</eid>
+            <eid>34771355148746778</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32472559802908698</eid>
+            <eid>34771359443714074</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>34773597121675275</eid>
+            <linkedMain/>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <eid>34930303298437145</eid>
+            <linkedMain/>
+            <sigN>3</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <eid>34771363738681370</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32473066609049626</eid>
+            <eid>34771368033648666</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34771372328615962</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34771376623583258</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -22681,6 +24226,12 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>34709529094520857</eid>
+            <linkedMain/>
+            <sigN>12</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           <Rest>
             <eid>33899000046288922</eid>
             <linkedMain/>
@@ -22806,6 +24357,12 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>34713308665741337</eid>
+            <linkedMain/>
+            <sigN>12</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           <Rest>
             <eid>34456933477908506</eid>
             <linkedMain/>
@@ -23178,85 +24735,391 @@ Variant B: General
             </BarLine>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="1/4">
         <voice>
+          <KeySig>
+            <eid>34937664872382487</eid>
+            <concertKey>0</concertKey>
+            </KeySig>
           <TimeSig>
-            <eid>33338107382202393</eid>
-            <linkedMain/>
-            <sigN>4</sigN>
+            <eid>34937587562971161</eid>
+            <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <eid>33399598428979226</eid>
+            <eid>34938313412444186</eid>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <InstrumentChange>
+            <Instrument id="harp">
+              <longName>Harp</longName>
+              <shortName>Hrp.</shortName>
+              <trackName>Harp</trackName>
+              <minPitchP>23</minPitchP>
+              <maxPitchP>104</maxPitchP>
+              <minPitchA>23</minPitchA>
+              <maxPitchA>104</maxPitchA>
+              <instrumentId>pluck.harp</instrumentId>
+              <clef staff="2">F</clef>
+              <Channel>
+                <program value="46"/>
+                <synti>Fluid</synti>
+                <midiPort>2</midiPort>
+                <midiChannel>4</midiChannel>
+                </Channel>
+              <Channel name="staccato">
+                <program value="45"/>
+                <synti>Fluid</synti>
+                <midiPort>2</midiPort>
+                <midiChannel>5</midiChannel>
+                </Channel>
+              <Channel name="flageoletti">
+                <program value="11"/>
+                <synti>Fluid</synti>
+                <midiPort>2</midiPort>
+                <midiChannel>6</midiChannel>
+                </Channel>
+              </Instrument>
+            <init>1</init>
+            <eid>34991055610839096</eid>
+            <linkedMain/>
+            <text>To Harp</text>
+            </InstrumentChange>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            <eid>35014484657438756</eid>
+            <linkedMain/>
+            </Dynamic>
+          <Rest>
+            <eid>35003072929333274</eid>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Chord>
+            <eid>35012620641632371</eid>
+            <linkedMain/>
+            <durationType>half</durationType>
+            <Note>
+              <eid>35012616346664980</eid>
+              <linkedMain/>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            <Note>
+              <eid>35023443959218196</eid>
+              <linkedMain/>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            <Note>
+              <eid>35013483930058772</eid>
+              <linkedMain/>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>35003072929333274</eid>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Chord>
+            <eid>35012620641632371</eid>
+            <linkedMain/>
+            <durationType>half</durationType>
+            <Note>
+              <eid>35012616346664980</eid>
+              <linkedMain/>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            <Note>
+              <eid>35013483930058772</eid>
+              <linkedMain/>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                <eid>35024766809145360</eid>
+                </Accidental>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            <Note>
+              <eid>35020209848844308</eid>
+              <linkedMain/>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>35003072929333274</eid>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Chord>
+            <eid>35012620641632371</eid>
+            <linkedMain/>
+            <durationType>half</durationType>
+            <Note>
+              <eid>35012616346664980</eid>
+              <linkedMain/>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            <Note>
+              <eid>35023443959218196</eid>
+              <linkedMain/>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            <Note>
+              <eid>35013483930058772</eid>
+              <linkedMain/>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>35130745127174170</eid>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Chord>
+            <eid>35131582645796979</eid>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>35131578350829588</eid>
+              <linkedMain/>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>35133571215655027</eid>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>35133566920687636</eid>
+              <linkedMain/>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>35124650568581235</eid>
+            <linkedMain/>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>35124672043417620</eid>
+              <linkedMain/>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              </Note>
+            <Note>
+              <eid>35124702108188692</eid>
+              <linkedMain/>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            <Note>
+              <eid>35124719288057876</eid>
+              <linkedMain/>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            <Note>
+              <eid>35124736467927060</eid>
+              <linkedMain/>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>35136539038056563</eid>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>35136534743089172</eid>
+              <linkedMain/>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>35137737333932147</eid>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>35137733038964756</eid>
+              <linkedMain/>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>35139051593924723</eid>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>35139047298957332</eid>
+              <linkedMain/>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>35124762237730931</eid>
+            <linkedMain/>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>35124783712567316</eid>
+              <linkedMain/>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            <Note>
+              <eid>35124813777338388</eid>
+              <linkedMain/>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            <Note>
+              <eid>35124830957207572</eid>
+              <linkedMain/>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>35142710906060915</eid>
+            <linkedMain/>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>35142706611093524</eid>
+              <linkedMain/>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <eid>35124856727011443</eid>
+            <linkedMain/>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>35124878201847828</eid>
+              <linkedMain/>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            <Note>
+              <eid>35124908266618900</eid>
+              <linkedMain/>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            <Note>
+              <eid>35124925446488084</eid>
+              <linkedMain/>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34771479702798362</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>34773601416642571</eid>
+            <linkedMain/>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>34930307593404441</eid>
+            <linkedMain/>
+            <sigN>3</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           <Rest>
-            <eid>33399607018913818</eid>
+            <eid>34771483997765658</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399615608848410</eid>
+            <eid>34771488292732954</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399624198783002</eid>
+            <eid>34771492587700250</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32471550485594138</eid>
+            <eid>34771496882667546</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>32472057291735066</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>32472564097875994</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>32473070904016922</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -23368,6 +25231,12 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>34709533389488153</eid>
+            <linkedMain/>
+            <sigN>12</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           <Rest>
             <eid>33899008636223514</eid>
             <linkedMain/>
@@ -23493,6 +25362,12 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>34713312960708633</eid>
+            <linkedMain/>
+            <sigN>12</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           <Rest>
             <eid>34456942067843098</eid>
             <linkedMain/>
@@ -23604,6 +25479,12 @@ Variant B: General
             <eid>34630969847709754</eid>
             <linkedMain/>
             </Harmony>
+          <Dynamic>
+            <subtype>mf</subtype>
+            <velocity>80</velocity>
+            <eid>35209905669406756</eid>
+            <linkedMain/>
+            </Dynamic>
           <Chord>
             <eid>34589325844807795</eid>
             <linkedMain/>
@@ -24310,85 +26191,160 @@ Variant B: General
             </BarLine>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="1/4">
         <voice>
+          <KeySig>
+            <eid>34937669167349783</eid>
+            <concertKey>0</concertKey>
+            </KeySig>
           <TimeSig>
-            <eid>33338111677169689</eid>
-            <linkedMain/>
-            <sigN>4</sigN>
+            <eid>34937591857938457</eid>
+            <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <eid>33399632788717594</eid>
+            <eid>34938326297346074</eid>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>35001247568232563</eid>
+            <linkedMain/>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>35001243273265172</eid>
+              <linkedMain/>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>35001247568232563</eid>
+            <linkedMain/>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>35001243273265172</eid>
+              <linkedMain/>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>35001247568232563</eid>
+            <linkedMain/>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>35001243273265172</eid>
+              <linkedMain/>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34771642911555610</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399641378652186</eid>
+            <eid>34771647206522906</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399649968586778</eid>
+            <eid>34771651501490202</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399658558521370</eid>
+            <eid>34771655796457498</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>34773605711609867</eid>
+            <linkedMain/>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <eid>34930311888371737</eid>
+            <linkedMain/>
+            <sigN>3</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <eid>34771660091424794</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32471554780561434</eid>
+            <eid>34771664386392090</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32472061586702362</eid>
+            <eid>34771668681359386</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32472568392843290</eid>
+            <eid>34771672976326682</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>32473075198984218</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -24500,6 +26456,12 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>34709537684455449</eid>
+            <linkedMain/>
+            <sigN>12</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           <Rest>
             <eid>33899021521125402</eid>
             <linkedMain/>
@@ -24625,6 +26587,12 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>34713317255675929</eid>
+            <linkedMain/>
+            <sigN>12</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           <Rest>
             <eid>34456954952744986</eid>
             <linkedMain/>
@@ -24990,85 +26958,443 @@ Variant B: General
             </BarLine>
           </voice>
         </Measure>
+      <Measure len="1/4">
+        <voice>
+          <KeySig>
+            <eid>34937673462317079</eid>
+            <concertKey>0</concertKey>
+            </KeySig>
+          <TimeSig>
+            <eid>34937596152905753</eid>
+            <sigN>3</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Dynamic>
+            <subtype>mf</subtype>
+            <velocity>80</velocity>
+            <eid>34960642947416100</eid>
+            <linkedMain/>
+            </Dynamic>
+          <Chord>
+            <eid>34953238423797875</eid>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>34955149684244596</eid>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <eid>34953234128830484</eid>
+              <linkedMain/>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>34954445309608051</eid>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>34954441014640660</eid>
+              <linkedMain/>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>34884978508562547</eid>
+            <linkedMain/>
+            <durationType>half</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <eid>34884974213595156</eid>
+              <linkedMain/>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Tuplet>
+            <eid>34885493904637998</eid>
+            <linkedMain/>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <eid>34889617073242227</eid>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>34955987202867316</eid>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/6</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <eid>34889612778274836</eid>
+              <linkedMain/>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>34889879066247283</eid>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>34889874771279892</eid>
+              <linkedMain/>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>34890141059252339</eid>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/6</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <eid>34890136764284948</eid>
+              <linkedMain/>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>34893525493481587</eid>
+            <linkedMain/>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>34893521198514196</eid>
+              <linkedMain/>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                <eid>34990123602935824</eid>
+                </Accidental>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>34899431073513587</eid>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>34957035174887540</eid>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-3/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <eid>34899426778546196</eid>
+              <linkedMain/>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>34893907745570931</eid>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>34893903450603540</eid>
+              <linkedMain/>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>34894113904001139</eid>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>34894109609033748</eid>
+              <linkedMain/>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>34894410256744563</eid>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>3/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <eid>34894405961777172</eid>
+              <linkedMain/>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>34894972897460339</eid>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>34894968602492948</eid>
+              <linkedMain/>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>34895183350857843</eid>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>34895179055890452</eid>
+              <linkedMain/>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>34895423869026419</eid>
+            <linkedMain/>
+            <durationType>half</durationType>
+            <Note>
+              <eid>34895419574059028</eid>
+              <linkedMain/>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>34908283001110643</eid>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>34959380227031156</eid>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <eid>34908278706143252</eid>
+              <linkedMain/>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>34908489159540851</eid>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <eid>34908484864573460</eid>
+              <linkedMain/>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>34909949448421491</eid>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>34909945153454100</eid>
+              <linkedMain/>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>34910147016917107</eid>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>34910142721949716</eid>
+              <linkedMain/>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>34910353175347315</eid>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>34910348880379924</eid>
+              <linkedMain/>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>34910675297894515</eid>
+            <linkedMain/>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>34910671002927124</eid>
+              <linkedMain/>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>35083479012081695</eid>
+                  <linkedMain/>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>35083440357376115</eid>
+            <linkedMain/>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>35083453242277908</eid>
+              <linkedMain/>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>34773610006577163</eid>
+            <linkedMain/>
+            </BarLine>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <TimeSig>
-            <eid>33338115972136985</eid>
+            <eid>34930316183339033</eid>
             <linkedMain/>
-            <sigN>4</sigN>
+            <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <eid>33399667148455962</eid>
+            <eid>34771780350509082</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399675738390554</eid>
+            <eid>34771784645476378</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399684328325146</eid>
+            <eid>34771788940443674</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399692918259738</eid>
+            <eid>34771793235410970</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>32471559075528730</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>32472065881669658</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>32472572687810586</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>32473079493951514</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -25752,6 +28078,12 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>34709541979422745</eid>
+            <linkedMain/>
+            <sigN>12</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           <Rest>
             <eid>33899030111059994</eid>
             <linkedMain/>
@@ -26416,6 +28748,12 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>34713321550643225</eid>
+            <linkedMain/>
+            <sigN>12</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           <Rest>
             <eid>34456963542679578</eid>
             <linkedMain/>
@@ -27220,85 +29558,511 @@ Variant B: General
             </BarLine>
           </voice>
         </Measure>
+      <Measure len="1/4">
+        <voice>
+          <KeySig>
+            <eid>34937677757284375</eid>
+            <concertKey>0</concertKey>
+            </KeySig>
+          <TimeSig>
+            <eid>34937600447873049</eid>
+            <sigN>3</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Dynamic>
+            <subtype>mf</subtype>
+            <velocity>80</velocity>
+            <play>0</play>
+            <eid>34960642947416100</eid>
+            <linkedMain/>
+            </Dynamic>
+          <StaffText>
+            <eid>35173553066213424</eid>
+            <linkedMain/>
+            <minDistance>-8.6</minDistance>
+            <italic>1</italic>
+            <offset x="0" y="-2.56432"/>
+            <text><i>Cue: Vln 1</i></text>
+            </StaffText>
+          <Beam>
+            <eid>35155990944940070</eid>
+            </Beam>
+          <Chord>
+            <eid>34953238423797875</eid>
+            <linkedMain/>
+            <small>1</small>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <play>0</play>
+                <eid>34955149684244596</eid>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <eid>34953234128830484</eid>
+              <linkedMain/>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>34954445309608051</eid>
+            <linkedMain/>
+            <small>1</small>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>34954441014640660</eid>
+              <linkedMain/>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>34884978508562547</eid>
+            <linkedMain/>
+            <small>1</small>
+            <durationType>half</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <eid>34884974213595156</eid>
+              <linkedMain/>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          <Tuplet>
+            <eid>34885493904637998</eid>
+            <linkedMain/>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Beam>
+            <eid>35156068254351398</eid>
+            </Beam>
+          <Chord>
+            <eid>34889617073242227</eid>
+            <linkedMain/>
+            <small>1</small>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <play>0</play>
+                <eid>34955987202867316</eid>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/6</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <eid>34889612778274836</eid>
+              <linkedMain/>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>34889879066247283</eid>
+            <linkedMain/>
+            <small>1</small>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>34889874771279892</eid>
+              <linkedMain/>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>34890141059252339</eid>
+            <linkedMain/>
+            <small>1</small>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/6</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <eid>34890136764284948</eid>
+              <linkedMain/>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>34893525493481587</eid>
+            <linkedMain/>
+            <small>1</small>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>34893521198514196</eid>
+              <linkedMain/>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                <eid>34990123602935824</eid>
+                </Accidental>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>34899431073513587</eid>
+            <linkedMain/>
+            <small>1</small>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <play>0</play>
+                <eid>34957035174887540</eid>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-3/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <eid>34899426778546196</eid>
+              <linkedMain/>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          <Beam>
+            <eid>35156094024155174</eid>
+            </Beam>
+          <Chord>
+            <eid>34893907745570931</eid>
+            <linkedMain/>
+            <small>1</small>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>34893903450603540</eid>
+              <linkedMain/>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>34894113904001139</eid>
+            <linkedMain/>
+            <small>1</small>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>34894109609033748</eid>
+              <linkedMain/>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>34894410256744563</eid>
+            <linkedMain/>
+            <small>1</small>
+            <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>3/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <eid>34894405961777172</eid>
+              <linkedMain/>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>34894972897460339</eid>
+            <linkedMain/>
+            <small>1</small>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>34894968602492948</eid>
+              <linkedMain/>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>34895183350857843</eid>
+            <linkedMain/>
+            <small>1</small>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>34895179055890452</eid>
+              <linkedMain/>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>34895423869026419</eid>
+            <linkedMain/>
+            <small>1</small>
+            <durationType>half</durationType>
+            <Note>
+              <eid>34895419574059028</eid>
+              <linkedMain/>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          <Beam>
+            <eid>35156141268795430</eid>
+            </Beam>
+          <Chord>
+            <eid>34908283001110643</eid>
+            <linkedMain/>
+            <small>1</small>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <play>0</play>
+                <eid>34959380227031156</eid>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <eid>34908278706143252</eid>
+              <linkedMain/>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>34908489159540851</eid>
+            <linkedMain/>
+            <small>1</small>
+            <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <eid>34908484864573460</eid>
+              <linkedMain/>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>34909949448421491</eid>
+            <linkedMain/>
+            <small>1</small>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>34909945153454100</eid>
+              <linkedMain/>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>34910147016917107</eid>
+            <linkedMain/>
+            <small>1</small>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>34910142721949716</eid>
+              <linkedMain/>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>34910353175347315</eid>
+            <linkedMain/>
+            <small>1</small>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>34910348880379924</eid>
+              <linkedMain/>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>34910675297894515</eid>
+            <linkedMain/>
+            <small>1</small>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>34910671002927124</eid>
+              <linkedMain/>
+              <Spanner type="Tie">
+                <Tie>
+                  <play>0</play>
+                  <eid>35083479012081695</eid>
+                  <linkedMain/>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <eid>35083440357376115</eid>
+            <linkedMain/>
+            <small>1</small>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>35083453242277908</eid>
+              <linkedMain/>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <play>0</play>
+              </Note>
+            </Chord>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>34773614301544459</eid>
+            <linkedMain/>
+            </BarLine>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <TimeSig>
-            <eid>33338120267104281</eid>
+            <eid>34930320478306329</eid>
             <linkedMain/>
-            <sigN>4</sigN>
+            <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <eid>33399701508194330</eid>
+            <eid>34771956444168218</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399710098128922</eid>
+            <eid>34771960739135514</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399718688063514</eid>
+            <eid>34771965034102810</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399727277998106</eid>
+            <eid>34771969329070106</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>32471563370496026</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>32472070176636954</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>32472576982777882</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>32473083788918810</eid>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -27976,6 +30740,12 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>34709546274390041</eid>
+            <linkedMain/>
+            <sigN>12</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           <Rest>
             <eid>33899042995961882</eid>
             <linkedMain/>
@@ -28640,6 +31410,12 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>34713325845610521</eid>
+            <linkedMain/>
+            <sigN>12</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           <Rest>
             <eid>34456976427581466</eid>
             <linkedMain/>
@@ -29444,85 +32220,142 @@ Variant B: General
             </BarLine>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="1/4">
         <voice>
+          <KeySig>
+            <eid>34937682052251671</eid>
+            <concertKey>0</concertKey>
+            </KeySig>
           <TimeSig>
-            <eid>33338124562071577</eid>
-            <linkedMain/>
-            <sigN>4</sigN>
+            <eid>34937604742840345</eid>
+            <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <eid>33399735867932698</eid>
+            <eid>34938360657084442</eid>
+            <linkedMain/>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34772102473056282</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399744457867290</eid>
+            <eid>34772106768023578</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399753047801882</eid>
+            <eid>34772111062990874</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>33399761637736474</eid>
+            <eid>34772115357958170</eid>
             <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32471567665463322</eid>
+            <eid>34772119652925466</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32472074471604250</eid>
+            <eid>34772123947892762</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32472581277745178</eid>
+            <eid>34772128242860058</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>34773618596511755</eid>
+            <linkedMain/>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <eid>34930324773273625</eid>
+            <linkedMain/>
+            <sigN>3</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <eid>34772132537827354</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32473088083886106</eid>
+            <eid>34772136832794650</eid>
+            <linkedMain/>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34772141127761946</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34772145422729242</eid>
+            <linkedMain/>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -30011,6 +32844,12 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>34709550569357337</eid>
+            <linkedMain/>
+            <sigN>12</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           <Rest>
             <eid>33899055880863770</eid>
             <linkedMain/>
@@ -30565,6 +33404,12 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <eid>34713330140577817</eid>
+            <linkedMain/>
+            <sigN>12</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           <Rest>
             <eid>34456989312483354</eid>
             <linkedMain/>
