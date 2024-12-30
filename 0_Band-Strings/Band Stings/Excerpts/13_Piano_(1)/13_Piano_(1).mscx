@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.4</programVersion>
   <programRevision>2232670</programRevision>
-  <LastEID>7776772</LastEID>
+  <LastEID>7958263</LastEID>
   <Score>
     <eid>31577527273127940</eid>
     <name>Piano (1)</name>
@@ -129,6 +129,36 @@ v$:versionNum:</oddFooterR>
         </Instrument>
       </Part>
     <Staff id="1">
+      <VBox>
+        <height>57.5</height>
+        <eid>33923996755951738</eid>
+        <linked>
+          <location>
+            <staves>-14</staves>
+            </location>
+          </linked>
+        <Text>
+          <eid>33926049750319109</eid>
+          <linked>
+            <location>
+              <staves>-14</staves>
+              </location>
+            </linked>
+          <style>frame</style>
+          <align>center,top</align>
+          <text><b><u><font size="17"/>Main Sting List:
+
+</u></b><u></u><font size="12"/>Variant A: Spooky/Scary
+
+Variant B: General
+<font size="10"/>1a. Short
+1b. Long
+
+<font size="12"/>Variant C: Epic
+<font size="10"/>1a. pizz Ending
+1b. Epic Ending</text>
+          </Text>
+        </VBox>
       <Measure>
         <voice>
           <KeySig>
@@ -208,6 +238,7 @@ v$:versionNum:</oddFooterR>
             <eid>33283372318982202</eid>
             <linked>
               </linked>
+            <harmonyDuration>1</harmonyDuration>
             </Harmony>
           <StaffText>
             <eid>33284467535642672</eid>
@@ -346,6 +377,7 @@ v$:versionNum:</oddFooterR>
             <eid>33360441212141626</eid>
             <linked>
               </linked>
+            <harmonyDuration>1</harmonyDuration>
             </Harmony>
           <StaffText>
             <eid>33360454097043504</eid>
@@ -353,6 +385,12 @@ v$:versionNum:</oddFooterR>
               </linked>
             <text>sitcom-y roll </text>
             </StaffText>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            <eid>34031894924361762</eid>
+            <linked>
+              </linked>
+            </Fermata>
           <Chord>
             <eid>33360479866847347</eid>
             <linked>
@@ -472,297 +510,277 @@ v$:versionNum:</oddFooterR>
       <Measure>
         <voice>
           <KeySig>
-            <eid>32667005857300503</eid>
+            <eid>33742757725995031</eid>
             <linked>
               </linked>
-            <concertKey>-1</concertKey>
+            <concertKey>-3</concertKey>
             </KeySig>
           <TimeSig>
-            <eid>32668809743564825</eid>
+            <eid>33742766315929625</eid>
             <linked>
               </linked>
-            <sigN>6</sigN>
+            <sigN>12</sigN>
             <sigD>8</sigD>
             </TimeSig>
-          <SystemText>
-            <eid>32668607880101937</eid>
-            <style>user_1</style>
-            <size>12</size>
-            <text><font size="12"></font>Epic - Variation 1</text>
-            </SystemText>
           <Tempo>
             <tempo>3</tempo>
             <followText>1</followText>
-            <eid>32685564410986543</eid>
+            <eid>33745197267419183</eid>
+            <linked>
+              <location>
+                <staves>-14</staves>
+                </location>
+              <indexDiff>2</indexDiff>
+              </linked>
             <text><sym>metNoteQuarterUp</sym><sym>metAugmentationDot</sym><font face="Edwin"></font> = 120</text>
             </Tempo>
-          <Rest>
-            <eid>32667014447235098</eid>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>6/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="132/8">
-        <multiMeasureRest>22</multiMeasureRest>
-        <voice>
-          <TimeSig>
-            <eid>32908786746261529</eid>
-            <linked>
-              <indexDiff>-2</indexDiff>
-              </linked>
-            <sigN>6</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
           <SystemText>
-            <eid>32908808221098033</eid>
-            <style>user_1</style>
-            <size>12</size>
-            <text><font size="12"></font>Epic - Variation 1</text>
+            <eid>33890878263132209</eid>
+            <linked>
+              <location>
+                <staves>-14</staves>
+                </location>
+              <indexDiff>2</indexDiff>
+              </linked>
+            <text>Sting C  Variant 1a: pizz ending </text>
             </SystemText>
-          <Tempo>
-            <tempo>3</tempo>
-            <followText>1</followText>
-            <eid>32908812516065327</eid>
-            <text><sym>metNoteQuarterUp</sym><sym>metAugmentationDot</sym><font face="Edwin"></font> = 120</text>
-            </Tempo>
           <Rest>
-            <eid>32908773861359643</eid>
+            <eid>33742774905864218</eid>
+            <linked>
+              <indexDiff>2</indexDiff>
+              </linked>
             <durationType>measure</durationType>
-            <duration>132/8</duration>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32667023037169690</eid>
+            <eid>33742783495798810</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>6/8</duration>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32667031627104282</eid>
+            <eid>33742835035406362</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>6/8</duration>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32667040217038874</eid>
+            <eid>33742860805210138</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>6/8</duration>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32667048806973466</eid>
+            <eid>33742916639784986</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>6/8</duration>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32667057396908058</eid>
+            <eid>33797368235163674</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>6/8</duration>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32667065986842650</eid>
+            <eid>33743015424032794</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>6/8</duration>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32667074576777242</eid>
+            <eid>33743045488803866</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>6/8</duration>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32667083166711834</eid>
+            <eid>33743101323378714</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>6/8</duration>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32667091756646426</eid>
+            <eid>33899017226158106</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>6/8</duration>
+            <duration>12/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <SystemText>
+            <eid>33898192592437297</eid>
+            <linked>
+              <location>
+                <staves>-14</staves>
+                </location>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <text>Sting C  Variant 1b: epic ending </text>
+            </SystemText>
+          <Rest>
+            <eid>33877662648762394</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32667100346581018</eid>
+            <eid>33877671238696986</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>6/8</duration>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32667108936515610</eid>
+            <eid>33877679828631578</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>6/8</duration>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32667117526450202</eid>
+            <eid>33877688418566170</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>6/8</duration>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32667126116384794</eid>
+            <eid>33877697008500762</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>6/8</duration>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32667134706319386</eid>
+            <eid>33877705598435354</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>6/8</duration>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32667143296253978</eid>
+            <eid>33861539341533210</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>6/8</duration>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32667151886188570</eid>
+            <eid>33862020377870362</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>6/8</duration>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32667160476123162</eid>
+            <eid>33862501414207514</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>6/8</duration>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32667169066057754</eid>
+            <eid>33862982450544666</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>6/8</duration>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32667177655992346</eid>
+            <eid>33743127093182490</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>6/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>32667186245926938</eid>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>6/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>32667194835861530</eid>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>6/8</duration>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -940,273 +958,244 @@ v$:versionNum:</oddFooterR>
       <Measure>
         <voice>
           <KeySig>
-            <eid>32667297915076631</eid>
+            <eid>33743221582462999</eid>
             <linked>
               </linked>
-            <concertKey>-1</concertKey>
+            <concertKey>-3</concertKey>
             </KeySig>
           <TimeSig>
-            <eid>32668814038532121</eid>
+            <eid>33743225877430297</eid>
             <linked>
               </linked>
-            <sigN>6</sigN>
+            <sigN>12</sigN>
             <sigD>8</sigD>
             </TimeSig>
           <Rest>
-            <eid>32667302210043930</eid>
+            <eid>33743230172397594</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>6/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="132/8">
-        <multiMeasureRest>22</multiMeasureRest>
-        <voice>
-          <TimeSig>
-            <eid>32908791041228825</eid>
-            <linked>
-              <indexDiff>-2</indexDiff>
-              </linked>
-            <sigN>6</sigN>
-            <sigD>8</sigD>
-            </TimeSig>
-          <Rest>
-            <eid>32908778156326939</eid>
-            <durationType>measure</durationType>
-            <duration>132/8</duration>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32667306505011226</eid>
+            <eid>33743234467364890</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>6/8</duration>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32667310799978522</eid>
+            <eid>33743281712005146</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>6/8</duration>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32667315094945818</eid>
+            <eid>33743303186841626</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>6/8</duration>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32667319389913114</eid>
+            <eid>33743354726449178</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>6/8</duration>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32667323684880410</eid>
+            <eid>33797376825098266</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>6/8</duration>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32667327979847706</eid>
+            <eid>33743432035860506</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>6/8</duration>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32667332274815002</eid>
+            <eid>33743457805664282</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>6/8</duration>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32667336569782298</eid>
+            <eid>33743509345271834</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>6/8</duration>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32667340864749594</eid>
+            <eid>33899025816092698</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>6/8</duration>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32667345159716890</eid>
+            <eid>33877714188369946</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>6/8</duration>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32667349454684186</eid>
+            <eid>33877722778304538</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>6/8</duration>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32667353749651482</eid>
+            <eid>33877731368239130</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>6/8</duration>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32667358044618778</eid>
+            <eid>33877739958173722</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>6/8</duration>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32667362339586074</eid>
+            <eid>33877748548108314</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>6/8</duration>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32667366634553370</eid>
+            <eid>33877757138042906</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>6/8</duration>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32667370929520666</eid>
+            <eid>33861547931467802</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>6/8</duration>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32667375224487962</eid>
+            <eid>33862028967804954</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>6/8</duration>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32667379519455258</eid>
+            <eid>33862510004142106</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>6/8</duration>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32667383814422554</eid>
+            <eid>33862991040479258</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>6/8</duration>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <eid>32667388109389850</eid>
+            <eid>33743530820108314</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
-            <duration>6/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>32667392404357146</eid>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>6/8</duration>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
