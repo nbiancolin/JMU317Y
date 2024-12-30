@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.4</programVersion>
   <programRevision>2232670</programRevision>
-  <LastEID>7958263</LastEID>
+  <LastEID>8078253</LastEID>
   <Score>
     <eid>31594681372508164</eid>
     <name>Acoustic Bass</name>
@@ -148,7 +148,7 @@ v$:versionNum:</oddFooterR>
       </Part>
     <Staff id="1">
       <VBox>
-        <height>57.5</height>
+        <height>138</height>
         <eid>33924001050919034</eid>
         <linked>
           <location>
@@ -164,7 +164,7 @@ v$:versionNum:</oddFooterR>
             </linked>
           <style>frame</style>
           <align>center,top</align>
-          <text><b><u><font size="17"/>Main Sting List:
+          <text><b><u><font size="17"/>Sting List:
 
 </u></b><u></u><font size="12"/>Variant A: Spooky/Scary
 
@@ -174,7 +174,8 @@ Variant B: General
 
 <font size="12"/>Variant C: Epic
 <font size="10"/>1a. pizz Ending
-1b. Epic Ending</text>
+1b. Epic Ending (short)
+1c. Epic Ending (long)</text>
           </Text>
         </VBox>
       <Measure>
@@ -260,6 +261,12 @@ Variant B: General
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>34230713255460875</eid>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -277,21 +284,21 @@ Variant B: General
               <location>
                 <staves>-11</staves>
                 </location>
-              <indexDiff>4</indexDiff>
+              <indexDiff>5</indexDiff>
               </linked>
             <text>Sting B  Variant 1b: Long </text>
             </SystemText>
           <Chord>
             <eid>33359320225677427</eid>
             <linked>
-              <indexDiff>1</indexDiff>
+              <indexDiff>2</indexDiff>
               </linked>
             <dots>1</dots>
             <durationType>whole</durationType>
             <Note>
               <eid>33359333110579220</eid>
               <linked>
-                <indexDiff>1</indexDiff>
+                <indexDiff>2</indexDiff>
                 </linked>
               <pitch>50</pitch>
               <tpc>16</tpc>
@@ -415,6 +422,12 @@ Variant B: General
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>34238195088490507</eid>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -637,6 +650,12 @@ Variant B: General
             <durationType>measure</durationType>
             <duration>12/8</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>34244762093486091</eid>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -660,7 +679,7 @@ Variant B: General
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
-            <text>Sting C  Variant 1b: epic ending </text>
+            <text>Sting C  Variant 1b: epic ending (short) </text>
             </SystemText>
           <Rest>
             <eid>33876043446091802</eid>
@@ -774,6 +793,237 @@ Variant B: General
         <voice>
           <Rest>
             <eid>33740326774505498</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>34324983492640779</eid>
+            <linked>
+              </linked>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34456916298039322</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <SystemText>
+            <eid>34459862645604401</eid>
+            <linked>
+              <location>
+                <staves>-11</staves>
+                </location>
+              <indexDiff>1</indexDiff>
+              </linked>
+            <text>Sting C  Variant 1c: epic ending (long) </text>
+            </SystemText>
+          <Rest>
+            <eid>34340299346018330</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34340312230920218</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34340325115822106</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34340338000723994</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34340350885625882</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34340363770527770</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34349022424596506</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34526821185749018</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Spanner type="GradualTempoChange">
+            <GradualTempoChange>
+              <tempoChangeType>ritardando</tempoChangeType>
+              <beginHookHeight>1.9</beginHookHeight>
+              <endHookType>0</endHookType>
+              <endHookHeight>1.9</endHookHeight>
+              <beginText>rit.</beginText>
+              <beginTextOffset x="0" y="0"/>
+              <eid>34600939436376163</eid>
+              <linked>
+                <location>
+                  <staves>-11</staves>
+                  </location>
+                </linked>
+              </GradualTempoChange>
+            <next>
+              <location>
+                <measures>2</measures>
+                </location>
+              </next>
+            </Spanner>
+          <Rest>
+            <eid>34524355874521114</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34521890563293210</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Tempo>
+            <tempo>2.5</tempo>
+            <followText>1</followText>
+            <eid>34603086920024111</eid>
+            <linked>
+              <location>
+                <staves>-11</staves>
+                </location>
+              </linked>
+            <text>Directed, <sym>metNoteQuarterUp</sym><sym>metAugmentationDot</sym><font face="Edwin"/> = 100</text>
+            </Tempo>
+          <Spanner type="GradualTempoChange">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Rest>
+            <eid>34367267445669914</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34367280330571802</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34367293215473690</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34367306100375578</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>34367318985277466</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
