@@ -1,10 +1,18 @@
 {
     "tracks": [
         {
-            "instrumentId": "timpani",
+            "instrumentId": "vibraphone",
             "partId": "16",
             "soloMuteState": {
                 "mute": true,
+                "solo": false
+            }
+        },
+        {
+            "instrumentId": "timpani",
+            "partId": "16",
+            "soloMuteState": {
+                "mute": false,
                 "solo": false
             }
         },
@@ -45,6 +53,14 @@
             "partId": "15",
             "soloMuteState": {
                 "mute": true,
+                "solo": false
+            }
+        },
+        {
+            "instrumentId": "percussion",
+            "partId": "16",
+            "soloMuteState": {
+                "mute": false,
                 "solo": false
             }
         },
@@ -107,14 +123,6 @@
         {
             "instrumentId": "chord_symbols",
             "partId": "18",
-            "soloMuteState": {
-                "mute": true,
-                "solo": false
-            }
-        },
-        {
-            "instrumentId": "vibraphone",
-            "partId": "16",
             "soloMuteState": {
                 "mute": true,
                 "solo": false
