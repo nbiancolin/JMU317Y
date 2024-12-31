@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.4</programVersion>
   <programRevision>2232670</programRevision>
-  <LastEID>8334021</LastEID>
+  <LastEID>8452142</LastEID>
   <Score>
     <eid>31442021054939140</eid>
     <name>Clarinet</name>
@@ -117,7 +117,7 @@ v$:versionNum:</oddFooterR>
       </Part>
     <Staff id="1">
       <VBox>
-        <height>142</height>
+        <height>127.5</height>
         <eid>33923958101246074</eid>
         <linked>
           <location>
@@ -134,19 +134,19 @@ v$:versionNum:</oddFooterR>
           <style>frame</style>
           <size>12</size>
           <align>center,top</align>
-          <text><b><u><font size="17"></font>Sting List:
+          <text><b><u><font size="17"/>Sting List:
 
-</u></b><u></u><font size="12"></font>Variant A: Spooky/Scary
+</u></b><u></u><font size="12"/>Variant A: Spooky/Scary
 
 Variant B: General
-<font size="10"></font>1a. Short
+<font size="10"/>1a. Short
 1b. Long
 2. eh
 
-<font size="12"></font>Variant C: Epic
-<font size="10"></font>1a. pizz Ending
+<font size="12"/>Variant C: Epic
+<font size="10"/>1a. pizz Ending
 1b. Epic Ending (short)
-1c. Epic Ending (long)</text>
+1c. Epic Ending (long) (my personal fav)</text>
           </Text>
         </VBox>
       <Measure>
@@ -169,6 +169,7 @@ Variant B: General
                 </location>
               </linked>
             <style>rehearsal_mark</style>
+            <offset x="54.8855" y="-7.24377"/>
             <text>Sting B  Variant 1a: Short </text>
             </SystemText>
           <Tempo>
@@ -226,6 +227,7 @@ Variant B: General
               <indexDiff>5</indexDiff>
               </linked>
             <style>rehearsal_mark</style>
+            <offset x="59.6218" y="-7.80098"/>
             <text>Sting B  Variant 1b: Long </text>
             </SystemText>
           <Tempo>
@@ -322,6 +324,7 @@ Variant B: General
               <indexDiff>1</indexDiff>
               </linked>
             <style>rehearsal_mark</style>
+            <offset x="60.7362" y="-7.31872"/>
             <text>Sting B  Variant 2: eh </text>
             </SystemText>
           <Rest>
@@ -473,8 +476,8 @@ Variant B: General
             <eid>33730117637242903</eid>
             <linked>
               </linked>
-            <concertKey>-3</concertKey>
-            <actualKey>-1</actualKey>
+            <concertKey>-1</concertKey>
+            <actualKey>1</actualKey>
             </KeySig>
           <TimeSig>
             <eid>33730126227177497</eid>
@@ -504,6 +507,7 @@ Variant B: General
               <indexDiff>2</indexDiff>
               </linked>
             <style>rehearsal_mark</style>
+            <offset x="57.3929" y="-7.35904"/>
             <text>Sting C  Variant 1a: pizz ending </text>
             </SystemText>
           <Rest>
@@ -596,9 +600,9 @@ Variant B: General
                     </location>
                   </next>
                 </Spanner>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              <tpc2>13</tpc2>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              <tpc2>15</tpc2>
               </Note>
             </Chord>
           </voice>
@@ -623,9 +627,9 @@ Variant B: General
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              <tpc2>13</tpc2>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              <tpc2>15</tpc2>
               </Note>
             </Chord>
           </voice>
@@ -664,9 +668,9 @@ Variant B: General
               <eid>33730388220182548</eid>
               <linked>
                 </linked>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
-              <tpc2>14</tpc2>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              <tpc2>16</tpc2>
               <Spanner type="Glissando">
                 <Glissando>
                   <subtype>1</subtype>
@@ -726,9 +730,9 @@ Variant B: General
                     </location>
                   </next>
                 </Spanner>
-              <pitch>75</pitch>
-              <tpc>11</tpc>
-              <tpc2>13</tpc2>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              <tpc2>15</tpc2>
               <Spanner type="Glissando">
                 <prev>
                   <location>
@@ -770,9 +774,9 @@ Variant B: General
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>75</pitch>
-              <tpc>11</tpc>
-              <tpc2>13</tpc2>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              <tpc2>15</tpc2>
               </Note>
             </Chord>
           <Chord>
@@ -792,9 +796,9 @@ Variant B: General
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>75</pitch>
-              <tpc>11</tpc>
-              <tpc2>13</tpc2>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              <tpc2>15</tpc2>
               </Note>
             </Chord>
           </voice>
@@ -837,6 +841,11 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <KeySig>
+            <eid>36029106256609303</eid>
+            <concertKey>-4</concertKey>
+            <actualKey>-2</actualKey>
+            </KeySig>
           <TimeSig>
             <eid>34709593519030297</eid>
             <linked>
@@ -874,13 +883,13 @@ Variant B: General
               <location>
                 <staves>-1</staves>
                 </location>
-              <indexDiff>1</indexDiff>
               </linked>
             <style>rehearsal_mark</style>
+            <offset x="44.0198" y="-7.24377"/>
             <text>Sting C  Variant 1b: epic ending (short) </text>
             </SystemText>
           <Rest>
-            <eid>33870481463443482</eid>
+            <eid>36044503714365466</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -891,7 +900,7 @@ Variant B: General
       <Measure>
         <voice>
           <Rest>
-            <eid>33870494348345370</eid>
+            <eid>36044516599267354</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -902,29 +911,36 @@ Variant B: General
       <Measure>
         <voice>
           <Rest>
-            <eid>33870507233247258</eid>
+            <eid>36044529484169242</eid>
             <linked>
               </linked>
             <dots>1</dots>
             <durationType>half</durationType>
             </Rest>
           <Rest>
-            <eid>33870520118149146</eid>
+            <eid>36044542369071130</eid>
             <linked>
               </linked>
             <dots>1</dots>
             <durationType>quarter</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>mf</subtype>
+            <velocity>80</velocity>
+            <eid>36044550959005732</eid>
+            <linked>
+              </linked>
+            </Dynamic>
           <Spanner type="Trill">
             <Trill>
               <subtype>trill</subtype>
-              <eid>33870816470892641</eid>
+              <eid>36044847311749217</eid>
               <linked>
                 </linked>
               <lineWidth>0.145258</lineWidth>
               <Ornament>
                 <subtype>ornamentTrill</subtype>
-                <eid>33870825060827169</eid>
+                <eid>36044855901683745</eid>
                 <linked>
                   </linked>
                 </Ornament>
@@ -937,18 +953,20 @@ Variant B: General
               </next>
             </Spanner>
           <Chord>
-            <eid>33870558772854899</eid>
+            <eid>36044589613711475</eid>
             <linked>
               </linked>
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
-              <eid>33870571657756692</eid>
+              <eid>36044602498613268</eid>
               <linked>
                 </linked>
               <Spanner type="Tie">
                 <Tie>
-                  <eid>33870812175925279</eid>
+                  <eid>36044843016781855</eid>
+                  <linked>
+                    </linked>
                   </Tie>
                 <next>
                   <location>
@@ -957,9 +975,9 @@ Variant B: General
                     </location>
                   </next>
                 </Spanner>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              <tpc2>13</tpc2>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
+              <tpc2>12</tpc2>
               </Note>
             </Chord>
           </voice>
@@ -967,13 +985,13 @@ Variant B: General
       <Measure>
         <voice>
           <Chord>
-            <eid>33870597427560563</eid>
+            <eid>36044628268417139</eid>
             <linked>
               </linked>
             <dots>1</dots>
             <durationType>whole</durationType>
             <Note>
-              <eid>33870610312462356</eid>
+              <eid>36044641153318932</eid>
               <linked>
                 </linked>
               <Spanner type="Tie">
@@ -984,9 +1002,9 @@ Variant B: General
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              <tpc2>13</tpc2>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
+              <tpc2>12</tpc2>
               </Note>
             </Chord>
           </voice>
@@ -1002,7 +1020,7 @@ Variant B: General
               </prev>
             </Spanner>
           <Rest>
-            <eid>33870623197364250</eid>
+            <eid>36044654038220826</eid>
             <linked>
               </linked>
             <dots>1</dots>
@@ -1011,27 +1029,27 @@ Variant B: General
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <eid>33870631787298852</eid>
+            <eid>36044662628155428</eid>
             <linked>
               </linked>
             </Dynamic>
           <Chord>
-            <eid>33870661852070003</eid>
+            <eid>36044692692926579</eid>
             <linked>
               </linked>
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
-              <eid>33870674736971796</eid>
+              <eid>36044705577828372</eid>
               <linked>
                 </linked>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
-              <tpc2>14</tpc2>
+              <pitch>75</pitch>
+              <tpc>11</tpc>
+              <tpc2>13</tpc2>
               <Spanner type="Glissando">
                 <Glissando>
                   <subtype>1</subtype>
-                  <eid>33870829355794542</eid>
+                  <eid>36044860196651118</eid>
                   <linked>
                     </linked>
                   <diagonal>1</diagonal>
@@ -1048,13 +1066,13 @@ Variant B: General
           <Spanner type="Trill">
             <Trill>
               <subtype>trill</subtype>
-              <eid>33870842240696417</eid>
+              <eid>36044873081552993</eid>
               <linked>
                 </linked>
               <lineWidth>0.145258</lineWidth>
               <Ornament>
                 <subtype>ornamentTrill</subtype>
-                <eid>33870850830630945</eid>
+                <eid>36044881671487521</eid>
                 <linked>
                   </linked>
                 </Ornament>
@@ -1067,18 +1085,20 @@ Variant B: General
               </next>
             </Spanner>
           <Chord>
-            <eid>33870713391677555</eid>
+            <eid>36044744232534131</eid>
             <linked>
               </linked>
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
-              <eid>33870726276579348</eid>
+              <eid>36044757117435924</eid>
               <linked>
                 </linked>
               <Spanner type="Tie">
                 <Tie>
-                  <eid>33870833650761759</eid>
+                  <eid>36044864491618335</eid>
+                  <linked>
+                    </linked>
                   </Tie>
                 <next>
                   <location>
@@ -1087,9 +1107,9 @@ Variant B: General
                     </location>
                   </next>
                 </Spanner>
-              <pitch>75</pitch>
-              <tpc>11</tpc>
-              <tpc2>13</tpc2>
+              <pitch>80</pitch>
+              <tpc>10</tpc>
+              <tpc2>12</tpc2>
               <Spanner type="Glissando">
                 <prev>
                   <location>
@@ -1104,18 +1124,20 @@ Variant B: General
       <Measure>
         <voice>
           <Chord>
-            <eid>33870756341350515</eid>
+            <eid>36044787182207091</eid>
             <linked>
               </linked>
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
-              <eid>33870769226252308</eid>
+              <eid>36044800067108884</eid>
               <linked>
                 </linked>
               <Spanner type="Tie">
                 <Tie>
-                  <eid>33870837945729055</eid>
+                  <eid>36044868786585631</eid>
+                  <linked>
+                    </linked>
                   </Tie>
                 <next>
                   <location>
@@ -1131,19 +1153,19 @@ Variant B: General
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>75</pitch>
-              <tpc>11</tpc>
-              <tpc2>13</tpc2>
+              <pitch>80</pitch>
+              <tpc>10</tpc>
+              <tpc2>12</tpc2>
               </Note>
             </Chord>
           <Chord>
-            <eid>33870794996056179</eid>
+            <eid>36044825836912755</eid>
             <linked>
               </linked>
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
-              <eid>33870807880957972</eid>
+              <eid>36044838721814548</eid>
               <linked>
                 </linked>
               <Spanner type="Tie">
@@ -1153,9 +1175,9 @@ Variant B: General
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>75</pitch>
-              <tpc>11</tpc>
-              <tpc2>13</tpc2>
+              <pitch>80</pitch>
+              <tpc>10</tpc>
+              <tpc2>12</tpc2>
               </Note>
             </Chord>
           </voice>
@@ -1217,9 +1239,9 @@ Variant B: General
               <eid>34131520985759764</eid>
               <linked>
                 </linked>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
-              <tpc2>14</tpc2>
+              <pitch>75</pitch>
+              <tpc>11</tpc>
+              <tpc2>13</tpc2>
               <Spanner type="Glissando">
                 <Glissando>
                   <subtype>1</subtype>
@@ -1282,9 +1304,9 @@ Variant B: General
                     </location>
                   </next>
                 </Spanner>
-              <pitch>75</pitch>
-              <tpc>11</tpc>
-              <tpc2>13</tpc2>
+              <pitch>80</pitch>
+              <tpc>10</tpc>
+              <tpc2>12</tpc2>
               <Spanner type="Glissando">
                 <prev>
                   <location>
@@ -1316,9 +1338,9 @@ Variant B: General
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>75</pitch>
-              <tpc>11</tpc>
-              <tpc2>13</tpc2>
+              <pitch>80</pitch>
+              <tpc>10</tpc>
+              <tpc2>12</tpc2>
               </Note>
             </Chord>
           <Breath>
@@ -1353,9 +1375,9 @@ Variant B: General
               <eid>34167366782812180</eid>
               <linked>
                 </linked>
-              <pitch>75</pitch>
-              <tpc>11</tpc>
-              <tpc2>13</tpc2>
+              <pitch>80</pitch>
+              <tpc>10</tpc>
+              <tpc2>12</tpc2>
               </Note>
             </Chord>
           <Rest>
@@ -1455,6 +1477,7 @@ Variant B: General
               <indexDiff>1</indexDiff>
               </linked>
             <style>rehearsal_mark</style>
+            <offset x="47.3631" y="-7.08044"/>
             <text>Sting C  Variant 1c: epic ending (long) </text>
             </SystemText>
           <Rest>

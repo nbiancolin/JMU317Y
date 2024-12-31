@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.4</programVersion>
   <programRevision>2232670</programRevision>
-  <LastEID>8334021</LastEID>
+  <LastEID>8452142</LastEID>
   <Score>
     <eid>31594681372508164</eid>
     <name>Acoustic Bass</name>
@@ -148,7 +148,7 @@ v$:versionNum:</oddFooterR>
       </Part>
     <Staff id="1">
       <VBox>
-        <height>142</height>
+        <height>127.5</height>
         <eid>33924001050919034</eid>
         <linked>
           <location>
@@ -165,19 +165,19 @@ v$:versionNum:</oddFooterR>
           <style>frame</style>
           <size>12</size>
           <align>center,top</align>
-          <text><b><u><font size="17"></font>Sting List:
+          <text><b><u><font size="17"/>Sting List:
 
-</u></b><u></u><font size="12"></font>Variant A: Spooky/Scary
+</u></b><u></u><font size="12"/>Variant A: Spooky/Scary
 
 Variant B: General
-<font size="10"></font>1a. Short
+<font size="10"/>1a. Short
 1b. Long
 2. eh
 
-<font size="12"></font>Variant C: Epic
-<font size="10"></font>1a. pizz Ending
+<font size="12"/>Variant C: Epic
+<font size="10"/>1a. pizz Ending
 1b. Epic Ending (short)
-1c. Epic Ending (long)</text>
+1c. Epic Ending (long) (my personal fav)</text>
           </Text>
         </VBox>
       <Measure>
@@ -199,6 +199,7 @@ Variant B: General
                 </location>
               </linked>
             <style>rehearsal_mark</style>
+            <offset x="54.8855" y="-7.24377"/>
             <text>Sting B  Variant 1a: Short </text>
             </SystemText>
           <Tempo>
@@ -290,6 +291,7 @@ Variant B: General
               <indexDiff>5</indexDiff>
               </linked>
             <style>rehearsal_mark</style>
+            <offset x="59.6218" y="-7.80098"/>
             <text>Sting B  Variant 1b: Long </text>
             </SystemText>
           <Tempo>
@@ -478,6 +480,7 @@ Variant B: General
               <indexDiff>1</indexDiff>
               </linked>
             <style>rehearsal_mark</style>
+            <offset x="60.7362" y="-7.31872"/>
             <text>Sting B  Variant 2: eh </text>
             </SystemText>
           <Rest>
@@ -746,7 +749,7 @@ Variant B: General
             <eid>33740047601631255</eid>
             <linked>
               </linked>
-            <concertKey>-3</concertKey>
+            <concertKey>-1</concertKey>
             </KeySig>
           <TimeSig>
             <eid>33740056191565849</eid>
@@ -776,6 +779,7 @@ Variant B: General
               <indexDiff>2</indexDiff>
               </linked>
             <style>rehearsal_mark</style>
+            <offset x="57.3929" y="-7.35904"/>
             <text>Sting C  Variant 1a: pizz ending </text>
             </SystemText>
           <Rest>
@@ -884,6 +888,10 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
+          <KeySig>
+            <eid>36029174976086039</eid>
+            <concertKey>-4</concertKey>
+            </KeySig>
           <TimeSig>
             <eid>34709688008310809</eid>
             <linked>
@@ -921,73 +929,425 @@ Variant B: General
               <location>
                 <staves>-11</staves>
                 </location>
-              <indexDiff>1</indexDiff>
               </linked>
             <style>rehearsal_mark</style>
+            <offset x="44.0198" y="-7.24377"/>
             <text>Sting C  Variant 1b: epic ending (short) </text>
             </SystemText>
-          <Rest>
-            <eid>33876043446091802</eid>
+          <PlayTechAnnotation>
+            <eid>36050928985440307</eid>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
+            <text>arco</text>
+            </PlayTechAnnotation>
+          <Dynamic>
+            <subtype>mf</subtype>
+            <velocity>80</velocity>
+            <eid>36050937575374884</eid>
+            <linked>
+              </linked>
+            </Dynamic>
+          <Chord>
+            <eid>36050967640146035</eid>
+            <linked>
+              </linked>
+            <dots>1</dots>
+            <durationType>whole</durationType>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <eid>36050984820015136</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>36050980525047828</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>36051594705371167</eid>
+                  <linked>
+                    </linked>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>44</pitch>
+              <tpc>10</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <eid>33876056330993690</eid>
+          <Chord>
+            <eid>36051014884786291</eid>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>36051027769688084</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>36051599000338463</eid>
+                  <linked>
+                    </linked>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>3/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>44</pitch>
+              <tpc>10</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>36051053539491955</eid>
+            <linked>
+              </linked>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>36051066424393748</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-3/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>44</pitch>
+              <tpc>10</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>36051079309295642</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
             </Rest>
+          <Chord>
+            <eid>36051109374066803</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <eid>36051126553935904</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>36051122258968596</eid>
+              <linked>
+                </linked>
+              <pitch>44</pitch>
+              <tpc>10</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>36051156618707059</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <eid>36051173798576160</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>36051169503608852</eid>
+              <linked>
+                </linked>
+              <pitch>44</pitch>
+              <tpc>10</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <eid>33876069215895578</eid>
+          <Chord>
+            <eid>36051208158314611</eid>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
+            <dots>1</dots>
+            <durationType>whole</durationType>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <eid>36051225338183712</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>36051221043216404</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>36051603295305759</eid>
+                  <linked>
+                    </linked>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>44</pitch>
+              <tpc>10</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <eid>33876082100797466</eid>
+          <Chord>
+            <eid>36051255402954867</eid>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>36051268287856660</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>36051607590273055</eid>
+                  <linked>
+                    </linked>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>3/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>44</pitch>
+              <tpc>10</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>36051294057660531</eid>
+            <linked>
+              </linked>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>36051306942562324</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-3/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>44</pitch>
+              <tpc>10</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>36051319827464218</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
             </Rest>
+          <Chord>
+            <eid>36051349892235379</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <eid>36051367072104480</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>36051362777137172</eid>
+              <linked>
+                </linked>
+              <pitch>44</pitch>
+              <tpc>10</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>36051397136875635</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              <eid>36051414316744736</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>36051410021777428</eid>
+              <linked>
+                </linked>
+              <pitch>44</pitch>
+              <tpc>10</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <eid>33876094985699354</eid>
+          <Chord>
+            <eid>36051448676483187</eid>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <eid>36051465856352288</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>36051461561384980</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>36051611885240351</eid>
+                  <linked>
+                    </linked>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>3/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>44</pitch>
+              <tpc>10</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>36051495921123443</eid>
+            <linked>
+              </linked>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>36051508806025236</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>36051616180207647</eid>
+                  <linked>
+                    </linked>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-3/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-3/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>44</pitch>
+              <tpc>10</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <eid>33876107870601242</eid>
+          <Chord>
+            <eid>36051538870796403</eid>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>36051551755698196</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>36051620475174943</eid>
+                  <linked>
+                    </linked>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>3/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>3/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>44</pitch>
+              <tpc>10</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>36051577525502067</eid>
+            <linked>
+              </linked>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>36051590410403860</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-3/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>44</pitch>
+              <tpc>10</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
@@ -1036,12 +1396,60 @@ Variant B: General
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <eid>33740326774505498</eid>
+          <Chord>
+            <eid>36255708731146355</eid>
             <linked>
               </linked>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>36255721616048148</eid>
+              <linked>
+                </linked>
+              <pitch>44</pitch>
+              <tpc>10</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <eid>36255734500950042</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Rest>
+            <eid>36255747385851930</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <eid>36255760270753818</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Rest>
+            <eid>36255773155655706</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <eid>36255786040557594</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Rest>
+            <eid>36255798925459482</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <eid>36255811810361370</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
             </Rest>
           <BarLine>
             <subtype>double</subtype>
@@ -1097,6 +1505,7 @@ Variant B: General
               <indexDiff>1</indexDiff>
               </linked>
             <style>rehearsal_mark</style>
+            <offset x="47.3631" y="-7.08044"/>
             <text>Sting C  Variant 1c: epic ending (long) </text>
             </SystemText>
           <PlayTechAnnotation>
