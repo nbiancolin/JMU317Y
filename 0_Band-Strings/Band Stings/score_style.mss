@@ -382,7 +382,7 @@
     <chordExtensionAdjust>0</chordExtensionAdjust>
     <chordModifierMag>1</chordModifierMag>
     <chordModifierAdjust>0</chordModifierAdjust>
-    <concertPitch>1</concertPitch>
+    <concertPitch>0</concertPitch>
     <multiVoiceRestTwoSpaceOffset>0</multiVoiceRestTwoSpaceOffset>
     <createMultiMeasureRests>0</createMultiMeasureRests>
     <minEmptyMeasures>2</minEmptyMeasures>
@@ -861,10 +861,10 @@ v$:versionNum:</oddFooterR>
     <expressionFrameBgColor r="255" g="255" b="255" a="0"/>
     <expressionMinDistance>0.5</expressionMinDistance>
     <tempoFontFace>Edwin</tempoFontFace>
-    <tempoFontSize>12</tempoFontSize>
+    <tempoFontSize>13</tempoFontSize>
     <tempoLineSpacing>1</tempoLineSpacing>
     <tempoFontSpatiumDependent>1</tempoFontSpatiumDependent>
-    <tempoFontStyle>1</tempoFontStyle>
+    <tempoFontStyle>5</tempoFontStyle>
     <tempoColor r="0" g="0" b="0" a="255"/>
     <tempoAlign>left,baseline</tempoAlign>
     <tempoSystemFlag>1</tempoSystemFlag>
