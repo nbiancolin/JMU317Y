@@ -93,48 +93,6 @@
             "in": {
                 "resourceMeta": {
                     "attributes": {
-                        "museCategory": "Muse Brass",
-                        "museName": "Trombone",
-                        "musePack": "Muse Brass",
-                        "museUID": "112",
-                        "museVendorName": "",
-                        "playbackSetupData": "winds.trombone"
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "Muse Brass\\Trombone\\112",
-                    "type": "muse_sampler_sound_pack",
-                    "vendor": "MuseSounds"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "trombone",
-            "out": {
-                "auxSends": [
-                    {
-                        "active": true,
-                        "signalAmount": 0.4000000059604645
-                    },
-                    {
-                        "active": true,
-                        "signalAmount": 0.30000001192092896
-                    }
-                ],
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 6
-            },
-            "partId": "8",
-            "soloMuteState": {
-                "mute": false,
-                "solo": false
-            }
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
                         "museCategory": "Muse Keys",
                         "museName": "Grand Piano",
                         "musePack": "Muse Keys",
@@ -252,6 +210,48 @@
                 "volumeDb": 0
             },
             "partId": "2",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Brass",
+                        "museName": "Trombone",
+                        "musePack": "Muse Brass",
+                        "museUID": "112",
+                        "museVendorName": "",
+                        "playbackSetupData": "winds.trombone"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "Muse Brass\\Trombone\\112",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "MuseSounds"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "trombone",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.4000000059604645
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 6
+            },
+            "partId": "8",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -471,27 +471,27 @@
             "in": {
                 "resourceMeta": {
                     "attributes": {
-                        "museCategory": "Muse Keys",
-                        "museName": "Grand Piano",
-                        "musePack": "Muse Keys",
-                        "museUID": "167",
-                        "museVendorName": "",
-                        "playbackSetupData": "keyboards.piano"
+                        "museCategory": "Muse Strings",
+                        "museName": "Violin 1 (Solo)",
+                        "musePack": "Muse Strings",
+                        "museUID": "103",
+                        "museVendorName": "Muse",
+                        "playbackSetupData": "strings.violin.orchestral:primary"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Keys\\Grand Piano\\167",
+                    "id": "Muse Strings\\Violin 1 (Solo)\\103",
                     "type": "muse_sampler_sound_pack",
                     "vendor": "MuseSounds"
                 },
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "piano",
+            "instrumentId": "violin",
             "out": {
                 "auxSends": [
                     {
                         "active": true,
-                        "signalAmount": 0.15000000596046448
+                        "signalAmount": 0.4000000059604645
                     },
                     {
                         "active": true,
@@ -503,7 +503,7 @@
                 },
                 "volumeDb": 0
             },
-            "partId": "13",
+            "partId": "9",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -551,48 +551,6 @@
             "in": {
                 "resourceMeta": {
                     "attributes": {
-                        "museCategory": "Muse Strings",
-                        "museName": "Violin 1 (Solo)",
-                        "musePack": "Muse Strings",
-                        "museUID": "103",
-                        "museVendorName": "Muse",
-                        "playbackSetupData": "strings.violin.orchestral:primary"
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "Muse Strings\\Violin 1 (Solo)\\103",
-                    "type": "muse_sampler_sound_pack",
-                    "vendor": "MuseSounds"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "violin",
-            "out": {
-                "auxSends": [
-                    {
-                        "active": true,
-                        "signalAmount": 0.4000000059604645
-                    },
-                    {
-                        "active": true,
-                        "signalAmount": 0.30000001192092896
-                    }
-                ],
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 0
-            },
-            "partId": "9",
-            "soloMuteState": {
-                "mute": false,
-                "solo": false
-            }
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
                         "museCategory": "Muse Keys",
                         "museName": "Grand Piano",
                         "musePack": "Muse Keys",
@@ -623,9 +581,9 @@
                 "balance": 0,
                 "fxChain": {
                 },
-                "volumeDb": -6
+                "volumeDb": 0
             },
-            "partId": "12",
+            "partId": "13",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -668,6 +626,48 @@
                 "volumeDb": 0
             },
             "partId": "14",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Keys",
+                        "museName": "Grand Piano",
+                        "musePack": "Muse Keys",
+                        "museUID": "167",
+                        "museVendorName": "",
+                        "playbackSetupData": "keyboards.piano"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "Muse Keys\\Grand Piano\\167",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "MuseSounds"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "piano",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.15000000596046448
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": -6
+            },
+            "partId": "12",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -726,14 +726,24 @@
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "metronome",
+            "instrumentId": "percussion",
             "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
                 "balance": 0,
                 "fxChain": {
                 },
                 "volumeDb": 0
             },
-            "partId": "999",
+            "partId": "16",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -754,24 +764,14 @@
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "percussion",
+            "instrumentId": "metronome",
             "out": {
-                "auxSends": [
-                    {
-                        "active": true,
-                        "signalAmount": 0.30000001192092896
-                    },
-                    {
-                        "active": true,
-                        "signalAmount": 0.30000001192092896
-                    }
-                ],
                 "balance": 0,
                 "fxChain": {
                 },
                 "volumeDb": 0
             },
-            "partId": "16",
+            "partId": "999",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -876,7 +876,7 @@
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "strings",
+            "instrumentId": "c-horn-alto",
             "out": {
                 "auxSends": [
                     {
@@ -914,7 +914,7 @@
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "c-horn-alto",
+            "instrumentId": "strings",
             "out": {
                 "auxSends": [
                     {
@@ -1016,6 +1016,48 @@
                 "volumeDb": 0
             },
             "partId": "1",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "museCategory": "Muse Percussion",
+                        "museName": "Triangle",
+                        "musePack": "Muse Percussion",
+                        "museUID": "158",
+                        "museVendorName": "Muse",
+                        "playbackSetupData": "percussions.triangle.metal"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "Muse Percussion\\Triangle\\158",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "MuseSounds"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "triangle",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.20000000298023224
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "16",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -1142,48 +1184,6 @@
                 "volumeDb": 0
             },
             "partId": "13",
-            "soloMuteState": {
-                "mute": false,
-                "solo": false
-            }
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
-                        "museCategory": "Muse Percussion",
-                        "museName": "Glockenspiel",
-                        "musePack": "Muse Percussion",
-                        "museUID": "144",
-                        "museVendorName": "Muse",
-                        "playbackSetupData": "percussions.glockenspiel"
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "Muse Percussion\\Glockenspiel\\144",
-                    "type": "muse_sampler_sound_pack",
-                    "vendor": "MuseSounds"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "glockenspiel",
-            "out": {
-                "auxSends": [
-                    {
-                        "active": true,
-                        "signalAmount": 0.20000000298023224
-                    },
-                    {
-                        "active": true,
-                        "signalAmount": 0.30000001192092896
-                    }
-                ],
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 0
-            },
-            "partId": "16",
             "soloMuteState": {
                 "mute": false,
                 "solo": false

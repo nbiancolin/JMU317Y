@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.4</programVersion>
   <programRevision>2232670</programRevision>
-  <LastEID>9106972</LastEID>
+  <LastEID>9355852</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -19403,30 +19403,10 @@
       <Measure>
         <voice>
           <Rest>
-            <eid>33861938773491738</eid>
+            <eid>39294200524570650</eid>
             <linkedMain/>
-            <dots>1</dots>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <eid>36447865567969306</eid>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <eid>36447878452871194</eid>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Rest>
-            <eid>36447895632740378</eid>
-            <linkedMain/>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <eid>36447912812609562</eid>
-            <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -20442,7 +20422,7 @@
             <init>1</init>
             <eid>37233123028631608</eid>
             <linkedMain/>
-            <text>To Vibraphone</text>
+            <text>Vibraphone</text>
             </InstrumentChange>
           <Rest>
             <eid>37205832806432794</eid>
@@ -20751,13 +20731,13 @@
                 <program value="47"/>
                 <synti>Fluid</synti>
                 <midiPort>2</midiPort>
-                <midiChannel>2</midiChannel>
+                <midiChannel>1</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
             <eid>36077806890778680</eid>
             <linkedMain/>
-            <text>To Timpani</text>
+            <text>Timpani</text>
             </InstrumentChange>
           <Rest>
             <eid>33898948506681370</eid>
@@ -21236,6 +21216,11 @@
               <tpc>10</tpc>
               </Note>
             </Chord>
+          <StaffText>
+            <eid>40107667330433072</eid>
+            <linkedMain/>
+            <text>(to Triangle)</text>
+            </StaffText>
           <Rest>
             <eid>35592162053718042</eid>
             <linkedMain/>
@@ -21269,47 +21254,68 @@
             <duration>12/8</duration>
             </Rest>
           <Clef>
-            <concertClefType>G15ma</concertClefType>
-            <transposingClefType>G15ma</transposingClefType>
+            <concertClefType>PERC</concertClefType>
+            <transposingClefType>PERC</transposingClefType>
             <forInstrumentChange>1</forInstrumentChange>
-            <eid>36177488786751510</eid>
+            <eid>39831883185389590</eid>
             <linkedMain/>
             </Clef>
           </voice>
         </Measure>
       <Measure>
+        <StaffTypeChange>
+          <StaffType group="percussion">
+            <name>perc5Line</name>
+            <lines>1</lines>
+            <yoffset>2</yoffset>
+            </StaffType>
+          <eid>39906052975624249</eid>
+          </StaffTypeChange>
         <voice>
-          <StaffText>
-            <eid>36165458583355440</eid>
-            <linkedMain/>
-            <text>(or maybe triangle?)</text>
-            </StaffText>
           <InstrumentChange>
-            <Instrument id="glockenspiel">
-              <longName>Glockenspiel</longName>
-              <shortName>Glock.</shortName>
-              <trackName>Glockenspiel</trackName>
-              <minPitchP>76</minPitchP>
-              <maxPitchP>108</maxPitchP>
-              <minPitchA>79</minPitchA>
-              <maxPitchA>108</maxPitchA>
-              <transposeDiatonic>14</transposeDiatonic>
-              <transposeChromatic>24</transposeChromatic>
-              <instrumentId>pitched-percussion.glockenspiel</instrumentId>
-              <concertClef>G15ma</concertClef>
-              <transposingClef>G</transposingClef>
+            <Instrument id="triangle">
+              <longName>Triangle</longName>
+              <shortName>Trgl.</shortName>
+              <trackName>Triangle</trackName>
+              <instrumentId>metal.triangle</instrumentId>
+              <useDrumset>1</useDrumset>
+              <Drum pitch="80">
+                <head>cross</head>
+                <line>0</line>
+                <voice>0</voice>
+                <name>Mute Triangle</name>
+                <stem>1</stem>
+                <shortcut>B</shortcut>
+                </Drum>
+              <Drum pitch="81">
+                <head>normal</head>
+                <line>0</line>
+                <voice>0</voice>
+                <name>Triangle</name>
+                <stem>1</stem>
+                <shortcut>A</shortcut>
+                </Drum>
+              <clef>PERC</clef>
               <Channel>
-                <program value="9"/>
+                <controller ctrl="0" value="1"/>
+                <controller ctrl="32" value="0"/>
+                <program value="48"/>
                 <synti>Fluid</synti>
-                <midiPort>2</midiPort>
-                <midiChannel>1</midiChannel>
+                <midiPort>3</midiPort>
+                <midiChannel>9</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
-            <eid>36177475901849656</eid>
+            <eid>39831870300487736</eid>
             <linkedMain/>
-            <text>To Glockenspiel</text>
+            <text>Triangle</text>
             </InstrumentChange>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            <eid>39967247669657636</eid>
+            <linkedMain/>
+            </Dynamic>
           <Chord>
             <eid>36188200435187827</eid>
             <linkedMain/>
@@ -21389,6 +21395,12 @@
           </voice>
         </Measure>
       <Measure>
+        <StaffTypeChange>
+          <StaffType group="percussion">
+            <name>perc5Line</name>
+            </StaffType>
+          <eid>39978238490968121</eid>
+          </StaffTypeChange>
         <voice>
           <KeySig>
             <eid>35575265652375575</eid>
@@ -21415,13 +21427,13 @@
                 <program value="47"/>
                 <synti>Fluid</synti>
                 <midiPort>2</midiPort>
-                <midiChannel>5</midiChannel>
+                <midiChannel>4</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
             <eid>35573582025195576</eid>
             <linkedMain/>
-            <text>To Timpani</text>
+            <text>Timpani</text>
             </InstrumentChange>
           <Rest>
             <eid>35581948621488154</eid>
@@ -21972,13 +21984,14 @@
                 <program value="11"/>
                 <synti>Fluid</synti>
                 <midiPort>2</midiPort>
-                <midiChannel>4</midiChannel>
+                <midiChannel>5</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
             <eid>37521753420857400</eid>
             <linkedMain/>
-            <text>To Vibraphone</text>
+            <style>staff</style>
+            <text>(to Vibraphone)</text>
             </InstrumentChange>
           <Rest>
             <eid>34348988064858138</eid>
@@ -21997,6 +22010,12 @@
             <linkedMain/>
             <durationType>eighth</durationType>
             </Rest>
+          <StaffText>
+            <eid>40038578486509616</eid>
+            <linkedMain/>
+            <style>user_1</style>
+            <text>Vibraphone</text>
+            </StaffText>
           <Chord>
             <eid>37502181254889587</eid>
             <linkedMain/>
@@ -22333,6 +22352,11 @@
         </Measure>
       <Measure>
         <voice>
+          <StaffText>
+            <eid>40063192944082992</eid>
+            <linkedMain/>
+            <text>(to Triangle)</text>
+            </StaffText>
           <Spanner type="HairPin">
             <prev>
               <location>
@@ -22367,65 +22391,87 @@
             <duration>12/8</duration>
             </Rest>
           <Clef>
-            <concertClefType>G15ma</concertClefType>
-            <transposingClefType>G15ma</transposingClefType>
+            <concertClefType>PERC</concertClefType>
+            <transposingClefType>PERC</transposingClefType>
             <forInstrumentChange>1</forInstrumentChange>
-            <eid>36152930163752982</eid>
+            <eid>39402416520560662</eid>
             <linkedMain/>
             </Clef>
           </voice>
         </Measure>
       <Measure>
+        <StaffTypeChange>
+          <StaffType group="percussion">
+            <name>perc5Line</name>
+            <lines>1</lines>
+            <yoffset>2</yoffset>
+            </StaffType>
+          <eid>39410632792997945</eid>
+          </StaffTypeChange>
         <voice>
           <InstrumentChange>
-            <Instrument id="glockenspiel">
-              <longName>Glockenspiel</longName>
-              <shortName>Glock.</shortName>
-              <trackName>Glockenspiel</trackName>
-              <minPitchP>76</minPitchP>
-              <maxPitchP>108</maxPitchP>
-              <minPitchA>79</minPitchA>
-              <maxPitchA>108</maxPitchA>
-              <transposeDiatonic>14</transposeDiatonic>
-              <transposeChromatic>24</transposeChromatic>
-              <instrumentId>pitched-percussion.glockenspiel</instrumentId>
-              <concertClef>G15ma</concertClef>
-              <transposingClef>G</transposingClef>
+            <Instrument id="triangle">
+              <longName>Triangle</longName>
+              <shortName>Trgl.</shortName>
+              <trackName>Triangle</trackName>
+              <instrumentId>metal.triangle</instrumentId>
+              <useDrumset>1</useDrumset>
+              <Drum pitch="80">
+                <head>cross</head>
+                <line>0</line>
+                <voice>0</voice>
+                <name>Mute Triangle</name>
+                <stem>1</stem>
+                <shortcut>B</shortcut>
+                </Drum>
+              <Drum pitch="81">
+                <head>normal</head>
+                <line>0</line>
+                <voice>0</voice>
+                <name>Triangle</name>
+                <stem>1</stem>
+                <shortcut>A</shortcut>
+                </Drum>
+              <clef>PERC</clef>
               <Channel>
-                <program value="9"/>
+                <controller ctrl="0" value="1"/>
+                <controller ctrl="32" value="0"/>
+                <program value="48"/>
                 <synti>Fluid</synti>
                 <midiPort>2</midiPort>
-                <midiChannel>6</midiChannel>
+                <midiChannel>9</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
-            <eid>36152917278851128</eid>
+            <eid>39402403635658808</eid>
             <linkedMain/>
-            <text>To Glockenspiel</text>
+            <text>Triangle</text>
             </InstrumentChange>
-          <StaffText>
-            <eid>36165458583355440</eid>
-            <linkedMain/>
-            <offset x="29.5" y="-2.46846"/>
-            <text>(or maybe triangle?)</text>
-            </StaffText>
           <Rest>
-            <eid>33861951658393626</eid>
+            <eid>39596445963124762</eid>
             <linkedMain/>
             <dots>1</dots>
             <durationType>half</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            <eid>39802325220458532</eid>
+            <linkedMain/>
+            </Dynamic>
           <Chord>
-            <eid>36161734846709875</eid>
+            <eid>39650996342751347</eid>
             <linkedMain/>
             <dots>1</dots>
             <durationType>half</durationType>
+            <StemDirection>up</StemDirection>
             <Note>
-              <eid>36161730551742484</eid>
+              <eid>39650992047783956</eid>
               <linkedMain/>
               <Spanner type="Tie">
                 <Tie>
-                  <eid>36161769206448159</eid>
+                  <eid>39707526702301215</eid>
+                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -22434,12 +22480,13 @@
                     </location>
                   </next>
                 </Spanner>
-              <pitch>99</pitch>
-              <tpc>11</tpc>
+              <pitch>81</pitch>
+              <tpc>17</tpc>
               </Note>
             <TremoloSingleChord>
               <subtype>r32</subtype>
-              <eid>36163753481339017</eid>
+              <eid>39710357085749385</eid>
+              <linkedMain/>
               </TremoloSingleChord>
             </Chord>
           </voice>
@@ -22447,12 +22494,13 @@
       <Measure>
         <voice>
           <Chord>
-            <eid>36161846515859571</eid>
+            <eid>39703077116182643</eid>
             <linkedMain/>
             <dots>1</dots>
             <durationType>whole</durationType>
+            <StemDirection>up</StemDirection>
             <Note>
-              <eid>36161842220892180</eid>
+              <eid>39703072821215252</eid>
               <linkedMain/>
               <Spanner type="Tie">
                 <prev>
@@ -22462,12 +22510,12 @@
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>99</pitch>
-              <tpc>11</tpc>
+              <pitch>81</pitch>
+              <tpc>17</tpc>
               </Note>
             <TremoloSingleChord>
               <subtype>r32</subtype>
-              <eid>36164290352251017</eid>
+              <eid>39710365675683977</eid>
               <linkedMain/>
               </TremoloSingleChord>
             </Chord>
@@ -27813,6 +27861,7 @@
           </voice>
         </Measure>
       <Measure>
+        <measureRepeatCount>1</measureRepeatCount>
         <voice>
           <MeasureRepeat>
             <subtype>1</subtype>
@@ -31119,19 +31168,19 @@
                 <program value="46"/>
                 <synti>Fluid</synti>
                 <midiPort>2</midiPort>
-                <midiChannel>12</midiChannel>
+                <midiChannel>11</midiChannel>
                 </Channel>
               <Channel name="staccato">
                 <program value="45"/>
                 <synti>Fluid</synti>
-                <midiPort>3</midiPort>
-                <midiChannel>1</midiChannel>
+                <midiPort>2</midiPort>
+                <midiChannel>12</midiChannel>
                 </Channel>
               <Channel name="flageoletti">
                 <program value="11"/>
                 <synti>Fluid</synti>
-                <midiPort>3</midiPort>
-                <midiChannel>2</midiChannel>
+                <midiPort>2</midiPort>
+                <midiChannel>13</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
@@ -31804,19 +31853,19 @@
                 <program value="48"/>
                 <synti>Fluid</synti>
                 <midiPort>3</midiPort>
-                <midiChannel>4</midiChannel>
+                <midiChannel>1</midiChannel>
                 </Channel>
               <Channel name="pizzicato">
                 <program value="45"/>
                 <synti>Fluid</synti>
                 <midiPort>3</midiPort>
-                <midiChannel>5</midiChannel>
+                <midiChannel>2</midiChannel>
                 </Channel>
               <Channel name="tremolo">
                 <program value="44"/>
                 <synti>Fluid</synti>
                 <midiPort>3</midiPort>
-                <midiChannel>7</midiChannel>
+                <midiChannel>3</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
@@ -32163,20 +32212,20 @@
               <Channel name="arco">
                 <program value="48"/>
                 <synti>Fluid</synti>
-                <midiPort>2</midiPort>
-                <midiChannel>11</midiChannel>
+                <midiPort>3</midiPort>
+                <midiChannel>4</midiChannel>
                 </Channel>
               <Channel name="pizzicato">
                 <program value="45"/>
                 <synti>Fluid</synti>
-                <midiPort>2</midiPort>
-                <midiChannel>13</midiChannel>
+                <midiPort>3</midiPort>
+                <midiChannel>5</midiChannel>
                 </Channel>
               <Channel name="tremolo">
                 <program value="44"/>
                 <synti>Fluid</synti>
                 <midiPort>3</midiPort>
-                <midiChannel>3</midiChannel>
+                <midiChannel>7</midiChannel>
                 </Channel>
               </Instrument>
             <init>1</init>
