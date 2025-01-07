@@ -1,6 +1,14 @@
 {
     "tracks": [
         {
+            "instrumentId": "chord_symbols",
+            "partId": "12",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
             "instrumentId": "triangle",
             "partId": "16",
             "soloMuteState": {
@@ -41,10 +49,26 @@
             }
         },
         {
+            "instrumentId": "piano",
+            "partId": "12",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "instrumentId": "chord_symbols",
+            "partId": "14",
+            "soloMuteState": {
+                "mute": true,
+                "solo": false
+            }
+        },
+        {
             "instrumentId": "celesta",
             "partId": "12",
             "soloMuteState": {
-                "mute": true,
+                "mute": false,
                 "solo": false
             }
         },
@@ -74,14 +98,6 @@
         },
         {
             "instrumentId": "contrabass",
-            "partId": "14",
-            "soloMuteState": {
-                "mute": true,
-                "solo": false
-            }
-        },
-        {
-            "instrumentId": "chord_symbols",
             "partId": "14",
             "soloMuteState": {
                 "mute": true,
