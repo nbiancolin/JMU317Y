@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.4</programVersion>
   <programRevision>2232670</programRevision>
-  <LastEID>9816214</LastEID>
+  <LastEID>9965774</LastEID>
   <Score>
     <eid>31382789160960004</eid>
     <name>Percussion</name>
@@ -360,6 +360,7 @@ Triangle</text>
             <eid>36681370054950937</eid>
             <linked>
               </linked>
+            <appearanceLinkedToMaster>0</appearanceLinkedToMaster>
             <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -404,8 +405,10 @@ Triangle</text>
             <eid>38445751210082329</eid>
             <linked>
               </linked>
+            <color r="0" g="0" b="0" a="0"/>
             <sigN>3</sigN>
             <sigD>4</sigD>
+            <scale w="2.5" h="1"/>
             </TimeSig>
           <Tempo>
             <tempo>3.333333</tempo>
@@ -427,8 +430,9 @@ Triangle</text>
                 </location>
               <indexDiff>11</indexDiff>
               </linked>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
             <style>rehearsal_mark</style>
-            <offset x="54.8855" y="-7.18805"/>
+            <offset x="28" y="-9"/>
             <text>Sting A Variant 1 </text>
             </SystemText>
           <Rest>
@@ -466,6 +470,15 @@ Triangle</text>
                   <staves>-9</staves>
                   </location>
                 </linked>
+              <positionLinkedToMaster>0</positionLinkedToMaster>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0.533698" y="-2.10636"/>
+                <off2 x="0" y="0"/>
+                <minDistance>-10.174</minDistance>
+                <eid>40576179542949957</eid>
+                <positionLinkedToMaster>0</positionLinkedToMaster>
+                </Segment>
               </GradualTempoChange>
             <next>
               <location>
@@ -518,6 +531,7 @@ Triangle</text>
             <eid>41087375140454425</eid>
             <linked>
               </linked>
+            <appearanceLinkedToMaster>0</appearanceLinkedToMaster>
             <sigN>6</sigN>
             <sigD>8</sigD>
             </TimeSig>
@@ -563,8 +577,10 @@ Triangle</text>
             <eid>41095814751191065</eid>
             <linked>
               </linked>
+            <color r="0" g="0" b="0" a="0"/>
             <sigN>6</sigN>
             <sigD>8</sigD>
+            <scale w="2.5" h="1"/>
             </TimeSig>
           <Tempo>
             <tempo>1.625</tempo>
@@ -576,7 +592,9 @@ Triangle</text>
                 </location>
               <indexDiff>3</indexDiff>
               </linked>
-            <offset x="0" y="-1.11443"/>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <minDistance>-7.85636</minDistance>
+            <offset x="0.5" y="-4.22235"/>
             <text>Spooky, <sym>metNoteQuarterUp</sym><sym>metAugmentationDot</sym><font face="Edwin"/> = 65</text>
             </Tempo>
           <SystemText>
@@ -587,8 +605,9 @@ Triangle</text>
                 </location>
               <indexDiff>3</indexDiff>
               </linked>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
             <style>rehearsal_mark</style>
-            <offset x="54.8855" y="-7.24377"/>
+            <offset x="18" y="-9.5"/>
             <text>Sting A Variant 2 </text>
             </SystemText>
           <Rest>
@@ -633,6 +652,10 @@ Triangle</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>42392890579615825</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Fermata>
             <subtype>fermataAbove</subtype>
@@ -661,6 +684,7 @@ Triangle</text>
             <eid>36656442064764953</eid>
             <linked>
               </linked>
+            <appearanceLinkedToMaster>0</appearanceLinkedToMaster>
             <sigN>12</sigN>
             <sigD>8</sigD>
             </TimeSig>
@@ -993,6 +1017,7 @@ Triangle</text>
             <eid>33343080954331161</eid>
             <linked>
               </linked>
+            <appearanceLinkedToMaster>0</appearanceLinkedToMaster>
             <sigN>12</sigN>
             <sigD>8</sigD>
             </TimeSig>
@@ -1896,6 +1921,14 @@ Triangle</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            <forInstrumentChange>1</forInstrumentChange>
+            <eid>42449536903282710</eid>
+            <linked>
+              </linked>
+            </Clef>
           <BarLine>
             <subtype>double</subtype>
             <eid>34933266825871371</eid>
@@ -1910,6 +1943,7 @@ Triangle</text>
             <eid>33739300277321753</eid>
             <linked>
               </linked>
+            <appearanceLinkedToMaster>0</appearanceLinkedToMaster>
             <sigN>12</sigN>
             <sigD>8</sigD>
             </TimeSig>
@@ -1952,16 +1986,16 @@ Triangle</text>
                 <synti>Fluid</synti>
                 </Channel>
               </Instrument>
-            <eid>40924733318889528</eid>
+            <eid>42449528313348152</eid>
             <linked>
-              <indexDiff>2</indexDiff>
+              <indexDiff>3</indexDiff>
               </linked>
             <text>To Timpani</text>
             </InstrumentChange>
           <Rest>
             <eid>40919828466237466</eid>
             <linked>
-              <indexDiff>2</indexDiff>
+              <indexDiff>3</indexDiff>
               </linked>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -2548,8 +2582,8 @@ Triangle</text>
       <Measure len="24/8">
         <multiMeasureRest>2</multiMeasureRest>
         <LayoutBreak>
-          <eid>40924144908370001</eid>
-          <subtype>line</subtype>
+          <eid>42455983649194065</eid>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
@@ -2575,8 +2609,8 @@ Triangle</text>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <eid>39375907982409809</eid>
-          <subtype>line</subtype>
+          <eid>42455141835604049</eid>
+          <subtype>page</subtype>
           </LayoutBreak>
         <voice>
           <Rest>
@@ -2612,6 +2646,7 @@ Triangle</text>
             <eid>34709705188179993</eid>
             <linked>
               </linked>
+            <appearanceLinkedToMaster>0</appearanceLinkedToMaster>
             <sigN>12</sigN>
             <sigD>8</sigD>
             </TimeSig>
@@ -2624,6 +2659,8 @@ Triangle</text>
                 <staves>-9</staves>
                 </location>
               </linked>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <offset x="-11" y="-4.83677"/>
             <text>Triumphantly <sym>metNoteQuarterUp</sym><sym>metAugmentationDot</sym><font face="Edwin"/> = 120</text>
             </Tempo>
           <InstrumentChange>
@@ -2709,8 +2746,9 @@ Triangle</text>
                 <staves>-9</staves>
                 </location>
               </linked>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
             <style>rehearsal_mark</style>
-            <offset x="44.0198" y="-7.24377"/>
+            <offset x="18" y="-10"/>
             <text>Sting C  Variant 1b: epic ending (short) </text>
             </SystemText>
           <Dynamic>
@@ -3458,6 +3496,7 @@ Triangle</text>
             <eid>34713484759400473</eid>
             <linked>
               </linked>
+            <appearanceLinkedToMaster>0</appearanceLinkedToMaster>
             <sigN>12</sigN>
             <sigD>8</sigD>
             </TimeSig>
@@ -4647,6 +4686,10 @@ Triangle</text>
         </Measure>
       <Measure len="24/8">
         <multiMeasureRest>2</multiMeasureRest>
+        <LayoutBreak>
+          <eid>42469113364217937</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <StaffText>
             <eid>40063751289831472</eid>
@@ -4663,6 +4706,10 @@ Triangle</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>42468335975137361</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>34521864793489434</eid>
