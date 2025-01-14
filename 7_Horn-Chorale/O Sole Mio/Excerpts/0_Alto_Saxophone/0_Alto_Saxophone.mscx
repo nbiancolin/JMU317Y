@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.4</programVersion>
   <programRevision>2232670</programRevision>
-  <LastEID>521853</LastEID>
+  <LastEID>537075</LastEID>
   <Score>
     <eid>2147432108392452</eid>
     <name>Alto Saxophone</name>
@@ -955,7 +955,7 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <eid>2149459332956276</eid>
+                <eid>2293220478287988</eid>
                 <linked>
                   </linked>
                 </Slur>
@@ -979,23 +979,9 @@
             <eid>2148518735118451</eid>
             <linked>
               </linked>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <eid>2148531620020244</eid>
-              <linked>
-                </linked>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              <tpc2>21</tpc2>
-              </Note>
-            </Chord>
-          <Chord>
-            <eid>2148544504922227</eid>
-            <linked>
-              </linked>
-            <durationType>eighth</durationType>
-            <Note>
-              <eid>2148557389824020</eid>
               <linked>
                 </linked>
               <pitch>64</pitch>
@@ -1333,7 +1319,7 @@
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/8</fractions>
+                  <fractions>1/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -1351,13 +1337,6 @@
             <linked>
               </linked>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>2148948231847956</eid>
               <linked>
@@ -1385,6 +1364,13 @@
             <linked>
               </linked>
             <durationType>half</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>2148982591586324</eid>
               <linked>

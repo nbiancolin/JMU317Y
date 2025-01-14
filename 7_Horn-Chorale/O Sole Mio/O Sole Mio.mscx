@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.4</programVersion>
   <programRevision>2232670</programRevision>
-  <LastEID>521853</LastEID>
+  <LastEID>537075</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -1791,6 +1791,18 @@
             <eid>1919493899026547</eid>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>2298447453487220</eid>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-5/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>1919489604059156</eid>
               <linkedMain/>
@@ -1835,6 +1847,14 @@
             <eid>1504398194770035</eid>
             <linkedMain/>
             <durationType>half</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>5/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>1504393899802644</eid>
               <linkedMain/>
@@ -2803,7 +2823,7 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <eid>2011260170272884</eid>
+                <eid>2293216183320692</eid>
                 <linkedMain/>
                 </Slur>
               <next>
@@ -2824,21 +2844,9 @@
           <Chord>
             <eid>1447588662345843</eid>
             <linkedMain/>
-            <durationType>eighth</durationType>
+            <durationType>quarter</durationType>
             <Note>
               <eid>1447584367378452</eid>
-              <linkedMain/>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              <tpc2>21</tpc2>
-              </Note>
-            </Chord>
-          <Chord>
-            <eid>2011002472235123</eid>
-            <linkedMain/>
-            <durationType>eighth</durationType>
-            <Note>
-              <eid>2010998177267732</eid>
               <linkedMain/>
               <pitch>64</pitch>
               <tpc>18</tpc>
@@ -3106,7 +3114,7 @@
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/8</fractions>
+                  <fractions>1/4</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -3122,13 +3130,6 @@
             <eid>1980254801363059</eid>
             <linkedMain/>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>1980250506395668</eid>
               <linkedMain/>
@@ -3146,6 +3147,13 @@
             <eid>1988054461972595</eid>
             <linkedMain/>
             <durationType>half</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>1988050167005204</eid>
               <linkedMain/>
@@ -4199,7 +4207,7 @@
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/8</fractions>
+                  <fractions>3/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -4215,13 +4223,6 @@
             <eid>1976324906287219</eid>
             <linkedMain/>
             <durationType>quarter</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>1976320611319828</eid>
               <linkedMain/>
@@ -4239,6 +4240,13 @@
             <eid>1991481845874803</eid>
             <linkedMain/>
             <durationType>half</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-3/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>1991477550907412</eid>
               <linkedMain/>
@@ -4653,6 +4661,12 @@
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>mf</subtype>
+            <velocity>80</velocity>
+            <eid>2290102332031012</eid>
+            <linkedMain/>
+            </Dynamic>
           <Chord>
             <eid>1259567879028851</eid>
             <linkedMain/>
@@ -4772,8 +4786,8 @@
             <Note>
               <eid>1275699776192532</eid>
               <linkedMain/>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -4783,8 +4797,8 @@
             <Note>
               <eid>1276228057169940</eid>
               <linkedMain/>
-              <pitch>46</pitch>
-              <tpc>12</tpc>
+              <pitch>50</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -4794,8 +4808,8 @@
             <Note>
               <eid>1276563064619028</eid>
               <linkedMain/>
-              <pitch>50</pitch>
-              <tpc>16</tpc>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -5407,6 +5421,17 @@
             <linkedMain/>
             <dots>1</dots>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>2300268519620724</eid>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>3/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>1974383581069332</eid>
               <linkedMain/>
@@ -5423,6 +5448,13 @@
             <eid>1995377381212275</eid>
             <linkedMain/>
             <durationType>half</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-3/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>1995373086244884</eid>
               <linkedMain/>
@@ -5707,11 +5739,34 @@
             <linkedMain/>
             </Dynamic>
           <Chord>
-            <eid>1538040673599603</eid>
+            <eid>2272974002454643</eid>
             <linkedMain/>
-            <durationType>whole</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
-              <eid>1538036378632212</eid>
+              <eid>2272969707487252</eid>
+              <linkedMain/>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>2272918167879795</eid>
+            <linkedMain/>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>2272931052781588</eid>
+              <linkedMain/>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>2276105033613427</eid>
+            <linkedMain/>
+            <durationType>half</durationType>
+            <Note>
+              <eid>2276100738646036</eid>
               <linkedMain/>
               <pitch>41</pitch>
               <tpc>13</tpc>
@@ -5781,7 +5836,8 @@
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/2</fractions>
+                  <measures>1</measures>
+                  <fractions>-3/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -5829,13 +5885,6 @@
             <eid>1552102396526707</eid>
             <linkedMain/>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/2</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>1552098101559316</eid>
               <linkedMain/>
@@ -5851,6 +5900,14 @@
             <eid>1292664897011827</eid>
             <linkedMain/>
             <durationType>whole</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>3/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>1292660602044436</eid>
               <linkedMain/>
@@ -6189,6 +6246,11 @@
             <eid>1812957235249267</eid>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <eid>2295870473109536</eid>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <eid>1812952940281876</eid>
               <linkedMain/>
@@ -6221,6 +6283,11 @@
             <eid>1876067484696691</eid>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <eid>2296647862190112</eid>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <eid>1876063189729300</eid>
               <linkedMain/>
@@ -6692,6 +6759,17 @@
             <eid>2059995164180595</eid>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>2306259998998644</eid>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>2059990869213204</eid>
               <linkedMain/>
@@ -6718,6 +6796,13 @@
             <eid>2062726763380851</eid>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>2062722468413460</eid>
               <linkedMain/>
@@ -7236,6 +7321,12 @@
               <fixedLine>4</fixedLine>
               </Note>
             </Chord>
+          <Harmony>
+            <root>16</root>
+            <name>mi7</name>
+            <eid>2280039223656506</eid>
+            <linkedMain/>
+            </Harmony>
           <Chord>
             <eid>1835419914207347</eid>
             <linkedMain/>

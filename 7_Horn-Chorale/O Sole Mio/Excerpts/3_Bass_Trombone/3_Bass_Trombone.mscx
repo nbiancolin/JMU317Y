@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.4</programVersion>
   <programRevision>2232670</programRevision>
-  <LastEID>521853</LastEID>
+  <LastEID>537075</LastEID>
   <Score>
     <eid>2155236063969284</eid>
     <name>Bass Trombone</name>
@@ -303,12 +303,39 @@
               </linked>
             </Dynamic>
           <Chord>
-            <eid>2155407862661235</eid>
+            <eid>2272986887356531</eid>
             <linked>
               </linked>
-            <durationType>whole</durationType>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
             <Note>
-              <eid>2155420747563028</eid>
+              <eid>2272999772258324</eid>
+              <linked>
+                </linked>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>2272948232650867</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>2272961117552660</eid>
+              <linked>
+                </linked>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>2276122213482611</eid>
+            <linked>
+              </linked>
+            <durationType>half</durationType>
+            <Note>
+              <eid>2276135098384404</eid>
               <linked>
                 </linked>
               <pitch>41</pitch>
@@ -389,7 +416,8 @@
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/2</fractions>
+                  <measures>1</measures>
+                  <fractions>-3/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -445,13 +473,6 @@
             <linked>
               </linked>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/2</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <eid>2155669855666196</eid>
               <linked>
@@ -473,6 +494,14 @@
             <linked>
               </linked>
             <durationType>whole</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>3/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>2155704215404564</eid>
               <linked>
@@ -886,6 +915,12 @@
             <linked>
               </linked>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <eid>2295874768076832</eid>
+              <linked>
+                </linked>
+              </Articulation>
             <Note>
               <eid>2156344165531668</eid>
               <linked>
@@ -923,6 +958,12 @@
             <linked>
               </linked>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              <eid>2296652157157408</eid>
+              <linked>
+                </linked>
+              </Articulation>
             <Note>
               <eid>2156421474942996</eid>
               <linked>
@@ -1532,6 +1573,18 @@
             <linked>
               </linked>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>2306264293965940</eid>
+                <linked>
+                  </linked>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <eid>2157160209317908</eid>
               <linked>
@@ -1592,6 +1645,13 @@
             <linked>
               </linked>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <eid>2157220338860052</eid>
               <linked>
