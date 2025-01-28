@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.4</programVersion>
   <programRevision>2232670</programRevision>
-  <LastEID>230649</LastEID>
+  <LastEID>251127</LastEID>
   <Score>
     <eid>932394450288644</eid>
     <name>Trombone 2</name>
@@ -184,7 +184,7 @@
           <style>subtitle</style>
           <size>14</size>
           <offset x="0" y="9.1999"/>
-          <text><font size="14"/>JMU317Y Assignment 8</text>
+          <text><font size="14"></font>JMU317Y Assignment 8</text>
           </Text>
         <Text>
           <eid>932420220092421</eid>
@@ -195,7 +195,7 @@
             </linked>
           <style>composer</style>
           <size>12</size>
-          <text><font size="12"/>Jobim arr. Biancolin</text>
+          <text><font size="12"></font>Jobim arr. Biancolin</text>
           </Text>
         <Text>
           <eid>932424515059717</eid>
@@ -208,7 +208,7 @@
           <size>14</size>
           <align>center,top</align>
           <offset x="0" y="-6.7437"/>
-          <text><font size="14"/>(No More Blues)</text>
+          <text><font size="14"></font>(No More Blues)</text>
           </Text>
         <Text>
           <eid>935654330466309</eid>
@@ -242,7 +242,7 @@
               <indexDiff>7</indexDiff>
               </linked>
             <family>Edwin</family>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 170</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 170</text>
             </Tempo>
           <Rest>
             <eid>932463169765402</eid>
@@ -714,6 +714,12 @@
             <linked>
               </linked>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articMarcatoAbove</subtype>
+              <eid>1058048013500448</eid>
+              <linked>
+                </linked>
+              </Articulation>
             <Note>
               <eid>933189019238420</eid>
               <linked>
@@ -879,19 +885,12 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Chord>
-            <eid>933451012243571</eid>
+          <Rest>
+            <eid>1058610654216218</eid>
             <linked>
               </linked>
             <durationType>eighth</durationType>
-            <Note>
-              <eid>933463897145364</eid>
-              <linked>
-                </linked>
-              <pitch>54</pitch>
-              <tpc>20</tpc>
-              </Note>
-            </Chord>
+            </Rest>
           <Chord>
             <eid>933481077014643</eid>
             <linked>
@@ -1505,7 +1504,7 @@
             <eid>934498984263795</eid>
             <linked>
               </linked>
-            <durationType>quarter</durationType>
+            <durationType>eighth</durationType>
             <Note>
               <eid>934511869165588</eid>
               <linked>
@@ -1518,6 +1517,25 @@
                     </location>
                   </prev>
                 </Spanner>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>1050248352890995</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articMarcatoAbove</subtype>
+              <eid>1050475986157600</eid>
+              <linked>
+                </linked>
+              </Articulation>
+            <Note>
+              <eid>1050261237792788</eid>
+              <linked>
+                </linked>
               <pitch>59</pitch>
               <tpc>19</tpc>
               </Note>
@@ -1997,6 +2015,10 @@
               <eid>935284963278868</eid>
               <linked>
                 </linked>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                <eid>1075786228432912</eid>
+                </Accidental>
               <Spanner type="Tie">
                 <Tie>
                   <eid>935306438115359</eid>
@@ -2010,8 +2032,8 @@
                     </location>
                   </next>
                 </Spanner>
-              <pitch>61</pitch>
-              <tpc>21</tpc>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
               </Note>
             </Chord>
           </voice>
@@ -2036,8 +2058,8 @@
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>61</pitch>
-              <tpc>21</tpc>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -2049,6 +2071,10 @@
               <eid>935370862624788</eid>
               <linked>
                 </linked>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                <eid>1075803408302096</eid>
+                </Accidental>
               <Spanner type="Tie">
                 <Tie>
                   <eid>935392337461279</eid>

@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.4</programVersion>
   <programRevision>2232670</programRevision>
-  <LastEID>230649</LastEID>
+  <LastEID>251127</LastEID>
   <Score>
     <eid>916786539134980</eid>
     <name>Trumpet</name>
@@ -175,7 +175,7 @@
           <style>subtitle</style>
           <size>14</size>
           <offset x="0" y="9.1999"/>
-          <text><font size="14"/>JMU317Y Assignment 8</text>
+          <text><font size="14"></font>JMU317Y Assignment 8</text>
           </Text>
         <Text>
           <eid>916812308938757</eid>
@@ -183,7 +183,7 @@
             </linked>
           <style>composer</style>
           <size>12</size>
-          <text><font size="12"/>Jobim arr. Biancolin</text>
+          <text><font size="12"></font>Jobim arr. Biancolin</text>
           </Text>
         <Text>
           <eid>916816603906053</eid>
@@ -193,7 +193,7 @@
           <size>14</size>
           <align>center,top</align>
           <offset x="0" y="-6.7437"/>
-          <text><font size="14"/>(No More Blues)</text>
+          <text><font size="14"></font>(No More Blues)</text>
           </Text>
         <Text>
           <eid>920179563298821</eid>
@@ -224,7 +224,7 @@
             <linked>
               </linked>
             <family>Edwin</family>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 170</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 170</text>
             </Tempo>
           <Rest>
             <eid>916855258611738</eid>
@@ -559,8 +559,13 @@
             <eid>917319115079706</eid>
             <linked>
               </linked>
-            <dots>1</dots>
             <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <eid>1056841127690266</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
             </Rest>
           <Chord>
             <eid>917331999981683</eid>
@@ -714,6 +719,12 @@
             <linked>
               </linked>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articMarcatoAbove</subtype>
+              <eid>1057824675201056</eid>
+              <linked>
+                </linked>
+              </Articulation>
             <Note>
               <eid>917585403052052</eid>
               <linked>
@@ -772,7 +783,7 @@
             <eid>917671302398067</eid>
             <linked>
               </linked>
-            <durationType>half</durationType>
+            <durationType>whole</durationType>
             <Note>
               <eid>917684187299860</eid>
               <linked>
@@ -790,12 +801,6 @@
               <tpc2>18</tpc2>
               </Note>
             </Chord>
-          <Rest>
-            <eid>917697072201754</eid>
-            <linked>
-              </linked>
-            <durationType>half</durationType>
-            </Rest>
           </voice>
         </Measure>
       <Measure>

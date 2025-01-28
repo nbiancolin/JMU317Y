@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.4</programVersion>
   <programRevision>2232670</programRevision>
-  <LastEID>230649</LastEID>
+  <LastEID>251127</LastEID>
   <Score>
     <eid>920789448654852</eid>
     <name>Alto Sax</name>
@@ -180,7 +180,7 @@
           <style>subtitle</style>
           <size>14</size>
           <offset x="0" y="9.1999"/>
-          <text><font size="14"/>JMU317Y Assignment 8</text>
+          <text><font size="14"></font>JMU317Y Assignment 8</text>
           </Text>
         <Text>
           <eid>920815218458629</eid>
@@ -191,7 +191,7 @@
             </linked>
           <style>composer</style>
           <size>12</size>
-          <text><font size="12"/>Jobim arr. Biancolin</text>
+          <text><font size="12"></font>Jobim arr. Biancolin</text>
           </Text>
         <Text>
           <eid>920819513425925</eid>
@@ -204,7 +204,7 @@
           <size>14</size>
           <align>center,top</align>
           <offset x="0" y="-6.7437"/>
-          <text><font size="14"/>(No More Blues)</text>
+          <text><font size="14"></font>(No More Blues)</text>
           </Text>
         <Text>
           <eid>924083688570885</eid>
@@ -239,7 +239,7 @@
               <indexDiff>7</indexDiff>
               </linked>
             <family>Edwin</family>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 170</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 170</text>
             </Tempo>
           <Rest>
             <eid>920858168131610</eid>
@@ -666,6 +666,10 @@
                 <eid>924057918767220</eid>
                 <linked>
                   </linked>
+                <SlurSegment no="0">
+                  <eid>1033622534488073</eid>
+                  <offset x="-0.266849" y="-0.266849"/>
+                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -750,6 +754,12 @@
             <linked>
               </linked>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articMarcatoAbove</subtype>
+              <eid>1057833265135648</eid>
+              <linked>
+                </linked>
+              </Articulation>
             <Note>
               <eid>921596902506516</eid>
               <linked>
@@ -804,7 +814,7 @@
             <eid>921678506885235</eid>
             <linked>
               </linked>
-            <durationType>half</durationType>
+            <durationType>whole</durationType>
             <Note>
               <eid>921691391787028</eid>
               <linked>
@@ -822,12 +832,6 @@
               <tpc2>19</tpc2>
               </Note>
             </Chord>
-          <Rest>
-            <eid>921704276688922</eid>
-            <linked>
-              </linked>
-            <durationType>half</durationType>
-            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -1620,9 +1624,9 @@
               <eid>923001356812308</eid>
               <linked>
                 </linked>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              <tpc2>21</tpc2>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <tpc2>18</tpc2>
               </Note>
             </Chord>
           <Rest>
