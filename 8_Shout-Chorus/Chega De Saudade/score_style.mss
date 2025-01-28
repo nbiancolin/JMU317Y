@@ -914,7 +914,7 @@
     <measureNumberFontSpatiumDependent>0</measureNumberFontSpatiumDependent>
     <measureNumberFontStyle>2</measureNumberFontStyle>
     <measureNumberColor r="0" g="0" b="0" a="255"/>
-    <measureNumberPosAbove x="0" y="-7"/>
+    <measureNumberPosAbove x="0" y="-5"/>
     <measureNumberPosBelow x="0" y="1"/>
     <measureNumberOffsetType>1</measureNumberOffsetType>
     <measureNumberVPlacement>0</measureNumberVPlacement>
