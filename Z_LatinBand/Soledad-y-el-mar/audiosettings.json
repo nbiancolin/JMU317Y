@@ -173,6 +173,48 @@
             "in": {
                 "resourceMeta": {
                     "attributes": {
+                        "museCategory": "Muse Keys",
+                        "museName": "Grand Piano",
+                        "musePack": "Muse Keys",
+                        "museUID": "167",
+                        "museVendorName": "",
+                        "playbackSetupData": "keyboards.piano"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "Muse Keys\\Grand Piano\\167",
+                    "type": "muse_sampler_sound_pack",
+                    "vendor": "MuseSounds"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "piano",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.15000000596046448
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "5",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
                         "museCategory": "Muse Woodwinds",
                         "museName": "Tenor Sax",
                         "musePack": "Muse Woodwinds",
@@ -253,27 +295,27 @@
             "in": {
                 "resourceMeta": {
                     "attributes": {
-                        "museCategory": "Muse Keys",
-                        "museName": "Grand Piano",
-                        "musePack": "Muse Keys",
-                        "museUID": "167",
+                        "museCategory": "Muse Brass",
+                        "museName": "Trombone",
+                        "musePack": "Muse Brass",
+                        "museUID": "112",
                         "museVendorName": "",
-                        "playbackSetupData": "keyboards.piano"
+                        "playbackSetupData": "winds.trombone"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Keys\\Grand Piano\\167",
+                    "id": "Muse Brass\\Trombone\\112",
                     "type": "muse_sampler_sound_pack",
                     "vendor": "MuseSounds"
                 },
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "piano",
+            "instrumentId": "trombone",
             "out": {
                 "auxSends": [
                     {
                         "active": true,
-                        "signalAmount": 0.15000000596046448
+                        "signalAmount": 0.4000000059604645
                     },
                     {
                         "active": true,
@@ -285,7 +327,7 @@
                 },
                 "volumeDb": 0
             },
-            "partId": "5",
+            "partId": "4",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -366,48 +408,6 @@
                 "volumeDb": 0
             },
             "partId": "12",
-            "soloMuteState": {
-                "mute": false,
-                "solo": false
-            }
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
-                        "museCategory": "Muse Brass",
-                        "museName": "Trombone",
-                        "musePack": "Muse Brass",
-                        "museUID": "112",
-                        "museVendorName": "",
-                        "playbackSetupData": "winds.trombone"
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "Muse Brass\\Trombone\\112",
-                    "type": "muse_sampler_sound_pack",
-                    "vendor": "MuseSounds"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "trombone",
-            "out": {
-                "auxSends": [
-                    {
-                        "active": true,
-                        "signalAmount": 0.4000000059604645
-                    },
-                    {
-                        "active": true,
-                        "signalAmount": 0.30000001192092896
-                    }
-                ],
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 0
-            },
-            "partId": "4",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
