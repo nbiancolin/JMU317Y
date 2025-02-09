@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.4</programVersion>
   <programRevision>2232670</programRevision>
-  <LastEID>7758921</LastEID>
+  <LastEID>8224936</LastEID>
   <Score>
     <eid>31368220631891972</eid>
     <name>Alto Saxophone</name>
@@ -245,7 +245,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
               </linked>
             <size>12</size>
             <offset x="-7.19999" y="-3.48387"/>
-            <text><i><font size="12"></font>Vamp until cue</i></text>
+            <text><i><font size="12"/>Vamp 3x (until cue)</i></text>
             </SystemText>
           <SystemText>
             <swing unit="eighth" ratio="60"/>
@@ -328,7 +328,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <size>12</size>
             <italic>1</italic>
             <offset x="-16" y="-4.3442"/>
-            <text><i><font size="12"></font>Vamp until cue</i></text>
+            <text><i><font size="12"/>Vamp 3x (until cue)</i></text>
             </SystemText>
           <SystemText>
             <swing unit="eighth" ratio="60"/>
@@ -4312,7 +4312,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
                     </location>
                   </next>
                 </Spanner>
-              <pitch>70</pitch>
+              <pitch>82</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
@@ -4338,7 +4338,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>70</pitch>
+              <pitch>82</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
@@ -8294,8 +8294,8 @@ Lyrics by: Benj Pasek &amp; Justin Paul
                 <staves>-2</staves>
                 </location>
               </linked>
-            <minDistance>-10.5</minDistance>
-            <offset x="0" y="-0.791934"/>
+            <positionLinkedToMaster>0</positionLinkedToMaster>
+            <offset x="-2" y="-2.5"/>
             <text>Slightly Slower, <sym>metNoteHalfUp</sym><font face="Edwin"></font> = 119</text>
             </Tempo>
           <Rest>
@@ -8306,50 +8306,68 @@ Lyrics by: Benj Pasek &amp; Justin Paul
             <durationType>measure</durationType>
             <duration>2/2</duration>
             </Rest>
+          <Breath>
+            <symbol>caesuraCurved</symbol>
+            <pause>2</pause>
+            <eid>34533289406496797</eid>
+            <linked>
+              </linked>
+            </Breath>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>34562100047118347</eid>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
-      <Measure len="12/2">
-        <multiMeasureRest>6</multiMeasureRest>
+      <Measure>
         <voice>
-          <Tempo>
-            <tempo>3.966667</tempo>
-            <followText>1</followText>
-            <eid>13459882044817455</eid>
+          <SystemText>
+            <eid>34561898183655473</eid>
             <linked>
               <location>
                 <staves>-2</staves>
                 </location>
+              <indexDiff>2</indexDiff>
               </linked>
-            <positionLinkedToMaster>0</positionLinkedToMaster>
-            <offset x="-2" y="-4"/>
-            <text>Slightly Slower, <sym>metNoteHalfUp</sym><font face="Edwin"></font> = 119</text>
-            </Tempo>
-          <Rest>
-            <eid>13459877749850139</eid>
-            <durationType>measure</durationType>
-            <duration>12/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>7785147915042842</eid>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>2/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
+            <size>12</size>
+            <bold>1</bold>
+            <text><b><font size="12"/>On Cue</b></text>
+            </SystemText>
           <Rest>
             <eid>7785637541314586</eid>
             <linked>
+              <indexDiff>2</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure len="12/2">
+        <multiMeasureRest>6</multiMeasureRest>
+        <LayoutBreak>
+          <eid>34674778514128977</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <SystemText>
+            <eid>34562121521954865</eid>
+            <linked>
+              <location>
+                <staves>-2</staves>
+                </location>
+              <indexDiff>2</indexDiff>
+              </linked>
+            <size>12</size>
+            <bold>1</bold>
+            <text><b><font size="12"/>On Cue</b></text>
+            </SystemText>
+          <Rest>
+            <eid>34562117226987547</eid>
+            <durationType>measure</durationType>
+            <duration>12/2</duration>
             </Rest>
           </voice>
         </Measure>
@@ -8388,6 +8406,32 @@ Lyrics by: Benj Pasek &amp; Justin Paul
         </Measure>
       <Measure>
         <voice>
+          <Rest>
+            <eid>34244362661527578</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <LayoutBreak>
+          <eid>34674602420469841</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <Rest>
+            <eid>34228763340308506</eid>
+            <linked>
+              </linked>
+            <durationType>measure</durationType>
+            <duration>2/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <KeySig>
             <eid>8430054434406423</eid>
             <linked>
@@ -8405,7 +8449,7 @@ Lyrics by: Benj Pasek &amp; Justin Paul
           <InstrumentChange>
             <Instrument id="flute">
               <longName>Flute</longName>
-              <shortName>Fl.</shortName>
+              <shortName>Fl. 2</shortName>
               <trackName>Flute</trackName>
               <minPitchP>59</minPitchP>
               <maxPitchP>98</maxPitchP>
@@ -8417,13 +8461,14 @@ Lyrics by: Benj Pasek &amp; Justin Paul
                 <synti>Fluid</synti>
                 </Channel>
               </Instrument>
+            <init>1</init>
             <eid>8430037254537272</eid>
             <linked>
               </linked>
             <positionLinkedToMaster>0</positionLinkedToMaster>
             <minDistance>0.368982</minDistance>
             <offset x="-2" y="-4.26007"/>
-            <text>Flute</text>
+            <text>To Flute</text>
             </InstrumentChange>
           <Chord>
             <eid>8428967807680627</eid>

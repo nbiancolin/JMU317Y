@@ -1539,6 +1539,6 @@ v$:versionNum:</oddFooterR>
     <dummyMusicalSymbolsScale>1</dummyMusicalSymbolsScale>
     <autoplaceEnabled>1</autoplaceEnabled>
     <defaultsVersion>302</defaultsVersion>
-    <Spatium>0.8128</Spatium>
+    <Spatium>0.889</Spatium>
     </Style>
   </museScore>
