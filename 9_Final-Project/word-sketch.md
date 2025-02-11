@@ -11,8 +11,18 @@
 - Soloist (either saxes or tpt 2) solo with rhythm section backing
 - Horn Shots (turn maybe?) on ii-V into B
 
+### B1:
+- Saxes have melody harmonized (trombone light hits and pads)
+- turnaround
 
-Some kind of interlude (Like I did in just Friends)
+### A2:
+- Saxes Keep the Melody (in Unison first, then harmonized)
+- Brass phat shots
+
+### B2:
+- Brass take over melody, saxes play counter melody to build energy for the "How Still My Heart, How High The moon"
+  - Saxes play pads, Brass plays unison,
+- Line ends, 2 bar drum fill into:
 
 ### SOLOS:
 
@@ -24,3 +34,10 @@ Some kind of interlude (Like I did in just Friends)
   - B2: Some Hits and pads, bring energy up to go into:
 
 ### SHOUT CHORUS
+
+
+
+
+### Rough Ideas
+
+Interlude (Like Just Friends?)
