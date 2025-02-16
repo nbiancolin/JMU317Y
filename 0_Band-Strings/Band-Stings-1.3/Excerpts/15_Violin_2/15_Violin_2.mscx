@@ -4,9 +4,9 @@
   <programRevision>2232670</programRevision>
   <LastEID>8034313</LastEID>
   <Score>
-    <eid>34007138732867588</eid>
-    <name>Large Drum Kit</name>
-    <initialPartId>15</initialPartId>
+    <eid>34029000116404228</eid>
+    <name>Violin 2</name>
+    <initialPartId>10</initialPartId>
     <Division>480</Division>
     <Style>
       <pageWidth>8.5</pageWidth>
@@ -88,198 +88,34 @@ v$:versionNum:</oddFooterR>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <open>1</open>
-    <metaTag name="partName">Large Drum Kit</metaTag>
-    <Part id="15">
+    <metaTag name="partName">Violin 2</metaTag>
+    <Part id="10">
       <Staff id="1">
-        <linkedTo>9</linkedTo>
-        <StaffType group="percussion">
-          <name>perc5Line</name>
-          <keysig>0</keysig>
+        <linkedTo>18</linkedTo>
+        <StaffType group="pitched">
+          <name>stdNormal</name>
           </StaffType>
-        <defaultClef>PERC</defaultClef>
         </Staff>
-      <trackName>Large Drum Kit</trackName>
-      <preferSharpFlat>none</preferSharpFlat>
-      <Instrument id="drumset">
-        <longName>Drumset</longName>
-        <shortName>Drs.</shortName>
-        <trackName>Large Drum Kit</trackName>
-        <instrumentId>drum.group.set</instrumentId>
-        <useDrumset>1</useDrumset>
-        <Drum pitch="35">
-          <head>normal</head>
-          <line>8</line>
-          <voice>1</voice>
-          <name>Acoustic Bass Drum</name>
-          <stem>2</stem>
-          </Drum>
-        <Drum pitch="36">
-          <head>normal</head>
-          <line>7</line>
-          <voice>1</voice>
-          <name>Bass Drum 1</name>
-          <stem>2</stem>
-          <shortcut>B</shortcut>
-          </Drum>
-        <Drum pitch="37">
-          <head>slashed1</head>
-          <line>3</line>
-          <voice>0</voice>
-          <name>Side Stick</name>
-          <stem>1</stem>
-          </Drum>
-        <Drum pitch="38">
-          <head>normal</head>
-          <line>3</line>
-          <voice>0</voice>
-          <name>Acoustic Snare</name>
-          <stem>1</stem>
-          <shortcut>A</shortcut>
-          </Drum>
-        <Drum pitch="40">
-          <head>normal</head>
-          <line>3</line>
-          <voice>0</voice>
-          <name>Electric Snare</name>
-          <stem>1</stem>
-          </Drum>
-        <Drum pitch="41">
-          <head>normal</head>
-          <line>6</line>
-          <voice>0</voice>
-          <name>Low Floor Tom</name>
-          <stem>1</stem>
-          </Drum>
-        <Drum pitch="42">
-          <head>cross</head>
-          <line>-1</line>
-          <voice>0</voice>
-          <name>Closed Hi-Hat</name>
-          <stem>1</stem>
-          <shortcut>G</shortcut>
-          </Drum>
-        <Drum pitch="43">
-          <head>normal</head>
-          <line>5</line>
-          <voice>0</voice>
-          <name>High Floor Tom</name>
-          <stem>2</stem>
-          </Drum>
-        <Drum pitch="44">
-          <head>cross</head>
-          <line>9</line>
-          <voice>1</voice>
-          <name>Pedal Hi-Hat</name>
-          <stem>2</stem>
-          <shortcut>F</shortcut>
-          </Drum>
-        <Drum pitch="45">
-          <head>normal</head>
-          <line>4</line>
-          <voice>0</voice>
-          <name>Low Tom</name>
-          <stem>1</stem>
-          </Drum>
-        <Drum pitch="46">
-          <head>cross</head>
-          <line>-1</line>
-          <voice>0</voice>
-          <name>Open Hi-Hat</name>
-          <stem>1</stem>
-          </Drum>
-        <Drum pitch="47">
-          <head>normal</head>
-          <line>2</line>
-          <voice>0</voice>
-          <name>Low-Mid Tom</name>
-          <stem>1</stem>
-          </Drum>
-        <Drum pitch="48">
-          <head>normal</head>
-          <line>1</line>
-          <voice>0</voice>
-          <name>Hi-Mid Tom</name>
-          <stem>1</stem>
-          </Drum>
-        <Drum pitch="49">
-          <head>cross</head>
-          <line>-2</line>
-          <voice>0</voice>
-          <name>Crash Cymbal 1</name>
-          <stem>1</stem>
-          <shortcut>C</shortcut>
-          </Drum>
-        <Drum pitch="50">
-          <head>normal</head>
-          <line>0</line>
-          <voice>0</voice>
-          <name>High Tom</name>
-          <stem>1</stem>
-          <shortcut>E</shortcut>
-          </Drum>
-        <Drum pitch="51">
-          <head>cross</head>
-          <line>0</line>
-          <voice>0</voice>
-          <name>Ride Cymbal 1</name>
-          <stem>1</stem>
-          <shortcut>D</shortcut>
-          </Drum>
-        <Drum pitch="52">
-          <head>cross</head>
-          <line>-4</line>
-          <voice>0</voice>
-          <name>Chinese Cymbal</name>
-          <stem>1</stem>
-          </Drum>
-        <Drum pitch="53">
-          <head>diamond</head>
-          <line>0</line>
-          <voice>0</voice>
-          <name>Ride Bell</name>
-          <stem>1</stem>
-          </Drum>
-        <Drum pitch="54">
-          <head>diamond</head>
-          <line>1</line>
-          <voice>0</voice>
-          <name>Tambourine</name>
-          <stem>1</stem>
-          </Drum>
-        <Drum pitch="55">
-          <head>cross</head>
-          <line>-5</line>
-          <voice>0</voice>
-          <name>Splash Cymbal</name>
-          <stem>1</stem>
-          </Drum>
-        <Drum pitch="56">
-          <head>triangle-down</head>
-          <line>1</line>
-          <voice>0</voice>
-          <name>Cowbell</name>
-          <stem>1</stem>
-          </Drum>
-        <Drum pitch="57">
-          <head>cross</head>
-          <line>-3</line>
-          <voice>0</voice>
-          <name>Crash Cymbal 2</name>
-          <stem>1</stem>
-          </Drum>
-        <Drum pitch="59">
-          <head>cross</head>
-          <line>2</line>
-          <voice>0</voice>
-          <name>Ride Cymbal 2</name>
-          <stem>1</stem>
-          </Drum>
-        <clef>PERC</clef>
-        <singleNoteDynamics>0</singleNoteDynamics>
-        <Channel>
-          <controller ctrl="0" value="1"/>
-          <controller ctrl="32" value="0"/>
-          <program value="0"/>
+      <trackName>Violin 2</trackName>
+      <Instrument id="violin">
+        <longName>Violin 2</longName>
+        <shortName>Vln. 2</shortName>
+        <trackName>Violin</trackName>
+        <minPitchP>55</minPitchP>
+        <maxPitchP>103</maxPitchP>
+        <minPitchA>55</minPitchA>
+        <maxPitchA>88</maxPitchA>
+        <instrumentId>strings.violin</instrumentId>
+        <Channel name="arco">
+          <program value="40"/>
+          <synti>Fluid</synti>
+          </Channel>
+        <Channel name="pizzicato">
+          <program value="45"/>
+          <synti>Fluid</synti>
+          </Channel>
+        <Channel name="tremolo">
+          <program value="44"/>
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -287,17 +123,17 @@ v$:versionNum:</oddFooterR>
     <Staff id="1">
       <VBox>
         <height>13.5</height>
-        <eid>34007151617769594</eid>
+        <eid>34029013001306234</eid>
         <linked>
           <location>
-            <staves>-8</staves>
+            <staves>-17</staves>
             </location>
           </linked>
         <Text>
-          <eid>34007155912736773</eid>
+          <eid>34029017296273413</eid>
           <linked>
             <location>
-              <staves>-8</staves>
+              <staves>-17</staves>
               </location>
             </linked>
           <style>title</style>
@@ -306,10 +142,10 @@ v$:versionNum:</oddFooterR>
           <text><font size="34"/><font face="Vivaldi"/>Band Stings</text>
           </Text>
         <Text>
-          <eid>34007160207704069</eid>
+          <eid>34029021591240709</eid>
           <linked>
             <location>
-              <staves>-8</staves>
+              <staves>-17</staves>
               </location>
             </linked>
           <style>composer</style>
@@ -318,42 +154,42 @@ v$:versionNum:</oddFooterR>
 orchestrated by Nicholas Biancolin</text>
           </Text>
         <Text>
-          <eid>34007164502671365</eid>
+          <eid>34029025886208005</eid>
           <linked>
             <location>
-              <staves>-8</staves>
+              <staves>-17</staves>
               </location>
             </linked>
+          <appearanceLinkedToMaster>0</appearanceLinkedToMaster>
           <style>user_2</style>
           <text>3-1</text>
           </Text>
         <Text>
-          <eid>34007168797638661</eid>
+          <eid>34029030181175301</eid>
           <linked>
             <location>
-              <staves>-8</staves>
+              <staves>-17</staves>
               </location>
             </linked>
           <style>user_3</style>
           <text>SKULE NITE 2T5</text>
           </Text>
         <Text>
-          <eid>34007963366588421</eid>
+          <eid>34030164052541445</eid>
           <style>instrument_excerpt</style>
-          <text>Large Drum Kit</text>
+          <text>Violin 2</text>
           </Text>
         </VBox>
       <Measure>
         <voice>
           <KeySig>
-            <eid>34007194567442455</eid>
+            <eid>34029055950979095</eid>
             <linked>
               </linked>
-            <custom>1</custom>
-            <mode>none</mode>
+            <concertKey>-1</concertKey>
             </KeySig>
           <TimeSig>
-            <eid>34007203157377049</eid>
+            <eid>34029064540913689</eid>
             <linked>
               </linked>
             <sigN>12</sigN>
@@ -362,27 +198,27 @@ orchestrated by Nicholas Biancolin</text>
           <Tempo>
             <tempo>3</tempo>
             <followText>1</followText>
-            <eid>34007181682540591</eid>
+            <eid>34029043066077231</eid>
             <linked>
               <location>
-                <staves>-8</staves>
+                <staves>-17</staves>
                 </location>
               <indexDiff>9</indexDiff>
               </linked>
             <text>Excitedly, <sym>metNoteQuarterUp</sym><sym>metAugmentationDot</sym><font face="Edwin"/> = 120</text>
             </Tempo>
           <RehearsalMark>
-            <eid>34007190272475191</eid>
+            <eid>34029051656011831</eid>
             <linked>
               <location>
-                <staves>-8</staves>
+                <staves>-17</staves>
                 </location>
               <indexDiff>9</indexDiff>
               </linked>
             <text>Sting 1</text>
             </RehearsalMark>
           <Rest>
-            <eid>34007211747311642</eid>
+            <eid>34029073130848282</eid>
             <linked>
               <indexDiff>2</indexDiff>
               </linked>
@@ -394,7 +230,7 @@ orchestrated by Nicholas Biancolin</text>
       <Measure len="60/8">
         <multiMeasureRest>5</multiMeasureRest>
         <LayoutBreak>
-          <eid>34007989136392273</eid>
+          <eid>34030189822345297</eid>
           <subtype>section</subtype>
           <pause>0</pause>
           <startWithLongNames>0</startWithLongNames>
@@ -403,7 +239,7 @@ orchestrated by Nicholas Biancolin</text>
           </LayoutBreak>
         <voice>
           <TimeSig>
-            <eid>34008006316261401</eid>
+            <eid>34030207002214425</eid>
             <linked>
               </linked>
             <sigN>12</sigN>
@@ -412,34 +248,34 @@ orchestrated by Nicholas Biancolin</text>
           <Tempo>
             <tempo>3</tempo>
             <followText>1</followText>
-            <eid>34008019201163311</eid>
+            <eid>34030219887116335</eid>
             <linked>
               <location>
-                <staves>-8</staves>
+                <staves>-17</staves>
                 </location>
               <indexDiff>9</indexDiff>
               </linked>
             <text>Excitedly, <sym>metNoteQuarterUp</sym><sym>metAugmentationDot</sym><font face="Edwin"/> = 120</text>
             </Tempo>
           <RehearsalMark>
-            <eid>34008023496130615</eid>
+            <eid>34030224182083639</eid>
             <linked>
               <location>
-                <staves>-8</staves>
+                <staves>-17</staves>
                 </location>
               <indexDiff>9</indexDiff>
               </linked>
             <text>Sting 1</text>
             </RehearsalMark>
           <Rest>
-            <eid>34007997726326811</eid>
+            <eid>34030198412279835</eid>
             <durationType>measure</durationType>
             <duration>60/8</duration>
             </Rest>
           <BarLine>
             <subtype>end</subtype>
             <span>1</span>
-            <eid>34007984841424907</eid>
+            <eid>34030185527377931</eid>
             <linked>
               </linked>
             </BarLine>
@@ -448,7 +284,7 @@ orchestrated by Nicholas Biancolin</text>
       <Measure>
         <voice>
           <Rest>
-            <eid>34007224632213530</eid>
+            <eid>34029086015750170</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -459,7 +295,7 @@ orchestrated by Nicholas Biancolin</text>
       <Measure>
         <voice>
           <Rest>
-            <eid>34007241812082714</eid>
+            <eid>34029103195619354</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -470,7 +306,7 @@ orchestrated by Nicholas Biancolin</text>
       <Measure>
         <voice>
           <Rest>
-            <eid>34007258991951898</eid>
+            <eid>34029120375488538</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -480,10 +316,10 @@ orchestrated by Nicholas Biancolin</text>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <eid>34007293351690321</eid>
+          <eid>34029154735226961</eid>
           <linked>
             <location>
-              <staves>-9</staves>
+              <staves>-18</staves>
               </location>
             </linked>
           <subtype>section</subtype>
@@ -494,7 +330,7 @@ orchestrated by Nicholas Biancolin</text>
           </LayoutBreak>
         <voice>
           <Rest>
-            <eid>34007276171821082</eid>
+            <eid>34029137555357722</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -503,7 +339,7 @@ orchestrated by Nicholas Biancolin</text>
           <BarLine>
             <subtype>end</subtype>
             <span>1</span>
-            <eid>34007284761755659</eid>
+            <eid>34029146145292299</eid>
             <linked>
               </linked>
             </BarLine>
@@ -511,18 +347,24 @@ orchestrated by Nicholas Biancolin</text>
         </Measure>
       <Measure>
         <voice>
+          <KeySig>
+            <eid>34029180505030679</eid>
+            <linked>
+              </linked>
+            <concertKey>1</concertKey>
+            </KeySig>
           <TimeSig>
-            <eid>34007319121494041</eid>
+            <eid>34029189094965273</eid>
             <linked>
               </linked>
             <sigN>12</sigN>
             <sigD>8</sigD>
             </TimeSig>
           <RehearsalMark>
-            <eid>34007306236592183</eid>
+            <eid>34029167620128823</eid>
             <linked>
               <location>
-                <staves>-8</staves>
+                <staves>-17</staves>
                 </location>
               <indexDiff>3</indexDiff>
               </linked>
@@ -531,19 +373,19 @@ orchestrated by Nicholas Biancolin</text>
           <Tempo>
             <tempo>3</tempo>
             <followText>1</followText>
-            <eid>34007314826526767</eid>
+            <eid>34029176210063407</eid>
             <linked>
               <location>
-                <staves>-8</staves>
+                <staves>-17</staves>
                 </location>
               <indexDiff>5</indexDiff>
               </linked>
             <text>Bardcore, <sym>metNoteQuarterUp</sym><sym>metAugmentationDot</sym><font face="Edwin"/> = 120</text>
             </Tempo>
           <Rest>
-            <eid>34007327711428634</eid>
+            <eid>34029197684899866</eid>
             <linked>
-              <indexDiff>2</indexDiff>
+              <indexDiff>3</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>12/8</duration>
@@ -553,7 +395,7 @@ orchestrated by Nicholas Biancolin</text>
       <Measure len="24/8">
         <multiMeasureRest>2</multiMeasureRest>
         <LayoutBreak>
-          <eid>34008109395476561</eid>
+          <eid>34030310081429585</eid>
           <subtype>section</subtype>
           <pause>0</pause>
           <startWithLongNames>0</startWithLongNames>
@@ -562,17 +404,18 @@ orchestrated by Nicholas Biancolin</text>
           </LayoutBreak>
         <voice>
           <TimeSig>
-            <eid>34008126575345689</eid>
+            <eid>34030327261298713</eid>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <sigN>12</sigN>
             <sigD>8</sigD>
             </TimeSig>
           <RehearsalMark>
-            <eid>34008130870313015</eid>
+            <eid>34030340146200631</eid>
             <linked>
               <location>
-                <staves>-8</staves>
+                <staves>-17</staves>
                 </location>
               <indexDiff>3</indexDiff>
               </linked>
@@ -581,24 +424,24 @@ orchestrated by Nicholas Biancolin</text>
           <Tempo>
             <tempo>3</tempo>
             <followText>1</followText>
-            <eid>34008135165280303</eid>
+            <eid>34030344441167919</eid>
             <linked>
               <location>
-                <staves>-8</staves>
+                <staves>-17</staves>
                 </location>
               <indexDiff>5</indexDiff>
               </linked>
             <text>Bardcore, <sym>metNoteQuarterUp</sym><sym>metAugmentationDot</sym><font face="Edwin"/> = 120</text>
             </Tempo>
           <Rest>
-            <eid>34008117985411099</eid>
+            <eid>34030318671364123</eid>
             <durationType>measure</durationType>
             <duration>24/8</duration>
             </Rest>
           <BarLine>
             <subtype>end</subtype>
             <span>1</span>
-            <eid>34008105100509195</eid>
+            <eid>34030305786462219</eid>
             <linked>
               </linked>
             </BarLine>
@@ -606,10 +449,10 @@ orchestrated by Nicholas Biancolin</text>
         </Measure>
       <Measure>
         <LayoutBreak>
-          <eid>34007357776199761</eid>
+          <eid>34029227749670993</eid>
           <linked>
             <location>
-              <staves>-9</staves>
+              <staves>-18</staves>
               </location>
             </linked>
           <subtype>section</subtype>
@@ -620,7 +463,7 @@ orchestrated by Nicholas Biancolin</text>
           </LayoutBreak>
         <voice>
           <Rest>
-            <eid>34007340596330522</eid>
+            <eid>34029210569801754</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -629,7 +472,7 @@ orchestrated by Nicholas Biancolin</text>
           <BarLine>
             <subtype>end</subtype>
             <span>1</span>
-            <eid>34007349186265099</eid>
+            <eid>34029219159736331</eid>
             <linked>
               </linked>
             </BarLine>
@@ -637,44 +480,49 @@ orchestrated by Nicholas Biancolin</text>
         </Measure>
       <Measure>
         <voice>
+          <KeySig>
+            <eid>34029253519474711</eid>
+            <linked>
+              </linked>
+            <concertKey>-4</concertKey>
+            </KeySig>
           <TimeSig>
-            <eid>34007383546003481</eid>
+            <eid>34029262109409305</eid>
             <linked>
               </linked>
             <sigN>12</sigN>
             <sigD>8</sigD>
             </TimeSig>
           <RehearsalMark>
-            <eid>34007370661101623</eid>
+            <eid>34029240634572855</eid>
             <linked>
               <location>
-                <staves>-8</staves>
+                <staves>-17</staves>
                 </location>
               <indexDiff>3</indexDiff>
               </linked>
             <positionLinkedToMaster>0</positionLinkedToMaster>
-            <offset x="-1.5" y="-7.78032"/>
+            <offset x="-2" y="-9.78032"/>
             <text>Sting 3</text>
             </RehearsalMark>
           <Tempo>
             <tempo>3</tempo>
             <followText>1</followText>
-            <eid>34007379251036207</eid>
+            <eid>34029249224507439</eid>
             <linked>
               <location>
-                <staves>-8</staves>
+                <staves>-17</staves>
                 </location>
               <indexDiff>3</indexDiff>
               </linked>
             <positionLinkedToMaster>0</positionLinkedToMaster>
-            <minDistance>0.387099</minDistance>
-            <offset x="-1" y="-4"/>
+            <offset x="-7.5" y="-6"/>
             <text>Triumphantly, <sym>metNoteQuarterUp</sym><sym>metAugmentationDot</sym><font face="Edwin"/> = 120</text>
             </Tempo>
           <Rest>
-            <eid>34007392135938074</eid>
+            <eid>34029270699343898</eid>
             <linked>
-              <indexDiff>2</indexDiff>
+              <indexDiff>3</indexDiff>
               </linked>
             <durationType>measure</durationType>
             <duration>12/8</duration>
@@ -683,221 +531,243 @@ orchestrated by Nicholas Biancolin</text>
         </Measure>
       <Measure>
         <voice>
-          <StaffText>
-            <eid>34225400380915760</eid>
+          <PlayTechAnnotation>
+            <eid>34029283584245811</eid>
             <linked>
               </linked>
-            <text>Triangle</text>
-            </StaffText>
+            <text>arco</text>
+            </PlayTechAnnotation>
           <Chord>
-            <eid>34007405020840051</eid>
+            <eid>34029292174180467</eid>
             <linked>
               </linked>
             <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articAccentBelow</subtype>
-              <eid>34007422200709152</eid>
-              <linked>
-                </linked>
-              </Articulation>
-            <StemDirection>up</StemDirection>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>34030095333064820</eid>
+                <linked>
+                  </linked>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
-              <eid>34007417905741844</eid>
+              <eid>34029305059082260</eid>
               <linked>
                 </linked>
-              <pitch>54</pitch>
-              <tpc>20</tpc>
-              <head>diamond</head>
+              <pitch>82</pitch>
+              <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
-            <eid>34007439380578419</eid>
+            <eid>34029317943984243</eid>
             <linked>
               </linked>
             <durationType>eighth</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
-              <eid>34007452265480212</eid>
+              <eid>34029330828886036</eid>
               <linked>
                 </linked>
-              <pitch>54</pitch>
-              <tpc>20</tpc>
-              <head>diamond</head>
+              <pitch>80</pitch>
+              <tpc>10</tpc>
               </Note>
             </Chord>
           <Chord>
-            <eid>34007465150382195</eid>
+            <eid>34029343713788019</eid>
             <linked>
               </linked>
             <durationType>eighth</durationType>
-            <StemDirection>up</StemDirection>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
-              <eid>34007478035283988</eid>
+              <eid>34029356598689812</eid>
               <linked>
                 </linked>
-              <pitch>54</pitch>
-              <tpc>20</tpc>
-              <head>diamond</head>
+              <pitch>75</pitch>
+              <tpc>11</tpc>
               </Note>
             </Chord>
           <Chord>
-            <eid>34007490920185971</eid>
+            <eid>34029369483591795</eid>
             <linked>
               </linked>
             <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articAccentBelow</subtype>
-              <eid>34007508100055072</eid>
-              <linked>
-                </linked>
-              </Articulation>
-            <StemDirection>up</StemDirection>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>34030103922999412</eid>
+                <linked>
+                  </linked>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
-              <eid>34007503805087764</eid>
+              <eid>34029382368493588</eid>
               <linked>
                 </linked>
-              <pitch>54</pitch>
-              <tpc>20</tpc>
-              <head>diamond</head>
+              <pitch>80</pitch>
+              <tpc>10</tpc>
               </Note>
             </Chord>
           <Chord>
-            <eid>34007525279924339</eid>
+            <eid>34029399548362867</eid>
             <linked>
               </linked>
             <durationType>eighth</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
-              <eid>34007538164826132</eid>
+              <eid>34029412433264660</eid>
               <linked>
                 </linked>
-              <pitch>54</pitch>
-              <tpc>20</tpc>
-              <head>diamond</head>
+              <pitch>82</pitch>
+              <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
-            <eid>34007551049728115</eid>
+            <eid>34029425318166643</eid>
             <linked>
               </linked>
             <durationType>eighth</durationType>
-            <StemDirection>up</StemDirection>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
-              <eid>34007563934629908</eid>
+              <eid>34029438203068436</eid>
               <linked>
                 </linked>
-              <pitch>54</pitch>
-              <tpc>20</tpc>
-              <head>diamond</head>
+              <pitch>87</pitch>
+              <tpc>11</tpc>
               </Note>
             </Chord>
           <Chord>
-            <eid>34007576819531891</eid>
+            <eid>34029451087970419</eid>
             <linked>
               </linked>
             <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articAccentBelow</subtype>
-              <eid>34007593999400992</eid>
-              <linked>
-                </linked>
-              </Articulation>
-            <StemDirection>up</StemDirection>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>34030112512934004</eid>
+                <linked>
+                  </linked>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
-              <eid>34007589704433684</eid>
+              <eid>34029463972872212</eid>
               <linked>
                 </linked>
-              <pitch>54</pitch>
-              <tpc>20</tpc>
-              <head>diamond</head>
+              <pitch>82</pitch>
+              <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
-            <eid>34007611179270259</eid>
+            <eid>34029481152741491</eid>
             <linked>
               </linked>
             <durationType>eighth</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
-              <eid>34007624064172052</eid>
+              <eid>34029494037643284</eid>
               <linked>
                 </linked>
-              <pitch>54</pitch>
-              <tpc>20</tpc>
-              <head>diamond</head>
+              <pitch>80</pitch>
+              <tpc>10</tpc>
               </Note>
             </Chord>
           <Chord>
-            <eid>34007636949074035</eid>
+            <eid>34029506922545267</eid>
             <linked>
               </linked>
             <durationType>eighth</durationType>
-            <StemDirection>up</StemDirection>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
-              <eid>34007649833975828</eid>
+              <eid>34029519807447060</eid>
               <linked>
                 </linked>
-              <pitch>54</pitch>
-              <tpc>20</tpc>
-              <head>diamond</head>
+              <pitch>75</pitch>
+              <tpc>11</tpc>
               </Note>
             </Chord>
           <Chord>
-            <eid>34007662718877811</eid>
+            <eid>34029532692349043</eid>
             <linked>
               </linked>
             <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articAccentBelow</subtype>
-              <eid>34007679898746912</eid>
-              <linked>
-                </linked>
-              </Articulation>
-            <StemDirection>up</StemDirection>
+            <Spanner type="Slur">
+              <Slur>
+                <eid>34030121102868596</eid>
+                <linked>
+                  </linked>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
-              <eid>34007675603779604</eid>
+              <eid>34029545577250836</eid>
               <linked>
                 </linked>
-              <pitch>54</pitch>
-              <tpc>20</tpc>
-              <head>diamond</head>
+              <pitch>80</pitch>
+              <tpc>10</tpc>
               </Note>
             </Chord>
           <Chord>
-            <eid>34007697078616179</eid>
+            <eid>34029562757120115</eid>
             <linked>
               </linked>
             <durationType>eighth</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
-              <eid>34007709963517972</eid>
+              <eid>34029575642021908</eid>
               <linked>
                 </linked>
-              <pitch>54</pitch>
-              <tpc>20</tpc>
-              <head>diamond</head>
+              <pitch>82</pitch>
+              <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
-            <eid>34007722848419955</eid>
+            <eid>34029588526923891</eid>
             <linked>
               </linked>
             <durationType>eighth</durationType>
-            <StemDirection>up</StemDirection>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
-              <eid>34007735733321748</eid>
+              <eid>34029601411825684</eid>
               <linked>
                 </linked>
-              <pitch>54</pitch>
-              <tpc>20</tpc>
-              <head>diamond</head>
+              <pitch>87</pitch>
+              <tpc>11</tpc>
               </Note>
-            <TremoloSingleChord>
-              <subtype>r32</subtype>
-              <eid>34007744323256457</eid>
-              <linked>
-                </linked>
-              </TremoloSingleChord>
             </Chord>
           </voice>
         </Measure>
@@ -906,7 +776,7 @@ orchestrated by Nicholas Biancolin</text>
         <voice>
           <MeasureRepeat>
             <subtype>1</subtype>
-            <eid>34007761503125534</eid>
+            <eid>34029622886662174</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -917,22 +787,9 @@ orchestrated by Nicholas Biancolin</text>
       <Measure>
         <measureRepeatCount>1</measureRepeatCount>
         <voice>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>3</subtype>
-              <eid>34007929006850142</eid>
-              <linked>
-                </linked>
-              </HairPin>
-            <next>
-              <location>
-                <measures>2</measures>
-                </location>
-              </next>
-            </Spanner>
           <MeasureRepeat>
             <subtype>1</subtype>
-            <eid>34007778682994718</eid>
+            <eid>34029640066531358</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -943,13 +800,13 @@ orchestrated by Nicholas Biancolin</text>
       <Measure>
         <measureRepeatCount>1</measureRepeatCount>
         <LayoutBreak>
-          <eid>34233681077862481</eid>
+          <eid>34087123908821073</eid>
           <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <MeasureRepeat>
             <subtype>1</subtype>
-            <eid>34007795862863902</eid>
+            <eid>34029657246400542</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -959,15 +816,111 @@ orchestrated by Nicholas Biancolin</text>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-2</measures>
-                </location>
-              </prev>
-            </Spanner>
+          <Dynamic>
+            <subtype>mf</subtype>
+            <velocity>80</velocity>
+            <eid>34029674426269732</eid>
+            <linked>
+              </linked>
+            </Dynamic>
+          <Chord>
+            <eid>34029683016204403</eid>
+            <linked>
+              </linked>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>34029695901106196</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>34029717375942687</eid>
+                  <linked>
+                    </linked>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>3/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>34029725965877363</eid>
+            <linked>
+              </linked>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>34029738850779156</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-3/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>34029751735681139</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>34029764620582932</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>34029786095419423</eid>
+                  <linked>
+                    </linked>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>34029798980321395</eid>
+            <linked>
+              </linked>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <eid>34029811865223188</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
-            <eid>34007813042733082</eid>
+            <eid>34029837635026970</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -975,28 +928,11 @@ orchestrated by Nicholas Biancolin</text>
             </Rest>
           </voice>
         </Measure>
-      <Measure len="24/8">
-        <multiMeasureRest>2</multiMeasureRest>
-        <voice>
-          <Rest>
-            <eid>34008238244495387</eid>
-            <durationType>measure</durationType>
-            <duration>24/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
       <Measure>
-        <voice>
-          <Rest>
-            <eid>34007830222602266</eid>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
+        <LayoutBreak>
+          <eid>34095134022828113</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Spanner type="GradualTempoChange">
             <GradualTempoChange>
@@ -1007,10 +943,10 @@ orchestrated by Nicholas Biancolin</text>
               <endHookHeight>1.9</endHookHeight>
               <beginText>rit.</beginText>
               <beginTextOffset x="0" y="0"/>
-              <eid>34007946186719331</eid>
+              <eid>34030129692803171</eid>
               <linked>
                 <location>
-                  <staves>-8</staves>
+                  <staves>-17</staves>
                   </location>
                 </linked>
               </GradualTempoChange>
@@ -1021,7 +957,7 @@ orchestrated by Nicholas Biancolin</text>
               </next>
             </Spanner>
           <Rest>
-            <eid>34007847402471450</eid>
+            <eid>34029854814896154</eid>
             <linked>
               </linked>
             <durationType>measure</durationType>
@@ -1034,14 +970,21 @@ orchestrated by Nicholas Biancolin</text>
           <Tempo>
             <tempo>2.5</tempo>
             <followText>1</followText>
-            <eid>34007864582340655</eid>
+            <eid>34029871994765359</eid>
             <linked>
               <location>
-                <staves>-8</staves>
+                <staves>-17</staves>
                 </location>
               </linked>
             <text>Directed, <sym>metNoteQuarterUp</sym><sym>metAugmentationDot</sym><font face="Edwin"/> = 100</text>
             </Tempo>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            <eid>34029880584699940</eid>
+            <linked>
+              </linked>
+            </Dynamic>
           <Spanner type="GradualTempoChange">
             <prev>
               <location>
@@ -1049,133 +992,176 @@ orchestrated by Nicholas Biancolin</text>
                 </location>
               </prev>
             </Spanner>
-          <Rest>
-            <eid>34007873172275226</eid>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure len="36/8">
-        <multiMeasureRest>3</multiMeasureRest>
-        <voice>
-          <Tempo>
-            <tempo>2.5</tempo>
-            <followText>1</followText>
-            <eid>34008276899201071</eid>
-            <linked>
-              <location>
-                <staves>-8</staves>
-                </location>
-              </linked>
-            <text>Directed, <sym>metNoteQuarterUp</sym><sym>metAugmentationDot</sym><font face="Edwin"/> = 100</text>
-            </Tempo>
-          <Rest>
-            <eid>34008272604233755</eid>
-            <durationType>measure</durationType>
-            <duration>48/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>34007886057177114</eid>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>34007903237046298</eid>
-            <linked>
-              </linked>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
           <Chord>
-            <eid>34286891427692659</eid>
+            <eid>34029884879667315</eid>
             <linked>
               </linked>
             <dots>1</dots>
-            <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articAccentAbove</subtype>
-              <eid>34295734765355040</eid>
-              <linked>
-                </linked>
-              </Articulation>
-            <StemDirection>up</StemDirection>
+            <durationType>whole</durationType>
             <Note>
-              <eid>34286904312594452</eid>
+              <eid>34029897764569108</eid>
               <linked>
                 </linked>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>34029919239405599</eid>
+                  <linked>
+                    </linked>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
               </Note>
+            <TremoloSingleChord>
+              <subtype>r32</subtype>
+              <eid>34029914944438409</eid>
+              <linked>
+                </linked>
+              </TremoloSingleChord>
             </Chord>
-          <Rest>
-            <eid>34286801233379354</eid>
-            <linked>
-              </linked>
-            <dots>1</dots>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <eid>34286827003183130</eid>
-            <linked>
-              </linked>
-            <dots>1</dots>
-            <durationType>half</durationType>
-            </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Chord>
-            <eid>34294532174512243</eid>
+            <eid>34029936419274867</eid>
+            <linked>
+              </linked>
+            <dots>1</dots>
+            <durationType>whole</durationType>
+            <Note>
+              <eid>34029949304176660</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>34029970779013151</eid>
+                  <linked>
+                    </linked>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
+              </Note>
+            <TremoloSingleChord>
+              <subtype>r32</subtype>
+              <eid>34029966484045961</eid>
+              <linked>
+                </linked>
+              </TremoloSingleChord>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              <eid>34030146872672350</eid>
+              <linked>
+                </linked>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
+          <Chord>
+            <eid>34029992253849715</eid>
+            <linked>
+              </linked>
+            <dots>1</dots>
+            <durationType>whole</durationType>
+            <Note>
+              <eid>34030005138751508</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
+              </Note>
+            <TremoloSingleChord>
+              <subtype>r32</subtype>
+              <eid>34030013728686217</eid>
+              <linked>
+                </linked>
+              </TremoloSingleChord>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Chord>
+            <eid>34030030908555379</eid>
             <linked>
               </linked>
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>articAccentBelow</subtype>
-              <eid>34296628118552608</eid>
+              <eid>34030052383391776</eid>
               <linked>
                 </linked>
               </Articulation>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <eid>34294545059414036</eid>
+            <Articulation>
+              <subtype>stringsDownBow</subtype>
+              <eid>34030056678359072</eid>
               <linked>
                 </linked>
-              <pitch>36</pitch>
-              <tpc>14</tpc>
+              </Articulation>
+            <Note>
+              <eid>34030043793457172</eid>
+              <linked>
+                </linked>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
+          <Rest>
+            <eid>34030069563260954</eid>
+            <linked>
+              </linked>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <eid>34030082448162842</eid>
+            <linked>
+              </linked>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            </Rest>
           </voice>
         </Measure>
       </Staff>
