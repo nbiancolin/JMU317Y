@@ -1,5 +1,5 @@
 {
-    "activeSoundProfile": "Muse Sounds",
+    "activeSoundProfile": "MuseScore Basic",
     "aux": [
         {
             "out": {
@@ -51,17 +51,13 @@
             "in": {
                 "resourceMeta": {
                     "attributes": {
-                        "museCategory": "Muse Brass",
-                        "museName": "Trumpet",
-                        "musePack": "Muse Brass",
-                        "museUID": "110",
-                        "museVendorName": "",
-                        "playbackSetupData": "winds.trumpet"
+                        "playbackSetupData": "last.last.last",
+                        "soundFontName": "MS Basic"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Brass\\Trumpet\\110",
-                    "type": "muse_sampler_sound_pack",
-                    "vendor": "MuseSounds"
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
                 },
                 "unitConfiguration": {
                 }
@@ -131,17 +127,13 @@
             "in": {
                 "resourceMeta": {
                     "attributes": {
-                        "museCategory": "Muse Brass",
-                        "museName": "Trumpet",
-                        "musePack": "Muse Brass",
-                        "museUID": "110",
-                        "museVendorName": "",
-                        "playbackSetupData": "winds.trumpet"
+                        "playbackSetupData": "last.last.last",
+                        "soundFontName": "MS Basic"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Brass\\Trumpet\\110",
-                    "type": "muse_sampler_sound_pack",
-                    "vendor": "MuseSounds"
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
                 },
                 "unitConfiguration": {
                 }
@@ -173,17 +165,127 @@
             "in": {
                 "resourceMeta": {
                     "attributes": {
-                        "museCategory": "Muse Woodwinds",
-                        "museName": "Tenor Sax",
-                        "musePack": "Muse Woodwinds",
-                        "museUID": "131",
-                        "museVendorName": "",
-                        "playbackSetupData": "winds.saxophone.tenor"
+                        "playbackSetupData": "last.last.last",
+                        "soundFontName": "MS Basic"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Woodwinds\\Tenor Sax\\131",
-                    "type": "muse_sampler_sound_pack",
-                    "vendor": "MuseSounds"
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "alto-saxophone",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.20000000298023224
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "3",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "playbackSetupData": "last.last.last",
+                        "soundFontName": "MS Basic"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "piano",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.15000000596046448
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "5",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "playbackSetupData": "last.last.last",
+                        "soundFontName": "MS Basic"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "flute",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "3",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "playbackSetupData": "last.last.last",
+                        "soundFontName": "MS Basic"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
                 },
                 "unitConfiguration": {
                 }
@@ -253,59 +355,13 @@
             "in": {
                 "resourceMeta": {
                     "attributes": {
-                        "museCategory": "Muse Keys",
-                        "museName": "Grand Piano",
-                        "musePack": "Muse Keys",
-                        "museUID": "167",
-                        "museVendorName": "",
-                        "playbackSetupData": "keyboards.piano"
+                        "playbackSetupData": "last.last.last",
+                        "soundFontName": "MS Basic"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Keys\\Grand Piano\\167",
-                    "type": "muse_sampler_sound_pack",
-                    "vendor": "MuseSounds"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "piano",
-            "out": {
-                "auxSends": [
-                    {
-                        "active": true,
-                        "signalAmount": 0.15000000596046448
-                    },
-                    {
-                        "active": true,
-                        "signalAmount": 0.30000001192092896
-                    }
-                ],
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 0
-            },
-            "partId": "5",
-            "soloMuteState": {
-                "mute": false,
-                "solo": false
-            }
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
-                        "museCategory": "Muse Brass",
-                        "museName": "Trombone",
-                        "musePack": "Muse Brass",
-                        "museUID": "112",
-                        "museVendorName": "",
-                        "playbackSetupData": "winds.trombone"
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "Muse Brass\\Trombone\\112",
-                    "type": "muse_sampler_sound_pack",
-                    "vendor": "MuseSounds"
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
                 },
                 "unitConfiguration": {
                 }
@@ -325,7 +381,7 @@
                 "balance": 0,
                 "fxChain": {
                 },
-                "volumeDb": 0
+                "volumeDb": 6
             },
             "partId": "4",
             "soloMuteState": {
@@ -363,7 +419,7 @@
                 "balance": 0,
                 "fxChain": {
                 },
-                "volumeDb": 0
+                "volumeDb": -3.0999999046325684
             },
             "partId": "6",
             "soloMuteState": {
@@ -403,17 +459,13 @@
             "in": {
                 "resourceMeta": {
                     "attributes": {
-                        "museCategory": "Muse Choir",
-                        "museName": "Altos",
-                        "musePack": "Muse Choir",
-                        "museUID": "20",
-                        "museVendorName": "",
-                        "playbackSetupData": "voices.choir.alto"
+                        "playbackSetupData": "last.last.last",
+                        "soundFontName": "MS Basic"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Choir\\Altos\\20",
-                    "type": "muse_sampler_sound_pack",
-                    "vendor": "MuseSounds"
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
                 },
                 "unitConfiguration": {
                 }
@@ -445,17 +497,13 @@
             "in": {
                 "resourceMeta": {
                     "attributes": {
-                        "museCategory": "Muse Brass",
-                        "museName": "Trombone",
-                        "musePack": "Muse Brass",
-                        "museUID": "112",
-                        "museVendorName": "Muse",
-                        "playbackSetupData": "winds.trombone"
+                        "playbackSetupData": "last.last.last",
+                        "soundFontName": "MS Basic"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Brass\\Trombone\\112",
-                    "type": "muse_sampler_sound_pack",
-                    "vendor": "MuseSounds"
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
                 },
                 "unitConfiguration": {
                 }
@@ -475,7 +523,7 @@
                 "balance": 0,
                 "fxChain": {
                 },
-                "volumeDb": 0
+                "volumeDb": 6.699999809265137
             },
             "partId": "9",
             "soloMuteState": {
@@ -487,17 +535,13 @@
             "in": {
                 "resourceMeta": {
                     "attributes": {
-                        "museCategory": "Muse Keys",
-                        "museName": "Grand Piano",
-                        "musePack": "Muse Keys",
-                        "museUID": "167",
-                        "museVendorName": "Muse",
-                        "playbackSetupData": "keyboards.piano"
+                        "playbackSetupData": "last.last.last",
+                        "soundFontName": "MS Basic"
                     },
                     "hasNativeEditorSupport": false,
-                    "id": "Muse Keys\\Grand Piano\\167",
-                    "type": "muse_sampler_sound_pack",
-                    "vendor": "MuseSounds"
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
                 },
                 "unitConfiguration": {
                 }
@@ -519,7 +563,163 @@
                 },
                 "volumeDb": 0
             },
-            "partId": "1"
+            "partId": "1",
+            "soloMuteState": {
+                "mute": true,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "playbackSetupData": "last.last.last",
+                        "soundFontName": "MS Basic"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "chord_symbols",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.15000000596046448
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "5",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "playbackSetupData": "last.last.last",
+                        "soundFontName": "MS Basic"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "chord_symbols",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.15000000596046448
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "3",
+            "soloMuteState": {
+                "mute": true,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "playbackSetupData": "last.last.last",
+                        "soundFontName": "MS Basic"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "chord_symbols",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "6",
+            "soloMuteState": {
+                "mute": true,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "playbackSetupData": "last.last.last",
+                        "soundFontName": "MS Basic"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "chord_symbols",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.15000000596046448
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "8",
+            "soloMuteState": {
+                "mute": true,
+                "solo": false
+            }
         }
     ]
 }
