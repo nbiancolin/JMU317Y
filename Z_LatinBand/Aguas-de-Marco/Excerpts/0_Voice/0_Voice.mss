@@ -3,13 +3,13 @@
   <Style>
     <pageWidth>8.5</pageWidth>
     <pageHeight>11</pageHeight>
-    <pagePrintableWidth>7.29</pagePrintableWidth>
-    <pageEvenLeftMargin>0.72</pageEvenLeftMargin>
-    <pageOddLeftMargin>0.49</pageOddLeftMargin>
-    <pageEvenTopMargin>0.44</pageEvenTopMargin>
-    <pageEvenBottomMargin>0.49</pageEvenBottomMargin>
-    <pageOddTopMargin>0.44</pageOddTopMargin>
-    <pageOddBottomMargin>0.49</pageOddBottomMargin>
+    <pagePrintableWidth>7.3189</pagePrintableWidth>
+    <pageEvenLeftMargin>0.590551</pageEvenLeftMargin>
+    <pageOddLeftMargin>0.590551</pageOddLeftMargin>
+    <pageEvenTopMargin>0.590551</pageEvenTopMargin>
+    <pageEvenBottomMargin>0.590551</pageEvenBottomMargin>
+    <pageOddTopMargin>0.590551</pageOddTopMargin>
+    <pageOddBottomMargin>0.590551</pageOddBottomMargin>
     <pageTwosided>1</pageTwosided>
     <staffUpperBorder>7</staffUpperBorder>
     <staffLowerBorder>11</staffLowerBorder>
@@ -104,7 +104,7 @@
     <dividerLeftSym>systemDivider</dividerLeftSym>
     <dividerLeftX>0</dividerLeftX>
     <dividerLeftY>0</dividerLeftY>
-    <dividerRight>1</dividerRight>
+    <dividerRight>0</dividerRight>
     <dividerRightSym>systemDivider</dividerRightSym>
     <dividerRightX>0</dividerRightX>
     <dividerRightY>0</dividerRightY>
@@ -382,9 +382,9 @@
     <chordExtensionAdjust>0</chordExtensionAdjust>
     <chordModifierMag>1</chordModifierMag>
     <chordModifierAdjust>0</chordModifierAdjust>
-    <concertPitch>1</concertPitch>
+    <concertPitch>0</concertPitch>
     <multiVoiceRestTwoSpaceOffset>0</multiVoiceRestTwoSpaceOffset>
-    <createMultiMeasureRests>0</createMultiMeasureRests>
+    <createMultiMeasureRests>1</createMultiMeasureRests>
     <minEmptyMeasures>2</minEmptyMeasures>
     <minMMRestWidth>4</minMMRestWidth>
     <mmRestNumberPos>-0.5</mmRestNumberPos>
@@ -1532,6 +1532,6 @@
     <dummyMusicalSymbolsScale>1</dummyMusicalSymbolsScale>
     <autoplaceEnabled>1</autoplaceEnabled>
     <defaultsVersion>302</defaultsVersion>
-    <Spatium>0.9906</Spatium>
+    <Spatium>1.74978</Spatium>
     </Style>
   </museScore>
