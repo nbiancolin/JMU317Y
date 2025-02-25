@@ -625,7 +625,7 @@
     <defaultOffsetType>1</defaultOffsetType>
     <defaultSystemFlag>0</defaultSystemFlag>
     <defaultText></defaultText>
-    <titleFontFace>Inkpen2 Script Std</titleFontFace>
+    <titleFontFace>Tahoma</titleFontFace>
     <titleFontSize>22</titleFontSize>
     <titleLineSpacing>1</titleLineSpacing>
     <titleFontSpatiumDependent>0</titleFontSpatiumDependent>

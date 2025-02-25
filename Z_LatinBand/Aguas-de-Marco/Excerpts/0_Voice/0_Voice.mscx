@@ -2,7 +2,7 @@
 <museScore version="4.40">
   <programVersion>4.4.3</programVersion>
   <programRevision>eb6b367</programRevision>
-  <LastEID>506051</LastEID>
+  <LastEID>583502</LastEID>
   <Score>
     <name>Voice</name>
     <initialPartId>10</initialPartId>
@@ -31,7 +31,6 @@
       <pedalText></pedalText>
       <pedalContinueText></pedalContinueText>
       <harmonyVoiceLiteral>0</harmonyVoiceLiteral>
-      <showMeasureNumberOne>1</showMeasureNumberOne>
       <measureNumberInterval>1</measureNumberInterval>
       <measureNumberSystem>0</measureNumberSystem>
       <chordStyle>jazz</chordStyle>
@@ -55,7 +54,7 @@
       <ottavaLineWidth>0.16</ottavaLineWidth>
       <tupletBracketWidth>0.16</tupletBracketWidth>
       <dynamicsFont>Petaluma</dynamicsFont>
-      <titleFontFace>Inkpen2 Script Std</titleFontFace>
+      <titleFontFace>Tahoma</titleFontFace>
       <titleFontStyle>5</titleFontStyle>
       <subTitleFontFace>Inkpen2 Script Std</subTitleFontFace>
       <composerFontFace>Inkpen2 Script Std</composerFontFace>
@@ -65,6 +64,7 @@
       <shortInstrumentFontFace>Inkpen2 Script Std</shortInstrumentFontFace>
       <shortInstrumentFontSize>15</shortInstrumentFontSize>
       <partInstrumentFontFace>Inkpen2 Script Std</partInstrumentFontFace>
+      <partInstrumentFontSize>18</partInstrumentFontSize>
       <partInstrumentFontStyle>4</partInstrumentFontStyle>
       <dynamicsFontSize>10</dynamicsFontSize>
       <expressionFontFace>Inkpen2 Script Std</expressionFontFace>
@@ -72,11 +72,10 @@
       <tempoChangeFontFace>Inkpen2 Script Std</tempoChangeFontFace>
       <metronomeFontFace>Inkpen2 Script Std</metronomeFontFace>
       <measureNumberFontFace>Inkpen2 Script Std</measureNumberFontFace>
-      <measureNumberFontSize>12</measureNumberFontSize>
-      <measureNumberPosAbove x="0" y="-7"/>
-      <measureNumberHPlacement>1</measureNumberHPlacement>
+      <measureNumberFontSize>10</measureNumberFontSize>
+      <measureNumberFontSpatiumDependent>1</measureNumberFontSpatiumDependent>
+      <measureNumberPosBelow x="0" y="2"/>
       <measureNumberAlign>center,baseline</measureNumberAlign>
-      <measureNumberFrameType>1</measureNumberFrameType>
       <measureNumberFramePadding>0.8</measureNumberFramePadding>
       <measureNumberFrameWidth>0.15</measureNumberFrameWidth>
       <mmRestShowMeasureNumberRange>1</mmRestShowMeasureNumberRange>
@@ -92,7 +91,6 @@
       <textLineFontFace>Inkpen2 Script Std</textLineFontFace>
       <textLineFontStyle>2</textLineFontStyle>
       <headerFontFace>Inkpen2 Script Std</headerFontFace>
-      <headerFontStyle>0</headerFontStyle>
       <footerFontFace>Inkpen2 Script Std</footerFontFace>
       <copyrightFontFace>Inkpen2 Script Std</copyrightFontFace>
       <pageNumberFontFace>Inkpen2 Script Std</pageNumberFontFace>
@@ -223,7 +221,7 @@ arr. N. Biancolin</text>
               <indexDiff>6</indexDiff>
               </linked>
             <minDistance>-8.22371</minDistance>
-            <text>Relaxed Bossa, <sym>metNoteHalfUp</sym><font face="Edwin"></font> = 70</text>
+            <text>Relaxed Bossa, <sym>metNoteHalfUp</sym><font face="Edwin"/> = 70</text>
             </Tempo>
           <Rest>
             <eid>1712369101176858</eid>
@@ -256,7 +254,7 @@ arr. N. Biancolin</text>
               <indexDiff>6</indexDiff>
               </linked>
             <minDistance>-8.22371</minDistance>
-            <text>Relaxed Bossa, <sym>metNoteHalfUp</sym><font face="Edwin"></font> = 70</text>
+            <text>Relaxed Bossa, <sym>metNoteHalfUp</sym><font face="Edwin"/> = 70</text>
             </Tempo>
           <Rest>
             <eid>1727045004427291</eid>
@@ -455,6 +453,10 @@ arr. N. Biancolin</text>
         </Measure>
       <Measure len="32/4">
         <multiMeasureRest>8</multiMeasureRest>
+        <LayoutBreak>
+          <eid>2502561479262289</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <RehearsalMark>
             <eid>1727139493707831</eid>
@@ -546,6 +548,10 @@ arr. N. Biancolin</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>2502522824556625</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>1712755648233498</eid>
@@ -782,6 +788,10 @@ arr. N. Biancolin</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>2503849969451089</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>1713112130519066</eid>
@@ -799,7 +809,7 @@ arr. N. Biancolin</text>
               <linked>
                 </linked>
               <family>MuseJazz Text</family>
-              <text><font face="MuseJazz Text"></font>é<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"></font>o</text>
+              <text><font face="MuseJazz Text"/>é<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"/>o</text>
               </Lyrics>
             <Note>
               <eid>1713137900322836</eid>
@@ -1142,6 +1152,10 @@ arr. N. Biancolin</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>2503854264418385</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>1713679066202138</eid>
@@ -1218,7 +1232,7 @@ arr. N. Biancolin</text>
               <linked>
                 </linked>
               <family>MuseJazz Text</family>
-              <text><font face="MuseJazz Text"></font>ro<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"></font>ou</text>
+              <text><font face="MuseJazz Text"/>ro<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"/>ou</text>
               </Lyrics>
             <Note>
               <eid>1713803620253716</eid>
@@ -1537,6 +1551,10 @@ arr. N. Biancolin</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>2503858559385681</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>1714271771689075</eid>
@@ -1570,7 +1588,7 @@ arr. N. Biancolin</text>
               <linked>
                 </linked>
               <family>MuseJazz Text</family>
-              <text><font face="MuseJazz Text"></font>do,<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"></font>é</text>
+              <text><font face="MuseJazz Text"/>do,<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"/>é</text>
               </Lyrics>
             <Note>
               <eid>1714314721361940</eid>
@@ -2046,6 +2064,10 @@ arr. N. Biancolin</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>2503862854352977</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>1715049160769562</eid>
@@ -2122,7 +2144,7 @@ arr. N. Biancolin</text>
               <linked>
                 </linked>
               <family>MuseJazz Text</family>
-              <text><font face="MuseJazz Text"></font>cha<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"></font>e</text>
+              <text><font face="MuseJazz Text"/>cha<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"/>e</text>
               </Lyrics>
             <Note>
               <eid>1715173714821140</eid>
@@ -2269,7 +2291,7 @@ arr. N. Biancolin</text>
               <linked>
                 </linked>
               <family>MuseJazz Text</family>
-              <text><font face="MuseJazz Text"></font>de<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"></font>a</text>
+              <text><font face="MuseJazz Text"/>de<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"/>a</text>
               </Lyrics>
             <Note>
               <eid>1715401348087828</eid>
@@ -2310,7 +2332,7 @@ arr. N. Biancolin</text>
               <linked>
                 </linked>
               <family>MuseJazz Text</family>
-              <text><font face="MuseJazz Text"></font>ra</text>
+              <text><font face="MuseJazz Text"/>ra</text>
               </Lyrics>
             <Note>
               <eid>1715465772597268</eid>
@@ -2379,6 +2401,10 @@ arr. N. Biancolin</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>2503867149320273</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>1715573146779674</eid>
@@ -2397,7 +2423,7 @@ arr. N. Biancolin</text>
               <linked>
                 </linked>
               <family>MuseJazz Text</family>
-              <text><font face="MuseJazz Text"></font>é<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"></font>u</text>
+              <text><font face="MuseJazz Text"/>é<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"/>u</text>
               </Lyrics>
             <Note>
               <eid>1715598916583444</eid>
@@ -2418,7 +2444,7 @@ arr. N. Biancolin</text>
               <linked>
                 </linked>
               <family>MuseJazz Text</family>
-              <text><font face="MuseJazz Text"></font>ma<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"></font>a</text>
+              <text><font face="MuseJazz Text"/>ma<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"/>a</text>
               </Lyrics>
             <Note>
               <eid>1715633276321812</eid>
@@ -2584,7 +2610,7 @@ arr. N. Biancolin</text>
               <linked>
                 </linked>
               <family>MuseJazz Text</family>
-              <text><font face="MuseJazz Text"></font>é<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"></font>um</text>
+              <text><font face="MuseJazz Text"/>é<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"/>um</text>
               </Lyrics>
             <Note>
               <eid>1715886679392276</eid>
@@ -2605,7 +2631,7 @@ arr. N. Biancolin</text>
               <linked>
                 </linked>
               <family>MuseJazz Text</family>
-              <text><font face="MuseJazz Text"></font>pe</text>
+              <text><font face="MuseJazz Text"/>pe</text>
               </Lyrics>
             <Note>
               <eid>1715921039130644</eid>
@@ -2772,6 +2798,10 @@ arr. N. Biancolin</text>
         </Measure>
       <Measure len="12/4">
         <multiMeasureRest>3</multiMeasureRest>
+        <LayoutBreak>
+          <eid>2504292351082577</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>1728458048667675</eid>
@@ -2792,6 +2822,10 @@ arr. N. Biancolin</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>2503871444287569</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>1716174442201114</eid>
@@ -2920,7 +2954,7 @@ arr. N. Biancolin</text>
               <linked>
                 </linked>
               <family>MuseJazz Text</family>
-              <text><font face="MuseJazz Text"></font>é</text>
+              <text><font face="MuseJazz Text"/>é</text>
               </Lyrics>
             <Note>
               <eid>1716380600631316</eid>
@@ -3102,6 +3136,10 @@ arr. N. Biancolin</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>2503875739254865</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>1716664068472858</eid>
@@ -3221,7 +3259,7 @@ arr. N. Biancolin</text>
               <linked>
                 </linked>
               <family>MuseJazz Text</family>
-              <text><font face="MuseJazz Text"></font>é<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"></font>u</text>
+              <text><font face="MuseJazz Text"/>é<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"/>u</text>
               </Lyrics>
             <Note>
               <eid>1716840162131988</eid>
@@ -3399,6 +3437,10 @@ arr. N. Biancolin</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>2503880034222161</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>1717119335006234</eid>
@@ -3416,7 +3458,7 @@ arr. N. Biancolin</text>
               <linked>
                 </linked>
               <family>MuseJazz Text</family>
-              <text><font face="MuseJazz Text"></font>é<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"></font>o</text>
+              <text><font face="MuseJazz Text"/>é<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"/>o</text>
               </Lyrics>
             <Note>
               <eid>1717145104810004</eid>
@@ -3654,7 +3696,7 @@ arr. N. Biancolin</text>
               <linked>
                 </linked>
               <family>MuseJazz Text</family>
-              <text><font face="MuseJazz Text"></font>É<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"></font>o</text>
+              <text><font face="MuseJazz Text"/>É<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"/>o</text>
               </Lyrics>
             <Note>
               <eid>1717501587095572</eid>
@@ -3783,6 +3825,10 @@ arr. N. Biancolin</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>2503884329189457</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>1717703450558579</eid>
@@ -3816,7 +3862,7 @@ arr. N. Biancolin</text>
               <linked>
                 </linked>
               <family>MuseJazz Text</family>
-              <text><font face="MuseJazz Text"></font>sa,<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"></font>é</text>
+              <text><font face="MuseJazz Text"/>sa,<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"/>é</text>
               </Lyrics>
             <Note>
               <eid>1717750695198740</eid>
@@ -4087,7 +4133,7 @@ arr. N. Biancolin</text>
               <linked>
                 </linked>
               <family>MuseJazz Text</family>
-              <text><font face="MuseJazz Text"></font>ro<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"></font>en</text>
+              <text><font face="MuseJazz Text"/>ro<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"/>en</text>
               </Lyrics>
             <Note>
               <eid>1718163012059156</eid>
@@ -4185,7 +4231,7 @@ arr. N. Biancolin</text>
               <linked>
                 </linked>
               <family>MuseJazz Text</family>
-              <text><font face="MuseJazz Text"></font>do,<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"></font>é</text>
+              <text><font face="MuseJazz Text"/>do,<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"/>é</text>
               </Lyrics>
             <Note>
               <eid>1718309040947220</eid>
@@ -4372,7 +4418,7 @@ arr. N. Biancolin</text>
               <linked>
                 </linked>
               <family>MuseJazz Text</family>
-              <text><font face="MuseJazz Text"></font>é<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"></font>u</text>
+              <text><font face="MuseJazz Text"/>é<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"/>u</text>
               </Lyrics>
             <Note>
               <eid>1718579623886868</eid>
@@ -4405,6 +4451,10 @@ arr. N. Biancolin</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>2503888624156753</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>1718635458461811</eid>
@@ -4469,7 +4519,7 @@ arr. N. Biancolin</text>
               <linked>
                 </linked>
               <family>MuseJazz Text</family>
-              <text><font face="MuseJazz Text"></font>é<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"></font>u</text>
+              <text><font face="MuseJazz Text"/>é<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"/>u</text>
               </Lyrics>
             <Note>
               <eid>1718734242709524</eid>
@@ -4791,6 +4841,10 @@ arr. N. Biancolin</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>2503892919124049</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>1719236753883251</eid>
@@ -4957,7 +5011,7 @@ arr. N. Biancolin</text>
               <linked>
                 </linked>
               <family>MuseJazz Text</family>
-              <text><font face="MuseJazz Text"></font>é<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"></font>a</text>
+              <text><font face="MuseJazz Text"/>é<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"/>a</text>
               </Lyrics>
             <Note>
               <eid>1719485861986324</eid>
@@ -5300,6 +5354,10 @@ arr. N. Biancolin</text>
         </Measure>
       <Measure len="60/4">
         <multiMeasureRest>15</multiMeasureRest>
+        <LayoutBreak>
+          <eid>2504395430297681</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <RehearsalMark>
             <eid>1729909747613751</eid>
@@ -5468,6 +5526,10 @@ arr. N. Biancolin</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>2503897214091345</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>1720216006426650</eid>
@@ -5504,6 +5566,8 @@ arr. N. Biancolin</text>
                 </location>
               <indexDiff>1</indexDiff>
               </linked>
+            <bold>1</bold>
+            <underline>1</underline>
             <text><b><u>31 Bar Trombone Solo (+1 bar Solo Pickup)</u></b></text>
             </SystemText>
           <Rest>
@@ -5963,7 +6027,7 @@ arr. N. Biancolin</text>
               <linked>
                 </linked>
               <family>MuseJazz Text</family>
-              <text><font face="MuseJazz Text"></font>É<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"></font>u</text>
+              <text><font face="MuseJazz Text"/>É<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"/>u</text>
               </Lyrics>
             <Note>
               <eid>1720834481717268</eid>
@@ -6024,7 +6088,7 @@ arr. N. Biancolin</text>
               <linked>
                 </linked>
               <family>MuseJazz Text</family>
-              <text><font face="MuseJazz Text"></font>bra,<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"></font>é</text>
+              <text><font face="MuseJazz Text"/>bra,<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"/>é</text>
               </Lyrics>
             <Note>
               <eid>1720933265965076</eid>
@@ -6075,6 +6139,10 @@ arr. N. Biancolin</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>2503901509058641</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>1721014870343706</eid>
@@ -6200,7 +6268,7 @@ arr. N. Biancolin</text>
               <linked>
                 </linked>
               <family>MuseJazz Text</family>
-              <text><font face="MuseJazz Text"></font>é<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"></font>um</text>
+              <text><font face="MuseJazz Text"/>é<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"/>um</text>
               </Lyrics>
             <Note>
               <eid>1721203848904724</eid>
@@ -6506,6 +6574,10 @@ arr. N. Biancolin</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>2503905804025937</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Tuplet>
             <eid>1721706360078382</eid>
@@ -6703,7 +6775,7 @@ arr. N. Biancolin</text>
               <linked>
                 </linked>
               <family>MuseJazz Text</family>
-              <text><font face="MuseJazz Text"></font>é<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"></font>a</text>
+              <text><font face="MuseJazz Text"/>é<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"/>a</text>
               </Lyrics>
             <Note>
               <eid>1721933993345044</eid>
@@ -7038,6 +7110,10 @@ arr. N. Biancolin</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>2503910098993233</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>1722397849813018</eid>
@@ -7332,6 +7408,10 @@ arr. N. Biancolin</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>2503914393960529</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <eid>1722861706280986</eid>
@@ -7349,7 +7429,7 @@ arr. N. Biancolin</text>
               <linked>
                 </linked>
               <family>MuseJazz Text</family>
-              <text><font face="MuseJazz Text"></font>é</text>
+              <text><font face="MuseJazz Text"/>é</text>
               </Lyrics>
             <Note>
               <eid>1722887476084756</eid>
@@ -7408,7 +7488,7 @@ arr. N. Biancolin</text>
               <linked>
                 </linked>
               <family>MuseJazz Text</family>
-              <text><font face="MuseJazz Text"></font>é<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"></font>u</text>
+              <text><font face="MuseJazz Text"/>é<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"/>u</text>
               </Lyrics>
             <Note>
               <eid>1722986260332564</eid>
@@ -7530,7 +7610,7 @@ arr. N. Biancolin</text>
               <linked>
                 </linked>
               <family>MuseJazz Text</family>
-              <text><font face="MuseJazz Text"></font>é<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"></font>u</text>
+              <text><font face="MuseJazz Text"/>é<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"/>u</text>
               </Lyrics>
             <Note>
               <eid>1723162353991700</eid>
@@ -7780,6 +7860,10 @@ arr. N. Biancolin</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>2503918688927825</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>1723540311113843</eid>
@@ -7950,7 +8034,7 @@ arr. N. Biancolin</text>
               <linked>
                 </linked>
               <family>MuseJazz Text</family>
-              <text><font face="MuseJazz Text"></font>é<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"></font>a</text>
+              <text><font face="MuseJazz Text"/>é<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"/>a</text>
               </Lyrics>
             <Note>
               <eid>1723793714184212</eid>
@@ -8274,6 +8358,10 @@ arr. N. Biancolin</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>2503922983895121</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>1724206031044723</eid>
@@ -8498,6 +8586,10 @@ arr. N. Biancolin</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>2503927278862417</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>1724566808297587</eid>
@@ -8780,6 +8872,10 @@ arr. N. Biancolin</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>2503931573829713</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>1725017779863667</eid>
@@ -8940,7 +9036,7 @@ arr. N. Biancolin</text>
               <linked>
                 </linked>
               <family>MuseJazz Text</family>
-              <text><font face="MuseJazz Text"></font>é<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"></font>a</text>
+              <text><font face="MuseJazz Text"/>é<sym>lyricsElisionNarrow</sym><font face="MuseJazz Text"/>a</text>
               </Lyrics>
             <Note>
               <eid>1725271182934036</eid>
@@ -9194,18 +9290,36 @@ arr. N. Biancolin</text>
               </linked>
             <durationType>quarter</durationType>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            <eid>1914189614415883</eid>
+            <linked>
+              </linked>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <RehearsalMark>
+            <eid>2322834277793847</eid>
+            <linked>
+              <location>
+                <staves>-1</staves>
+                </location>
+              <indexDiff>3</indexDiff>
+              </linked>
+            <text>M</text>
+            </RehearsalMark>
           <Chord>
             <eid>1725657729990771</eid>
             <linked>
+              <indexDiff>1</indexDiff>
               </linked>
             <durationType>quarter</durationType>
             <Note>
               <eid>1725670614892564</eid>
               <linked>
+                <indexDiff>1</indexDiff>
                 </linked>
               <pitch>70</pitch>
               <tpc>12</tpc>
@@ -9262,6 +9376,10 @@ arr. N. Biancolin</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>2503935868797009</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>1725769399140467</eid>
@@ -9502,6 +9620,10 @@ arr. N. Biancolin</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>2503940163764305</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>1726147356262515</eid>
@@ -9846,6 +9968,10 @@ arr. N. Biancolin</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>2503944458731601</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>1726679932207219</eid>
