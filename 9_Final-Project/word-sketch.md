@@ -33,23 +33,34 @@
   - A2: Trombone (+tnr) unison lines, 
   - B2: Some Hits and pads, bring energy up to go into:
 
-Reprise of Intro, modified to become sendoff into Solo 2: Tenor Sax 
+### SUPRISE SECTION
+- Band goes into waltz for a little bit, then
+
+### SOLOS (again)
+
+Dominant figure sendoff (potentially modify to match intro once written?), modified to become sendoff into Solo 2: Tenor Sax 
 - A1: Just Tenor and Rhythm
 - B1: Just Tenor and Rhythm
-- A2: Trombone shots
+- A2: ~~Trombone shots~~ ** Trombone Unis lines (better suits piano) **
 - B2: Sax Unison lines, shots with whole brass now - segue into:
 
+~~~ SKIPPED ANND MOVED
 ### BAND CHORUS
 - Right into Band Chorus over A1 and B1 (composed line)
   - Full band plays here (5 part density with some potential overlap)
   - At end, saxes break off to play unison lines, brass plays shots around the line
   - End on a big fall for:
+~~~
 
 "And now for something completely different" - Monty Python
 
 - Big fall into solo piano montuno over vamp (Probably Gma7 to D7 but not confirmed yet, likely influenced by what the intro becomes)
 - Drums solo 4x over vamp (with piano playing montuno)
 - After 4 times, Bass enters, drums go into Samba groove for one more time through the vamp for horn players to get ready
+
+### BAND CHORUS
+
+**Band has compiosed "shout chorus" out of drum solo to keep energy moving**
 
 ### Last A2:
 - (skip A1 and B1 bc I feel like the form is too long, so just do last A2 and B2)
@@ -61,5 +72,6 @@ Reprise of Intro, modified to become sendoff into Solo 2: Tenor Sax
 - Trumpets still doing duet fills
 - Tag Ending 3 times
   - On Tags, bones join trumpets for big brass hits
-- After final tag, everyone cuts out, held D from D7 chord, saxes unison play the final "How High the Moon"
-  - Everyone comes back in for a final unison ending line, ends on big hit
+- After final tag, everyone cuts out, held D from D7 chord, ~~saxes unison play the final "How High the Moon"~~
+  ~~- Everyone comes back in for a final unison ending line, ends on big hit~~
+  - Back t swing for very last "how high the moon", quick light ending tying us back to the beginning

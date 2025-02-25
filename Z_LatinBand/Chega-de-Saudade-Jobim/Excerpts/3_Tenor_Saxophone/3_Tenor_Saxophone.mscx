@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="4.40">
-  <programVersion>4.4.3</programVersion>
-  <programRevision>eb6b367</programRevision>
-  <LastEID>265657</LastEID>
+  <programVersion>4.4.4</programVersion>
+  <programRevision>2232670</programRevision>
+  <LastEID>330974</LastEID>
   <Score>
+    <eid>1252283614494724</eid>
     <name>Tenor Saxophone</name>
     <initialPartId>3</initialPartId>
     <Division>480</Division>
@@ -228,7 +229,7 @@
             <sigD>4</sigD>
             </TimeSig>
           <Tempo>
-            <tempo>3.333333</tempo>
+            <tempo>3.166667</tempo>
             <followText>1</followText>
             <eid>934383020146735</eid>
             <linked>
@@ -238,7 +239,7 @@
               <indexDiff>7</indexDiff>
               </linked>
             <family>Edwin</family>
-            <text><sym>metNoteHalfUp</sym><font face="Edwin"/> = 100</text>
+            <text><sym>metNoteHalfUp</sym><font face="Edwin"/> = 95</text>
             </Tempo>
           <Harmony>
             <root>15</root>
@@ -1748,7 +1749,7 @@
             <eid>936702302486643</eid>
             <linked>
               </linked>
-            <durationType>quarter</durationType>
+            <durationType>eighth</durationType>
             <Note>
               <eid>936715187388436</eid>
               <linked>
@@ -1757,6 +1758,38 @@
                 <subtype>accidentalSharp</subtype>
                 <eid>936719482355728</eid>
                 </Accidental>
+              <Spanner type="Tie">
+                <Tie>
+                  <eid>1408474395181087</eid>
+                  <linked>
+                    </linked>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>80</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>1408109322961011</eid>
+            <linked>
+              </linked>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>1408122207862804</eid>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>80</pitch>
               <tpc>22</tpc>
               </Note>
@@ -2048,9 +2081,6 @@
             <ChordLine>
               <subtype>1</subtype>
               <eid>937148979085347</eid>
-              <linked>
-                <indexDiff>-3</indexDiff>
-                </linked>
               </ChordLine>
             </Chord>
           <BarLine>
@@ -5404,7 +5434,6 @@
               <location>
                 <staves>-3</staves>
                 </location>
-              <indexDiff>1</indexDiff>
               </linked>
             <text>F</text>
             </RehearsalMark>
@@ -6182,7 +6211,6 @@
               <location>
                 <staves>-3</staves>
                 </location>
-              <indexDiff>1</indexDiff>
               </linked>
             <text>G</text>
             </RehearsalMark>
@@ -7066,7 +7094,6 @@
               <location>
                 <staves>-3</staves>
                 </location>
-              <indexDiff>2</indexDiff>
               </linked>
             <text>H</text>
             </RehearsalMark>
@@ -7616,9 +7643,6 @@
             <ChordLine>
               <subtype>1</subtype>
               <eid>944428948652067</eid>
-              <linked>
-                <indexDiff>-4</indexDiff>
-                </linked>
               </ChordLine>
             </Chord>
           <Rest>
@@ -7661,9 +7685,6 @@
             <ChordLine>
               <subtype>1</subtype>
               <eid>944489078194211</eid>
-              <linked>
-                <indexDiff>-3</indexDiff>
-                </linked>
               </ChordLine>
             </Chord>
           </voice>
@@ -7714,9 +7735,6 @@
             <ChordLine>
               <subtype>1</subtype>
               <eid>944566387605539</eid>
-              <linked>
-                <indexDiff>-3</indexDiff>
-                </linked>
               </ChordLine>
             </Chord>
           </voice>
