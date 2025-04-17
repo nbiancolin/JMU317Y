@@ -138,6 +138,82 @@
                 "unitConfiguration": {
                 }
             },
+            "instrumentId": "alto-saxophone",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "3",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "playbackSetupData": "last.last.last",
+                        "soundFontName": "MS Basic"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
+            "instrumentId": "piano",
+            "out": {
+                "auxSends": [
+                    {
+                        "active": true,
+                        "signalAmount": 0.15000000596046448
+                    },
+                    {
+                        "active": true,
+                        "signalAmount": 0.30000001192092896
+                    }
+                ],
+                "balance": 0,
+                "fxChain": {
+                },
+                "volumeDb": 0
+            },
+            "partId": "5",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
+        },
+        {
+            "in": {
+                "resourceMeta": {
+                    "attributes": {
+                        "playbackSetupData": "last.last.last",
+                        "soundFontName": "MS Basic"
+                    },
+                    "hasNativeEditorSupport": false,
+                    "id": "MS Basic",
+                    "type": "fluid_soundfont",
+                    "vendor": "Fluid"
+                },
+                "unitConfiguration": {
+                }
+            },
             "instrumentId": "flute",
             "out": {
                 "auxSends": [
@@ -252,12 +328,12 @@
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "alto-saxophone",
+            "instrumentId": "trombone",
             "out": {
                 "auxSends": [
                     {
                         "active": true,
-                        "signalAmount": 0.30000001192092896
+                        "signalAmount": 0.4000000059604645
                     },
                     {
                         "active": true,
@@ -269,45 +345,7 @@
                 },
                 "volumeDb": 0
             },
-            "partId": "3",
-            "soloMuteState": {
-                "mute": false,
-                "solo": false
-            }
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
-                        "playbackSetupData": "last.last.last",
-                        "soundFontName": "MS Basic"
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "MS Basic",
-                    "type": "fluid_soundfont",
-                    "vendor": "Fluid"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "piano",
-            "out": {
-                "auxSends": [
-                    {
-                        "active": true,
-                        "signalAmount": 0.15000000596046448
-                    },
-                    {
-                        "active": true,
-                        "signalAmount": 0.30000001192092896
-                    }
-                ],
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 0
-            },
-            "partId": "5",
+            "partId": "4",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -366,12 +404,12 @@
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "trombone",
+            "instrumentId": "chord_symbols",
             "out": {
                 "auxSends": [
                     {
                         "active": true,
-                        "signalAmount": 0.4000000059604645
+                        "signalAmount": 0.30000001192092896
                     },
                     {
                         "active": true,
@@ -383,7 +421,7 @@
                 },
                 "volumeDb": 0
             },
-            "partId": "4",
+            "partId": "2",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -412,44 +450,6 @@
                 "volumeDb": 0
             },
             "partId": "999",
-            "soloMuteState": {
-                "mute": false,
-                "solo": false
-            }
-        },
-        {
-            "in": {
-                "resourceMeta": {
-                    "attributes": {
-                        "playbackSetupData": "last.last.last",
-                        "soundFontName": "MS Basic"
-                    },
-                    "hasNativeEditorSupport": false,
-                    "id": "MS Basic",
-                    "type": "fluid_soundfont",
-                    "vendor": "Fluid"
-                },
-                "unitConfiguration": {
-                }
-            },
-            "instrumentId": "chord_symbols",
-            "out": {
-                "auxSends": [
-                    {
-                        "active": true,
-                        "signalAmount": 0.30000001192092896
-                    },
-                    {
-                        "active": true,
-                        "signalAmount": 0.30000001192092896
-                    }
-                ],
-                "balance": 0,
-                "fxChain": {
-                },
-                "volumeDb": 0
-            },
-            "partId": "2",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -508,7 +508,7 @@
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "baritone-saxophone",
+            "instrumentId": "chord_symbols",
             "out": {
                 "auxSends": [
                     {
@@ -525,7 +525,7 @@
                 },
                 "volumeDb": 0
             },
-            "partId": "9",
+            "partId": "1",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
@@ -546,7 +546,7 @@
                 "unitConfiguration": {
                 }
             },
-            "instrumentId": "chord_symbols",
+            "instrumentId": "baritone-saxophone",
             "out": {
                 "auxSends": [
                     {
@@ -563,7 +563,7 @@
                 },
                 "volumeDb": 0
             },
-            "partId": "1",
+            "partId": "9",
             "soloMuteState": {
                 "mute": false,
                 "solo": false
