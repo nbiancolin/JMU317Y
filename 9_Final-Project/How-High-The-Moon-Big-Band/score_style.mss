@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="4.50">
   <Style>
-    <pageWidth>8.5</pageWidth>
-    <pageHeight>11</pageHeight>
-    <pagePrintableWidth>7.29</pagePrintableWidth>
+    <pageWidth>11</pageWidth>
+    <pageHeight>8.5</pageHeight>
+    <pagePrintableWidth>9.79</pagePrintableWidth>
     <pageEvenLeftMargin>0.72</pageEvenLeftMargin>
     <pageOddLeftMargin>0.49</pageOddLeftMargin>
     <pageEvenTopMargin>0.44</pageEvenTopMargin>
@@ -94,7 +94,7 @@
     <doubleBarDistance>0.4</doubleBarDistance>
     <endBarDistance>0.4</endBarDistance>
     <repeatBarlineDotSeparation>0.16</repeatBarlineDotSeparation>
-    <repeatBarTips>0</repeatBarTips>
+    <repeatBarTips>1</repeatBarTips>
     <startBarlineSingle>0</startBarlineSingle>
     <startBarlineMultiple>1</startBarlineMultiple>
     <maskBarlinesForText>0</maskBarlinesForText>
@@ -1592,8 +1592,8 @@
     <dummyMusicalSymbolsScale>1</dummyMusicalSymbolsScale>
     <autoplaceEnabled>1</autoplaceEnabled>
     <defaultsVersion>302</defaultsVersion>
-    <changesBeforeBarlineRepeats>0</changesBeforeBarlineRepeats>
-    <changesBeforeBarlineOtherJumps>0</changesBeforeBarlineOtherJumps>
+    <changesBeforeBarlineRepeats>1</changesBeforeBarlineRepeats>
+    <changesBeforeBarlineOtherJumps>1</changesBeforeBarlineOtherJumps>
     <placeClefsBeforeRepeats>0</placeClefsBeforeRepeats>
     <changesBetweenEndStartRepeat>1</changesBetweenEndStartRepeat>
     <showCourtesiesRepeats>0</showCourtesiesRepeats>
@@ -1605,6 +1605,6 @@
     <showCourtesiesAfterCancellingOtherJumps>0</showCourtesiesAfterCancellingOtherJumps>
     <useParensOtherJumpCourtesiesAfterCancelling>1</useParensOtherJumpCourtesiesAfterCancelling>
     <smallParens>1</smallParens>
-    <spatium>0.889</spatium>
+    <spatium>1.143</spatium>
     </Style>
   </museScore>
